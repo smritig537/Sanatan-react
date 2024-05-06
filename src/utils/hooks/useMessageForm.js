@@ -1,10 +1,10 @@
 // useMessageForm.js
-import { useState } from 'react';
+import { useState } from "react";
 
 function useMessageForm() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
