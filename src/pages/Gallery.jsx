@@ -31,7 +31,7 @@ function Gallery() {
           {galleryImages.map((imageLink, index) => (
             <div key={index}>
               <img
-                className="h-40 w-full max-w-full rounded-lg object-cover object-center"
+                className="h-70 w-full max-w-full rounded-lg object-cover object-center"
                 src={imageLink}
                 alt="gallery"
               />

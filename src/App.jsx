@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Outlet />
       <Footer />
-    </main>
+    </main> 
   );
 }
 
