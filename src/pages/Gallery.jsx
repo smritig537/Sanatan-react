@@ -9,9 +9,27 @@ function Gallery() {
       const data = await fetch(process.env.REACT_APP_IMAGES_API);
       console.log(process.env.REACT_APP_IMAGES_API);
       const images = await data.json();
-      // const shuffled = images?.slice().sort(() => 0.5 - Math.random());
-      const galleryImagesList = images.slice(0, 20);
-      setGalleryImages(galleryImagesList);
+      let galleryImagesList = images.slice(0, 20);
+      const temp = [];
+      const updatedGalleryImagesList = galleryImagesList.filter((url) => {
+        if (
+          !(
+            url.includes("IMG-20240501-WA0006") ||
+            url.includes("IMG-20240501-WA0009") ||
+            url.includes("IMG-20240501-WA0012") ||
+            url.includes("IMG-20240501-WA0013") ||
+            url.includes("IMG-20240501-WA0049") ||
+            url.includes("IMG-20240501-WA0021")
+          )
+        ) {
+          return true;
+        } else {
+          temp.push(url);
+        }
+      });
+      const latest = [...updatedGalleryImagesList, ...temp]
+
+      setGalleryImages(latest);
     };
     fn();
   }, []);

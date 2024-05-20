@@ -8,8 +8,18 @@ function ImageSlider() {
     const fn = async () => {
       const data = await fetch(process.env.REACT_APP_IMAGES_API);
       const images = await data.json();
-      const shuffled = images?.slice().sort(() => 0.5 - Math.random());
-      const sliderImages = shuffled.slice(0, 5);
+      const sliderImages = [];
+      images.map((url) => {
+        if (
+          url.includes("IMG-20240501-WA0004") ||
+          url.includes("IMG-20240501-WA0047") ||
+          url.includes("IMG-20240501-WA0092") ||
+          url.includes("IMG-20240501-WA0042") ||
+          url.includes("IMG-20240501-WA0056")
+        ) {
+          sliderImages.push(url);
+        }
+      });
       setHomeImages(sliderImages);
       console.log(sliderImages);
     };
