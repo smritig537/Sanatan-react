@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Carousel } from "@material-tailwind/react";
 import ShimmerImageSlider from "./ShimmerImageSlider";
-import banner from "../assets/lander.png";
+import banner from "../pages/web banner.png";
 
 function ImageSlider() {
     return (
@@ -18,7 +18,7 @@ function ImageSlider() {
             key={1}
             src={banner}
             alt=""
-            className="h-full w-full object-cover"
+            className="object-cover w-full h-full"
           />
         </Carousel>
       </div>

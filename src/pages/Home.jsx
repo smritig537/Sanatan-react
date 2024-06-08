@@ -22,7 +22,7 @@ const Home = () => {
           src={SwamiJi}
           alt="Swami Ji"
         />
-        <h1 className="mb-5 items-center text-justify bg-orange-50 p-1 rounded-sm">
+        <h1 className="items-center p-1 mb-5 text-justify rounded-sm bg-orange-50">
           Our Founder Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami
           Narayan Nand Giriji Maharaj is an esteemed spiritual leader and a
           devoted activist of Sanatan Dharma. As a proud citizen of Bharath
@@ -58,23 +58,23 @@ const Home = () => {
           </h1>
           <div className="flex justify-center">
             <img
-              className="h-72 w-72 rounded-full object-cover object-center m-auto "
+              className="object-cover object-center m-auto rounded-full h-72 w-72 "
               src={swamiji1}
               alt="kashi"
             />
             <img
-              className="h-72 w-72 rounded-full object-cover object-center m-auto "
+              className="object-cover object-center m-auto rounded-full h-72 w-72 "
               src={swamiji2}
               alt="kashi"
             />
             <img
-              className="h-72 w-72 rounded-full object-cover object-center m-auto "
+              className="object-cover object-center m-auto rounded-full h-72 w-72 "
               src={swamiji3}
               alt="kashi"
             />
           </div>
 
-          <h1 className="mb-5 mt-5 items-center text-justify p-1 rounded-sm">
+          <h1 className="items-center p-1 mt-5 mb-5 text-justify rounded-sm">
             "The Sanatana Dharma Foundation is dedicated to the revival and
             resurrection of the ancient Sanatana Dharma and Ideologies."
           </h1>
