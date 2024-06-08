@@ -10,7 +10,9 @@ function Navbar() {
   }, [location]);
   return (
     <div
-      className={`w-full bg-[#F08619] ${isClicked ? "h-screen" : ""}`}
+      className={`w-11/12 sticky top-0 h-[60px] bg-[#F08619] m-auto ${
+        isClicked ? "h-screen" : ""
+      }`}
     >
       <div className="my-5 mx-5 toggleButton  flex flex-row items-center justify-between sm:hidden">
         <h1 className="text-white text-xl font-semibold">Menu</h1>
@@ -45,6 +47,38 @@ function Navbar() {
           About
         </Link>
         <Link
+          to="sanatanadharma"
+          className={`no-underline text-white ${
+            isClicked ? "h-[70px]" : ""
+          } mx-4 text-xl`}
+        >
+          Sanatana Dharma
+        </Link>
+        <Link
+          to="supporters"
+          className={`no-underline text-white ${
+            isClicked ? "h-[70px]" : ""
+          } mx-4 text-xl`}
+        >
+          Supporters
+        </Link>
+        <Link
+          to="presence-in-india"
+          className={`no-underline text-white ${
+            isClicked ? "h-[70px]" : ""
+          } mx-4 text-xl`}
+        >
+          Presence in India
+        </Link>
+        <Link
+          to="media"
+          className={`no-underline text-white ${
+            isClicked ? "h-[70px]" : ""
+          } mx-4 text-xl`}
+        >
+          Media
+        </Link>
+        <Link
           to="/gallery"
           className={`no-underline text-white ${
             isClicked ? "h-[70px]" : ""
@@ -53,20 +87,12 @@ function Navbar() {
           Gallery
         </Link>
         <Link
-          to="/bookings"
+          to="/achievements"
           className={`no-underline text-white ${
             isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
-          Bookings
-        </Link>
-        <Link
-          to="/volunteer"
-          className={`no-underline text-white ${
-            isClicked ? "h-[70px]" : ""
-          } mx-4 text-xl`}
-        >
-          Volunteer
+          Achievements
         </Link>
         <Link
           to="/contact"

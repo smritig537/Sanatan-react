@@ -27,7 +27,7 @@ function Gallery() {
           temp.push(url);
         }
       });
-      const latest = [...updatedGalleryImagesList, ...temp]
+      const latest = [...updatedGalleryImagesList, ...temp];
 
       setGalleryImages(latest);
     };

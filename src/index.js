@@ -9,22 +9,30 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Gallery from "./pages/Gallery";
-import Bookings from "./pages/Bookings";
-import VolunteerPage from "./pages/Volunteer";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
+import Achievements from "./pages/Achievements";
+import Media from "./pages/Media";
+import PresenceIndia from "./pages/PresenceIndia";
+import SanatanaDharma from "./pages/SanatanaDharma";
+import Supporters from "./pages/Supporters";
 import { ThemeProvider } from "@material-tailwind/react";
+import NotFound from "./components/NotFound";
 
 const appRouter = createBrowserRouter(
   createRoutesFromChildren(
     <Route path="/" element={<App />}>
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
+      <Route path="sanatanadharma" element={<SanatanaDharma />} />
+      <Route path="supporters" element={<Supporters />} />
+      <Route path="presence-in-india" element={<PresenceIndia />} />
+      <Route path="media" element={<Media />} />
       <Route path="gallery" element={<Gallery />} />
-      <Route path="bookings" element={<Bookings />} />
-      <Route path="volunteer" element={<VolunteerPage />} />
+      <Route path="achievements" element={<Achievements />} />
       <Route path="contact" element={<Contact />} />
+      <Route path="*" element={<NotFound />} />
     </Route>
   )
 );

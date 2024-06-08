@@ -1,58 +1,28 @@
 import React, { useState } from "react";
 import { Carousel } from "@material-tailwind/react";
 import ShimmerImageSlider from "./ShimmerImageSlider";
+import banner from "../assets/lander.png";
 
 function ImageSlider() {
-  const [homeImages, setHomeImages] = useState([]);
-  useState(() => {
-    const fn = async () => {
-      const data = await fetch(process.env.REACT_APP_IMAGES_API);
-      const images = await data.json();
-      const sliderImages = [];
-      images.map((url) => {
-        if (
-          url.includes("IMG-20240501-WA0004") ||
-          url.includes("IMG-20240501-WA0047") ||
-          url.includes("IMG-20240501-WA0092") ||
-          url.includes("IMG-20240501-WA0042") ||
-          url.includes("IMG-20240501-WA0056")
-        ) {
-          sliderImages.push(url);
-        }
-      });
-      setHomeImages(sliderImages);
-      console.log(sliderImages);
-    };
-    fn();
-  }, []);
-  if (homeImages.length > 0) {
     return (
-      <div className="my-10 px-5">
+      <div className="-z-10 -top-[30px] relative">
         <Carousel
-          className="rounded-xl w-full h-[300px] sm:w-2/3 sm:h-[500px] mx-auto"
+          className=" w-full h-[300px] sm:w-full sm:h-[500px] mx-auto"
           autoplay={true}
           autoplayDelay={2000}
           loop={true}
           prevArrow={() => <div></div>}
           nextArrow={() => <div></div>}
         >
-          {homeImages.map((img, index) => (
-            <img
-              key={index}
-              src={img}
-              alt=""
-              className="h-full w-full object-cover"
-            />
-          ))}
+          <img
+            key={1}
+            src={banner}
+            alt=""
+            className="h-full w-full object-cover"
+          />
         </Carousel>
       </div>
-    );
-  } else
-    return (
-      <div className="w-screen my-10 px-5">
-        <ShimmerImageSlider />
-      </div>
-    );
-}
+    )
+  }
 
 export default ImageSlider;
