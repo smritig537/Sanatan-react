@@ -6,7 +6,11 @@ import leaf from "../assets/leaf.png";
 const About = () => {
   return (
     <>
+<<<<<<< HEAD
     <>
+=======
+    <div className='flex-grow'>
+>>>>>>> 6f9d64d77ab7fa99a2137151781bb06486d87eff
     <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">Sanatan Dharma Foundation</h1>
     <img src={sanatanabout} className=' mx-3 w-auto h-[500px] sm:w-[400px] sm:m-auto rounded-xl' />
     <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">The Inception of the Sanatana Dharma Foundation revolves around the idea of social reincarnation of the Sanatana Dharma. 

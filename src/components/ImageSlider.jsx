@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Carousel } from "@material-tailwind/react";
 import ShimmerImageSlider from "./ShimmerImageSlider";
-import banner from "../pages/web banner.png";
+import banner from "../assets/web-banner.jpg";
 
 function ImageSlider() {
     return (
