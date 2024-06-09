@@ -14,10 +14,10 @@ function Navbar() {
         isClicked ? "h-screen" : ""
       }`}
     >
-      <div className="my-5 mx-5 toggleButton  flex flex-row items-center justify-between sm:hidden">
-        <h1 className="text-white text-xl font-semibold">Menu</h1>
+      <div className="flex flex-row items-center justify-between mx-5 my-5 toggleButton sm:hidden">
+        <h1 className="text-xl font-semibold text-white">Menu</h1>
         <button
-          className="toggleButton bg-transparent border-none text-white sm:hidden"
+          className="text-white bg-transparent border-none toggleButton sm:hidden"
           onClick={() => setIsClicked((prev) => !prev)}
         >
           <ReorderIcon color="inherit" />
@@ -100,7 +100,7 @@ function Navbar() {
             isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
-          Contact
+          Association & Support
         </Link>
       </div>
     </div>
