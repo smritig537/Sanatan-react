@@ -10,7 +10,7 @@ function Navbar() {
   }, [location]);
   return (
     <div
-      className={`w-11/12 sticky top-0 h-[60px] bg-[#F08619] m-auto ${
+      className={`w-11/12 z-100 sticky top-0 h-[60px] bg-[#F08619] m-auto ${
         isClicked ? "h-screen" : ""
       }`}
     >

@@ -1,62 +1,90 @@
 import React, { useEffect, useState } from "react";
-import { Spinner } from "@material-tailwind/react";
+import Divider from "../components/Divider";
+
+const imageUrl = {
+  "Social Welfare": [1, 2, 3, 4, 5, 6, 7],
+  "Medical support": [1],
+  Awards: [1, 2, 3, 4],
+  Political: [2, 3, 4, 5, 6, 7, 8],
+  "Women's Welfare": [1, 3, 4, 5, 6, 2],
+};
 
 function Gallery() {
-  const [galleryImages, setGalleryImages] = useState([]);
-
-  useEffect(() => {
-    const fn = async () => {
-      const data = await fetch(process.env.REACT_APP_IMAGES_API);
-      console.log(process.env.REACT_APP_IMAGES_API);
-      const images = await data.json();
-      let galleryImagesList = images.slice(0, 20);
-      const temp = [];
-      const updatedGalleryImagesList = galleryImagesList.filter((url) => {
-        if (
-          !(
-            url.includes("IMG-20240501-WA0006") ||
-            url.includes("IMG-20240501-WA0009") ||
-            url.includes("IMG-20240501-WA0012") ||
-            url.includes("IMG-20240501-WA0013") ||
-            url.includes("IMG-20240501-WA0049") ||
-            url.includes("IMG-20240501-WA0021")
-          )
-        ) {
-          return true;
-        } else {
-          temp.push(url);
-        }
-      });
-      const latest = [...updatedGalleryImagesList, ...temp];
-
-      setGalleryImages(latest);
-    };
-    fn();
-  }, []);
-
   return (
-    <div className="flex-grow m-2">
-      <h1 className="text-xl font-semibold mb-2 text-center sm:text-5xl">
+    <div className="flex-grow mx-auto">
+      <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center mt-10">
         Gallery
       </h1>
-      {!galleryImages.length ? (
-        <Spinner
-          color="orange"
-          className="w-16 h-16 text-orange-500/50 mx-auto"
-        />
-      ) : (
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
-          {galleryImages.map((imageLink, index) => (
-            <div key={index}>
-              <img
-                className="h-70 w-full max-w-full rounded-lg object-cover object-center"
-                src={imageLink}
-                alt="gallery"
-              />
-            </div>
-          ))}
-        </div>
-      )}
+      <h1 className="font-oswald text-[#313131] mt-5 font-bold text-3xl text-center">
+        Social Welfare
+      </h1>
+      <div className="w-4/5 mx-auto grid grid-cols-3 gap-4 my-5">
+        {imageUrl["Social Welfare"].map((e) => (
+          <img
+            src={`${process.env.PUBLIC_URL}/gallery/SocialWelfare/${e}.jpg`}
+            alt=""
+            className="w-[500px] h-[500px] object-cover"
+          />
+        ))}
+      </div>
+      <Divider />
+
+      <h1 className="font-oswald text-[#313131] mt-5 font-bold text-3xl text-center">
+        Political
+      </h1>
+      <div className="w-4/5 mx-auto grid grid-cols-3 gap-4 my-5">
+        {imageUrl["Political"].map((e) => (
+          <img
+            src={`${process.env.PUBLIC_URL}/gallery/Political/${e}.jpg`}
+            alt=""
+            className="w-[500px] h-[500px] object-cover"
+          />
+        ))}
+      </div>
+      <Divider />
+
+      <h1 className="font-oswald text-[#313131] mt-5 font-bold text-3xl text-center">
+        Awards
+      </h1>
+      <div className="w-4/5 mx-auto grid grid-cols-3 gap-4 my-5">
+        {imageUrl["Awards"].map((e) => (
+          <img
+            src={`${process.env.PUBLIC_URL}/gallery/Awards/${e}.jpg`}
+            alt=""
+            className="w-[500px] h-[500px] object-cover"
+          />
+        ))}
+      </div>
+
+      <Divider />
+
+      <h1 className="font-oswald text-[#313131] mt-5 font-bold text-3xl text-center">
+        Women's Welfare
+      </h1>
+      <div className="w-4/5 mx-auto grid grid-cols-3 gap-4 my-5">
+        {imageUrl["Women's Welfare"].map((e) => (
+          <img
+            src={`${process.env.PUBLIC_URL}/gallery/Womens Welfare/${e}.jpg`}
+            alt=""
+            className="w-[500px] h-[500px] object-cover"
+          />
+        ))}
+      </div>
+
+      <Divider />
+
+      <h1 className="font-oswald text-[#313131] mt-5 font-bold text-3xl text-center">
+        Medical Support
+      </h1>
+      <div className="w-4/5 mx-auto grid grid-cols-3 gap-4 my-5">
+        {imageUrl["Medical support"].map((e) => (
+          <img
+            src={`${process.env.PUBLIC_URL}/gallery/Medical Support/${e}.jpg`}
+            alt=""
+            className="w-[500px] h-[500px] object-cover"
+          />
+        ))}
+      </div>
     </div>
   );
 }

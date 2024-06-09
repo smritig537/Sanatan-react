@@ -3,7 +3,7 @@ import SwamiJi from "../assets/swamiJiMain.png";
 const About = () => {
   return (
     <>
-    <div>
+    <div className='flex-grow'>
     <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">Sanatan Dharma Foundation</h1>
     <h1 className="items-center p-1 mt-5 mb-5 text-justify rounded-sm">The Inception of the Sanatana Dharma Foundation revolves around the idea of social reincarnation of the Sanatana Dharma. 
     Our objective is to provide religious and ethical training suited to the needs of the time.
