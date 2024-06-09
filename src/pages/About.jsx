@@ -3,6 +3,11 @@ import swami from "../assets/swami.png";
 import aim from "../assets/aim.png";
 import sanatanabout from "../assets/sanatanabout.png";
 import leaf from "../assets/leaf.png";
+import Build from './build.png';
+import School from './School.png';
+import School2 from './School2.png';
+import har from './HARIDWAR.png';
+import mall from './mall.png';
 const About = () => {
   return (
     <>
@@ -50,6 +55,18 @@ const About = () => {
  
 </ul>
   </div>
+  <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">Sanatan Dharma Foundation</h1>
+  <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">The Sanatana Dharma Foundation is dedicated to the revival and resurrection of the ancient Sanatana Dharma and Ideologies.</p>
+  <img src={Build} alt="build" className=' mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5'/>
+  <br></br>
+  <h3 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">SENIOR SECONDARY SCHOOL</h3>
+  <img src={School} alt="" className=' mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5'/>
+  <img src={School2} alt="" className=' mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5'/>
+  <h3 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">HARIDWAR CENTER ASHRAM UNDERDEVELOPMENT</h3>
+  <img src={har} alt="" className=' mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5'/>
+  <h3 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">SHOPPING MALL</h3>
+  <img src={mall} alt="mall" className=' mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5' />
+  
     </>
     
     

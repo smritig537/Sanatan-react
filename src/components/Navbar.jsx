@@ -86,14 +86,7 @@ function Navbar() {
         >
           Gallery
         </Link>
-        <Link
-          to="/achievements"
-          className={`no-underline text-white ${
-            isClicked ? "h-[70px]" : ""
-          } mx-4 text-xl`}
-        >
-          Achievements
-        </Link>
+        
         <Link
           to="/contact"
           className={`no-underline text-white ${
