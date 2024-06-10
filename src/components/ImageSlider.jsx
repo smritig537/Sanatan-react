@@ -5,7 +5,7 @@ import banner from "../assets/webBannerWebp.webp";
 
 function ImageSlider() {
   return (
-    <div className="-z-10 -top-[30px] relative">
+    <div className="-z-10 -top-[30px] relative mt-7">
       <Carousel
         className=" w-full h-[300px] sm:w-full sm:h-[500px] mx-auto"
         autoplay={true}
