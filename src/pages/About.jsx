@@ -8,6 +8,7 @@ import School from './School.png';
 import School2 from './School2.png';
 import har from './HARIDWAR.png';
 import mall from './mall.png';
+import Divider from '../components/Divider';
 const About = () => {
   return (
     <>
@@ -24,6 +25,7 @@ const About = () => {
     <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Giriji Maharaj is an esteemed spiritual leader and a devoted activist of Sanatan Dharma. As a proud citizen of Bharath(India), he actively promotes the ancient traditions, values, and teachings of Sanatan Dharma.
       Mahamadaleshwar Shri Shri 1008 Anant Vibhushit Swami Narayan Nand Giriji Maharaj is a highly respected and influential spiritual leader, dedicated to preserving and promoting the principles of Sanatan Dharma. His journey from a successfull buisnessman to a revered spiritual guru showcases his deep commitment to spirituality and his desire to guide others towards a more profound understanding of life's purpose. Through his leadership, he endeavors to foster cultural awareness, spiritual growth, and social welfare, leaving a lasting impact on the lives of many. 
     </p>
+    <Divider/>
   <h1 className='m-auto mt-16 mb-8 text-5xl text-orange-900 '>Aims and Objectives</h1>
   <div className='mx-4 flex flex-col sm:flex-row  justify-between mb-16 2xl:w-[50%] 2xl:m-auto'>
 <img src={aim} className='h-[400px] mx-auto sm:mx-0 w-[400px] rounded-xl mr-8 my-auto xl:my-0' />
@@ -55,15 +57,19 @@ const About = () => {
  
 </ul>
   </div>
+  <Divider/>
   <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">Sanatan Dharma Foundation</h1>
   <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">The Sanatana Dharma Foundation is dedicated to the revival and resurrection of the ancient Sanatana Dharma and Ideologies.</p>
   <img src={Build} alt="build" className=' mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5'/>
   <br></br>
+  <Divider/>
   <h3 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">SENIOR SECONDARY SCHOOL</h3>
   <img src={School} alt="" className=' mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5'/>
   <img src={School2} alt="" className=' mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5'/>
+  <Divider/>
   <h3 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">HARIDWAR CENTER ASHRAM UNDERDEVELOPMENT</h3>
   <img src={har} alt="" className=' mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5'/>
+  <Divider/>
   <h3 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">SHOPPING MALL</h3>
   <img src={mall} alt="mall" className=' mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5' />
   

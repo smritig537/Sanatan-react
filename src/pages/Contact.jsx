@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Divider from '../components/Divider';
 function Contact() {
   return (
     <>
@@ -9,7 +9,7 @@ function Contact() {
           <h1 className="m-auto mt-8 text-center font-semibold drop-shadow-lg w-[50%] text-white">601, Kailash Building, K.G. Marg <br />New Delhi-110001</h1>
           <h1 className="m-auto mt-8 text-center text-white underline cursor-pointer">sanatanadharmafoundation1@gmail.com</h1>
         </div>
-        <form className="flex w-[50%] h-auto flex-col justify-center items-start">
+        <form className="flex w-[50%] h-auto flex-col justify-center items-start">       
         <div className="w-[90%] w-[70%] h-[50px] lg:mr-[20px] mt-[40px] lg:w-[35%]">
         <p className="font-light text-gray-500">First Name</p>
         <input type="text" placeholder="Enter First Name" className="pl-4 w-[100%] rounded-[5px] h-[40px] border-[1px] border-gray-500 mr-12"  />

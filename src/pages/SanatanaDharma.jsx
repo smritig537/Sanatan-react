@@ -3,6 +3,8 @@ import './SanatanaDharma.css'
 import pic from './SanatanaPic.png'
 import Yog from '../assets/yog.png'
 import scrip from './6628329.jpg'
+import Divider from '../components/Divider'
+
 const SanatanaDharma = () => {
   return (
     <>
@@ -42,7 +44,7 @@ const SanatanaDharma = () => {
           <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
           Brahman, in Sanatana Dharma (Hinduism), represents the ultimate reality or cosmic spirit, encompassing all existence and beyond. It is described as formless, infinite, and transcendent, existing beyond the confines of time, space, and causation. Brahman is the source and sustainer of the universe, the eternal and unchanging essence underlying all phenomena. Despite its transcendental nature, Brahman is also immanent in all things, permeating every aspect of creation. This concept emphasizes the inherent unity of existence, asserting that everything in the universe is interconnected and ultimately rooted in Brahman. Realizing the nature of Brahman through spiritual practice leads to profound insight, spiritual liberation, and the experience of divine consciousness.
           </p>
-
+          <Divider/>
           <h1 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald"> Scriptures </h1>
           <img className='p-5 w-45 h-45' src={scrip} alt="scrip"/>
           <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">Vedas</h2>
