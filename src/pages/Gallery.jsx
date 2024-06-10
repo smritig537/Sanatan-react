@@ -3,7 +3,7 @@ import Divider from "../components/Divider";
 
 const imageUrl = {
   "Social Welfare": [1, 2, 3, 4, 5, 6, 7],
-  "Medical support": [1],
+  "Medical support": [1, 2, 3, 4],
   Awards: [1, 2, 3, 4],
   Political: [2, 3, 4, 5, 6, 7, 8],
   "Women's Welfare": [1, 3, 4, 5, 6, 2],

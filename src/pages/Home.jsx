@@ -4,7 +4,6 @@ import SwamiJi from "../assets/swamiJiMain.png";
 import SwamijiAbout from "../components/SwamijiAbout";
 import Form from "../components/Form";
 import Divider from "../components/Divider";
-import kashi from "../assets/kashi.jpg";
 import swamiji1 from "../assets/roll1.png";
 import swamiji2 from "../assets/roll2.png";
 import swamiji3 from "../assets/roll3.png";
