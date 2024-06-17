@@ -7,10 +7,10 @@ import { default as XIcon } from "../assets/twitter.svg";
 
 function LogoComponent() {
   return (
-    <div className="w-full bg-white h-[100px] flex items-center justify-around ">
+    <div className="w-full bg-white h-[100px] flex items-center justify-around p-3">
       <div className="flex items-center">
         <img src={LOGO} alt="" className="w-[80px] h-[80px]" />
-        <h1 className="text-3xl font-bold text-[#000000c1] ml-2">
+        <h1 className="text-xl sm:text-3xl font-bold text-[#000000c1] ml-2">
           Sanatana Dharma Foundation
         </h1>
       </div>
