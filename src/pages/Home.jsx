@@ -10,9 +10,9 @@ import swamiji3 from "../assets/roll3.png";
 
 const Home = () => {
   return (
-    <>
+    <div className="flex-grow">
       <ImageSlider />
-      <div className="m-auto sm:w-[986px] text-xl mb-10">
+      <div className="m-auto sm:w-[986px] text-xl mb-10 p-5 sm:p-0">
         <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
           Sanatana Dharma Foundation
         </h1>
@@ -21,7 +21,7 @@ const Home = () => {
           src={SwamiJi}
           alt="Swami Ji"
         />
-        <h1 className="items-center p-1 mb-5 text-justify rounded-sm bg-orange-50">
+        <h1 className="items-center mb-5 text-justify rounded-sm bg-orange-50">
           Our Founder Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami
           Narayan Nand Giriji Maharaj is an esteemed spiritual leader and a
           devoted activist of Sanatan Dharma. As a proud citizen of Bharath
@@ -29,7 +29,7 @@ const Home = () => {
           teachings of Sanatan Dharma.
         </h1>
 
-        <div className="flex flex-col gap-5 mx-[20px] mb-10  text-justify">
+        <div className="flex flex-col gap-5 mx-[20px] mb-10 text-justify">
           <SwamijiAbout
             title="Early Life"
             content="Mahamadaleshwar Giriji Maharaj had a multi career before dedicating himself to spiritual leadership. He began his professional journey as a successful businessman, contributing to the economic landscape. However, driven by his spiritual calling, he transitioned from his business career to become a renowned spiritual leader. Additionally, he has also been involved in the field of education and social activism, striving to create a positive impact on society."
@@ -55,7 +55,7 @@ const Home = () => {
           <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center mt-10 mb-10">
             Mission
           </h1>
-          <div className="flex justify-center">
+          <div className="flex flex-col gap-y-5 sm:flex-row justify-center">
             <img
               className="object-cover object-center m-auto rounded-full h-72 w-72 "
               src={swamiji1}
@@ -72,11 +72,11 @@ const Home = () => {
               alt="kashi"
             />
           </div>
-
-          <h1 className="items-center p-1 mt-5 mb-5 text-justify rounded-sm">
+          <h1 className="p-1 mt-5 mb-5 text-center">
             "The Sanatana Dharma Foundation is dedicated to the revival and
             resurrection of the ancient Sanatana Dharma and Ideologies."
           </h1>
+
           <Divider />
 
           <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
@@ -85,7 +85,7 @@ const Home = () => {
           <Form subTitle="I am interested to associate / support the Sanatana Dharma Foundation. My details are below:" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
