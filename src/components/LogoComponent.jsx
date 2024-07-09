@@ -7,14 +7,14 @@ import { default as XIcon } from "../assets/twitter.svg";
 
 function LogoComponent() {
   return (
-    <div className="w-full bg-white h-[100px] flex items-center justify-around ">
+    <div className="w-full bg-white h-[100px] flex items-center justify-around p-3">
       <div className="flex items-center">
         <img src={LOGO} alt="" className="w-[80px] h-[80px]" />
-        <h1 className="text-3xl font-bold text-[#000000c1] ml-2">
+        <h1 className="hidden sm:block text-3xl font-bold text-[#000000c1] ml-2">
           Sanatana Dharma Foundation
         </h1>
       </div>
-      <div className="flex gap-1">
+      <div className="flex gap-1 ">
         <a
           href="https://www.instagram.com/sanatanadharmafoundation1/?igsh=MmNmcGk0MWE0Nmdn"
           target="_blank"
@@ -31,13 +31,11 @@ function LogoComponent() {
           <img className="h-7 rounded-md" src={XIcon} alt="" />
         </a>
       </div>
-      <div>
-        <img
-          className="h-[90px] w-[90px] rounded-full object-cover object-center"
-          src={AcharyaJi}
-          alt="Acharya Shankaracharya Ji"
-        />
-      </div>
+      <img
+        className="object-cover object-center rounded-full h-[80px] w-[80px]"
+        src={AcharyaJi}
+        alt="Acharya Shankaracharya Ji"
+      />
     </div>
   );
 }

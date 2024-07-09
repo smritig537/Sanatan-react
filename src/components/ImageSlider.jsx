@@ -7,7 +7,7 @@ function ImageSlider() {
   return (
     <div className="-z-10 -top-[30px] relative mt-7">
       <Carousel
-        className=" w-full h-[300px] sm:w-full sm:h-[500px] mx-auto"
+        className="w-full h-[180px] sm:w-full sm:h-[500px] mx-auto"
         autoplay={true}
         autoplayDelay={2000}
         loop={true}
@@ -18,7 +18,7 @@ function ImageSlider() {
           key={1}
           src={banner}
           alt=""
-          className="object-cover w-full h-full"
+          className="sm:object-cover w-full h-full"
         />
       </Carousel>
     </div>
