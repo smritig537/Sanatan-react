@@ -7,6 +7,7 @@ const imageUrl = {
   Awards: [1, 2, 3, 4],
   Political: [2, 3, 4, 5, 6, 7, 8],
   "Women's Welfare": [1, 3, 4, 5, 6, 2],
+  "Spiritual":[1,2,3,4,5,6,7,8,9,10,11,12,13]
 };
 
 function Gallery() {
@@ -80,6 +81,19 @@ function Gallery() {
         {imageUrl["Medical support"].map((e) => (
           <img
             src={`${process.env.PUBLIC_URL}/gallery/Medical Support/${e}.jpg`}
+            alt=""
+            className="w-[500px] h-[500px] object-cover"
+          />
+        ))}
+      </div>
+      <Divider />
+      <h1 className="font-oswald text-[#313131] mt-5 font-bold text-3xl text-center">
+        Spiritual Events
+      </h1>
+      <div className="w-4/5 mx-auto grid grid-cols-3 gap-4 my-5">
+        {imageUrl["Spiritual"].map((e) => (
+          <img
+            src={`${process.env.PUBLIC_URL}/gallery/Spiritual/${e}.jpg`}
             alt=""
             className="w-[500px] h-[500px] object-cover"
           />

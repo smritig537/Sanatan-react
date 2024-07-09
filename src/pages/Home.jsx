@@ -7,7 +7,7 @@ import Divider from "../components/Divider";
 import swamiji1 from "../assets/roll1.png";
 import swamiji2 from "../assets/roll2.png";
 import swamiji3 from "../assets/roll3.png";
-
+import guru from "../assets/guru.jpg";
 const Home = () => {
   return (
     <>
@@ -68,7 +68,7 @@ const Home = () => {
             />
             <img
               className="object-cover object-center m-auto rounded-full h-72 w-72 "
-              src={swamiji3}
+              src={guru}
               alt="kashi"
             />
           </div>
