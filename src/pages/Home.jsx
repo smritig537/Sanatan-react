@@ -1,6 +1,6 @@
 import React from "react";
 import ImageSlider from "../components/ImageSlider";
-import SwamiJi from "../assets/swamiJiMain.png";
+import Swamiji from './Swami ji1.jpg';
 import SwamijiAbout from "../components/SwamijiAbout";
 import Form from "../components/Form";
 import Divider from "../components/Divider";
@@ -18,7 +18,7 @@ const Home = () => {
         </h1>
         <img
           className="h-[500px] object-cover object-center m-auto mb-5"
-          src={SwamiJi}
+          src={Swamiji}
           alt="Swami Ji"
         />
         <h1 className="items-center mb-5 text-justify rounded-sm bg-orange-50">
