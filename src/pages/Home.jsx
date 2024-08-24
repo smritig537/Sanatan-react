@@ -31,7 +31,7 @@ const Home = () => {
 
         <div className="flex flex-col gap-5 mx-[20px] mb-10 text-justify">
           <SwamijiAbout
-            title="Early Life"
+            title="Foundational Years"
             content="Mahamadaleshwar Giriji Maharaj had a multi career before dedicating himself to spiritual leadership. He began his professional journey as a successful businessman, contributing to the economic landscape. However, driven by his spiritual calling, he transitioned from his business career to become a renowned spiritual leader. Additionally, he has also been involved in the field of education and social activism, striving to create a positive impact on society."
           />
 
