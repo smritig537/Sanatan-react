@@ -14,7 +14,7 @@ const Home = () => {
       <ImageSlider />
       <div className="m-auto sm:w-[986px] text-xl mb-10 p-5 sm:p-0">
         <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
-          Test Sanatana Dharma Foundation
+          Sanatana Dharma Foundation
         </h1>
         <img
           className="h-[500px] object-cover object-center m-auto mb-5"
