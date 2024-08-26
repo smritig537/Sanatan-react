@@ -82,7 +82,9 @@ const Home = () => {
           <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
             Interest Form
           </h1>
+          <div className="z-0">
           <Form subTitle="I am interested to associate / support the Sanatana Dharma Foundation. My details are below:" />
+          </div>
         </div>
       </div>
     </div>
