@@ -9,7 +9,7 @@ function Navbar() {
     setIsClicked();
   }, [location]);
   return (
-    <div
+    <nav
       className={`sm:w-11/12 w-screen z-auto sticky top-0 h-[60px] bg-[#F08619] m-auto ${
         isClicked ? "h-screen" : ""
       }`}
@@ -96,7 +96,7 @@ function Navbar() {
           Association & Support
         </Link>
       </div>
-    </div>
+    </nav>
   );
 }
 
