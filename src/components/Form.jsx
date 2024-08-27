@@ -16,7 +16,7 @@ const Form = ({ title, subTitle }) => {
         <Typography
           variant="h5"
           color="gray"
-          className="mt-1 font-normal text-center"
+          className="mt-1 font-normal text-center z-0"
         >
           {subTitle}
         </Typography>
