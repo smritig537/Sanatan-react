@@ -21,13 +21,13 @@ const Home = () => {
           src={Swamiji}
           alt="Swami Ji"
         />
-        <h1 className="items-center mb-5 text-justify rounded-sm bg-orange-50">
+        <p className="items-center mb-5 text-justify rounded-sm bg-orange-50">
           Our Founder Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami
           Narayan Nand Giriji Maharaj is an esteemed spiritual leader and a
           devoted activist of Sanatan Dharma. As a proud citizen of Bharath
           (India), he actively promotes the ancient traditions, values, and
           teachings of Sanatan Dharma.
-        </h1>
+        </p>
 
         <div className="flex flex-col gap-5 mx-[20px] mb-10 text-justify">
           <SwamijiAbout
