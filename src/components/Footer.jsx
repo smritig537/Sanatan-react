@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import { default as InstagramIcon } from "../assets/ig.svg";
 import { default as FacebookIcon } from "../assets/facebook.svg";
 import { default as XIcon } from "../assets/twitter.svg";
@@ -12,16 +13,16 @@ return (
                 <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Sanatan Dharma Foundation</span>
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                 <li>
-                    <a href="#" class="hover:underline text-white me-4 md:me-6">About</a>
+                    <Link to="about" class="hover:underline text-white me-4 md:me-6">About</Link>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline text-white me-4 md:me-6">Supporters</a>
+                    <Link to="supporters" class="hover:underline text-white me-4 md:me-6">Supporters</Link>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline text-white me-4 md:me-6">Media</a>
+                    <Link to="media" class="hover:underline text-white me-4 md:me-6">Media</Link>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline text-white">Gallery</a>
+                    <Link to="/gallery" class="hover:underline text-white">Gallery</Link>
                 </li>
             </ul>
         </div>
