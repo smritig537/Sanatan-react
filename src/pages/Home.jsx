@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import ImageSlider from "../components/ImageSlider";
 import Swamiji from './Swami ji1.jpg';
 import SwamijiAbout from "../components/SwamijiAbout";
@@ -11,17 +10,7 @@ import swamiji3 from "../assets/roll3.png";
 import guru from "../assets/guru.jpg";
 const Home = () => {
   return (
-    
     <div className="flex-grow">
-      <Helmet>
-    <title>Sanatana Dharma Foundation | Preserving Hindu Traditions & Spiritual Guidance</title>
-      <meta name="description" content="Explore the Sanatana Dharma Foundation, dedicated to reconnecting individuals with the teachings of Sanatana Dharma (Hinduism). Join our spiritual workshops, cultural festivals, and meditation retreats to deepen your spiritual journey and preserve ancient Vedic traditions." />
-      <meta property="og:title" content="Sanatana Dharma Foundation | Embrace Ancient Wisdom & Spiritual Growth" />
-      <meta property="og:description" content="Discover the Sanatana Dharma Foundation's mission to preserve Hindu traditions and provide spiritual guidance through workshops, festivals, and retreats. Join a vibrant community dedicated to exploring and upholding Sanatana Dharma." />
-      <meta property="og:image" content="https://sanatanadharmafoundation.co/gallery/SocialWelfare/1.jpg" />
-      <meta property="og:url" content="https://sanatanadharmafoundation.co/" />
-    </Helmet>
-    
       <ImageSlider />
       <div className="m-auto sm:w-[986px] text-xl mb-10 p-5 sm:p-0">
         <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
