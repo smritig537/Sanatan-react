@@ -14,7 +14,7 @@ const Home = () => {
       <ImageSlider />
       <div className="m-auto sm:w-[986px] text-xl mb-10 p-5 sm:p-0">
         <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
-          Sanatana Dharma Foundation
+         Test Sanatana Dharma Foundation
         </h1>
         <p className="items-center mb-3 text-justify rounded-sm">
         The Sanatana Dharma Foundation is dedicated to helping
