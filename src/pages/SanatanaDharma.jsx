@@ -1,8 +1,8 @@
 import React from 'react'
 import './SanatanaDharma.css'
-import pic from './SanatanaPic.png'
+import pic from './SanatanaPic.webp'
 import Yog from '../assets/yog.png'
-import scrip from './6628329.jpg'
+import scrip from './6628329.webp'
 import Divider from '../components/Divider'
 
 const SanatanaDharma = () => {
@@ -11,7 +11,7 @@ const SanatanaDharma = () => {
       <div className="max-w-screen-lg px-4 py-10 mx-auto sm:px-6 lg:px-8">
         <h1 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">Sanatana Dharma</h1>
         <div className="flex flex-col items-center">
-          <img className="p-5 w-30 h-30" src={pic} alt="Sanatana Dharma" />
+          <img className="p-5 w-30 h-30" src={pic} alt="Sanatana Dharma Pooja" />
           <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
             The Inception of the Sanatana Dharma Foundation revolves around the idea of social reincarnation of the Sanatana Dharma. 
             Sanatana Dharma, commonly known as Hinduism, is one of the world's oldest spiritual traditions, tracing its origins back over 4,000 years. 
@@ -46,7 +46,7 @@ const SanatanaDharma = () => {
           </p>
           <Divider/>
           <h1 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald"> Scriptures </h1>
-          <img className='p-5 w-45 h-45' src={scrip} alt="scrip"/>
+          <img className='p-5 w-45 h-45' src={scrip} alt="script"/>
           <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">Vedas</h2>
           <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
           The Vedas, the foundational scriptures of Sanatana Dharma (Hinduism), are revered as the oldest and most authoritative texts in the tradition. They are considered divine revelations, believed to have been directly revealed to ancient sages (rishis) during deep states of meditation. Composed in Sanskrit, the Vedas are revered for their profound spiritual wisdom, cosmic insights, and timeless teachings.
