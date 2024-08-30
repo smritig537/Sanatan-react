@@ -4,9 +4,9 @@ import Swamiji from './Swami ji1.jpg';
 import SwamijiAbout from "../components/SwamijiAbout";
 import Form from "../components/Form";
 import Divider from "../components/Divider";
-import swamiji1 from "../assets/roll1.png";
-import swamiji2 from "../assets/roll2.png";
-import swamiji3 from "../assets/roll3.png";
+import swamiji1 from "../assets/roll1.webp";
+import swamiji2 from "../assets/roll2.webp";
+import swamiji3 from "../assets/roll3.webp";
 import guru from "../assets/guru.jpg";
 const Home = () => {
   return (
@@ -50,7 +50,7 @@ const Home = () => {
         <img
           className="h-[500px] object-cover object-center m-auto mb-5"
           src={Swamiji}
-          alt="Swami Ji"
+          alt="Sanatana Dharma Foundation owner"
         />
         <p className="items-center mb-5 text-justify rounded-sm bg-orange-50">
         Our founder, Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami
@@ -90,17 +90,17 @@ const Home = () => {
             <img
               className="object-cover object-center m-auto rounded-full h-72 w-72 "
               src={swamiji1}
-              alt="kashi"
+              alt="Swami jii in kashi"
             />
             <img
               className="object-cover object-center m-auto rounded-full h-72 w-72 "
               src={swamiji2}
-              alt="kashi"
+              alt="Swami jii in kashi"
             />
             <img
               className="object-cover object-center m-auto rounded-full h-72 w-72 "
               src={guru}
-              alt="kashi"
+              alt="Swami jii in kashi"
             />
           </div>
           <h1 className="p-1 mt-5 mb-5 text-center">
