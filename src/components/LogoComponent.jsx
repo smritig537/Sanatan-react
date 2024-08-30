@@ -1,6 +1,6 @@
 import React from "react";
 import LOGO from "../assets/om-bg-remove.png";
-import AcharyaJi from "../assets/acharyaji.jpg";
+import AcharyaJi from "../assets/acharyaji.webp";
 import { default as InstagramIcon } from "../assets/ig.svg";
 import { default as FacebookIcon } from "../assets/facebook.svg";
 import { default as XIcon } from "../assets/twitter.svg";
