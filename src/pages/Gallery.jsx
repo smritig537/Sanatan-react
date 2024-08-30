@@ -22,8 +22,8 @@ function Gallery() {
       <div className="grid w-4/5 grid-cols-2 gap-4 mx-auto my-5">
         {imageUrl["Social Welfare"].map((e) => (
           <img
-            src={`${process.env.PUBLIC_URL}/gallery/SocialWelfare/${e}.jpg`}
-            alt=""
+            src={`${process.env.PUBLIC_URL}/gallery/SocialWelfare/${e}.webp`}
+            alt="Sanatan dharma foundation Socail welfare"
             className="w-[500px] h-[500px] object-cover"
           />
         ))}
@@ -36,8 +36,8 @@ function Gallery() {
       <div className="grid w-4/5 grid-cols-2 gap-4 mx-auto my-5">
         {imageUrl["Political"].map((e) => (
           <img
-            src={`${process.env.PUBLIC_URL}/gallery/Political/${e}.jpg`}
-            alt=""
+            src={`${process.env.PUBLIC_URL}/gallery/Political/${e}.webp`}
+            alt="Sanatan dharma foundation Political"
             className="w-[500px] h-[500px] object-cover"
           />
         ))}
@@ -65,8 +65,8 @@ function Gallery() {
       <div className="grid w-4/5 grid-cols-2 gap-4 mx-auto my-5">
         {imageUrl["Women's Welfare"].map((e) => (
           <img
-            src={`${process.env.PUBLIC_URL}/gallery/Womens Welfare/${e}.jpg`}
-            alt=""
+            src={`${process.env.PUBLIC_URL}/gallery/Womens Welfare/${e}.webp`}
+            alt="Sanatan dharma foundation Women's Welfare"
             className="w-[500px] h-[500px] object-cover"
           />
         ))}
@@ -80,8 +80,8 @@ function Gallery() {
       <div className="grid w-4/5 grid-cols-2 gap-4 mx-auto my-5">
         {imageUrl["Medical support"].map((e) => (
           <img
-            src={`${process.env.PUBLIC_URL}/gallery/Medical Support/${e}.jpg`}
-            alt=""
+            src={`${process.env.PUBLIC_URL}/gallery/Medical Support/${e}.webp`}
+            alt="Sanatan dharma foundation Medical Support"
             className="w-[500px] h-[500px] object-cover"
           />
         ))}
@@ -93,8 +93,8 @@ function Gallery() {
       <div className="grid w-4/5 grid-cols-2 gap-4 mx-auto my-5">
         {imageUrl["Spiritual"].map((e) => (
           <img
-            src={`${process.env.PUBLIC_URL}/gallery/Spiritual/${e}.jpg`}
-            alt=""
+            src={`${process.env.PUBLIC_URL}/gallery/Spiritual/${e}.webp`}
+            alt="Sanatan dharma foundation Spiritual Events"
             className="w-[500px] h-[500px] object-cover"
           />
         ))}
