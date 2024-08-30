@@ -17,7 +17,7 @@ function ImageSlider() {
         <img
           key={1}
           src={banner}
-          alt=""
+          alt="Sanatana Dharma Foundation Bannner"
           className="sm:object-cover w-full h-full"
         />
       </Carousel>
