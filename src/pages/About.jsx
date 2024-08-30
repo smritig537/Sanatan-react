@@ -1,13 +1,13 @@
 import React from "react";
-import swami from "../assets/swami.png";
+import swami from "../assets/swami.webp";
 import aim from "../assets/aim.png";
-import sanatanabout from "../assets/sanatanabout.png";
+import sanatanabout from "../assets/sanatanabout.webp";
 import leaf from "../assets/leaf.png";
-import Build from "./build.png";
-import School from "./School.png";
-import School2 from "./School2.png";
-import har from "./HARIDWAR.png";
-import mall from "./mall.png";
+import Build from "./build.webp";
+import School from "./School.webp";
+import School2 from "./School2.webp";
+import har from "./HARIDWAR.webp";
+import mall from "./mall.webp";
 import Divider from "../components/Divider";
 const About = () => {
   return (
@@ -19,6 +19,7 @@ const About = () => {
         <img
           src={sanatanabout}
           className=" mx-3 w-auto h-[500px] sm:w-[400px] sm:m-auto rounded-xl"
+          alt="About Sanatana Dharma"
         />
         <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
           The Inception of the Sanatana Dharma Foundation revolves around the
@@ -51,6 +52,7 @@ const About = () => {
         <img
           src={swami}
           className="h-[500px] w-auto mx-3 sm:w-[400px] sm:m-auto mt-16 rounded-xl"
+          alt="Swami jii"
         />
         <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
           Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan
@@ -75,6 +77,7 @@ const About = () => {
           <img
             src={aim}
             className="h-[400px] mx-auto sm:mx-0 w-[400px] rounded-xl mr-8 my-auto xl:my-0"
+            alt="Aim of sanatana dharma"
           />
           <ul className="mt-16 ml-8 text-xl sm:mt-0">
             <div className="flex">
@@ -86,28 +89,28 @@ const About = () => {
               </li>
             </div>
             <div className="flex">
-              <img src={leaf} className="h-[33px] w-[35px] mr-4" />
+              <img src={leaf} alt="leaf of sanatana dharma" className="h-[33px] w-[35px] mr-4" />
               <li className="mb-3">
                 Acknowledges the importance of desires and pleasures,
                 encouraging their fulfillment in a balanced and ethical manner.
               </li>
             </div>
             <div className="flex">
-              <img src={leaf} className="h-[33px] w-[35px] mr-4" />
+              <img src={leaf} alt="leaf of sanatana dharma" className="h-[33px] w-[35px] mr-4" />
               <li className="mb-5">
                 Encourages practices such as meditation, yoga, devotion
                 (bhakti), and knowledge (jnana) to realize one's divine nature.
               </li>
             </div>
             <div className="flex">
-              <img src={leaf} className="h-[33px] w-[35px] mr-4" />
+              <img src={leaf} alt="leaf of sanatana dharma" className="h-[33px] w-[35px] mr-4" />
               <li className="mb-5">
                 Regular rituals, pujas (worship ceremonies), and festivals that
                 honor various deities and aspects of the divine.
               </li>
             </div>
             <div className="flex">
-              <img src={leaf} className="h-[33px] w-[35px] mr-4" />
+              <img src={leaf} alt="leaf of sanatana dharma" className="h-[33px] w-[35px] mr-4" />
               <li className="mb-5">
                 Recognizes the validity of multiple paths to the divine and
                 respects different religious and spiritual traditions.
@@ -125,7 +128,7 @@ const About = () => {
         </p>
         <img
           src={Build}
-          alt="build"
+          alt="building"
           className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
         />
         <br></br>
@@ -135,12 +138,12 @@ const About = () => {
         </h3>
         <img
           src={School}
-          alt=""
+          alt="School"
           className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
         />
         <img
           src={School2}
-          alt=""
+          alt="Sanatana dharma school"
           className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
         />
         <Divider />
@@ -149,7 +152,7 @@ const About = () => {
         </h3>
         <img
           src={har}
-          alt=""
+          alt="Swami jii in Haridwar"
           className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
         />
         <Divider />
