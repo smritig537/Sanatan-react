@@ -50,8 +50,8 @@ function Gallery() {
       <div className="grid w-4/5 grid-cols-2 gap-4 mx-auto my-5">
         {imageUrl["Awards"].map((e) => (
           <img
-            src={`${process.env.PUBLIC_URL}/gallery/Awards/${e}.jpg`}
-            alt=""
+            src={`${process.env.PUBLIC_URL}/gallery/Awards/${e}.webp`}
+            alt="Sanatan dharma foundation Awards"
             className="w-[500px] h-[500px] object-cover"
           />
         ))}
