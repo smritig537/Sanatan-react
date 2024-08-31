@@ -71,14 +71,6 @@ function Navbar() {
           Presence in India
         </Link>
         <Link
-          to="media"
-          className={`no-underline text-white ${
-            isClicked ? "h-[70px]" : ""
-          } mx-4 text-xl`}
-        >
-          Media
-        </Link>
-        <Link
           to="/gallery"
           className={`no-underline text-white ${
             isClicked ? "h-[70px]" : ""
@@ -86,6 +78,15 @@ function Navbar() {
         >
           Gallery
         </Link>
+        <Link
+          to="media"
+          className={`no-underline text-white ${
+            isClicked ? "h-[70px]" : ""
+          } mx-4 text-xl`}
+        >
+          Media
+        </Link>
+       
         
         <Link
           to="/contact"
