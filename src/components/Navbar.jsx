@@ -86,6 +86,14 @@ function Navbar() {
         >
           Media
         </Link>
+        <Link
+          to="media"
+          className={`no-underline text-white ${
+            isClicked ? "h-[70px]" : ""
+          } mx-4 text-xl`}
+        >
+          Media
+        </Link>
        
         
         <Link
