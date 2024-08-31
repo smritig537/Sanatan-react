@@ -33,7 +33,7 @@ function Navbar() {
         <Link
           to="."
           className={`no-underline text-white ${
-            isClicked ? "h-[70px] underline" : ""
+            isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           Home
@@ -41,7 +41,7 @@ function Navbar() {
         <Link
           to="about"
           className={`no-underline text-white ${
-            isClicked ? "h-[70px] underline" : ""
+            isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           About
@@ -49,7 +49,7 @@ function Navbar() {
         <Link
           to="sanatanadharma"
           className={`no-underline text-white ${
-            isClicked ? "h-[70px] underline" : ""
+            isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           Sanatana Dharma
@@ -57,7 +57,7 @@ function Navbar() {
         <Link
           to="supporters"
           className={`no-underline text-white ${
-            isClicked ? "h-[70px] underline" : ""
+            isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           Supporters
@@ -65,7 +65,7 @@ function Navbar() {
         <Link
           to="presence-in-india"
           className={`no-underline text-white ${
-            isClicked ? "h-[70px] underline" : ""
+            isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           Presence in India
@@ -73,7 +73,7 @@ function Navbar() {
         <Link
           to="/gallery"
           className={`no-underline text-white ${
-            isClicked ? "h-[70px] underline" : ""
+            isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           Gallery
@@ -81,7 +81,7 @@ function Navbar() {
         <Link
           to="media"
           className={`no-underline text-white ${
-            isClicked ? "h-[70px] underline" : ""
+            isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           Media
@@ -90,7 +90,7 @@ function Navbar() {
         <Link
           to="/contact"
           className={`no-underline text-white ${
-            isClicked ? "h-[70px] underline" : ""
+            isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           Association & Support
