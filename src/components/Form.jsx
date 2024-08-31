@@ -5,7 +5,7 @@ import {
   Typography,
   Textarea,
 } from "@material-tailwind/react";
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa'
+
 
 const Form = ({ title, subTitle }) => {
   return (
