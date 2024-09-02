@@ -11,6 +11,7 @@ import swamiji3 from "../assets/roll3.webp";
 import guru from "../assets/guru.jpg";
 const Home = () => {
   return (
+    <main>
     <div className="flex-grow">
       <ImageSlider />
       <div className="m-auto sm:w-[986px] text-xl mb-10 p-5 sm:p-0">
@@ -120,6 +121,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </main>
   );
 };
 
