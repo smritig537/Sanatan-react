@@ -9,6 +9,7 @@ import School2 from "./School2.webp";
 import har from "./HARIDWAR.webp";
 import mall from "./mall.webp";
 import Divider from "../components/Divider";
+import FAQ from "./Faq";
 const About = () => {
   return (
     <>
@@ -164,7 +165,7 @@ const About = () => {
           alt="mall"
           className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
         />
-        <h1>testing</h1>
+        <FAQ/>
       </>
     </>
   );
