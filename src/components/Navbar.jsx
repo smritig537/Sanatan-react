@@ -96,7 +96,7 @@ function Navbar() {
           Association & Support
         </Link>
         <Link
-          to="/contact"
+          to="/faq"
           className={`no-underline text-white ${
             isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
