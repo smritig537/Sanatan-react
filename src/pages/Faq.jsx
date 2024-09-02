@@ -8,28 +8,43 @@ const faqData = [
   },
   {
     id: 2,
-    question: "What kind of programs does the Sanatana Dharma Foundation offer?",
-    answer: "The foundation offers a range of programs including spiritual workshops, cultural festivals, and meditation retreats. These programs are designed to help people understand Hindu philosophy, practice Vedic traditions, and connect with a supportive community."
+    question: "What is the main source of Sanatana Dharma?",
+    answer: "“Sanatana Dharma” can be translated as “eternal law” and it was first found in the Buddhist Mahavagga. Among other things, some Hindus used this phrase in reference to Hinduism in order to use a different name than the other religions from the late XIX century. There exists an understanding among the context of the writings such as the Vedas and the Upanishads pertaining to Advaita Vedanta, which is a teaching about oneness as absolute reality. This phrase is also used in socioeligious-contextual situations and for many, it has political relevance."
   },
   {
     id: 3,
-    question: "What is the mission of the Sanatana Dharma Foundation?",
-    answer: "The mission of the Sanatana Dharma Foundation is to provide a space for individuals to explore their spirituality, deepen their understanding of Hindu teachings, and connect with others. They focus on spreading messages of peace, love, and unity through their various outreach and cultural events."
+    question: "What are the fundamentals of Sanatana Dharma?",
+    answer: "Sanatana Dharma or Hinduism as it is more simply put has certain basics and among them are: Virtues: Declares the importance of valour, non­-lie, non-violence, cleanliness by heart, kindness, compassion, tolerance, self-control, charitable disposition, and asceticism. Karma: Every single action leaves an impact as directed towards in Vivekananda's philosophy that actions bring fruits, good actions will bring good results, and negative will bring bad results. Dharmic Qualities: Prominent features include patience, compassion, self-restraint, integrity, chastity, sense restraint, wisdom, learning, truth, and non-anger. Pancha Bhuta: Basic elements include Earth Water Light Air and Ether."
   },
   {
     id: 4,
-    question: "Who is the founder of the Sanatana Dharma Foundation?",
-    answer: "The founder of the Sanatana Dharma Foundation is Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand Giriji Maharaj. He is a respected spiritual leader dedicated to promoting and preserving the values and teachings of Sanatana Dharma."
+    question: "Who is the father of Sanatan Dharma?",
+    answer: "Unlike other faiths, Hinduism, better known as Sanatan Dharma, does not have one single founder. Instead, it incorporates the cream of many beliefs. The following individuals and concepts are also related to Sanatan Dharma: Brahman: The ultimate reality or divine essence that constitutes the universe. Rama: An embodiment of dharma, or a virtuous life, as depicted in the epic Ramayana. Adi Shankaracharya: Reestablished Sanatan Dharma in response to the threat of Buddhism. Manu: The first man or archetypal man according to early Hindu texts."
   },
   {
     id: 5,
-    question: "What is Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand Giriji Maharaj's background?",
-    answer: "Before becoming a spiritual leader, Mahamadaleshwar Giriji Maharaj had a successful career as a businessman. He later transitioned to spiritual leadership and has been actively involved in education and social activism, working to make a positive impact on society."
+    question: "What is the goal of Sanatana Dharma?",
+    answer: "The ultimate goal of Sanatana Dharma is to achieve moksha, a state of spiritual release and deliverance from the repetitive process of birth and death. For attaining moksha, Hindus seek to gain positive karma through righteous living and acts of selfless behavior. The system of Sanatana Dharma could also be interpreted as a way of life that is meaningful and productive. It has the potential to center people's actions and decisions on values and purpose, which in turn could bring about mental clarity, improved relationships, and better physical health."
   },
   {
     id: 6,
-    question: "How is the Sanatana Dharma Foundation working to preserve Sanatan culture?",
-    answer: "The foundation, under the leadership of Mahamadaleshwar Giriji Maharaj, is working to promote Sanatan Dharma by spreading awareness and cultural pride, especially among the youth. They send books to temples across India and aim to foster a deeper understanding and appreciation of Sanatan culture."
+    question: "What are the 4 pillars of Sanatan Dharma?",
+    answer: "The four pillars of Sanatana Dharma include Gau, Gita, Ganga, and Gayatri. Gau means the cow, which represents sacrifice, patience, and selfless service. Gita refers to Srimad Bhāgavad Gītā, supposed to be a repository of divine wisdom pertaining to modern life. Ganga means Ganges, a holy river that has connected different cultures and ideologies across India. And lastly, Gayatri means the Gayatri mantra, believed to be the essence of the Vedas."
+  },
+  {
+    id: 7,
+    question: "What are the 4 stages of Sanatan Dharma?",
+    answer: "Hinduism defines four stages of life: Brahmacharya, student; Gṛhastha, householder; Vanaprastha, forest dweller; and Sannyasa, renouncer. Each stage has specific duties and focuses, respectively: education, family responsibilities, withdrawal from material life, and spiritual liberation. Duties, or dharma, which are dependent upon one's stage in life as well as caste/community, vary. Moksha, or liberation from rebirth, is primarily pursued in the Vanaprastha and Sannyasa stages. Ideally, individuals go through all four stages in the course of a lifetime."
+  },
+  {
+    id: 8,
+    question: "What is the basic concept of Sanatan Dharma?",
+    answer: "Sanatan Dharma refers to eternal duties and virtues central to Hinduism. Combines 'Sanatana' (eternal) and 'Dharma' (law/order). Includes duties to the nation, king, parents, gurus, and care for the poor. Emphasizes virtues like honesty, purity, mercy, patience, and generosity. Mentioned in ancient texts like The Mahabharata; historical roots in the 19th century"
+  },
+  {
+    id: 9,
+    question: "What are the 4 Vedas of Sanatan Dharma?",
+    answer: "The four Vedas of Sanatan Dharma are: 1. Rigveda 2. Yajurveda 3. Samaveda, 4. Atharvaveda. Rigveda: It means 'Knowledge of the Verses'. Yajurveda: One of the four Vedas. Samaveda: One of the four Vedas. Atharvaveda: One of the four Vedas. The first three Vedas, such as Rigveda, Yajurveda, and Samaveda, are known as trayi-vidya, or "threefold knowledge". The Vedas are considered the sacred books of Hinduism and a fundamental source of ancient Indian history. Indeed, they contain information on spiritual principles, cosmic laws, and the influence of the Tattvas, considered as cosmic elements and principles. Besides, in the Vedas, concepts and practices of the Vedic religion take shape, and these are the grounds for classical Hinduism."
   }
 ];
 
