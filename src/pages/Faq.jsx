@@ -44,7 +44,7 @@ const faqData = [
   {
     id: 9,
     question: "What are the 4 Vedas of Sanatan Dharma?",
-    answer: "The four Vedas of Sanatan Dharma are: 1. Rigveda 2. Yajurveda 3. Samaveda, 4. Atharvaveda. Rigveda: It means 'Knowledge of the Verses'. Yajurveda: One of the four Vedas. Samaveda: One of the four Vedas. Atharvaveda: One of the four Vedas. The first three Vedas, such as Rigveda, Yajurveda, and Samaveda, are known as trayi-vidya, or "threefold knowledge". The Vedas are considered the sacred books of Hinduism and a fundamental source of ancient Indian history. Indeed, they contain information on spiritual principles, cosmic laws, and the influence of the Tattvas, considered as cosmic elements and principles. Besides, in the Vedas, concepts and practices of the Vedic religion take shape, and these are the grounds for classical Hinduism."
+    answer: "The four Vedas of Sanatan Dharma are: 1. Rigveda 2. Yajurveda 3. Samaveda, 4. Atharvaveda. Rigveda: It means 'Knowledge of the Verses'. Yajurveda: One of the four Vedas. Samaveda: One of the four Vedas. Atharvaveda: One of the four Vedas. The first three Vedas, such as Rigveda, Yajurveda, and Samaveda, are known as trayi-vidya, or 'threefold knowledge'. The Vedas are considered the sacred books of Hinduism and a fundamental source of ancient Indian history. Indeed, they contain information on spiritual principles, cosmic laws, and the influence of the Tattvas, considered as cosmic elements and principles. Besides, in the Vedas, concepts and practices of the Vedic religion take shape, and these are the grounds for classical Hinduism."
   }
 ];
 
