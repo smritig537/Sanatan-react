@@ -95,6 +95,14 @@ function Navbar() {
         >
           Association & Support
         </Link>
+        <Link
+          to="/contact"
+          className={`no-underline text-white ${
+            isClicked ? "h-[70px]" : ""
+          } mx-4 text-xl`}
+        >
+          Faq
+        </Link>
       </div>
     </nav>
   );
