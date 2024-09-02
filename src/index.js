@@ -19,7 +19,6 @@ import SanatanaDharma from "./pages/SanatanaDharma";
 import Supporters from "./pages/Supporters";
 import { ThemeProvider } from "@material-tailwind/react";
 import NotFound from "./components/NotFound";
-import FAQ from "./pages/Faq";
 
 const appRouter = createBrowserRouter(
   createRoutesFromChildren(
@@ -33,7 +32,6 @@ const appRouter = createBrowserRouter(
       <Route path="gallery" element={<Gallery />} />
       <Route path="achievements" element={<Achievements />} />
       <Route path="contact" element={<Contact />} />
-      <Route path="faq" element={<FAQ />} />
       <Route path="*" element={<NotFound />} />
     </Route>
   )
