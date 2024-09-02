@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import React from "react";
 import ImageSlider from "../components/ImageSlider";
 import Swamiji from './Swami ji1.jpg';
@@ -18,7 +19,7 @@ const Home = () => {
         </h1>
         <p className="items-center mb-3 text-justify rounded-sm">
         The Sanatana Dharma Foundation is dedicated to helping
-         individuals reconnect with the teachings of Sanatana Dharma (Hinduism).
+         individuals reconnect with the <Link to="sanatanadharma" className="text-blue-600 underline">teachings of Sanatana Dharma</Link> (Hinduism).
           It offers a range of programs, including spiritual workshops,
            cultural festivals, and meditation retreats, designed 
            to provide guidance and support on one's spiritual journey.
