@@ -33,7 +33,7 @@ const appRouter = createBrowserRouter(
       <Route path="gallery" element={<Gallery />} />
       <Route path="achievements" element={<Achievements />} />
       <Route path="contact" element={<Contact />} />
-      <Route path="FAQ" element={<FAQ />} />
+      <Route path="faq" element={<FAQ />} />
       <Route path="*" element={<NotFound />} />
     </Route>
   )
