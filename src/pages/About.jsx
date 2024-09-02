@@ -164,6 +164,7 @@ const About = () => {
           alt="mall"
           className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
         />
+        <h1>testing</h1>
       </>
     </>
   );
