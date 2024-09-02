@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom"
 import React from "react";
 import ImageSlider from "../components/ImageSlider";
@@ -12,6 +13,9 @@ import guru from "../assets/guru.jpg";
 const Home = () => {
   return (
     <main>
+      <Helmet>
+        <title>test titel</title>
+      </Helmet>
     <div className="flex-grow">
       <ImageSlider />
       <div className="m-auto sm:w-[986px] text-xl mb-10 p-5 sm:p-0">
