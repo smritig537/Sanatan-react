@@ -22,25 +22,26 @@ const About = () => {
 
 
         <section>
-    <div className="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-5">
-        <div className="mt-12 md:mt-0">
-                <img src={sanatanabout} alt="About Us Image" className="object-cover rounded-lg shadow-md" />
+    <div className="container flex justify-center mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+            <div className="flex justify-center md:justify-start mt-12 md:mt-0">
+                <img src={sanatanabout} alt="Sanatana dharma foundation about" className="object-cover rounded-lg shadow-md max-w-full h-auto" />
             </div>
-            <div className="max-w-lg">
+            <div className="max-w-2xl md:text-left">
                 <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">About Us</h2>
-                <p className="mt-4 text-gray-600 text-lg">Sanatana Dharma Foundation, a revered non-profit
-                   organization dedicated to the propagation and preservation of Sanatana Dharma, often known as Hinduism. 
-                   Grounded in the profound wisdom of ancient Indian traditions, 
-                   our foundation embodies the aims articulated in our Trust Deed, promoting a renaissance of religious 
-                   and cultural values across communities while nurturing a deeper understanding of Hindu philosophy.
-                    At the heart of the Sanatana Dharma Foundation lies the concept of social reincarnation of Sanatana Dharma.
-                     Our mission is to provide a contemporary approach to religious and ethical training, tailored to cater to the evolving
-                      needs of our society. Our principles are rooted in the liberal, wide and unsectarian nature of the Sanatana Dharma.
-                       We are an organization that is passionate about collaborating with individuals who hold their national identity in high regard and take pride in being a follower of Sanatana Dharma. In recent years, we have witnessed an erosion of Indian culture due to the overwhelming influence of the West. Elements which once were a perennial source of pride for all Indians have faced marginalization, particularly the deep-rooted values of Sanatana Dharma.
-                        As a foundation, we are profoundly committed to reviving this ancient world Dharma.</p>
-            </div>
-          
+                <p className="mt-4 text-gray-600 text-lg"> Sanatana Dharma Foundation, a revered non-profit organization dedicated to 
+                  the propagation and preservation of Sanatana Dharma, often known as Hinduism. Grounded in the profound wisdom of ancient
+                   Indian traditions, our foundation embodies the aims articulated in our Trust Deed, promoting a renaissance of religious
+                    and cultural values across communities while nurturing a deeper understanding of Hindu philosophy. At the heart of the
+                     Sanatana Dharma Foundation lies the concept of social reincarnation of Sanatana Dharma. Our mission is to provide a 
+                     contemporary approach to religious and ethical training, tailored to cater to the evolving needs of our society. Our
+                      principles are rooted in the liberal, wide and unsectarian nature of the Sanatana Dharma. We are an organization
+                       that is passionate about collaborating with individuals who hold their national identity in high regard and take
+                        pride in being a follower of Sanatana Dharma. In recent years, we have witnessed an erosion of Indian culture 
+                        due to the overwhelming influence of the West. Elements which once were a perennial source of pride for all 
+                        Indians have faced marginalization, particularly the deep-rooted values of Sanatana Dharma. As a foundation,
+                         we are profoundly committed to reviving this ancient world Dharma.</p>
+          </div>
         </div>
     </div>
 </section>
