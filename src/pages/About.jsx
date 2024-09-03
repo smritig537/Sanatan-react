@@ -10,29 +10,45 @@ import har from "./HARIDWAR.webp";
 import mall from "./mall.webp";
 import Divider from "../components/Divider";
 import FAQ from "./Faq";
-import SwamijiAbout from "../components/SwamijiAbout";
+
 const About = () => {
   return (
     <>
       <>
+      <main>
         <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
           About Sanatan Dharma Foundation
         </h1>
-        <img
-          src={sanatanabout}
-          className=" mx-3 w-auto h-[500px] sm:w-[400px] sm:m-auto rounded-xl"
-          alt="About Sanatana Dharma"
-        />
-        <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
-          Sanatana Dharma Foundation, a revered non-profit organization dedicated to the propagation and preservation of Sanatana Dharma, often known as Hinduism. Grounded in the profound wisdom of ancient Indian traditions, our foundation embodies the aims articulated in our Trust Deed, promoting a renaissance of religious and cultural values across communities while nurturing a deeper understanding of Hindu philosophy.
-          At the heart of the Sanatana Dharma Foundation lies the concept of social reincarnation of Sanatana Dharma. Our mission is to provide a contemporary approach to religious and ethical training, tailored to cater to the evolving needs of our society. Our principles are rooted in the liberal, wide and unsectarian nature of the Sanatana Dharma. We are an organization that is passionate about collaborating with individuals who hold their national identity in high regard and take pride in being a follower of Sanatana Dharma.
-          In recent years, we have witnessed an erosion of Indian culture due to the overwhelming influence of the West. Elements which once were a perennial source of pride for all Indians have faced marginalization, particularly the deep-rooted values of Sanatana Dharma. As a foundation, we are profoundly committed to reviving this ancient world Dharma.
 
-        </p>
+
+        <section>
+    <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+            <div className="max-w-lg">
+                <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">About Us</h2>
+                <p className="mt-4 text-gray-600 text-lg">Sanatana Dharma Foundation, a revered non-profit
+                   organization dedicated to the propagation and preservation of Sanatana Dharma, often known as Hinduism. 
+                   Grounded in the profound wisdom of ancient Indian traditions, 
+                   our foundation embodies the aims articulated in our Trust Deed, promoting a renaissance of religious 
+                   and cultural values across communities while nurturing a deeper understanding of Hindu philosophy.
+                    At the heart of the Sanatana Dharma Foundation lies the concept of social reincarnation of Sanatana Dharma.
+                     Our mission is to provide a contemporary approach to religious and ethical training, tailored to cater to the evolving
+                      needs of our society. Our principles are rooted in the liberal, wide and unsectarian nature of the Sanatana Dharma.
+                       We are an organization that is passionate about collaborating with individuals who hold their national identity in high regard and take pride in being a follower of Sanatana Dharma. In recent years, we have witnessed an erosion of Indian culture due to the overwhelming influence of the West. Elements which once were a perennial source of pride for all Indians have faced marginalization, particularly the deep-rooted values of Sanatana Dharma.
+                        As a foundation, we are profoundly committed to reviving this ancient world Dharma.</p>
+            </div>
+            <div className="mt-12 md:mt-0">
+                <img src={sanatanabout} alt="About Us Image" className="object-cover rounded-lg shadow-md" />
+            </div>
+        </div>
+    </div>
+</section>
+
+
         <img
           src={swami}
           className="h-[500px] w-auto mx-3 sm:w-[400px] sm:m-auto mt-16 rounded-xl"
-          alt="Swami jii"
+          alt="Swami jii of sanatana dharma"
         />
         <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
         Guided by our spiritual leader, Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Giriji Maharaj, we strive to uphold the tenets of Sanatana Dharma. His life journey from a successful businessman to a revered spiritual leader serves as an inspiration for our collective commitment to spirituality. Under his leadership, we aim to cultivate cultural consciousness, spiritual development, and social welfare.
@@ -53,9 +69,9 @@ At the heart of the Sanatana Dharma Foundation lies a clear vision: to create a 
         </p>
         
         <Divider />
-        <h1 className="text-center mt-16 mb-8 text-5xl text-orange-900 ">
+        <h2 className="text-center mt-16 mb-8 text-5xl text-orange-900 ">
           Aims and Objectives
-        </h1>
+        </h2>
         <div className="mx-4 flex flex-col sm:flex-row  justify-between mb-16 2xl:w-[50%] 2xl:m-auto">
           <img
             src={aim}
@@ -102,9 +118,9 @@ At the heart of the Sanatana Dharma Foundation lies a clear vision: to create a 
           </ul>
         </div>
         <Divider />
-        <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
+        <h2 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
           Sanatan Dharma Foundation
-        </h1>
+        </h2>
         <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
           The Sanatana Dharma Foundation is dedicated to the revival and
           resurrection of the ancient Sanatana Dharma and Ideologies.
@@ -146,7 +162,7 @@ At the heart of the Sanatana Dharma Foundation lies a clear vision: to create a 
           src={mall}
           alt="mall"
           className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
-        />
+        /></main>
         <FAQ />
       </>
     </>
