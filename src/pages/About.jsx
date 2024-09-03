@@ -40,7 +40,7 @@ const About = () => {
                     embodies the aims articulated in our <b>Trust Deed</b>, promoting a
                     renaissance of religious and cultural values across
                     communities while nurturing a deeper understanding of <b>Hindu
-                    philosophy</b>. At the heart of the <b>Sanatana Dharma Foundation</b>
+                    philosophy</b>. At the heart of the <b>Sanatana Dharma Foundation</b>{" "}
                      lies the concept of <b>social reincarnation of Sanatana Dharma</b>.
                     Our mission is to provide a contemporary approach to
                     <b>religious and ethical training</b>, tailored to cater to the
@@ -174,12 +174,12 @@ const About = () => {
               Foundation embraces platforms like <a
           href="https://www.facebook.com/people/Sanatana-Dharma-Foundation/61560817495402/" className="text-blue-600 underline"
           target="_blank"
-        >Facebook</a>, 
+        >Facebook</a>,{" "} 
          <a
           href="https://www.instagram.com/sanatanadharmafoundation1/?igsh=MmNmcGk0MWE0Nmdn" className="text-blue-600 underline"
           target="_blank"
-        >Instagram</a>, and
-               <a
+        >Instagram</a>,{" "}and
+               {" "}<a
           href="https://x.com/dharmaorigins" className="text-blue-600 underline"
           target="_blank"
         >Twitter</a> to reach a broader audience. Our online initiatives aim to
