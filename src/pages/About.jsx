@@ -41,11 +41,16 @@ Our ultimate goal is the revival of our revered Sanatana culture, not as a mere 
 At the heart of the Sanatana Dharma Foundation lies a clear vision: to create a contemporary platform that nurtures spiritual education and awareness of Indian traditions. Our committed religious trust focuses on charitable endeavors aimed at uplifting communities, enhancing social welfare, and providing vital resources for those in need. We strive to cultivate a network of spiritual seekers and practitioners dedicated to revitalizing Sanatana Dharma in today's world.
 
         </p>
-        <div className="flex flex-col gap-5 mx-[20px] mb-10 text-justify">
-          <SwamijiAbout
-            title="Charitable Activities and Community Service"
-            content="Central to our mission is an unwavering commitment to charitable activities and community service. We actively support various initiatives that address society's pressing needs, ranging from educational programs to healthcare services. By aligning our efforts with the timeless principles of Sanatana Dharma, we aspire to make a meaningful impact on the lives of individuals and communities. Our emphasis on Hindu pilgrimage sites enriches our mission, as these sacred places serve as beacons of spiritual energy, inviting devotees and seekers alike."
-          /></div>
+        <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-10">
+        Charitable Activities and Community Service
+        </h2>
+        <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
+        Central to our mission is an unwavering commitment to charitable activities and community service.
+         We actively support various initiatives that address society's pressing needs,
+          ranging from educational programs to healthcare services. By aligning our efforts with the
+           timeless principles of Sanatana Dharma, we aspire to make a meaningful impact on the lives of
+            individuals and communities. Our emphasis on Hindu pilgrimage sites enriches our mission, as these sacred places serve as beacons of spiritual energy, inviting devotees and seekers alike.
+        </p>
         
         <Divider />
         <h1 className="text-center mt-16 mb-8 text-5xl text-orange-900 ">
