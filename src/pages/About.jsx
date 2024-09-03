@@ -45,20 +45,21 @@ const About = () => {
         </div>
     </div>
 </section>
-
-
-        <img
-          src={swami}
-          className="h-[500px] w-auto mx-3 sm:w-[400px] sm:m-auto mt-16 rounded-xl"
-          alt="Swami jii of sanatana dharma"
-        />
-        <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
-        Guided by our spiritual leader, Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Giriji Maharaj, we strive to uphold the tenets of Sanatana Dharma. His life journey from a successful businessman to a revered spiritual leader serves as an inspiration for our collective commitment to spirituality. Under his leadership, we aim to cultivate cultural consciousness, spiritual development, and social welfare.
+        <section>
+    <div className="container flex justify-center mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+            <div className="flex justify-center md:justify-start mt-12 md:mt-0">
+                <img src={swami} alt="Sanatana dharma foundation about" className="object-cover rounded-lg shadow-md max-w-full h-auto" />
+            </div>
+            <div className="max-w-2xl md:text-left">
+                <p className="mt-4 text-gray-600 text-lg">  Guided by our spiritual leader, Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Giriji Maharaj, we strive to uphold the tenets of Sanatana Dharma. His life journey from a successful businessman to a revered spiritual leader serves as an inspiration for our collective commitment to spirituality. Under his leadership, we aim to cultivate cultural consciousness, spiritual development, and social welfare.
 We create a space for individuals to live ethically and balance their worldly desires with spiritual fulfillment. We aid in the understanding of one's divine nature through practices like meditation, yoga, and devotion. We celebrate and honor the divine through rituals, pujas, and festivals. The Sanatana Dharma Foundation invites everyone, regardless of their religious or cultural background, to join in this journey of discovery and unity.
 Our ultimate goal is the revival of our revered Sanatana culture, not as a mere religion but as an inclusive school of beliefs that caters to the needs and rights of all. This journey involves dismantling the barriers that divide us and fostering mutual respect, love, and unity among all citizens of Bharat. Join us as we work diligently towards resurrecting the ancient Dharma of the world and reinstating righteousness and integrity in the hearts of our fellow Indians. Our Vision and Mission
-At the heart of the Sanatana Dharma Foundation lies a clear vision: to create a contemporary platform that nurtures spiritual education and awareness of Indian traditions. Our committed religious trust focuses on charitable endeavors aimed at uplifting communities, enhancing social welfare, and providing vital resources for those in need. We strive to cultivate a network of spiritual seekers and practitioners dedicated to revitalizing Sanatana Dharma in today's world.
-
-        </p>
+At the heart of the Sanatana Dharma Foundation lies a clear vision: to create a contemporary platform that nurtures spiritual education and awareness of Indian traditions. Our committed religious trust focuses on charitable endeavors aimed at uplifting communities, enhancing social welfare, and providing vital resources for those in need. We strive to cultivate a network of spiritual seekers and practitioners dedicated to revitalizing Sanatana Dharma in today's world.</p>
+          </div>
+        </div>
+    </div>
+</section>
         <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-2">
         Charitable Activities and Community Service
         </h2>
