@@ -22,8 +22,11 @@ const About = () => {
 
 
         <section>
-    <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+    <div className="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-5">
+        <div className="mt-12 md:mt-0">
+                <img src={sanatanabout} alt="About Us Image" className="object-cover rounded-lg shadow-md" />
+            </div>
             <div className="max-w-lg">
                 <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">About Us</h2>
                 <p className="mt-4 text-gray-600 text-lg">Sanatana Dharma Foundation, a revered non-profit
@@ -37,9 +40,7 @@ const About = () => {
                        We are an organization that is passionate about collaborating with individuals who hold their national identity in high regard and take pride in being a follower of Sanatana Dharma. In recent years, we have witnessed an erosion of Indian culture due to the overwhelming influence of the West. Elements which once were a perennial source of pride for all Indians have faced marginalization, particularly the deep-rooted values of Sanatana Dharma.
                         As a foundation, we are profoundly committed to reviving this ancient world Dharma.</p>
             </div>
-            <div className="mt-12 md:mt-0">
-                <img src={sanatanabout} alt="About Us Image" className="object-cover rounded-lg shadow-md" />
-            </div>
+          
         </div>
     </div>
 </section>
