@@ -29,7 +29,10 @@ function Media() {
             <h1 className="text-xl bg-orange-100 p-2 rounded-md">Instagram</h1>
           </div>
         </a>
-        <a href="https://www.facebook.com/people/Sanatana-Dharma-Foundation/61560817495402/" target="_blank">
+        <a
+          href="https://www.facebook.com/people/Sanatana-Dharma-Foundation/61560817495402/"
+          target="_blank"
+        >
           <div className="flex flex-col gap-1">
             <img className="h-14 rounded-md" src={FacebookIcon} alt="" />
             <h1 className="text-xl bg-orange-100 p-2 rounded-md">Facebook</h1>

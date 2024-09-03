@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import React from "react";
 import swami from "../assets/swami.webp";
 import aim from "../assets/aim.png";
@@ -34,27 +35,27 @@ const About = () => {
                   <p className="mt-4 text-gray-600 text-lg">
                     <b>Sanatana Dharma Foundation,</b> a revered non-profit
                     organization dedicated to the propagation and preservation
-                    of Sanatana Dharma, often known as Hinduism. Grounded in the
+                    of Sanatana Dharma, often known as<b> Hinduism</b>. Grounded in the
                     profound wisdom of ancient Indian traditions, our foundation
-                    embodies the aims articulated in our Trust Deed, promoting a
+                    embodies the aims articulated in our <b>Trust Deed</b>, promoting a
                     renaissance of religious and cultural values across
-                    communities while nurturing a deeper understanding of Hindu
-                    philosophy. At the heart of the Sanatana Dharma Foundation
-                    lies the concept of social reincarnation of Sanatana Dharma.
+                    communities while nurturing a deeper understanding of <b>Hindu
+                    philosophy</b>. At the heart of the <b>Sanatana Dharma Foundation</b>
+                    lies the concept of <b>social reincarnation of Sanatana Dharma</b>.
                     Our mission is to provide a contemporary approach to
-                    religious and ethical training, tailored to cater to the
+                    <b>religious and ethical training</b>, tailored to cater to the
                     evolving needs of our society. Our principles are rooted in
-                    the liberal, wide and unsectarian nature of the Sanatana
+                    the <b>liberal, wide and unsectarian nature</b> of the Sanatana
                     Dharma. We are an organization that is passionate about
                     collaborating with individuals who hold their national
                     identity in high regard and take pride in being a follower
                     of Sanatana Dharma. In recent years, we have witnessed an
-                    erosion of Indian culture due to the overwhelming influence
+                    erosion of <b>Indian culture</b> due to the overwhelming influence
                     of the West. Elements which once were a perennial source of
                     pride for all Indians have faced marginalization,
                     particularly the deep-rooted values of Sanatana Dharma. As a
-                    foundation, we are profoundly committed to reviving this
-                    ancient world Dharma.
+                    foundation, we are profoundly committed to <b>reviving this
+                    ancient world Dharma</b>.
                   </p>
                 </div>
               </div>
@@ -74,30 +75,31 @@ const About = () => {
                 <div className="max-w-2xl md:text-left">
                   <p className="mt-4 text-gray-600 text-lg">
                     {" "}
-                    Guided by our spiritual leader, Mahamadaleshwar Shri Shri
-                    1008 Anant Shri Vibhushit Swami Narayan Giriji Maharaj, we
-                    strive to uphold the tenets of Sanatana Dharma. His life
-                    journey from a successful businessman to a revered spiritual
+                    Guided by our <b>spiritual leader, Mahamadaleshwar Shri Shri
+                    1008 Anant Shri Vibhushit Swami Narayan Giriji Maharaj</b>, we
+                    strive to uphold the tenets of <b>Sanatana Dharma</b>. His life
+                    journey from a successful businessman to a revered <b>spiritual</b>
                     leader serves as an inspiration for our collective
                     commitment to spirituality. Under his leadership, we aim to
-                    cultivate cultural consciousness, spiritual development, and
-                    social welfare. We create a space for individuals to live
+                    cultivate <b>cultural consciousness</b>, <b>spiritual development</b>, and
+                    <b>social welfare</b>. We create a space for individuals to live
                     ethically and balance their worldly desires with spiritual
                     fulfillment. We aid in the understanding of one's divine
-                    nature through practices like meditation, yoga, and
-                    devotion. We celebrate and honor the divine through rituals,
-                    pujas, and festivals. The Sanatana Dharma Foundation invites
+                    nature through practices like <b>meditation, yoga, and
+                    devotion</b>. We celebrate and honor the divine through <b>
+                    <Link to="sanatanadharma" className="text-blue-600 underline">rituals,
+                      pujas, and festivals</Link></b>. The Sanatana Dharma Foundation invites
                     everyone, regardless of their religious or cultural
                     background, to join in this journey of discovery and unity.
-                    Our ultimate goal is the revival of our revered Sanatana
-                    culture, not as a mere religion but as an inclusive school
+                    Our ultimate goal is the <b>revival of our revered Sanatana
+                    culture</b>, not as a mere religion but as an inclusive school
                     of beliefs that caters to the needs and rights of all. This
                     journey involves dismantling the barriers that divide us and
                     fostering mutual respect, love, and unity among all citizens
                     of Bharat. Join us as we work diligently towards
-                    resurrecting the ancient Dharma of the world and reinstating
-                    righteousness and integrity in the hearts of our fellow
-                    Indians. Our Vision and Mission At the heart of the Sanatana
+                    resurrecting the <b>ancient Dharma of the world</b> and reinstating
+                    righteousness and <b>integrity</b> in the hearts of our fellow
+                    Indians. <b>Our Vision and Mission</b> At the heart of the Sanatana
                     Dharma Foundation lies a clear vision: to create a
                     contemporary platform that nurtures spiritual education and
                     awareness of Indian traditions. Our committed religious
@@ -120,7 +122,7 @@ const About = () => {
               Central to our mission is an unwavering commitment to charitable
               activities and community service. We actively support various
               initiatives that address society's pressing needs, ranging from
-              educational programs to healthcare services. By aligning our
+              educational programs to <b>healthcare services</b>. By aligning our
               efforts with the timeless principles of Sanatana Dharma, we aspire
               to make a meaningful impact on the lives of individuals and
               communities. Our emphasis on Hindu pilgrimage sites enriches our
@@ -152,8 +154,8 @@ const About = () => {
             </h2>
             <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
               In our efforts to foster spiritual connections, we encourage and
-              facilitate pilgrimages to holy cities integral to the Sanatana
-              Dharma tradition. These journeys not only deepen spiritual ties
+              facilitate pilgrimages to holy cities integral to the <b>Sanatana
+              Dharma tradition</b>. These journeys not only deepen spiritual ties
               but also offer participants the opportunity to engage in community
               service projects at these sacred locations. By blending spiritual
               exploration with charitable endeavors, we advocate for a holistic
@@ -169,8 +171,18 @@ const About = () => {
             <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
               In this digital age, a strong social media presence is vital for
               fostering connections and sharing knowledge. The Sanatana Dharma
-              Foundation embraces platforms like Facebook, Instagram, and
-              Twitter to reach a broader audience. Our online initiatives aim to
+              Foundation embraces platforms like <a
+          href="https://www.facebook.com/people/Sanatana-Dharma-Foundation/61560817495402/" className="text-blue-600 underline"
+          target="_blank"
+        >Facebook</a>,
+        <a
+          href="https://www.instagram.com/sanatanadharmafoundation1/?igsh=MmNmcGk0MWE0Nmdn" className="text-blue-600 underline"
+          target="_blank"
+        >Instagram</a>, and
+              <a
+          href="https://x.com/dharmaorigins" className="text-blue-600 underline"
+          target="_blank"
+        >Twitter</a> to reach a broader audience. Our online initiatives aim to
               cultivate a vibrant community of followers who can engage with
               content reflecting the essence of Sanatana Dharma. From
               enlightening articles to live discussions, we warmly invite
@@ -311,14 +323,14 @@ const About = () => {
               Testimonials and Success Stories
             </h2>
             <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
-              The impact of the Sanatana Dharma Foundation is best illustrated
+              The impact of the <b>Sanatana Dharma Foundation</b> is best illustrated
               through the heartwarming testimonials of individuals and
               communities transformed by our initiatives. Many participants in
-              our spiritual education programs have expressed profound gratitude
+              our <b>spiritual education programs</b> have expressed profound gratitude
               for the knowledge and insights gained, which have helped them
               navigate life's challenges while remaining grounded in their
               heritage. Community members engaged in our service projects often
-              share stories of connection and collaboration, emphasising the
+              share stories of <b>connection</b> and <b>collaboration</b>, emphasising the
               importance of collective efforts in forging a sense of unity and
               purpose. These inspiring stories not only highlight the efficacy
               of our programs but also serve as a reminder of the enduring power

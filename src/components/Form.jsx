@@ -6,7 +6,6 @@ import {
   Textarea,
 } from "@material-tailwind/react";
 
-
 const Form = ({ title, subTitle }) => {
   return (
     <div className="flex flex-col items-center">
