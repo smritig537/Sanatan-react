@@ -10,12 +10,13 @@ import har from "./HARIDWAR.webp";
 import mall from "./mall.webp";
 import Divider from "../components/Divider";
 import FAQ from "./Faq";
+import SwamijiAbout from "../components/SwamijiAbout";
 const About = () => {
   return (
     <>
       <>
         <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
-          Sanatan Dharma Foundation
+          About Sanatan Dharma Foundation
         </h1>
         <img
           src={sanatanabout}
@@ -23,32 +24,10 @@ const About = () => {
           alt="About Sanatana Dharma"
         />
         <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
-          The Inception of the Sanatana Dharma Foundation revolves around the
-          idea of social reincarnation of the Sanatana Dharma. Our objective is
-          to provide religious and ethical training suited to the needs of the
-          time. It is necessary that this religious and ethical training shall
-          be of a wide, liberal and unsectarian character, inclusive enough to
-          unite the most divergent forms of Sanatana thought. Our organisation
-          is keen on working with like- minded people who value their national
-          identity and take pride in being a follower of Sanatana Dharma. We aim
-          to work efficiently towards our goal of uprooting anti-national ideas
-          and elements which pose a threat to national solidarity. Over the past
-          few years, Indian culture has become marginalized due to western
-          influences. The hyperbole of western practices has degraded the
-          stature of Sanatana Dharma, which used to be a perennial source of
-          pride for all Indians. This Foundation is dedicated to resurrecting
-          the most ancient Dharma of the world. With the aim of reinstating
-          righteousness and integrity among our fellow Indians, we are working
-          tediously to unite the people of India in a common thread of love,
-          unity and mutual trust. The fundamental principles of religion,
-          governing the general view of life and life's obligations, are alone
-          sufficient to restore the cultural wealth of this ancient sect. Our
-          organization is leaving no stone unturned to unite Indians in a common
-          faith by excluding all the elements that divide them. This will lead
-          to the revival of our revered Sanatana culture, not as a religion, but
-          as an ancient school of beliefs which will cater to the needs and
-          rights of all the citizens of Bharat, irrespective of any religious
-          or cultural bias.
+          Sanatana Dharma Foundation, a revered non-profit organization dedicated to the propagation and preservation of Sanatana Dharma, often known as Hinduism. Grounded in the profound wisdom of ancient Indian traditions, our foundation embodies the aims articulated in our Trust Deed, promoting a renaissance of religious and cultural values across communities while nurturing a deeper understanding of Hindu philosophy.
+          At the heart of the Sanatana Dharma Foundation lies the concept of social reincarnation of Sanatana Dharma. Our mission is to provide a contemporary approach to religious and ethical training, tailored to cater to the evolving needs of our society. Our principles are rooted in the liberal, wide and unsectarian nature of the Sanatana Dharma. We are an organization that is passionate about collaborating with individuals who hold their national identity in high regard and take pride in being a follower of Sanatana Dharma.
+          In recent years, we have witnessed an erosion of Indian culture due to the overwhelming influence of the West. Elements which once were a perennial source of pride for all Indians have faced marginalization, particularly the deep-rooted values of Sanatana Dharma. As a foundation, we are profoundly committed to reviving this ancient world Dharma.
+
         </p>
         <img
           src={swami}
@@ -56,20 +35,18 @@ const About = () => {
           alt="Swami jii"
         />
         <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
-          Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan
-          Giriji Maharaj is an esteemed spiritual leader and a devoted activist
-          of Sanatan Dharma. As a proud citizen of Bharath(India), he actively
-          promotes the ancient traditions, values, and teachings of Sanatan
-          Dharma. Mahamadaleshwar Shri Shri 1008 Anant Vibhushit Swami Narayan
-          Nand Giriji Maharaj is a highly respected and influential spiritual
-          leader, dedicated to preserving and promoting the principles of
-          Sanatan Dharma. His journey from a successfull buisnessman to a
-          revered spiritual guru showcases his deep commitment to spirituality
-          and his desire to guide others towards a more profound understanding
-          of life's purpose. Through his leadership, he endeavors to foster
-          cultural awareness, spiritual growth, and social welfare, leaving a
-          lasting impact on the lives of many.
+        Guided by our spiritual leader, Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Giriji Maharaj, we strive to uphold the tenets of Sanatana Dharma. His life journey from a successful businessman to a revered spiritual leader serves as an inspiration for our collective commitment to spirituality. Under his leadership, we aim to cultivate cultural consciousness, spiritual development, and social welfare.
+We create a space for individuals to live ethically and balance their worldly desires with spiritual fulfillment. We aid in the understanding of one's divine nature through practices like meditation, yoga, and devotion. We celebrate and honor the divine through rituals, pujas, and festivals. The Sanatana Dharma Foundation invites everyone, regardless of their religious or cultural background, to join in this journey of discovery and unity.
+Our ultimate goal is the revival of our revered Sanatana culture, not as a mere religion but as an inclusive school of beliefs that caters to the needs and rights of all. This journey involves dismantling the barriers that divide us and fostering mutual respect, love, and unity among all citizens of Bharat. Join us as we work diligently towards resurrecting the ancient Dharma of the world and reinstating righteousness and integrity in the hearts of our fellow Indians. Our Vision and Mission
+At the heart of the Sanatana Dharma Foundation lies a clear vision: to create a contemporary platform that nurtures spiritual education and awareness of Indian traditions. Our committed religious trust focuses on charitable endeavors aimed at uplifting communities, enhancing social welfare, and providing vital resources for those in need. We strive to cultivate a network of spiritual seekers and practitioners dedicated to revitalizing Sanatana Dharma in today's world.
+
         </p>
+        <div className="flex flex-col gap-5 mx-[20px] mb-10 text-justify">
+          <SwamijiAbout
+            title="Charitable Activities and Community Service"
+            content="Central to our mission is an unwavering commitment to charitable activities and community service. We actively support various initiatives that address society's pressing needs, ranging from educational programs to healthcare services. By aligning our efforts with the timeless principles of Sanatana Dharma, we aspire to make a meaningful impact on the lives of individuals and communities. Our emphasis on Hindu pilgrimage sites enriches our mission, as these sacred places serve as beacons of spiritual energy, inviting devotees and seekers alike."
+          /></div>
+        
         <Divider />
         <h1 className="text-center mt-16 mb-8 text-5xl text-orange-900 ">
           Aims and Objectives
@@ -165,7 +142,7 @@ const About = () => {
           alt="mall"
           className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
         />
-        <FAQ/>
+        <FAQ />
       </>
     </>
   );
