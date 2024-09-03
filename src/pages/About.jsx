@@ -41,10 +41,10 @@ Our ultimate goal is the revival of our revered Sanatana culture, not as a mere 
 At the heart of the Sanatana Dharma Foundation lies a clear vision: to create a contemporary platform that nurtures spiritual education and awareness of Indian traditions. Our committed religious trust focuses on charitable endeavors aimed at uplifting communities, enhancing social welfare, and providing vital resources for those in need. We strive to cultivate a network of spiritual seekers and practitioners dedicated to revitalizing Sanatana Dharma in today's world.
 
         </p>
-        <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-4">
+        <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-2">
         Charitable Activities and Community Service
         </h2>
-        <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
+        <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
         Central to our mission is an unwavering commitment to charitable activities and community service.
          We actively support various initiatives that address society's pressing needs,
           ranging from educational programs to healthcare services. By aligning our efforts with the
