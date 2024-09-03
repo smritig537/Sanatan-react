@@ -87,7 +87,7 @@ const About = () => {
                     fulfillment. We aid in the understanding of one's divine
                     nature through practices like <b>meditation, yoga, and
                     devotion</b>. We celebrate and honor the divine through <b>
-                    <Link to="sanatanadharma" className="text-blue-600 underline">rituals,
+                    <Link to="/sanatanadharma" className="text-blue-600 underline">rituals,
                       pujas, and festivals</Link></b>. The Sanatana Dharma Foundation invites
                     everyone, regardless of their religious or cultural
                     background, to join in this journey of discovery and unity.
