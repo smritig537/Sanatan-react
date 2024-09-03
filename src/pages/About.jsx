@@ -28,8 +28,7 @@ const About = () => {
                 <img src={sanatanabout} alt="Sanatana dharma foundation about" className="object-cover rounded-lg shadow-md max-w-full h-auto" />
             </div>
             <div className="max-w-2xl md:text-left">
-                <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">About Us</h2>
-                <p className="mt-4 text-gray-600 text-lg"> Sanatana Dharma Foundation, a revered non-profit organization dedicated to 
+                <p className="mt-4 text-gray-600 text-lg"><b>Sanatana Dharma Foundation,</b> a revered non-profit organization dedicated to 
                   the propagation and preservation of Sanatana Dharma, often known as Hinduism. Grounded in the profound wisdom of ancient
                    Indian traditions, our foundation embodies the aims articulated in our Trust Deed, promoting a renaissance of religious
                     and cultural values across communities while nurturing a deeper understanding of Hindu philosophy. At the heart of the
@@ -45,6 +44,7 @@ const About = () => {
         </div>
     </div>
 </section>
+
         <section>
     <div className="container flex justify-center mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
@@ -60,10 +60,11 @@ At the heart of the Sanatana Dharma Foundation lies a clear vision: to create a 
         </div>
     </div>
 </section>
+
         <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-2">
         Charitable Activities and Community Service
         </h2>
-        <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
+        <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
         Central to our mission is an unwavering commitment to charitable activities and community service.
          We actively support various initiatives that address society's pressing needs,
           ranging from educational programs to healthcare services. By aligning our efforts with the
