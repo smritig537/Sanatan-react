@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, NavLink } from "react-router-dom";
 import ReorderIcon from "@mui/icons-material/Reorder";
 
 function Navbar() {
@@ -30,71 +30,71 @@ function Navbar() {
             : "hidden sm:flex sm:flex-row sm:text-white sm:flex-grow sm:justify-center sm:items-center sm:h-full "
         }}`}
       >
-        <Link
-          to="."
+        <NavLink id ="nav"
+          to="." 
           className={`no-underline text-white ${
             isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           Home
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink id ="nav"
           to="about"
           className={`no-underline text-white ${
             isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           About
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink id ="nav"
           to="sanatanadharma"
           className={`no-underline text-white ${
             isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           Sanatana Dharma
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink id ="nav"
           to="supporters"
           className={`no-underline text-white ${
             isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           Supporters
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink id ="nav"
           to="presence-in-india"
           className={`no-underline text-white ${
             isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           Presence in India
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink id ="nav"
           to="/gallery"
           className={`no-underline text-white ${
             isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           Gallery
-        </Link>
-        <Link
+        </NavLink>
+        <NavLink id ="nav"
           to="media"
           className={`no-underline text-white ${
             isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           Media
-        </Link>
+        </NavLink>
     
-        <Link
+        <NavLink id ="nav"
           to="/contact"
           className={`no-underline text-white ${
             isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
           Association & Support
-        </Link>
+        </NavLink>
         
       </div>
     </nav>

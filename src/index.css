@@ -6,3 +6,27 @@
 nav{
     z-index: 99;
 }
+
+#nav{
+    position: relative;
+    padding: 2px;
+}
+
+#nav:not(#nav.active)::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    border-bottom: 3px solid white;
+    transition: linear .2s;
+}
+
+#nav:hover:not(#nav.active):before{
+    width: 100%;
+}
+
+.active{
+    border: 2px solid white;
+}
