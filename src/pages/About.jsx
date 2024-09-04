@@ -32,7 +32,7 @@ const About = () => {
                   />
                 </div>
                 <div className="max-w-2xl md:text-left">
-                  <p className="mt-4 text-gray-600 text-lg">
+                  <p className="mt-4 text-gray-600 text-lg text-justify">
                     <b>Sanatana Dharma Foundation,</b> a revered non-profit
                     organization dedicated to the propagation and preservation
                     of Sanatana Dharma, often known as<b> Hinduism</b>. Grounded in the
@@ -73,7 +73,7 @@ const About = () => {
                   />
                 </div>
                 <div className="max-w-2xl md:text-left">
-                  <p className="mt-4 text-gray-600 text-lg">
+                  <p className="mt-4 text-gray-600 text-lg text-justify">
                     {" "}
                     Guided by our <b>spiritual leader, Mahamadaleshwar Shri Shri
                     1008 Anant Shri Vibhushit Swami Narayan Giriji Maharaj</b>, we
@@ -287,19 +287,21 @@ const About = () => {
           />
           <br></br>
           <Divider />
-          <h2 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
-            SENIOR SECONDARY SCHOOL
+          <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-10">
+            SENIOR SECONDARY SCHOOL AT TAMIL NADU
           </h2>
-          <img
-            src={School}
-            alt="School"
-            className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
-          />
-          <img
-            src={School2}
-            alt="Sanatana dharma school"
-            className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
-          />
+          <div className="flex flex-wrap justify-center">
+  <img
+    src={School}
+    alt="School"
+    className="mx-3 w-auto h-[500px] sm:w-[600px] rounded-xl p-5"
+  />
+  <img
+    src={School2}
+    alt="Sanatana dharma school"
+    className="mx-3 w-auto h-[500px] sm:w-[600px] rounded-xl p-5"
+  />
+</div>
           <Divider />
           <h3 className="font-oswald text-[#313131] font-bold text-4xl text-center my-10">
             HARIDWAR CENTER ASHRAM UNDERDEVELOPMENT
