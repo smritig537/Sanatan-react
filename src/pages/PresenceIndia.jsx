@@ -14,7 +14,7 @@ function PresenceIndia() {
       </p>
       <img src={India} alt="" className="mx-auto w-2/3 mt-20" />
       <div>
-            <h2 className="font-oswald text-[#313131] font-bold text-4xl text-center my-4">
+            <h2 className="font-oswald text-[#313131] font-bold text-4xl text-center my-8">
             Sanatana Dharma Foundation: Reviving Ancient Indian Culture and Traditions
             </h2>
             <h3 className="font-oswald text-[#313131] font-bold text-3xl text-center my-4">
