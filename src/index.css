@@ -19,7 +19,7 @@ nav{
     top: 0;
     bottom: 0;
     width: 0;
-    border-bottom: 3px solid white;
+    border-bottom: 2px solid white;
     transition: linear .2s;
 }
 
@@ -28,5 +28,5 @@ nav{
 }
 
 .active{
-    border: 2px solid white;
+    border-bottom: 2px solid white;
 }
