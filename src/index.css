@@ -30,3 +30,9 @@ nav{
 .active{
     border-bottom: 2px solid white;
 }
+
+@media (max-width: 668px) {
+    #nav {
+        padding: 0;
+    }
+}
