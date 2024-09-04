@@ -218,7 +218,7 @@ const About = () => {
             <ul className="mt-16 ml-8 text-xl sm:mt-0">
               <div className="flex">
                 <img src={leaf} className="h-[33px] w-[35px] mr-4" />
-                <li className="mb-5">
+                <li className="mb-5 text-justify">
                   Encourages individuals to live ethically and fulfill their
                   duties in accordance with their position in life (varnas and
                   ashramas).
@@ -230,7 +230,7 @@ const About = () => {
                   alt="leaf of sanatana dharma"
                   className="h-[33px] w-[35px] mr-4"
                 />
-                <li className="mb-3">
+                <li className="mb-3 text-justify">
                   Acknowledges the importance of desires and pleasures,
                   encouraging their fulfillment in a balanced and ethical
                   manner.
@@ -242,7 +242,7 @@ const About = () => {
                   alt="leaf of sanatana dharma"
                   className="h-[33px] w-[35px] mr-4"
                 />
-                <li className="mb-5">
+                <li className="mb-5 text-justify">
                   Encourages practices such as meditation, yoga, devotion
                   (bhakti), and knowledge (jnana) to realize one's divine
                   nature.
@@ -254,7 +254,7 @@ const About = () => {
                   alt="leaf of sanatana dharma"
                   className="h-[33px] w-[35px] mr-4"
                 />
-                <li className="mb-5">
+                <li className="mb-5 text-justify">
                   Regular rituals, pujas (worship ceremonies), and festivals
                   that honor various deities and aspects of the divine.
                 </li>
@@ -265,7 +265,7 @@ const About = () => {
                   alt="leaf of sanatana dharma"
                   className="h-[33px] w-[35px] mr-4"
                 />
-                <li className="mb-5">
+                <li className="mb-5 text-justify">
                   Recognizes the validity of multiple paths to the divine and
                   respects different religious and spiritual traditions.
                 </li>
