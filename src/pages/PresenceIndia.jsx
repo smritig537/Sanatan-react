@@ -17,14 +17,14 @@ function PresenceIndia() {
             <h2 className="font-oswald text-[#313131] font-bold text-4xl text-center my-8">
             Sanatana Dharma Foundation: Reviving Ancient Indian Culture and Traditions
             </h2>
-            <h3 className="font-oswald text-[#313131] font-bold text-3xl text-center my-4">
+            <h3 className="font-oswald text-[#313131] font-bold text-2xl text-center  my-4">
             Our Presence Across Major Indian Cities
             </h3>
             <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
             The Sanatana Dharma Foundation has a significant presence across major Indian cities, with its head office in Delhi and branches in Chennai, Mumbai, Hyderabad, and Indore. These strategic locations enable us to effectively carry out our mission of the social reincarnation of Sanatana Dharma, providing religious and ethical training tailored to contemporary needs.
             </p>
 
-            <h3 className="font-oswald text-[#313131] font-bold text-3xl text-center my-4">
+            <h3 className="font-oswald text-[#313131] font-bold text-2xl text-center my-4">
            Promoting a Unified Approach to Sanatana Thought
             </h3>
             <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
