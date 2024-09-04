@@ -120,9 +120,9 @@ function PresenceIndia() {
           Yoga and Meditation in Hinduism
         </h3>
         <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
-          Yoga and meditation are integral practices in Hinduism, aimed at
-          achieving spiritual enlightenment and inner peace. Bhakti Yoga focuses
-          on devotion and love for the divine, while Jnana Yoga emphasizes
+        <b>Yoga</b> and <b>meditation</b> are integral practices in Hinduism, aimed at
+          achieving spiritual enlightenment and inner peace. <b>Bhakti Yoga</b> focuses
+          on devotion and love for the divine, while <b>Jnana Yoga</b> emphasizes
           knowledge and wisdom. These practices help individuals connect with
           their inner selves and the divine.
         </p>
