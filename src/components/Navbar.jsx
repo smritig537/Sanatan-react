@@ -63,12 +63,12 @@ function Navbar() {
           Supporters
         </NavLink>
         <NavLink id ="nav"
-          to="presence-in-india"
+          to="Locations-in-india"
           className={`no-underline text-white ${
             isClicked ? "h-[70px]" : ""
           } mx-4 text-xl`}
         >
-          Presence in India
+          Locations in India
         </NavLink>
         <NavLink id ="nav"
           to="/gallery"

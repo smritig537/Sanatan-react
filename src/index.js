@@ -27,7 +27,7 @@ const appRouter = createBrowserRouter(
       <Route path="about" element={<About />} />
       <Route path="sanatanadharma" element={<SanatanaDharma />} />
       <Route path="supporters" element={<Supporters />} />
-      <Route path="presence-in-india" element={<PresenceIndia />} />
+      <Route path="Locations-in-india" element={<PresenceIndia />} />
       <Route path="media" element={<Media />} />
       <Route path="gallery" element={<Gallery />} />
       <Route path="achievements" element={<Achievements />} />
