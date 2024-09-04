@@ -15,7 +15,7 @@ function PresenceIndia() {
       <img src={India} alt="" className="mx-auto w-2/3 mt-20" />
 
       <div>
-        <h2 className="font-oswald text-[#313131] font-bold text-4xl text-center my-8">
+        <h2 className="font-oswald text-[#313131] text-justify font-bold text-3xl text-center my-8">
           Sanatana Dharma Foundation: Reviving Ancient Indian Culture and
           Traditions
         </h2>
@@ -69,7 +69,7 @@ function PresenceIndia() {
       </div>
 
       <div>
-        <h2 className="font-oswald text-[#313131] font-bold text-4xl text-center my-8">
+        <h2 className="font-oswald text-[#313131] text-justify font-bold text-3xl text-center my-8">
           Discover the Rich Heritage of Hinduism and Indian Culture
         </h2>
         <h3 className="font-oswald text-[#313131] font-bold text-2xl text-center  my-4">
@@ -150,7 +150,7 @@ function PresenceIndia() {
       </div>
 
       <summary>
-        <h2 className="font-oswald text-[#313131] font-bold text-4xl text-center my-8">
+        <h2 className="font-oswald text-[#313131] text-justify font-bold text-3xl text-center my-8">
           Conclusion
         </h2>
         <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
