@@ -16,7 +16,7 @@ function Blogs() {
 
   return (
     <>
-      <section className="px-8">
+      <section className="px-8 mb-4">
         <div className="flex justify-center">
           <h1 className="text-4xl md:text-3xl pl-2 my-8 border-l-4 font-sans font-bold border-orange-500 dark:text-gray-200">
             Blogs
