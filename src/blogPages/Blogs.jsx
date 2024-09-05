@@ -9,7 +9,7 @@ function Blogs() {
       description:
         "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
       imageUrl: "https://flowbite.com/docs/images/blog/image-1.jpg",
-      link: "#",
+      link: "/blogs/blog1",
     },
  
   ];
