@@ -1,4 +1,3 @@
-import temple from './temple1.jpg'
 
 function Blog1() {
   return (
