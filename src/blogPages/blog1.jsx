@@ -1,3 +1,4 @@
+import Bloglist from "./bloglist";
 
 function Blog1() {
   return (
@@ -107,6 +108,7 @@ function Blog1() {
               </div>
             </div>
 
+        <Bloglist />
        
           </div>
         </div>
