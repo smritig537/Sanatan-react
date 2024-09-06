@@ -38,7 +38,7 @@ function Blog1() {
                 Sanatana philosophy.
               </p>
 
-              <h2 className="text-3xl text-right font-bold py-4">
+              <h2 className="text-3xl text-left font-bold py-4">
                 Our Mission and Vision
               </h2>
               <p>
@@ -51,7 +51,7 @@ function Blog1() {
                 belief system that goes beyond religious and cultural prejudices.
               </p>
 
-              <h2 className="text-3xl text-right font-bold py-4">
+              <h2 className="text-3xl text-left font-bold py-4">
                 Engaging with Local Communities
               </h2>
               <p>
@@ -63,7 +63,7 @@ function Blog1() {
                 divisions and promoting a shared belief that transcends cultural differences.
               </p>
 
-              <h2 className="text-3xl text-right font-bold py-4">
+              <h2 className="text-3xl text-left font-bold py-4">
                 Educational and Cultural Initiatives
               </h2>
               <p>
@@ -74,7 +74,7 @@ function Blog1() {
                 ensure that the timeless wisdom found in our scriptures is accessible to all.
               </p>
 
-              <h2 className="text-3xl text-right font-bold py-4">
+              <h2 className="text-3xl text-left font-bold py-4">
                 Promoting Ethical and Religious Training
               </h2>
               <p>
@@ -86,7 +86,7 @@ function Blog1() {
                 harmonious, and spiritually fulfilling.
               </p>
 
-              <h2 className="text-3xl text-right font-bold py-4">
+              <h2 className="text-3xl text-left font-bold py-4">
                 Social and Charitable Activities
               </h2>
               <p>
