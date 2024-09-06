@@ -8,7 +8,7 @@ function Blogs() {
         "Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern Values",
       description:
         "The Sanatana Dharma Foundation blends ancient wisdom with modern values, fostering unity and integrity through education and cultural initiatives.",
-      imageUrl: "https://www.google.com/url?sa=i&url=https%3A%2F%2Freligiana.com%2Fshree-sanatan-hindu-mandir&psig=AOvVaw1ICF5MGxRJ19bo0KKqWXuB&ust=1725702798573000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIi3j4WGrogDFQAAAAAdAAAAABAE",
+      imageUrl: "https://images.pexels.com/photos/672630/pexels-photo-672630.jpeg",
       link: "/blogs/blog1",
     },
  

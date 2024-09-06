@@ -17,7 +17,7 @@ function Blog1() {
           <section className="w-full md:w-3/4 px-4">
             <figure className="mb-8">
               <img
-                src="https://www.google.com/url?sa=i&url=https%3A%2F%2Freligiana.com%2Fshree-sanatan-hindu-mandir&psig=AOvVaw1ICF5MGxRJ19bo0KKqWXuB&ust=1725702798573000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIi3j4WGrogDFQAAAAAdAAAAABAE"
+                src="https://images.pexels.com/photos/672630/pexels-photo-672630.jpeg"
                 alt="A representative image of Sanatana Dharma Foundation"
                 className="w-full h-auto object-cover"
                 loading="lazy"
