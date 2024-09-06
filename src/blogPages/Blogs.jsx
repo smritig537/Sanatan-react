@@ -7,7 +7,7 @@ function Blogs() {
       title:
         "Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern Values",
       description:
-        "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        "The Sanatana Dharma Foundation blends ancient wisdom with modern values, fostering unity and integrity through education and cultural initiatives.",
       imageUrl: "https://flowbite.com/docs/images/blog/image-1.jpg",
       link: "/blogs/blog1",
     },
