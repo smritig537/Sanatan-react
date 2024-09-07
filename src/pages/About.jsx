@@ -11,15 +11,12 @@ import har from "./HARIDWAR.webp";
 import mall from "./mall.webp";
 import Divider from "../components/Divider";
 import FAQ from "./Faq";
-import { Helmet } from "react-helmet-async";
 
 const About = () => {
   return (
     <>
       <>
-      <Helmet>
-         <title>This is about page</title>
-         </Helmet>
+     
         <main>
           <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
             About Sanatan Dharma Foundation
