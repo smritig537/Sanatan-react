@@ -11,12 +11,17 @@ import har from "./HARIDWAR.webp";
 import mall from "./mall.webp";
 import Divider from "../components/Divider";
 import FAQ from "./Faq";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   return (
     <>
       <>
-     
+     <Helmet>
+      <title>About Us | Sanatana Dharma Foundation: Preserving Ancient Wisdom</title>
+      <meta name="description" content="Explore the Sanatana Dharma Foundation's mission to preserve and promote Sanatana Dharma (Hinduism). Learn about our charitable efforts, spiritual education, community service, and initiatives to revive ancient traditions and foster unity." />
+      <meta name="keywords" content="Sanatana Dharma Foundation, Hinduism, Sanatana Dharma, spiritual education, charitable activities, cultural preservation, Indian traditions, community service, religious revival, Hindu philosophy, spiritual growth" />
+      </Helmet>
         <main>
           <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
             About Sanatan Dharma Foundation
@@ -28,6 +33,7 @@ const About = () => {
                 <div className="flex justify-center md:justify-start mt-6 md:mt-0">
                   <img
                     src={sanatanabout}
+                    loading="lazy"
                     alt="Sanatana dharma foundation about"
                     className="object-cover rounded-lg shadow-md max-w-full h-auto"
                   />
@@ -69,7 +75,8 @@ const About = () => {
                 <div className="flex justify-center md:justify-start mt-4 md:mt-0">
                   <img
                     src={swami}
-                    alt="Sanatana dharma foundation about"
+                     loading="lazy"
+                    alt="About Sanatana dharma foundation"
                     className="object-cover rounded-lg shadow-md max-w-full h-auto"
                   />
                 </div>
@@ -183,7 +190,7 @@ const About = () => {
                {" "}<a
           href="https://x.com/dharmaorigins" className="text-blue-600 underline"
           target="_blank"
-        >Twitter</a> to reach a broader audience. Our online initiatives aim to
+        >X</a> to reach a broader audience. Our online initiatives aim to
               cultivate a vibrant community of followers who can engage with
               content reflecting the essence of Sanatana Dharma. From
               enlightening articles to live discussions, we warmly invite
@@ -213,6 +220,7 @@ const About = () => {
           <div className="mx-4 flex flex-col sm:flex-row  justify-between mb-16 2xl:w-[50%] 2xl:m-auto">
             <img
               src={aim}
+               loading="lazy"
               className="h-[400px] mx-auto sm:mx-0 w-[400px] rounded-xl mr-8 my-auto xl:my-0"
               alt="Aim of sanatana dharma"
             />
@@ -228,6 +236,7 @@ const About = () => {
               <div className="flex">
                 <img
                   src={leaf}
+                   loading="lazy"
                   alt="leaf of sanatana dharma"
                   className="h-[33px] w-[35px] mr-4"
                 />
@@ -240,6 +249,7 @@ const About = () => {
               <div className="flex">
                 <img
                   src={leaf}
+                   loading="lazy"
                   alt="leaf of sanatana dharma"
                   className="h-[33px] w-[35px] mr-4"
                 />
@@ -252,6 +262,7 @@ const About = () => {
               <div className="flex">
                 <img
                   src={leaf}
+                   loading="lazy"
                   alt="leaf of sanatana dharma"
                   className="h-[33px] w-[35px] mr-4"
                 />
@@ -263,6 +274,7 @@ const About = () => {
               <div className="flex">
                 <img
                   src={leaf}
+                   loading="lazy"
                   alt="leaf of sanatana dharma"
                   className="h-[33px] w-[35px] mr-4"
                 />
@@ -283,7 +295,8 @@ const About = () => {
           </p>
           <img
             src={Build}
-            alt="building"
+             loading="lazy"
+            alt="Sanatana Dharma Foundation building"
             className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
           />
           <br></br>
@@ -294,11 +307,13 @@ const About = () => {
           <div className="flex flex-wrap justify-center">
   <img
     src={School}
-    alt="School"
+     loading="lazy"
+    alt="School build by Sanatana Dharma Foundation"
     className="mx-3 w-auto h-[500px] sm:w-[600px] rounded-xl p-5"
   />
   <img
     src={School2}
+     loading="lazy"
     alt="Sanatana dharma school"
     className="mx-3 w-auto h-[500px] sm:w-[600px] rounded-xl p-5"
   />
@@ -309,7 +324,8 @@ const About = () => {
           </h3>
           <img
             src={har}
-            alt="Swami jii in Haridwar"
+             loading="lazy"
+            alt="Sanatana Dharma Swamii Jii in Haridwar"
             className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
           />
           <Divider />
@@ -318,7 +334,8 @@ const About = () => {
           </h3>
           <img
             src={mall}
-            alt="mall"
+             loading="lazy"
+            alt="Sanatana Dharma foundation mall work"
             className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
           />
           <div>
