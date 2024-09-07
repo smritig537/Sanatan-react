@@ -63,6 +63,7 @@ const Home = () => {
           <img
             className="h-[500px] object-cover object-center m-auto mb-5"
             src={Swamiji}
+            loading="lazy"
             alt="Sanatana Dharma Foundation owner"
           />
           <p className="items-center mb-5 text-justify rounded-sm bg-orange-50">
@@ -99,17 +100,20 @@ const Home = () => {
               <img
                 className="object-cover object-center m-auto rounded-full h-72 w-72 "
                 src={swamiji1}
-                alt="Swami ji in Kashi"
+                loading="lazy"
+                alt="Sanatana Dharma Foundation Swamii jii Khasi First image"
               />
               <img
                 className="object-cover object-center m-auto rounded-full h-72 w-72 "
                 src={swamiji2}
-                alt="Swami ji in Kashi"
+                loading="lazy"
+                alt="Sanatana Dharma Foundation Swamii jii Khasi Second image"
               />
               <img
                 className="object-cover object-center m-auto rounded-full h-72 w-72 "
                 src={guru}
-                alt="Swami ji"
+                loading="lazy"
+                alt="Swami ji of Sanatana Dharma Foundation"
               />
             </div>
             <h2 className="p-1 mt-5 mb-5 text-center">
