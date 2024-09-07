@@ -21,6 +21,7 @@ import Blogs from "./blogPages/Blogs";
 import Blog1 from "./blogPages/blog1";
 import { ThemeProvider } from "@material-tailwind/react";
 import NotFound from "./components/NotFound";
+import { HelmetProvider } from "react-helmet-async"; // Import HelmetProvider
 
 const appRouter = createBrowserRouter(
   createRoutesFromChildren(
@@ -43,7 +44,9 @@ const appRouter = createBrowserRouter(
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <ThemeProvider>
-    <RouterProvider router={appRouter} />
-  </ThemeProvider>
+  <HelmetProvider> {/* Wrap the application with HelmetProvider */}
+    <ThemeProvider>
+      <RouterProvider router={appRouter} />
+    </ThemeProvider>
+  </HelmetProvider>
 );
