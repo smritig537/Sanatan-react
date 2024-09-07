@@ -1,9 +1,13 @@
 import React from "react";
 import Divider from "../components/Divider";
 import Form from "../components/Form";
+import { Helmet } from "react-helmet-async";
 function Contact() {
   return (
     <>
+    <Helmet>
+      <title>This is Contact Page</title>
+    </Helmet>
       <div className="flex flex-col h-full items-center justify-between  sm:flex-row">
         <div className="h-[600px] sm:w-1/2 w-full mx-4 bg-gradient-to-b sm:bg-gradient-to-r from-[#F3F7EC] to-white text-[#373A40] flex justify-center items-center">
           <div>
