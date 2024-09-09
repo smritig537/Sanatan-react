@@ -24,7 +24,7 @@ function PresenceIndia() {
         <p className="text-gray-600 font-semibold text-2xl text-center">
           Delhi | Mumbai | Hyderabad | Indore | Chennai
         </p>
-        <img src={India} alt="Map showing the presence of Sanatana Dharma Foundation in India" className="mx-auto w-2/3 mt-20" />
+        <img src={India} loading="lazy" alt="Map showing the presence of Sanatana Dharma Foundation in India" className="mx-auto w-2/3 mt-20" />
       </section>
 
       <section>

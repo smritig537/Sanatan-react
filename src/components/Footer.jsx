@@ -43,16 +43,16 @@ function Footer() {
         <div className="flex justify-center pb-3 gap-1">
           <a
             href="https://www.facebook.com/people/Sanatana-Dharma-Foundation/61560817495402/"
-            target="_blank"
+            target="_blank" rel="noopener"
           >
             <img className="h-7 rounded-md" src={FacebookIcon} alt="" />
           </a>
-          <a href="https://x.com/dharmaorigins" target="_blank">
+          <a href="https://x.com/dharmaorigins" target="_blank" rel="noopener">
             <img className="h-7 rounded-md" src={XIcon} alt="" />
           </a>
           <a
             href="https://www.instagram.com/sanatanadharmafoundation1/?igsh=MmNmcGk0MWE0Nmdn"
-            target="_blank"
+            rel="noopener" target="_blank"
           >
             <img className="h-7 rounded-md" src={InstagramIcon} alt="" />
           </a>

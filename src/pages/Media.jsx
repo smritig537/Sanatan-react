@@ -22,7 +22,7 @@ function Media() {
       <div className="flex justify-around">
         <a
           href="https://www.instagram.com/sanatanadharmafoundation1/?igsh=MmNmcGk0MWE0Nmdn"
-          target="_blank"
+          target="_blank" rel="noopener"
         >
           <div className="flex flex-col gap-1">
             <img className="h-14 rounded-md" src={InstagramIcon} alt="" />
@@ -31,14 +31,14 @@ function Media() {
         </a>
         <a
           href="https://www.facebook.com/people/Sanatana-Dharma-Foundation/61560817495402/"
-          target="_blank"
+          target="_blank" rel="noopener"
         >
           <div className="flex flex-col gap-1">
             <img className="h-14 rounded-md" src={FacebookIcon} alt="" />
             <h1 className="text-xl bg-orange-100 p-2 rounded-md">Facebook</h1>
           </div>
         </a>
-        <a href="https://x.com/dharmaorigins" target="_blank">
+        <a href="https://x.com/dharmaorigins" rel="noopener" target="_blank">
           <div className="flex flex-col gap-1">
             <img className="h-14 rounded-md" src={XIcon} alt="" />
             <h1 className="text-xl bg-orange-100 p-2 rounded-md">

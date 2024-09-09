@@ -182,15 +182,15 @@ const About = () => {
               fostering connections and sharing knowledge. The Sanatana Dharma
               Foundation embraces platforms like <a
           href="https://www.facebook.com/people/Sanatana-Dharma-Foundation/61560817495402/" className="text-blue-600 underline"
-          target="_blank"
+          rel="noopener" target="_blank"
         >Facebook</a>,{" "} 
          <a
           href="https://www.instagram.com/sanatanadharmafoundation1/?igsh=MmNmcGk0MWE0Nmdn" className="text-blue-600 underline"
-          target="_blank"
+          rel="noopener"  target="_blank"
         >Instagram</a>,{" "}and
                {" "}<a
           href="https://x.com/dharmaorigins" className="text-blue-600 underline"
-          target="_blank"
+          target="_blank" rel="noopener"
         >X</a> to reach a broader audience. Our online initiatives aim to
               cultivate a vibrant community of followers who can engage with
               content reflecting the essence of Sanatana Dharma. From
