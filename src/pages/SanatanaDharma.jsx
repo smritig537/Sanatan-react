@@ -28,7 +28,7 @@ const SanatanaDharma = () => {
         <main className="max-w-screen-lg flex flex-col items-center py-10 mx-auto ">
         
         <section className="flex flex-col items-center">
-          <article className=" items-center justify-center align-middle">
+          <article className="flex items-center justify-center align-middle">
           
           <img
             src={pic}
