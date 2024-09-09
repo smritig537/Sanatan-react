@@ -22,6 +22,7 @@ const SanatanaDharma = () => {
 </Helmet>
 
       <main className="max-w-screen-lg px-4 py-10 mx-auto sm:px-6 lg:px-8">
+        
         <h1 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">
           Sanatana Dharma
         </h1>
@@ -40,13 +41,15 @@ const SanatanaDharma = () => {
             emphasizing timeless, universal principles that guide adherents in
             living a balanced and righteous life.
           </p>
-          <h1 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">
+          
+          <h2 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">
             Sanatana Dharma Core
-          </h1>
-          <img src={Yog} atl="yog" />
-          <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
-            Dharma
           </h2>
+          <img src={Yog} atl="yog" />
+          <article>
+          <h3 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
+            Dharma
+          </h3>
           <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
             Dharma, central to Sanatana Dharma (Hinduism), represents the moral
             law and spiritual discipline guiding one's life. It encompasses
@@ -59,7 +62,7 @@ const SanatanaDharma = () => {
             spiritual fulfillment and contribute positively to society,
             embodying the right way of living that fosters inner peace and
             universal balance.
-          </p>
+          </p></article>
           <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
             Karma
           </h2>
@@ -140,10 +143,10 @@ const SanatanaDharma = () => {
           experience of divine consciousness.
         </p>
         <Divider />
-        <h1 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">
+        <h2 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">
           {" "}
           Scriptures{" "}
-        </h1>
+        </h2>
         <img className="p-5 w-45 h-45" src={scrip} alt="script" />
         <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Vedas
