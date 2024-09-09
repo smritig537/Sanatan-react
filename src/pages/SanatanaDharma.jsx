@@ -28,14 +28,13 @@ const SanatanaDharma = () => {
         <main className="max-w-screen-lg flex flex-col items-center py-10 mx-auto ">
         
         <section className="flex flex-col items-center">
-          <article className="w-full items-center justify-center align-middle">
-          <div className="w-64 h-96 object-cover">
+          <article className=" items-center justify-center align-middle">
+          
           <img
-            className="w-full h-full"
             src={pic}
             loading="lazy"
             alt="Sanatana Dharma Pooja"
-          />  </div> 
+          />  
           <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
             The Inception of the Sanatana Dharma Foundation revolves around the
             idea of social reincarnation of the Sanatana Dharma. Sanatana
