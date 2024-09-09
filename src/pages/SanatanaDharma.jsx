@@ -25,7 +25,7 @@ const SanatanaDharma = () => {
           Sanatana Dharma 
         </h1>
         </header>
-        <main className="max-w-screen-lg px-4 py-10 mx-auto sm:px-6 lg:px-8">
+        <main className="max-w-screen-lg flex flex-col items-center px-4 py-10 mx-auto sm:px-6 lg:px-8">
         
         <section className="flex flex-col items-center">
           <article>
