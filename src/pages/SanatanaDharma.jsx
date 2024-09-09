@@ -4,11 +4,22 @@ import pic from "./SanatanaPic.webp";
 import Yog from "../assets/yog.png";
 import scrip from "./6628329.webp";
 import Divider from "../components/Divider";
+import { Helmet } from "react-helmet-async";
 
 const SanatanaDharma = () => {
   return (
     <>
-     
+     <Helmet>
+  <title>Sanatana Dharma: Core Concepts & Scriptures</title>
+  <meta name="description" content="Discover Sanatana Dharma (Hinduism) principles like Dharma, Karma, Samsara, Moksha, Atman, Brahman, and key scriptures like Vedas, Upanishads, and Bhagavad Gita." />
+  <meta name="keywords" content="Sanatana Dharma, Hinduism, Dharma, Karma, Moksha, Atman, Brahman, Vedas, Upanishads, Bhagavad Gita" />
+  <meta name="author" content="Sanatana Dharma Foundation" />
+  <meta property="og:title" content="Sanatana Dharma: Core Concepts & Scriptures" />
+  <meta property="og:description" content="Explore the core principles and scriptures of Sanatana Dharma, including Dharma, Karma, Moksha, and key texts like Vedas and Bhagavad Gita." />
+  <meta property="og:image" content={pic} />
+  <meta property="og:url" content="https://yourwebsite.com/sanatana-dharma" />
+  <meta property="og:type" content="website" />
+</Helmet>
         <header>
         <h1 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">
           Sanatana Dharma 
@@ -18,13 +29,13 @@ const SanatanaDharma = () => {
         
         <section className="flex flex-col items-center">
           <article>
-          
+          <div className="w-full justify-center">
           <img
             className=" w-30 h-30"
             src={pic}
             loading="lazy"
             alt="Sanatana Dharma Pooja"
-          />
+          />  </div> 
           <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
             The Inception of the Sanatana Dharma Foundation revolves around the
             idea of social reincarnation of the Sanatana Dharma. Sanatana
@@ -39,8 +50,8 @@ const SanatanaDharma = () => {
           <article>
           <h2 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">
             Sanatana Dharma Core
-          </h2>
-          <img src={Yog} atl="yog" />
+          </h2><div className="w-full justify-center">
+          <img src={Yog} atl="Sanatana Dharma Yoga" /></div>
           <h3 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
             Dharma
           </h3>
@@ -150,7 +161,8 @@ const SanatanaDharma = () => {
           {" "}
           Scriptures{" "}
         </h2>
-        <img loading="lazy" className=" w-45 h-45" src={scrip} alt="script" />
+        <div className="w-full justify-center">
+        <img loading="lazy" className=" w-45 h-45" src={scrip} alt="script" /></div>
         <h3 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Vedas
         </h3>
