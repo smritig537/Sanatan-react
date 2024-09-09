@@ -7,6 +7,7 @@ function PresenceIndia() {
   return (
     <main className="flex-grow w-4/5 m-auto">
       <Helmet>
+      <meta name="google-site-verification" content="LmxaOfetOYIjhRO7az9CISTQ4O-A3pnYUg9mz6xMUhU" />
         <title>Sanatana Dharma Foundation - Locations and Heritage in India</title>
         <meta name="description" content="Explore the presence of Sanatana Dharma Foundation across major Indian cities, its commitment to reviving ancient culture, and the rich heritage of Hinduism." />
         <meta name="keywords" content="Sanatana Dharma, Hinduism, Indian Culture, Indian Cities, Hindu Pilgrimage, Indian Traditions" />

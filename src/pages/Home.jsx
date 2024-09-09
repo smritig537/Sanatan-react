@@ -16,6 +16,7 @@ const Home = () => {
     <main>
       <Helmet>
         <title>Sanatana Dharma Foundation - Reviving Ancient culture</title>
+        <meta name="google-site-verification" content="LmxaOfetOYIjhRO7az9CISTQ4O-A3pnYUg9mz6xMUhU" />
         <meta
           name="description"
           content="The Sanatana Dharma Foundation offers spiritual workshops, cultural festivals, and meditation retreats. Explore Sanatana Dharma (Hinduism) and join a vibrant community dedicated to preserving Vedic traditions."

@@ -21,6 +21,7 @@ const About = () => {
   <title>Sanatana Dharma Foundation: Preserving Tradition, Promoting Spiritual Growth & Community Service</title>
   <meta name="description" content="Explore the Sanatana Dharma Foundation's mission to preserve and promote Sanatana Dharma (Hinduism). Learn about our charitable efforts, spiritual education, community service, and initiatives to revive ancient traditions and foster unity." />
   <meta name="keywords" content="Sanatana Dharma Foundation, Hinduism, Sanatana Dharma, spiritual education, charitable activities, cultural preservation, Indian traditions, community service, religious revival, Hindu philosophy, spiritual growth" />
+  <meta name="google-site-verification" content="LmxaOfetOYIjhRO7az9CISTQ4O-A3pnYUg9mz6xMUhU" />
 </Helmet>
 
         <main>
