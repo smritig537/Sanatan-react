@@ -8,7 +8,19 @@ import Divider from "../components/Divider";
 const SanatanaDharma = () => {
   return (
     <>
-      <div className="max-w-screen-lg px-4 py-10 mx-auto sm:px-6 lg:px-8">
+    <Helmet>
+  <title>Sanatana Dharma: Core Concepts & Scriptures</title>
+  <meta name="description" content="Discover Sanatana Dharma (Hinduism) principles like Dharma, Karma, Samsara, Moksha, Atman, Brahman, and key scriptures like Vedas, Upanishads, and Bhagavad Gita." />
+  <meta name="keywords" content="Sanatana Dharma, Hinduism, Dharma, Karma, Moksha, Atman, Brahman, Vedas, Upanishads, Bhagavad Gita" />
+  <meta name="author" content="Sanatana Dharma Foundation" />
+  <meta property="og:title" content="Sanatana Dharma: Core Concepts & Scriptures" />
+  <meta property="og:description" content="Explore the core principles and scriptures of Sanatana Dharma, including Dharma, Karma, Moksha, and key texts like Vedas and Bhagavad Gita." />
+  <meta property="og:image" content={pic} />
+  <meta property="og:url" content="https://sanatanadharmafoundation.co/sanatanadharma" />
+  <meta property="og:type" content="website" />
+</Helmet>
+
+      <main className="max-w-screen-lg px-4 py-10 mx-auto sm:px-6 lg:px-8">
         <h1 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">
           Sanatana Dharma
         </h1>
@@ -279,7 +291,7 @@ const SanatanaDharma = () => {
           and inspiration for individuals seeking inner peace,
           self-transformation, and a deeper understanding of life's mysteries.
         </p>
-      </div>
+      </main>
     </>
   );
 };
