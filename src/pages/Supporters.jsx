@@ -1,61 +1,79 @@
 import React from "react";
 import Divider from "../components/Divider";
+import { Helmet } from "react-helmet-async";
 
 const Supporters = () => {
   return (
     <>
-      <h5 className="font-oswald text-[#313131] font-bold text-3xl text-center my-10">
-        SANATANA DHARMA FOUNDATION (Founder Chairman)
-      </h5>
-      <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
-        The Sanatana Dharma Foundation is dedicated to the revival and
-        resurrection of the ancient Sanatana Dharma and Ideologies.
-      </p>
-      <Divider />
+      <Helmet>
+        <title>Key Supporters of Sanatana Dharma Foundation</title>
+        <meta name="description" content="Discover the key supporters of the Sanatana Dharma Foundation, including our esteemed patrons and directors. Learn about their roles and contributions." />
+        <meta name="keywords" content="Sanatana Dharma Foundation, Supporters, Patrons, Directors, Cultural Organizations, Charitable Trusts, Educational Societies" />
+      </Helmet>
 
-      <h5 className="font-oswald text-[#313131] font-bold text-3xl text-center my-10">
-        SRI RAGHAVAPURAM SABHAYOGAM (Chief Patron)
-      </h5>
-      <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
-        Sri Raghavapuram Sabhayogam, a cultural body of the Perinchellur Gramam
-        Brahmin community in North Kerala, is known as Bhargava Kshetram.
-      </p>
-      <Divider />
-      <h5 className="font-oswald text-[#313131] font-bold text-3xl text-center my-10">
-        RAMESWARAM SETUPATHY MANNAR MEMORIAL TRUST (Chief Patron)
-      </h5>
-      <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
-        The main aim of the trust is the betterment of people and welfare of
-        children and elderly men and women by building a favourable atmosphere
-        for them with a specific emphasis on rural communities.
-      </p>
-      <Divider />
+      <main>
+        <section>
+          <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-10">
+            Founder Chairman: Sanatana Dharma Foundation
+          </h2>
+          <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
+            The Sanatana Dharma Foundation is dedicated to the revival and
+            resurrection of the ancient Sanatana Dharma and Ideologies.
+          </p>
+          <Divider />
+        </section>
 
-      <h5 className="font-oswald text-[#313131] font-bold text-3xl text-center my-10">
-        ARSHA VIDYA SAMAJAM (Chief Patron)
-      </h5>
-      <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
-        Arsha Vidya Samajam is an organization in its inherent scientific nature
-        for the research and propagation of Sanatana Dharma. It is intended to
-        educate the world about real Hinduism by Anushthan (Practice).
-      </p>
-      <Divider />
-      <h5 className="font-oswald text-[#313131] font-bold text-3xl text-center my-10">
-        VIJNANA BHARATI EDUCATIONAL CHARITABLE SOCIETY (Director)
-      </h5>
-      <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
-        Vijnana Bharti Educational Charitable Society is making exemplary
-        contributions to the world of education.
-      </p>
-      <Divider />
-      <h5 className="font-oswald text-[#313131] font-bold text-3xl text-center my-10">
-        GOUDAPADA MATH (Director)
-      </h5>
-      <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
-        Brahmashri Shri Shri Shri Narayanand Giriji Swami ji is the director of
-        Goudapada math at Rishikesh.
-      </p>
-      <Divider />
+        <section>
+          <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-10">
+            Chief Patron: Sri Raghavapuram Sabhayogam
+          </h2>
+          <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
+            Sri Raghavapuram Sabhayogam, a cultural body of the Perinchellur Gramam
+            Brahmin community in North Kerala, is known as Bhargava Kshetram.
+          </p>
+          <Divider />
+        </section>
+
+        <section>
+          <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-10">
+            Chief Patron: Rameswaram Setupathy Mannar Trust
+          </h2>
+          <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
+            The trust focuses on the betterment and welfare of children, elderly, and rural communities.
+          </p>
+          <Divider />
+        </section>
+
+        <section>
+          <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-10">
+            Chief Patron: Arsha Vidya Samajam
+          </h2>
+          <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
+            Arsha Vidya Samajam works on the research and propagation of Sanatana Dharma, aiming to educate about true Hinduism through practice.
+          </p>
+          <Divider />
+        </section>
+
+        <section>
+          <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-10">
+            Director: Vijnana Bharati Society
+          </h2>
+          <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
+            Vijnana Bharati Educational Charitable Society makes exemplary contributions to education.
+          </p>
+          <Divider />
+        </section>
+
+        <section>
+          <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-10">
+            Director: Goudapada Math
+          </h2>
+          <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
+            Brahmashri Shri Narayanand Giriji Swami ji leads Goudapada Math at Rishikesh.
+          </p>
+          <Divider />
+        </section>
+      </main>
     </>
   );
 };

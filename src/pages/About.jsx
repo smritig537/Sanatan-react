@@ -17,11 +17,12 @@ const About = () => {
   return (
     <>
       <>
-     <Helmet>
-      <title>About Us | Sanatana Dharma Foundation: Preserving Ancient Wisdom</title>
-      <meta name="description" content="Explore the Sanatana Dharma Foundation's mission to preserve and promote Sanatana Dharma (Hinduism). Learn about our charitable efforts, spiritual education, community service, and initiatives to revive ancient traditions and foster unity." />
-      <meta name="keywords" content="Sanatana Dharma Foundation, Hinduism, Sanatana Dharma, spiritual education, charitable activities, cultural preservation, Indian traditions, community service, religious revival, Hindu philosophy, spiritual growth" />
-      </Helmet>
+      <Helmet>
+  <title>Sanatana Dharma Foundation: Preserving Tradition, Promoting Spiritual Growth & Community Service</title>
+  <meta name="description" content="Explore the Sanatana Dharma Foundation's mission to preserve and promote Sanatana Dharma (Hinduism). Learn about our charitable efforts, spiritual education, community service, and initiatives to revive ancient traditions and foster unity." />
+  <meta name="keywords" content="Sanatana Dharma Foundation, Hinduism, Sanatana Dharma, spiritual education, charitable activities, cultural preservation, Indian traditions, community service, religious revival, Hindu philosophy, spiritual growth" />
+</Helmet>
+
         <main>
           <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
             About Sanatan Dharma Foundation

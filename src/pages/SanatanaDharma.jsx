@@ -27,7 +27,7 @@ const SanatanaDharma = () => {
           Sanatana Dharma
         </h1>
         <div className="flex flex-col items-center">
-          <img
+          <img loading="lazy"
             className="p-5 w-30 h-30"
             src={pic}
             alt="Sanatana Dharma Pooja"
@@ -45,7 +45,7 @@ const SanatanaDharma = () => {
           <h2 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">
             Sanatana Dharma Core
           </h2>
-          <img src={Yog} atl="yog" />
+          <img loading="lazy" src={Yog} atl="Sanatana Dharma core image" />
           <article>
           <h3 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
             Dharma
