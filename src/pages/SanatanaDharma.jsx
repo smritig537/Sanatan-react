@@ -29,9 +29,9 @@ const SanatanaDharma = () => {
         
         <section className="flex flex-col items-center">
           <article className="w-full items-center justify-center align-middle">
-          <div>
+          <div className="w-64 h-96 object-cover">
           <img
-            className="align-middle"
+            className="w-full h-full"
             src={pic}
             loading="lazy"
             alt="Sanatana Dharma Pooja"
