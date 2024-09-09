@@ -4,37 +4,20 @@ import pic from "./SanatanaPic.webp";
 import Yog from "../assets/yog.png";
 import scrip from "./6628329.webp";
 import Divider from "../components/Divider";
-import { Helmet } from "react-helmet-async";
 
 const SanatanaDharma = () => {
   return (
     <>
-     <Helmet>
-  <title>Sanatana Dharma: Core Concepts & Scriptures</title>
-  <meta name="description" content="Discover Sanatana Dharma (Hinduism) principles like Dharma, Karma, Samsara, Moksha, Atman, Brahman, and key scriptures like Vedas, Upanishads, and Bhagavad Gita." />
-  <meta name="keywords" content="Sanatana Dharma, Hinduism, Dharma, Karma, Moksha, Atman, Brahman, Vedas, Upanishads, Bhagavad Gita" />
-  <meta name="author" content="Sanatana Dharma Foundation" />
-  <meta property="og:title" content="Sanatana Dharma: Core Concepts & Scriptures" />
-  <meta property="og:description" content="Explore the core principles and scriptures of Sanatana Dharma, including Dharma, Karma, Moksha, and key texts like Vedas and Bhagavad Gita." />
-  <meta property="og:image" content={pic} />
-  <meta property="og:url" content="https://yourwebsite.com/sanatana-dharma" />
-  <meta property="og:type" content="website" />
-</Helmet>
-        <header>
+      <div className="max-w-screen-lg px-4 py-10 mx-auto sm:px-6 lg:px-8">
         <h1 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">
-          Sanatana Dharma 
+          Sanatana Dharma
         </h1>
-        </header>
-        <main className="max-w-screen-lg flex flex-col items-center py-10 mx-auto ">
-        
-        <section className="flex flex-col items-center">
-          <article className="flex items-center justify-center align-middle">
-          
+        <div className="flex flex-col items-center">
           <img
+            className="p-5 w-30 h-30"
             src={pic}
-            loading="lazy"
             alt="Sanatana Dharma Pooja"
-          />  
+          />
           <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
             The Inception of the Sanatana Dharma Foundation revolves around the
             idea of social reincarnation of the Sanatana Dharma. Sanatana
@@ -44,16 +27,13 @@ const SanatanaDharma = () => {
             emphasizing timeless, universal principles that guide adherents in
             living a balanced and righteous life.
           </p>
-          </article>
-
-          <article>
-          <h2 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">
+          <h1 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">
             Sanatana Dharma Core
-          </h2><div className="w-full justify-center items-center align-middle">
-          <img src={Yog} className="align-middle" atl="Sanatana Dharma Yoga" /></div>
-          <h3 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
+          </h1>
+          <img src={Yog} atl="yog" />
+          <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
             Dharma
-          </h3>
+          </h2>
           <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
             Dharma, central to Sanatana Dharma (Hinduism), represents the moral
             law and spiritual discipline guiding one's life. It encompasses
@@ -67,9 +47,9 @@ const SanatanaDharma = () => {
             embodying the right way of living that fosters inner peace and
             universal balance.
           </p>
-          <h4 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
+          <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
             Karma
-          </h4>
+          </h2>
           <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
             Karma, a fundamental principle in Sanatana Dharma (Hinduism), refers
             to the law of cause and effect governing all actions. It posits that
@@ -83,11 +63,7 @@ const SanatanaDharma = () => {
             destiny through their actions, promoting justice, moral balance, and
             spiritual evolution.
           </p>
-          </article>
-        </section>
-
-        <section>
-          <article>
+        </div>
         <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Samsara
         </h2>
@@ -101,8 +77,7 @@ const SanatanaDharma = () => {
           Liberation is achieved through self-realization, ethical living, and
           spiritual practices, culminating in union with the divine and freedom
           from the cycle of rebirth, leading to eternal peace and enlightenment.
-        </p></article>
-        <article>
+        </p>
         <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Moksha
         </h2>
@@ -117,8 +92,7 @@ const SanatanaDharma = () => {
           freed from the perpetual cycle of reincarnation, experiencing eternal
           bliss and unity with the divine consciousness, thus achieving the
           highest state of spiritual existence.
-        </p> </article>
-        <article>
+        </p>
         <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Atman
         </h2>
@@ -134,8 +108,7 @@ const SanatanaDharma = () => {
           nature of Atman through spiritual practices leads to self-awareness,
           liberation from ignorance, and union with Brahman, ultimately
           attaining spiritual enlightenment and eternal bliss.
-        </p></article>
-        <article>
+        </p>
         <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Brahman
         </h2>
@@ -152,19 +125,16 @@ const SanatanaDharma = () => {
           rooted in Brahman. Realizing the nature of Brahman through spiritual
           practice leads to profound insight, spiritual liberation, and the
           experience of divine consciousness.
-        </p></article></section>
+        </p>
         <Divider />
-        <section>
-          <article>
-        <h2 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">
+        <h1 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">
           {" "}
           Scriptures{" "}
-        </h2>
-        <div className="w-full justify-center">
-        <img loading="lazy" className=" w-45 h-45" src={scrip} alt="script" /></div>
-        <h3 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
+        </h1>
+        <img className="p-5 w-45 h-45" src={scrip} alt="script" />
+        <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Vedas
-        </h3>
+        </h2>
         <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
           The Vedas, the foundational scriptures of Sanatana Dharma (Hinduism),
           are revered as the oldest and most authoritative texts in the
@@ -174,9 +144,9 @@ const SanatanaDharma = () => {
           profound spiritual wisdom, cosmic insights, and timeless teachings.
           The Vedas are divided into four main collections:
           <br></br>
-          <h4 className="my-10 text-2xl font-bold text-center text-gray-800 font-oswald">
+          <h3 className="my-10 text-2xl font-bold text-center text-gray-800 font-oswald">
             Rigveda:
-          </h4>
+          </h3>
           The Rigveda, the oldest of the Vedas, is a collection of hymns and
           prayers composed in ancient Sanskrit. It consists of 1,028 hymns
           divided into ten books, known as Mandalas. Each hymn is dedicated to
@@ -189,9 +159,9 @@ const SanatanaDharma = () => {
           ultimate truth, making it a cornerstone of Hindu philosophy and
           spirituality.
           <br></br>
-          <h4 className="my-10 text-2xl font-bold text-center text-gray-800 font-oswald">
+          <h3 className="my-10 text-2xl font-bold text-center text-gray-800 font-oswald">
             Samaveda:
-          </h4>
+          </h3>
           The Samaveda, derived from the Rigveda, is primarily a collection of
           melodies or chants (saman) used in Vedic rituals and ceremonies. It is
           considered the "Veda of melodies" and is closely associated with the
@@ -201,9 +171,9 @@ const SanatanaDharma = () => {
           melodies and poetic expressions, the Samaveda enhances the spiritual
           experience of Vedic rituals, invoking divine blessings and fostering a
           deeper connection with the cosmic forces.
-          <h4 className="my-10 text-2xl font-bold text-center text-gray-800 font-oswald">
+          <h3 className="my-10 text-2xl font-bold text-center text-gray-800 font-oswald">
             Yajurveda:
-          </h4>
+          </h3>
           The Yajurveda, known as the "Veda of sacrifices," is a collection of
           prose and verse formulas used by priests (brahmins) during Vedic
           rituals and sacrificial ceremonies (yajnas). It provides detailed
@@ -214,9 +184,9 @@ const SanatanaDharma = () => {
           sacrifices. Through its practical teachings and ceremonial practices,
           the Yajurveda facilitates communication with the divine, fostering
           spiritual growth and divine blessings.
-          <h4 className="my-10 text-2xl font-bold text-center text-gray-800 font-oswald">
+          <h3 className="my-10 text-2xl font-bold text-center text-gray-800 font-oswald">
             Atharvaveda:
-          </h4>
+          </h3>
           The Atharvaveda, characterized by its diverse subject matter, is a
           unique collection of hymns, spells, charms, incantations, and healing
           remedies. Unlike the other Vedas, which focus primarily on religious
@@ -230,10 +200,6 @@ const SanatanaDharma = () => {
           promoting well-being, harmony, and spiritual fulfillment.
         </p>
 
-        </article> </section>
-
-        <section>
-    <article>
         <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Upanishads
         </h2>
@@ -280,11 +246,6 @@ const SanatanaDharma = () => {
           into the nature of reality and the journey of the soul towards
           self-realization and ultimate freedom.
         </p>
-        </article>
-        </section>
-
-<section>
-  <article>
         <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Bhagavad Gita
         </h2>
@@ -318,9 +279,7 @@ const SanatanaDharma = () => {
           and inspiration for individuals seeking inner peace,
           self-transformation, and a deeper understanding of life's mysteries.
         </p>
-        </article>
-        </section>
-      </main>
+      </div>
     </>
   );
 };
