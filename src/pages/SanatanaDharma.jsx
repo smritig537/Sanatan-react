@@ -62,10 +62,10 @@ const SanatanaDharma = () => {
             spiritual fulfillment and contribute positively to society,
             embodying the right way of living that fosters inner peace and
             universal balance.
-          </p></article>
-          <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
+          </p>
+          <h3 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
             Karma
-          </h2>
+          </h3>
           <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
             Karma, a fundamental principle in Sanatana Dharma (Hinduism), refers
             to the law of cause and effect governing all actions. It posits that
@@ -78,11 +78,12 @@ const SanatanaDharma = () => {
             personal responsibility, emphasizing that individuals shape their
             destiny through their actions, promoting justice, moral balance, and
             spiritual evolution.
-          </p>
+          </p></article>
         </div>
-        <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
+        <article>
+        <h3 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Samsara
-        </h2>
+        </h3>
         <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
           Samsara, in Sanatana Dharma (Hinduism), refers to the continuous cycle
           of birth, death, and rebirth, known as reincarnation. Souls are bound
@@ -94,9 +95,9 @@ const SanatanaDharma = () => {
           spiritual practices, culminating in union with the divine and freedom
           from the cycle of rebirth, leading to eternal peace and enlightenment.
         </p>
-        <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
+        <h3 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Moksha
-        </h2>
+        </h3>
         <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
           Moksha, in Sanatana Dharma (Hinduism), signifies liberation from the
           cycle of samsara, which is the cycle of birth, death, and rebirth. It
@@ -109,9 +110,9 @@ const SanatanaDharma = () => {
           bliss and unity with the divine consciousness, thus achieving the
           highest state of spiritual existence.
         </p>
-        <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
+        <h3 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Atman
-        </h2>
+        </h3>
         <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
           Atman, in Sanatana Dharma (Hinduism), refers to the innermost essence
           of an individual, often translated as the "soul" or "self." It is
@@ -125,9 +126,9 @@ const SanatanaDharma = () => {
           liberation from ignorance, and union with Brahman, ultimately
           attaining spiritual enlightenment and eternal bliss.
         </p>
-        <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
+        <h3 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Brahman
-        </h2>
+        </h3>
         <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
           Brahman, in Sanatana Dharma (Hinduism), represents the ultimate
           reality or cosmic spirit, encompassing all existence and beyond. It is
@@ -141,12 +142,12 @@ const SanatanaDharma = () => {
           rooted in Brahman. Realizing the nature of Brahman through spiritual
           practice leads to profound insight, spiritual liberation, and the
           experience of divine consciousness.
-        </p>
+        </p></article>
         <Divider />
         <h2 className="my-10 text-5xl font-bold text-center text-gray-800 font-oswald">
           {" "}
           Scriptures{" "}
-        </h2>
+        </h2><article>
         <img className="p-5 w-45 h-45" src={scrip} alt="script" />
         <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Vedas
@@ -214,11 +215,11 @@ const SanatanaDharma = () => {
           pragmatic approach and folk traditions, the Atharvaveda serves as a
           practical guide for navigating the complexities of human existence,
           promoting well-being, harmony, and spiritual fulfillment.
-        </p>
+        </p></article>
 
         <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Upanishads
-        </h2>
+        </h2><article>
         <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
           The Upanishads, philosophical texts that form the culmination of the
           Vedas, delve into the deepest mysteries of existence, consciousness,
@@ -261,10 +262,10 @@ const SanatanaDharma = () => {
           universal quest for meaning and liberation, offering profound insights
           into the nature of reality and the journey of the soul towards
           self-realization and ultimate freedom.
-        </p>
+        </p></article>
         <h2 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Bhagavad Gita
-        </h2>
+        </h2><article>
         <p className="p-4 mt-5 mb-5 text-justify bg-gray-100 rounded-lg shadow-lg">
           The Bhagavad Gita, often referred to as the Gita, is one of the most
           revered and influential texts in Sanatana Dharma (Hinduism). Composed
@@ -294,7 +295,7 @@ const SanatanaDharma = () => {
           spirituality, the Bhagavad Gita continues to be a source of guidance
           and inspiration for individuals seeking inner peace,
           self-transformation, and a deeper understanding of life's mysteries.
-        </p>
+        </p></article>
       </main>
     </>
   );
