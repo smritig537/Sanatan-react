@@ -4,6 +4,7 @@ import pic from "./SanatanaPic.webp";
 import Yog from "../assets/yog.png";
 import scrip from "./6628329.webp";
 import Divider from "../components/Divider";
+import { Helmet } from "react-helmet-async";
 
 const SanatanaDharma = () => {
   return (
