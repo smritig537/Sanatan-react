@@ -18,8 +18,9 @@ const SanatanaDharma = () => {
         
         <section className="flex flex-col items-center">
           <article>
+          
           <img
-            className="p-5 w-30 h-30"
+            className=" w-30 h-30"
             src={pic}
             loading="lazy"
             alt="Sanatana Dharma Pooja"
@@ -149,7 +150,7 @@ const SanatanaDharma = () => {
           {" "}
           Scriptures{" "}
         </h2>
-        <img className="p-5 w-45 h-45" src={scrip} alt="script" />
+        <img loading="lazy" className=" w-45 h-45" src={scrip} alt="script" />
         <h3 className="my-10 text-4xl font-bold text-center text-gray-800 font-oswald">
           Vedas
         </h3>
