@@ -34,7 +34,7 @@ const appRouter = createBrowserRouter(
       <Route path="media" element={<Media />} />
       <Route path="gallery" element={<Gallery />} />
       <Route path="blogs" element={<Blogs />} />
-      <Route path="blogs/blog1" element={<Blog1 />} />
+      <Route path="blogs/reviving-ancient-wisdom" element={<Blog1 />} />
       <Route path="achievements" element={<Achievements />} />
       <Route path="contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />

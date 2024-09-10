@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import reviving from "./reviving.webp";
 
 function Blogs() {
   const blogPosts = [
@@ -8,8 +9,8 @@ function Blogs() {
         "Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern Values",
       description:
         "The Sanatana Dharma Foundation blends ancient wisdom with modern values, fostering unity and integrity through education and cultural initiatives.",
-      imageUrl: "https://images.pexels.com/photos/672630/pexels-photo-672630.jpeg",
-      link: "/blogs/blog1",
+      imageUrl: reviving,
+      link: "/blogs/reviving-ancient-wisdom",
     },
  
   ];

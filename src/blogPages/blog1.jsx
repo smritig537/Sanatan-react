@@ -1,7 +1,7 @@
 import React from "react";
 import Bloglist from "./bloglist";
 import { Link } from "react-router-dom";
-
+import mainImage from "./reviving.webp";
 function Blog1() {
   return (
     <article className="flex flex-col overflow-hidden">
@@ -19,8 +19,8 @@ function Blog1() {
           <section className="w-full md:w-3/4 px-4">
             <figure className="mb-8">
               <img
-                src="https://images.pexels.com/photos/672630/pexels-photo-672630.jpeg"
-                alt="A representative image of Sanatana Dharma Foundation"
+                src={mainImage}
+                alt="Sanatana Dharma Foundation Reviving Ancient Wisdom and Modern image"
                 className="w-full h-auto object-cover"
                 loading="lazy"
               />
@@ -93,7 +93,8 @@ function Blog1() {
                 harmonious, and spiritually fulfilling.
               </p>
               <div className="h-[50%] w-[60%] object-cover p-3">
-              <img src={`${process.env.PUBLIC_URL}/gallery/SocialWelfare/2.webp`}
+              <img loading="lazy"
+               src={`${process.env.PUBLIC_URL}/gallery/SocialWelfare/2.webp`}
               className="h-full w-full"
                alt="Sanatana dharma soxi" />
              </div>

@@ -5,7 +5,7 @@ function Bloglist() {
     {
       id: 1,
       name: "Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern Values",
-      link: "/blogs/blog1",
+      link: "/blogs/reviving-ancient-wisdom",
     },
   ];
 
