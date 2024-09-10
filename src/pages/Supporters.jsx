@@ -7,7 +7,7 @@ const Supporters = () => {
     <>
       <Helmet>
         <title>Key Supporters of Sanatana Dharma Foundation</title>
-        <meta name="robots" content="noindex"></meta>
+        <meta name="robots" content="index, follow" />
         <meta name="google-site-verification" content="LmxaOfetOYIjhRO7az9CISTQ4O-A3pnYUg9mz6xMUhU" />
         <meta name="description" content="Discover the key supporters of the Sanatana Dharma Foundation, including our esteemed patrons and directors. Learn about their roles and contributions." />
         <meta name="keywords" content="Sanatana Dharma Foundation, Supporters, Patrons, Directors, Cultural Organizations, Charitable Trusts, Educational Societies" />

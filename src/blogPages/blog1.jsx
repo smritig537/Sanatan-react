@@ -7,7 +7,7 @@ function Blog1() {
   return (
     <>
       <Helmet>
-      <meta name="robots" content="noindex"></meta>
+      <meta name="robots" content="index, follow" />
         <title>Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern Values</title>
         <meta name="description" content="Explore how the Sanatana Dharma Foundation is reviving ancient wisdom and modern values through its various initiatives and educational programs." />
         <meta name="keywords" content="Sanatana Dharma, Sanatana Dharma Foundation, Indian traditions, cultural heritage, ethical training, educational initiatives, social welfare, cultural events" />
