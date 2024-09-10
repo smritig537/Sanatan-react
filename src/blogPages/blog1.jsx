@@ -95,8 +95,7 @@ function Blog1() {
               <div className="h-[50%] w-[60%] object-cover p-3">
               <img src={`${process.env.PUBLIC_URL}/gallery/SocialWelfare/2.webp`}
               className="h-full w-full"
-               alt="Sanatana dharma social welfare image" />
-             </div>
+               alt="Sanatana dharma soxi" />
              </div>
               <h2 className="text-3xl text-left font-bold py-4">
                 Social and Charitable Activities
