@@ -79,11 +79,7 @@ function Blog1() {
                 timeless wisdom found in our scriptures is accessible to all.
               </p>
 
-             <div className="h-1/3 w-[40%] object-cover p-3">
-              <img src={`${process.env.PUBLIC_URL}/gallery/SocialWelfare/3.webp`}
-              className="h-full w-full"
-               alt="" />
-             </div>
+             
               <h2 className="text-3xl text-left font-bold py-4">
                 Promoting Ethical and Religious Training
               </h2>
@@ -96,10 +92,11 @@ function Blog1() {
                 to support people in living lives that are meaningful,
                 harmonious, and spiritually fulfilling.
               </p>
-              <div className="h-[50%] w-[50%] object-cover p-3">
-              <img src="https://images.pexels.com/photos/672630/pexels-photo-672630.jpeg"
+              <div className="h-[50%] w-[60%] object-cover p-3">
+              <img src={`${process.env.PUBLIC_URL}/gallery/SocialWelfare/2.webp`}
               className="h-full w-full"
-               alt="" />
+               alt="Sanatana dharma social welfare image" />
+             </div>
              </div>
               <h2 className="text-3xl text-left font-bold py-4">
                 Social and Charitable Activities
