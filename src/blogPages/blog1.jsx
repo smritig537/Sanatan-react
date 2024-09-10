@@ -51,7 +51,7 @@ function Blog1() {
                 the principles of righteousness and integrity to foster mutual
                 trust among individuals. We aspire to bring various aspects of
                 <b>Sanatana Dharma</b> with a shared belief system that goes beyond
-                religious and <a className="text-blue-600 underline" href="https://ncf.nic.in/blog/cultural_heritage">cultural</a>  prejudices.
+                religious and <a target="_blank" rel="noopener noreferrer" className="text-blue-600 underline" href="https://ncf.nic.in/blog/cultural_heritage">cultural</a>  prejudices.
               </p>
 
               <h2 className="text-3xl text-left font-bold py-4">
@@ -60,7 +60,7 @@ function Blog1() {
               <p>
                 In every center, the organization actively collaborates with
                 neighborhood groups and individuals who share a similar mindset
-                and cherish their <a className="text-blue-600 underline" href="https://www.indiaculture.gov.in/world-heritage#:~:text=The%20plurality%20and%20multiplicity%20of,the%20'Intangible%20Cultural%20Heritage'%20(">cultural heritage</a> as adherents of <b>Sanatana
+                and cherish their <a target="_blank" rel="noopener noreferrer" className="text-blue-600 underline" href="https://www.indiaculture.gov.in/world-heritage#:~:text=The%20plurality%20and%20multiplicity%20of,the%20'Intangible%20Cultural%20Heritage'%20(">cultural heritage</a> as adherents of <b>Sanatana
                 Dharma</b>. Our goal is to revitalize the richness and solidarity of
                 our country through a range of projects. We focus on removing
                 elements that create divisions and promoting a shared belief
@@ -80,7 +80,7 @@ function Blog1() {
               </p>
 
              <div className="h-1/3 w-[40%] object-cover p-3">
-              <img src="https://images.pexels.com/photos/672630/pexels-photo-672630.jpeg"
+              <img src="./public/gallery/SocialWelfare/2"
               className="h-full w-full"
                alt="" />
              </div>
@@ -96,7 +96,11 @@ function Blog1() {
                 to support people in living lives that are meaningful,
                 harmonious, and spiritually fulfilling.
               </p>
-
+              <div className="h-[50%] w-[50%] object-cover p-3">
+              <img src="https://images.pexels.com/photos/672630/pexels-photo-672630.jpeg"
+              className="h-full w-full"
+               alt="" />
+             </div>
               <h2 className="text-3xl text-left font-bold py-4">
                 Social and Charitable Activities
               </h2>
