@@ -21,6 +21,7 @@ const Home = () => {
           name="description"
           content="The Sanatana Dharma Foundation offers spiritual workshops, cultural festivals, and meditation retreats. Explore Sanatana Dharma (Hinduism) and join a vibrant community dedicated to preserving Vedic traditions."
         />
+              <meta name="robots" content="noindex"></meta>
         <meta
           name="keywords"
           content="Sanatana Dharma Foundation, Hinduism, spiritual workshops, meditation retreats, cultural festivals, Vedic traditions, Sanatana Dharma"
