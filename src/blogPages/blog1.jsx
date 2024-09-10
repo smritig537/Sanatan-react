@@ -80,7 +80,7 @@ function Blog1() {
               </p>
 
              <div className="h-1/3 w-[40%] object-cover p-3">
-              <img src="./public/gallery/SocialWelfare/2"
+              <img src={`${process.env.PUBLIC_URL}/gallery/SocialWelfare/3.webp`}
               className="h-full w-full"
                alt="" />
              </div>
