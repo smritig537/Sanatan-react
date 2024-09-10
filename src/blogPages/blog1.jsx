@@ -1,5 +1,6 @@
 import React from "react";
 import Bloglist from "./bloglist";
+import { Link } from "react-router-dom";
 
 function Blog1() {
   return (
