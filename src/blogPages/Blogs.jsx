@@ -20,7 +20,7 @@ function Blogs() {
       description:
         "Discover Hinduism’s Sacred Wisdom: Dive into the Vedas, Upanishads, Bhagavad Gita, and Ramayana. Explore their timeless teachings and their impact on spiritual and ethical living today.",
       imageUrl: scriptures,
-      link: "/blogs/reviving-ancient-wisdom",
+      link: "/blogs/Hindu-Religious-Texts-and-Scriptures",
     },
  
   ];
