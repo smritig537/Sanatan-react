@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import reviving from "./reviving.webp";
+import scriptures from "./scriptures.webp"
 import { Helmet } from "react-helmet-async";
 
 function Blogs() {
@@ -18,7 +19,7 @@ function Blogs() {
         "Hindu Religious Texts and Scripturess",
       description:
         "Discover Hinduism’s Sacred Wisdom: Dive into the Vedas, Upanishads, Bhagavad Gita, and Ramayana. Explore their timeless teachings and their impact on spiritual and ethical living today.",
-      imageUrl: reviving,
+      imageUrl: scriptures,
       link: "/blogs/reviving-ancient-wisdom",
     },
  

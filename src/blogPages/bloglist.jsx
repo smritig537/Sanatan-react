@@ -10,7 +10,7 @@ function Bloglist() {
     {
       id: 2,
       name: "Hindu Religious Texts and Scriptures",
-      link: "blogs/Hindu-Religious-Texts-and-Scriptures",
+      link: "/blogs/Hindu-Religious-Texts-and-Scriptures",
     },
   ];
 
