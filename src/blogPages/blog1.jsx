@@ -29,11 +29,11 @@ function Blog1() {
             </figure>
             <div className="prose max-w-none text-justify">
               <p>
-                The Sanatana Dharma Foundation stands as a guiding light for
+                The <b>Sanatana Dharma Foundation</b> stands as a guiding light for
                 ancient knowledge and contemporary principles with a focus on
-                reviving and advocating for Sanatana Dharma beliefs and
-                practices. It has established a footing in key Indian urban
-                centers like Delhi, where its headquarters is located along with
+                reviving and advocating for <b>Sanatana Dharma</b> beliefs and
+                practices. It has established a footing in key <b>Indian urban
+                centers</b> like Delhi, where its headquarters is located along with
                 branches in Chennai, Mumbai, Hyderabad, and Indore. The
                 foundation is dedicated to nurturing an open-minded and
                 non-sectarian perspective towards Sanatana philosophy.
@@ -43,14 +43,14 @@ function Blog1() {
                 Our Mission and Vision
               </h2>
               <p>
-                The Sanatana Dharma Foundation aims to offer moral education
+                The <b>Sanatana Dharma Foundation</b> aims to offer moral education
                 that meets the current requirements of society while combating
-                the impact of Western influences that have marginalized Indian
-                traditions. The foundation's goal is to rejuvenate and uphold
+                the impact of Western influences that have marginalized <b>Indian
+                traditions</b>. The foundation's goal is to rejuvenate and uphold
                 the principles of righteousness and integrity to foster mutual
                 trust among individuals. We aspire to bring various aspects of
-                Sanatana Dharma with a shared belief system that goes beyond
-                religious and cultural prejudices.
+                <b>Sanatana Dharma</b> with a shared belief system that goes beyond
+                religious and <a className="text-blue-600 underline" href="https://ncf.nic.in/blog/cultural_heritage">cultural</a>  prejudices.
               </p>
 
               <h2 className="text-3xl text-left font-bold py-4">
@@ -59,8 +59,8 @@ function Blog1() {
               <p>
                 In every center, the organization actively collaborates with
                 neighborhood groups and individuals who share a similar mindset
-                and cherish their cultural heritage as adherents of Sanatana
-                Dharma. Our goal is to revitalize the richness and solidarity of
+                and cherish their <a className="text-blue-600 underline" href="https://www.indiaculture.gov.in/world-heritage#:~:text=The%20plurality%20and%20multiplicity%20of,the%20'Intangible%20Cultural%20Heritage'%20(">cultural heritage</a> as adherents of <b>Sanatana
+                Dharma</b>. Our goal is to revitalize the richness and solidarity of
                 our country through a range of projects. We focus on removing
                 elements that create divisions and promoting a shared belief
                 that transcends cultural differences.
@@ -70,15 +70,15 @@ function Blog1() {
                 Educational and Cultural Initiatives
               </h2>
               <p>
-                The Sanatana Dharma Foundation prioritizes education and
+                The <b>Sanatana Dharma Foundation</b> prioritizes education and
                 upholding heritage by organizing workshops, seminars, and
                 training programs that delve into the deep-rooted traditions and
-                principles of Sanatana Dharma. Our educational endeavors are
+                principles of <b>Sanatana Dharma</b>. Our educational endeavors are
                 tailored to suit individuals of all ages to ensure that the
                 timeless wisdom found in our scriptures is accessible to all.
               </p>
 
-             <div className="h-1/3 w-[40%] object-cover">
+             <div className="h-1/3 w-[40%] object-cover p-3">
               <img src="https://images.pexels.com/photos/672630/pexels-photo-672630.jpeg"
               className="h-full w-full"
                alt="" />
@@ -91,7 +91,7 @@ function Blog1() {
                 and religiously sound and meets the needs of the modern world.
                 In addition to Vedic ceremonies, yoga, meditation, and
                 philosophy, we also provide training sessions and seminars
-                covering other facets of Sanatana Dharma. These initiatives aim
+                covering other facets of <b>Sanatana Dharma</b>. These initiatives aim
                 to support people in living lives that are meaningful,
                 harmonious, and spiritually fulfilling.
               </p>
@@ -100,7 +100,7 @@ function Blog1() {
                 Social and Charitable Activities
               </h2>
               <p>
-                The Sanatana Dharma Foundation is actively involved in
+                The <b>Sanatana Dharma Foundation</b> is actively involved in
                 philanthropic and humanitarian endeavors. We host camps for
                 blood donation, medical care, and student scholarships for
                 impoverished backgrounds. Additionally, our foundation plans
@@ -112,7 +112,7 @@ function Blog1() {
                 Reviving Sanatana Culture
               </h2>
               <p>
-                Reviving and advancing Sanatana culture is one of the
+                Reviving and advancing <b>Sanatana culture</b> is one of the
                 foundation's primary goals. To showcase the rich traditions and
                 customs of Sanatana Dharma, we host festivals, celebrations, and
                 other cultural events. People can connect with their cultural
@@ -125,7 +125,7 @@ function Blog1() {
               </h2>
               <p>
                 A robust network of volunteers and supporters who are committed
-                to spreading Sanatana Dharma has been established by the
+                to spreading <b>Sanatana Dharma</b> has been established by the
                 foundation. Our volunteers are essential to the foundation's
                 operations because they plan events, lead training sessions, and
                 raise awareness of its initiatives. We are able to reach a
@@ -137,25 +137,25 @@ function Blog1() {
                 Future Goals and Aspirations
               </h2>
               <p>
-                The Sanatana Dharma Foundation wants to increase its influence
-                and scope in the future. throughout order to make Sanatana
-                Dharma's teachings available to a wider audience, we intend to
+                The <b>Sanatana Dharma Foundation</b> wants to increase its influence
+                and scope in the future. throughout order to make <b>Sanatana
+                Dharma's</b> teachings available to a wider audience, we intend to
                 open more branches throughout India and around the world. Future
                 plans include the introduction of digital platforms and online
-                courses that offer in-depth information on Sanatana Dharma.
+                courses that offer in-depth information on <b>Sanatana Dharma</b>.
               </p>
               <h2 className="text-3xl text-left font-bold py-4">Conclusion</h2>
               <p>
-                Sanatana Dharma Foundation is not an organization-it is a
+                <b>Sanatana Dharma Foundation</b> is not an organization-it is a
                 movement by itself to revive and propagate the ancient wisdom of
-                Sanatana Dharma. It is our endeavour to bring up a society that
+                <b>Sanatana Dharma</b>. It is our endeavour to bring up a society that
                 respects righteousness, integrity, and mutual trust through our
                 educational, cultural, and social activities. By taking all
                 together in one ethos, we strive to restore our cultural
                 richness and unity as one nation. For more information about our
-                activities and how you can get involved, visit our website. Join
+                activities and how you can get involved, visit our <Link to="/" className="text-blue-600 underline">website</Link>. Join
                 us in our mission to revive and uphold the timeless principles
-                of Sanatana Dharma.
+                of <b>Sanatana Dharma,</b>.
               </p>
             </div>
           </section>
