@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import reviving from "./reviving.webp";
+import { Helmet } from "react-helmet-async";
 
 function Blogs() {
   const blogPosts = [
@@ -17,9 +18,35 @@ function Blogs() {
 
   return (
     <>
+     <Helmet>
+        <title>Blogs - Sanatana Dharma Foundation</title>
+        <meta
+          name="description"
+          content="Browse through the latest blogs from the Sanatana Dharma Foundation, exploring topics related to ancient wisdom, modern values, and cultural initiatives."
+        />
+        <meta
+          name="keywords"
+          content="Sanatana Dharma, blogs, ancient wisdom, modern values, cultural initiatives, education, unity, integrity"
+        />
+        <meta property="og:title" content="Blogs - Sanatana Dharma Foundation" />
+        <meta
+          property="og:description"
+          content="Explore the latest blogs from the Sanatana Dharma Foundation, featuring insights on ancient wisdom and contemporary values."
+        />
+        <meta property="og:image" content={reviving} />
+        <meta property="og:url" content="https://yourwebsite.com/blogs" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Blogs - Sanatana Dharma Foundation" />
+        <meta
+          name="twitter:description"
+          content="Discover insightful blogs from the Sanatana Dharma Foundation, covering topics on ancient wisdom and modern values."
+        />
+        <meta name="twitter:image" content={reviving} />
+      </Helmet>
       <section className="px-8 mb-4">
         <div className="flex justify-center">
-          <h1 className="text-4xl md:text-3xl pl-2 my-8 border-l-4 font-sans font-bold border-orange-500 dark:text-gray-200">
+          <h1 className="text-4xl md:text-3xl pl-2 my-8 font-sans font-bold dark:text-gray-200">
             Blogs
           </h1>
         </div>

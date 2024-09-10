@@ -1,9 +1,26 @@
 import React from "react";
 import Bloglist from "./bloglist";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import mainImage from "./reviving.webp";
 function Blog1() {
   return (
+    <>
+      <Helmet>
+        <title>Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern Values</title>
+        <meta name="description" content="Explore how the Sanatana Dharma Foundation is reviving ancient wisdom and modern values through its various initiatives and educational programs." />
+        <meta name="keywords" content="Sanatana Dharma, Sanatana Dharma Foundation, Indian traditions, cultural heritage, ethical training, educational initiatives, social welfare, cultural events" />
+        <meta property="og:title" content="Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern Values" />
+        <meta property="og:description" content="Discover the mission and vision of the Sanatana Dharma Foundation in promoting ancient wisdom and contemporary values." />
+        <meta property="og:image" content={mainImage} />
+        <meta property="og:url" content="https://yourwebsite.com/blog1" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern Values" />
+        <meta name="twitter:description" content="Learn about the Sanatana Dharma Foundation’s efforts in integrating ancient wisdom with modern values through diverse programs." />
+        <meta name="twitter:image" content={mainImage} />
+      </Helmet>
+    
     <article className="flex flex-col overflow-hidden">
       <header className="bg-gray-100 py-8">
         <div className="container mx-auto px-4">
@@ -165,7 +182,7 @@ function Blog1() {
           <Bloglist />
         </div>
       </main>
-    </article>
+    </article></>
   );
 }
 
