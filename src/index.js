@@ -19,6 +19,7 @@ import SanatanaDharma from "./pages/SanatanaDharma";
 import Supporters from "./pages/Supporters";
 import Blogs from "./blogPages/Blogs";
 import Blog1 from "./blogPages/blog1";
+import Blog2 from "./blogPages/blog2";
 import { ThemeProvider } from "@material-tailwind/react";
 import NotFound from "./components/NotFound";
 import { HelmetProvider } from "react-helmet-async"; // Import HelmetProvider
@@ -35,6 +36,7 @@ const appRouter = createBrowserRouter(
       <Route path="gallery" element={<Gallery />} />
       <Route path="blogs" element={<Blogs />} />
       <Route path="blogs/reviving-ancient-wisdom" element={<Blog1 />} />
+      <Route path="blogs/Hindu-Religious-Texts-and-Scriptures" element={<Blog2 />} />
       <Route path="achievements" element={<Achievements />} />
       <Route path="contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />

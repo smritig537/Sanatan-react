@@ -13,6 +13,14 @@ function Blogs() {
       imageUrl: reviving,
       link: "/blogs/reviving-ancient-wisdom",
     },
+    {
+      title:
+        "Hindu Religious Texts and Scripturess",
+      description:
+        "Discover Hinduism’s Sacred Wisdom: Dive into the Vedas, Upanishads, Bhagavad Gita, and Ramayana. Explore their timeless teachings and their impact on spiritual and ethical living today.",
+      imageUrl: reviving,
+      link: "/blogs/reviving-ancient-wisdom",
+    },
  
   ];
 

@@ -7,6 +7,11 @@ function Bloglist() {
       name: "Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern Values",
       link: "/blogs/reviving-ancient-wisdom",
     },
+    {
+      id: 2,
+      name: "Hindu Religious Texts and Scriptures",
+      link: "blogs/Hindu-Religious-Texts-and-Scriptures",
+    },
   ];
 
   return (
