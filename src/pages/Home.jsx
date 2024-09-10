@@ -9,24 +9,10 @@ import swamiji1 from "../assets/roll1.webp";
 import swamiji2 from "../assets/roll2.webp";
 import swamiji3 from "../assets/roll3.webp";
 import guru from "../assets/guru.jpg";
-import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
     <main>
-      <Helmet>
-        <title>Sanatana Dharma Foundation - Reviving Ancient culture</title>
-        <meta name="google-site-verification" content="LmxaOfetOYIjhRO7az9CISTQ4O-A3pnYUg9mz6xMUhU" />
-        <meta
-          name="description"
-          content="The Sanatana Dharma Foundation offers spiritual workshops, cultural festivals, and meditation retreats. Explore Sanatana Dharma (Hinduism) and join a vibrant community dedicated to preserving Vedic traditions."
-        />
-              <meta name="robots" content="noindex"></meta>
-        <meta
-          name="keywords"
-          content="Sanatana Dharma Foundation, Hinduism, spiritual workshops, meditation retreats, cultural festivals, Vedic traditions, Sanatana Dharma"
-        />
-      </Helmet>
 
       <div className="flex-grow">
         <ImageSlider />
