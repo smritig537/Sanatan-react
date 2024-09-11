@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import banner from "../assets/web-banner1.webp";
 import Swamiji from "./Swami ji1.jpg";
 import Form from "../components/Form";
@@ -27,9 +26,9 @@ Sanatana Dharma Foundation
 <p className="items-center mb-3 text-justify rounded-sm">
 The Sanatana Dharma Foundation is dedicated to helping individuals
 reconnect with the{" "}
-<Link to="sanatanadharma" className="text-blue-600 underline">
+<a href="https://sanatanadharmafoundation.co/sanatanadharma" className="text-blue-600 underline">
 teachings of Sanatana Dharma
-</Link>{" "}
+</a>{" "}
 (Hinduism). It offers a range of programs, including spiritual
 workshops, cultural festivals, and meditation retreats, designed to
 provide guidance and support on one's spiritual journey. By
@@ -45,20 +44,20 @@ and values.
         <p className="text-gray-700">
           In the bustling world we live in today, it can be easy to get swept
           away in the chaos and noise of everyday life. It's important to take a
-          step back and reconnect with our spiritual roots, our cultural
-          heritage, and the ancient wisdom that has guided generations before
+          step back and reconnect with our spiritual roots, our <strong>cultural
+          heritage</strong>, and the ancient wisdom that has guided generations before
           us. This is where organizations like the Sanatana Dharma Foundation
           come in, providing a space for individuals to delve into the teachings
-          of Sanatana Dharma, also known as Hinduism.
+          of <strong>Sanatana Dharma</strong>, also known as <strong>Hinduism</strong>.
         </p>
 
         <h2 className="text-4xl mb-3 mt-5 font-semibold text-center text-orange-900">
           Core of Sanatana Dharma
         </h2>
         <p className="text-gray-700">
-          At the core of Sanatana Dharma are the timeless Sanskrit teachings
+          At the core of <strong>Sanatana Dharma</strong> are the timeless <strong>Sanskrit teachings</strong>
           that have been passed down through the ages. These teachings encompass
-          a wide range of concepts, from the concept of karma – the law of cause
+          a wide range of concepts, from the <strong>concept of karma</strong> – the law of cause
           and effect – to the importance of upholding moral values and ethical
           principles in our daily lives. Through spiritual enlightenment, yoga
           workshops, and interfaith initiatives, the foundation aims to provide
@@ -70,7 +69,7 @@ and values.
           individuals to come together and learn from one another. By preserving
           Vedic traditions and promoting Hindu philosophy, the foundation seeks
           to uphold traditional values and ensure that the spiritual heritage of
-          Sanatana Dharma continues to thrive.
+          <strong>Sanatana Dharma</strong> continues to thrive.
         </p>
         <h2 className="text-4xl mb-3 mt-5 font-semibold text-center text-orange-900">
           Mission of Sanatana Dharma Foundation
@@ -81,12 +80,12 @@ and values.
           teachings, or simply a community of like-minded individuals, the
           Sanatana Dharma Foundation offers a space for individuals to explore
           their spirituality and deepen their connection to the sacred texts and
-          teachings of Hinduism. Through outreach programs and cultural events,
+          <strong>teachings of Hinduism</strong>. Through outreach programs and cultural events,
           the foundation is dedicated to spreading the message of peace, love,
           and unity to all who seek it. So, if you are looking to reconnect with
           your spiritual roots, deepen your understanding of ancient wisdom, and
           engage with a vibrant community of spiritual seekers, consider getting
-          involved with the Sanatana Dharma Foundation. Your spiritual journey
+          involved with the <strong>Sanatana Dharma Foundation</strong>. Your spiritual journey
           awaits!
         </p>
 
@@ -109,7 +108,7 @@ and values.
         </h2>
 
         <p className="text-gray-700">
-          Mahamadaleshwar Giriji Maharaj pursued multiple careers before
+          <strong>Mahamadaleshwar Giriji Maharaj</strong> pursued multiple careers before
           dedicating himself to spiritual leadership. He began as a successful
           businessman, contributing to the economic landscape. However, driven
           by his spiritual calling, he transitioned to become a renowned
@@ -123,25 +122,25 @@ and values.
         </h2>
 
         <p className="text-gray-700">
-          Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand
-          Giriji Maharaj is the founder and chairman of the Sanatana Dharma
-          Foundation. This foundation serves as a platform to preserve, promote,
-          and propagate the principles, values, and teachings of Sanatan Dharma.
+          <strong>Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand
+          Giriji Maharaj</strong> is the founder and chairman of the <strong>Sanatana Dharma
+          Foundation</strong>. This foundation serves as a platform to preserve, promote,
+          and propagate the principles, values, and <strong>teachings of Sanatan Dharma</strong>.
           Through various initiatives, the foundation aims to create awareness
           about the rich cultural heritage of Bharat and facilitate the practice
-          of Sanatan Dharma among individuals from all walks of life.
+          of <strong>Sanatan Dharma</strong> among individuals from all walks of life.
         </p>
 
         <h2 className="text-4xl mb-3 mt-5 font-semibold text-center text-orange-900">
           Avhan Akhada
         </h2>
         <p className="text-gray-700">
-          Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand
-          Giriji Maharaj is an esteemed member of the revered Avhan Akhada,
+          <strong>Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand
+          Giriji Maharaj</strong> is an esteemed member of the revered <strong>Avhan Akhada</strong>,
           which holds the distinction of being the oldest Akhada in Hindustan
           (India), founded in 547 CE. Within the Akhada system, a traditional
           organization of Hindu spiritual warriors and saints, he holds the
-          prestigious title of Mahabaleshwar. His affiliation with Avhan Akhada
+          prestigious title of Mahabaleshwar. His affiliation with <strong>Avhan Akhada</strong>
           underscores his profound connection to the ancient lineage,
           traditions, and practices upheld by this esteemed institution.
         </p>
@@ -150,25 +149,25 @@ and values.
           Building Sanatan Culture
         </h2>
         <p className="text-gray-700">
-          Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand
-          Giriji Maharaj is a devoted spiritual leader working towards improving
-          the Sanatan culture of India. He is spreading awareness about Sanatan
-          Dharma and its significance, particularly among the youth. Through
+          <strong>Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand
+          Giriji Maharaj</strong> is a devoted spiritual leader working towards improving
+          the <strong>Sanatan culture of India</strong>. He is spreading awareness about <strong>Sanatan
+          Dharma</strong> and its significance, particularly among the youth. Through
           sending books to temples across India, he aims to promote the values
-          and teachings of Sanatan Dharma. By instilling cultural pride and
+          and <strong>teachings of Sanatan Dharma</strong>. By instilling cultural pride and
           understanding in the younger generation, he envisions a society where
-          Sanatan culture thrives and contributes to the nation's progress.
+          <strong>Sanatan culture</strong> thrives and contributes to the nation's progress.
           Mahamadaleshwar Narayan Giriji Maharaj's dedication inspires others to
-          embrace and preserve India's rich cultural heritage and Sanatan
-          Dharma.
+          embrace and preserve India's rich cultural heritage and <strong>Sanatan
+          Dharma</strong>.
         </p>
 
         <Divider />
       </section>
 
-      <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center mt-10 mb-10">
+      <h2 className="font-oswald text-[#313131] font-bold text-5xl text-center mt-10 mb-10">
               Mission
-            </h1>
+            </h2>
 
 <section className="m-auto sm:w-[986px] text-xl mb-10 p-5 sm:p-0">
             <div className="flex flex-col gap-y-5 sm:flex-row justify-center">

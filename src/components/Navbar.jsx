@@ -15,7 +15,7 @@ function Navbar() {
       }`}
     >
       <div className="flex flex-row items-center justify-between mx-5 my-5 toggleButton sm:hidden">
-        <h1 className="text-xl font-semibold text-white">Menu</h1>
+        <h3 className="text-xl font-semibold text-white">Menu</h3>
         <button
           className="text-white bg-transparent border-none toggleButton sm:hidden"
           onClick={() => setIsClicked((prev) => !prev)}

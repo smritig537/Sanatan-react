@@ -10,9 +10,9 @@ function LogoComponent() {
     <div className="w-full bg-white h-[100px] flex items-center justify-around p-3">
       <div className="flex items-center">
         <img src={LOGO} alt="Sanatana Dharma Foundation Logo" loading="lazy" className="w-[80px] h-[80px]" />
-        <h1 className="hidden sm:block text-3xl font-bold text-[#000000c1] ml-2">
+        <h3 className="hidden sm:block text-3xl font-bold text-[#000000c1] ml-2">
           Sanatana Dharma Foundation
-        </h1>
+        </h3>
       </div>
       <div className="flex gap-1 ">
         <a
