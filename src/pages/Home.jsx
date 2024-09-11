@@ -6,25 +6,10 @@ import Divider from "../components/Divider";
 import swamiji1 from "../assets/roll1.webp";
 import swamiji2 from "../assets/roll2.webp";
 import guru from "../assets/guru.jpg";
-import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
    <>
-   <Helmet>
-    <Title>Sanatana Dharma Foundation</Title>
-   <meta name="description" content="Sanatana Dharma Foundation: Enrich your spirit with Vedic workshops, festivals, and retreats. Non-profit" />
-    <meta name="keywords" content="Sanatana Dharma Foundation, What is sanatana dharma, History of sanatana dharma, Importance of sanatana dharma, Sanatan Dharma"></meta>
-    <meta name="robots" content="index, follow" />
-<meta property="og:title" content="Sanatana Dharma Foundation: Reconnect with Hindu Teachings & Vedic Traditions" />
-<meta property="og:description" content="Discover the Sanatana Dharma Foundation, a non-profit dedicated to reconnecting individuals with Hindu teachings through workshops, festivals, and meditation retreats. Explore Vedic traditions and deepen your spiritual journey with us." />
-<meta property="og:image" content="https://sanatanadharmafoundation.co/static/media/Swami%20ji1.cb543580c52d5c57ce69.jpg" />
-<meta property="og:url" content="https://sanatanadharmafoundation.co/" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Sanatana Dharma Foundation: Reconnect with Hindu Teachings & Vedic Traditions" />
-<meta name="twitter:description" content="Discover the Sanatana Dharma Foundation, a non-profit dedicated to reconnecting individuals with Hindu teachings through workshops, festivals, and meditation retreats. Explore Vedic traditions and deepen your spiritual journey with us." />
-<meta name="twitter:image" content="https://sanatanadharmafoundation.co/static/media/om-bg-remove.999d758e15021726580b.png" />
-   </Helmet>
      <section className="relative w-full object-cover h-full bg-gray-800">
         <img
           src={banner}
