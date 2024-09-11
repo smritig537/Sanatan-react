@@ -6,29 +6,11 @@ import upnishad from "./upnishad.webp";
 import bhagwadh from "./bhagwadh gita.webp";
 import ramayana from "./ramayana.webp";
 import mainImage from "./scriptures.webp";
-import { Helmet } from "react-helmet-async";
+
 function Blog2() {
   return (
     <>
-    <Helmet>
-    <title>Exploring Hindu Religious Texts: Vedas, Upanishads, Bhagavad Gita, and Ramayana</title>
-    <meta name="robots" content="index, follow" />
-    <meta name="description" content="Discover the depth of Hindu religious texts including the Vedas, Upanishads, Bhagavad Gita, and Ramayana. Explore their origins, teachings, and relevance today." />
-    <meta name="keywords" content="Hinduism, Vedas, Upanishads, Bhagavad Gita, Ramayana, Hindu religious texts, Indian scriptures, spiritual teachings" />
-    <meta property="og:title" content="Exploring Hindu Religious Texts: Vedas, Upanishads, Bhagavad Gita, and Ramayana" />
-<meta property="og:description" content="Discover the depth of Hindu religious texts including the Vedas, Upanishads, Bhagavad Gita, and Ramayana. Explore their origins, teachings, and relevance today." />
-<meta property="og:image" content="https://sanatanadharmafoundation.co/static/media/scriptures.56408216f1c0a10aab98.webp" />
-<meta property="og:url" content="https://sanatanadharmafoundation.co/blogs/Hindu-Religious-Texts-and-Scriptures" />
-<meta property="og:type" content="article" />
-
-<meta name="twitter:card" content="https://sanatanadharmafoundation.co/static/media/upnishad.417d2df8ea8c3a9b30c1.webp" />
-<meta name="twitter:title" content="Exploring Hindu Religious Texts: Vedas, Upanishads, Bhagavad Gita, and Ramayana" />
-<meta name="twitter:description" content="Discover the depth of Hindu religious texts including the Vedas, Upanishads, Bhagavad Gita, and Ramayana. Explore their origins, teachings, and relevance today." />
-<meta name="twitter:image" content="https://sanatanadharmafoundation.co/static/media/scriptures.56408216f1c0a10aab98.webp" />
-<meta name="twitter:url" content="https://sanatanadharmafoundation.co/blogs/Hindu-Religious-Texts-and-Scriptures" />
-
-
-    </Helmet>
+    
       <article className="flex flex-col overflow-hidden">
         <header className="bg-gray-100 py-8">
           <div className="container mx-auto px-4">

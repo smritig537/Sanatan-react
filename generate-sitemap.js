@@ -11,9 +11,6 @@ const urls = [
   { url: '/supporters', changefreq: 'monthly', priority: 0.8 },
   { url: '/Locations-in-india', changefreq: 'monthly', priority: 0.8 },
   { url: '/gallery', changefreq: 'monthly', priority: 0.8 },
-  { url: '/blogs', changefreq: 'monthly', priority: 0.8 },
-  { url: '/blogs/reviving-ancient-wisdom', changefreq: 'monthly', priority: 0.8 },
-  { url: '/blogs/Hindu-Religious-Texts-and-Scriptures', changefreq: 'monthly', priority: 0.8 },
  
 ];
 
