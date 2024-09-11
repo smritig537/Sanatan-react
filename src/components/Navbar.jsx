@@ -78,6 +78,16 @@ function Navbar() {
         >
           Gallery
         </NavLink>
+
+        <NavLink id ="nav"
+          to="/blogs"
+          className={`no-underline text-white ${
+            isClicked ? "h-[70px]" : ""
+          } mx-4 text-xl`}
+        >
+          Blogs
+        </NavLink>
+
         <NavLink id ="nav"
           to="media"
           className={`no-underline text-white ${
@@ -86,6 +96,8 @@ function Navbar() {
         >
           Media
         </NavLink>
+
+      
     
         <NavLink id ="nav"
           to="/contact"
