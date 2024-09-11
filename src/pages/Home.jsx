@@ -176,13 +176,13 @@ and values.
                 className="object-cover object-center m-auto rounded-full h-72 w-72 "
                 src={swamiji1}
                 loading="lazy"
-                alt="Sanatana Dharma Foundation Swamii jii Khasi First image"
+                alt="Sanatana Dharma Foundation Swamii jii Kasi First image"
               />
               <img
                 className="object-cover object-center m-auto rounded-full h-72 w-72 "
                 src={swamiji2}
                 loading="lazy"
-                alt="Sanatana Dharma Foundation Swamii jii Khasi Second image"
+                alt="Sanatana Dharma Foundation Swamii jii Kasi Second image"
               />
               <img
                 className="object-cover object-center m-auto rounded-full h-72 w-72 "
