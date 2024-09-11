@@ -30,6 +30,7 @@ function Blogs() {
      <Helmet>
         <title>Blogs - Sanatana Dharma Foundation</title>
         <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://sanatanadharmafoundation.co/" />
         <meta
           name="description"
           content="Browse through the latest blogs from the Sanatana Dharma Foundation, exploring topics related to ancient wisdom, modern values, and cultural initiatives."

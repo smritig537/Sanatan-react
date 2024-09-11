@@ -23,6 +23,7 @@ const About = () => {
   <meta name="keywords" content="Sanatana Dharma Foundation, Hinduism, Sanatana Dharma, spiritual education, charitable activities, cultural preservation, Indian traditions, community service, religious revival, Hindu philosophy, spiritual growth" />
   <meta name="google-site-verification" content="LmxaOfetOYIjhRO7az9CISTQ4O-A3pnYUg9mz6xMUhU" />
   <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sanatanadharmafoundation.co/" />
 
 </Helmet>
 
