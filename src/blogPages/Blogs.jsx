@@ -56,11 +56,10 @@ function Blogs() {
         <meta name="twitter:image" content={reviving} />
       </Helmet>
       <section className="px-8 mb-4">
-        <div className="flex justify-center">
           <h1 className="text-4xl md:text-3xl pl-2 my-8 font-sans font-bold dark:text-gray-200">
             Blogs
           </h1>
-        </div>
+        
 
         {/* Grid layout for tablet and larger screens */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
