@@ -30,7 +30,7 @@ function Blog1() {
             Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern
             Values
           </h1>
-          <p className="text-gray-600">Published on April 4, 2023</p>
+          <p className="text-gray-600">Published on Sep 8, 2023</p>
         </div>
       </header>
       <main className="bg-white py-8">
