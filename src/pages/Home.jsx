@@ -23,7 +23,7 @@ const Home = () => {
       <h1 className="font-oswald text-[#313131] font-bold text-3xl sm:text-5xl text-center my-10">
 Sanatana Dharma Foundation
 </h1>
-<p className="items-center mb-3 text-justify rounded-sm">
+<p className="items-center mb-3 sm:text-justify text-left rounded-sm">
 The Sanatana Dharma Foundation is dedicated to helping individuals
 reconnect with the{" "}
 <a href="https://sanatanadharmafoundation.co/sanatanadharma" className="text-blue-600 underline">
@@ -38,10 +38,10 @@ and connection, fostering a deeper understanding of ancient wisdom
 and values.
 </p>
 
-        <h2 className="sm:text-4xl  text-2xl mb-3 mt-5 font-semibold text-center text-orange-900">
+        <h2 className="sm:text-4xl  text-2xl mb-3 mt-5 font-medium text-left sm:text-center text-orange-900">
           About Sanatana Dharma Foundation
         </h2>
-        <p className="text-gray-700 sm:text-justify text-center">
+        <p className="text-gray-700 text-left sm:text-justify">
           In the bustling world we live in today, it can be easy to get swept
           away in the chaos and noise of everyday life. It's important to take a
           step back and reconnect with our spiritual roots, our <strong>cultural
@@ -51,10 +51,10 @@ and values.
           of <strong>Sanatana Dharma</strong>, also known as <strong>Hinduism</strong>.
         </p>
 
-        <h2 className="sm:text-4xl  text-2xl mb-3 mt-5 font-semibold text-center text-orange-900">
+        <h2 className="sm:text-4xl  text-2xl mb-3 mt-5 font-medium text-left sm:text-center text-orange-900">
           Core of Sanatana Dharma
         </h2>
-        <p className="text-gray-700 sm:text-justify text-center">
+        <p className="text-gray-700 sm:text-justify text-left">
           At the core of <strong>Sanatana Dharma</strong> are the timeless <strong>Sanskrit teachings</strong>
           that have been passed down through the ages. These teachings encompass
           a wide range of concepts, from the <strong>concept of karma</strong> – the law of cause
@@ -71,11 +71,11 @@ and values.
           to uphold traditional values and ensure that the spiritual heritage of
           <strong>Sanatana Dharma</strong> continues to thrive.
         </p>
-        <h2 className="sm:text-4xl  text-2xl mb-3 mt-5 font-semibold text-center text-orange-900">
+        <h2 className="sm:text-4xl  text-2xl mb-3 mt-5 font-medium text-left sm:text-center text-orange-900">
           Mission of Sanatana Dharma Foundation
         </h2>
 
-        <p className="text-gray-700 sm:text-justify text-center">
+        <p className="text-gray-700 sm:text-justify text-left">
           Whether you are looking for spiritual guidance, philosophical
           teachings, or simply a community of like-minded individuals, the
           Sanatana Dharma Foundation offers a space for individuals to explore
@@ -103,11 +103,11 @@ and values.
           teachings of Sanatan Dharma.
         </p>
 
-        <h2 className="sm:text-4xl  text-2xl mb-3 mt-5 font-semibold text-center text-orange-900">
+        <h2 className="sm:text-4xl  text-2xl mb-3 mt-5 font-medium text-left sm:text-center text-orange-900">
           Earlier Life
         </h2>
 
-        <p className="text-gray-700 sm:text-justify text-center">
+        <p className="text-gray-700 sm:text-justify text-left">
           <strong>Mahamadaleshwar Giriji Maharaj</strong> pursued multiple careers before
           dedicating himself to spiritual leadership. He began as a successful
           businessman, contributing to the economic landscape. However, driven
@@ -117,11 +117,11 @@ and values.
           society.
         </p>
 
-        <h2 className="sm:text-4xl  text-2xl mt-5 font-semibold text-center text-orange-900">
+        <h2 className="sm:text-4xl  text-2xl mt-5 font-medium text-left sm:text-center text-orange-900">
           Compassion
         </h2>
 
-        <p className="text-gray-700 sm:text-justify text-center">
+        <p className="text-gray-700 sm:text-justify text-left">
           <strong>Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand
           Giriji Maharaj</strong> is the founder and chairman of the <strong>Sanatana Dharma
           Foundation</strong>. This foundation serves as a platform to preserve, promote,
@@ -131,10 +131,10 @@ and values.
           of <strong>Sanatan Dharma</strong> among individuals from all walks of life.
         </p>
 
-        <h2 className="sm:text-4xl  text-2xl mb-3 mt-5 font-semibold text-center text-orange-900">
+        <h2 className="sm:text-4xl  text-2xl mb-3 mt-5 font-medium text-left sm:text-center text-orange-900">
           Avhan Akhada
         </h2>
-        <p className="text-gray-700 sm:text-justify text-center">
+        <p className="text-gray-700 sm:text-justify text-left">
           <strong>Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand
           Giriji Maharaj</strong> is an esteemed member of the revered <strong>Avhan Akhada</strong>,
           which holds the distinction of being the oldest Akhada in Hindustan
@@ -145,10 +145,10 @@ and values.
           traditions, and practices upheld by this esteemed institution.
         </p>
 
-        <h2 className="sm:text-4xl  text-2xl mb-3 mt-5 font-semibold text-center text-orange-900">
+        <h2 className="sm:text-4xl  text-2xl mb-3 mt-5 font-medium text-left sm:text-center text-orange-900">
           Building Sanatan Culture
         </h2>
-        <p className="text-gray-700 sm:text-justify text-center">
+        <p className="text-gray-700 sm:text-justify text-left">
           <strong>Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand
           Giriji Maharaj</strong> is a devoted spiritual leader working towards improving
           the <strong>Sanatan culture of India</strong>. He is spreading awareness about <strong>Sanatan
@@ -165,7 +165,7 @@ and values.
         <Divider />
       </section>
 
-      <h2 className="font-oswald text-[#313131] font-bold text-5xl text-center mt-10 mb-10">
+      <h2 className="font-oswald text-[#313131] font-semibold text-5xl text-center mt-10 mb-10">
               Mission
             </h2>
 
