@@ -4,7 +4,7 @@ import Divider from "../components/Divider";
 // Ensure that the image paths are correct
 const imageUrl = {
   "Social Welfare": [1, 2, 3, 4, 5, 6, 7],
-  "Medical support": [1, 2, 3, 4],
+  Medical: [1, 2, 3, 4],
   Awards: [1, 2, 3, 4],
   Political: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
   "Women's Welfare": [1, 3, 4, 5, 6, 2],
