@@ -19,8 +19,8 @@ const SanatanaDharma = () => {
   <meta name="author" content="Sanatana Dharma Foundation" />
   <meta property="og:title" content="Sanatana Dharma: Core Concepts & Scriptures" />
   <meta property="og:description" content="Explore the core principles and scriptures of Sanatana Dharma, including Dharma, Karma, Moksha, and key texts like Vedas and Bhagavad Gita." />
-  <meta property="og:image" content={pic} />
-  <meta property="og:url" content="https://sanatanadharmafoundation.co/sanatanadharma" />
+  <meta property="og:image" content="%PUBLIC_URL%/favicon.icoc:\Users\MR SADRE\Downloads\logo.png" /> 
+   <meta property="og:url" content="https://sanatanadharmafoundation.co/sanatanadharma" />
   <meta property="og:type" content="website" />
 </Helmet>
 
