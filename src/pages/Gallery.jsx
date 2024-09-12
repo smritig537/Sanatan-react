@@ -24,7 +24,7 @@ const GallerySection = ({ title, category }) => {
           >
             <img
               src={`${process.env.PUBLIC_URL}/gallery/${category}/${e}.webp`}
-              alt={`Gallery ${title} ${e}`}
+              alt={`Sanatana Dharma Foundation ${title} ${e}`}
               loading="lazy"
               className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
             />
