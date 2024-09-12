@@ -20,7 +20,7 @@ const GallerySection = ({ title, category }) => {
         {imageUrl[category].map((e) => (
           <div
             key={e}
-            className="group relative rounded-lg overflow-hidden bg-gray-100 shadow-lg transition-transform transform hover:scale-105"
+            className="relative rounded-lg overflow-hidden bg-gray-100 shadow-lg"
           >
             <img
               src={`${process.env.PUBLIC_URL}/gallery/${category}/${e}.webp`}
