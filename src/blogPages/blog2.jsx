@@ -36,7 +36,7 @@ function Blog2() {
       <article className="flex flex-col overflow-hidden">
         <header className="bg-gray-100 py-8">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl font-bold text-gray-800 mb-2">
+            <h1 className="sm:text-4xl text-2xl font-bold text-gray-800 mb-2">
               Hindu Religious Texts and Scriptures
             </h1>
             <p className="text-gray-600">Published on Sep 10, 2023</p>
@@ -75,10 +75,10 @@ function Blog2() {
                   exploring their teachings and their ongoing relevance today.
                 </p>
 
-                <h2 className="text-3xl text-left font-bold py-4">
+                <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
                   1. The Vedas: The Bedrock of Hindu Knowledge
                 </h2>
-                <h3 className="text-2xl text-left font-bold py-4">
+                <h3 className="sm:text-xl text-lg text-left font-medium py-4">
                   Origins and Structure
                 </h3>
                 <p>
@@ -100,7 +100,7 @@ function Blog2() {
                   <strong>Atharva Veda</strong>.
                 </p>
 
-                <h3 className="text-2xl text-left font-bold py-4">Teachings</h3>
+                <h3 className="sm:text-xl text-lg text-left font-medium py-4">Teachings</h3>
                 <p>
                   The <strong>Vedas</strong> cover a vast array of knowledge,
                   encompassing hymns, rituals, and philosophical discussions.
@@ -112,7 +112,7 @@ function Blog2() {
                   Veda contains spells and incantations meant for daily life.
                 </p>
 
-                <h3 className="text-2xl text-left font-bold py-4">
+                <h3 className="sm:text-xl text-lg text-left font-medium py-4">
                   Relevance Today
                 </h3>
                 <p>
@@ -123,10 +123,10 @@ function Blog2() {
                   to hold relevance in our modern world.
                 </p>
 
-                <h2 className="text-3xl text-left font-bold py-4">
+                <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
                   2. The Upanishads: The Heart of Hindu Philosophy
                 </h2>
-                <div className="h-[50%] w-[60%] object-cover p-3">
+                <div className="sm:h-[50%] sm:w-[60%] h-5/6 w-5/6 object-cover p-3">
                   <img
                     loading="lazy"
                     src={upnishad}
@@ -134,7 +134,7 @@ function Blog2() {
                     alt="Upnishad book image"
                   />
                 </div>
-                <h3 className="text-2xl text-left font-bold py-4">
+                <h3 className="sm:text-xl text-lg text-left font-medium py-4">
                   Origins and Structure
                 </h3>
                 <p>
@@ -146,7 +146,7 @@ function Blog2() {
                   which means "the end of the <strong>Vedas</strong>."
                 </p>
 
-                <h3 className="text-2xl text-left font-bold py-4">Teachings</h3>
+                <h3 className="sm:text-xl text-lg text-left font-medium py-4">Teachings</h3>
                 <p>
                   The <strong>Upanishads</strong> explore profound questions
                   about the nature of reality, the self (atman), and the
@@ -157,7 +157,7 @@ function Blog2() {
                   and moksha (liberation) are central to their teachings.
                 </p>
 
-                <h3 className="text-2xl text-left font-bold py-4">
+                <h3 className="sm:text-xl text-lg text-left font-medium py-4">
                   Relevance Today
                 </h3>
                 <p>
@@ -169,10 +169,10 @@ function Blog2() {
                   with today’s spiritual seekers.
                 </p>
 
-                <h2 className="text-3xl text-left font-bold py-4">
+                <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
                   3. The Bhagavad Gita: The Divine Dialogue
                 </h2>
-                <div className="h-[50%] w-[60%] object-cover p-3">
+                <div className="sm:h-[50%] sm:w-[60%] h-5/6 w-5/6 object-cover p-3">
                   <img
                     loading="lazy"
                     src={bhagwadh}
@@ -180,7 +180,7 @@ function Blog2() {
                     alt="Bhagwadh gita image"
                   />
                 </div>
-                <h3 className="text-2xl text-left font-bold py-4">
+                <h3 className="sm:text-xl text-lg text-left font-medium py-4">
                   Origins and Structure
                 </h3>
                 <p>
@@ -191,7 +191,7 @@ function Blog2() {
                   set on the battlefield of Kurukshetra just before a major war.
                 </p>
 
-                <h3 className="text-2xl text-left font-bold py-4">Teachings</h3>
+                <h3 className="sm:text-xl text-lg text-left font-medium py-4">Teachings</h3>
                 <p>
                   The <strong>Bhagavad Gita</strong> addresses the moral and
                   philosophical dilemmas that Arjuna faces. Krishna provides
@@ -201,7 +201,7 @@ function Blog2() {
                   selfless action), Bhakti Yoga (the path of devotion), and
                   Jnana Yoga (the path of knowledge).
                 </p>
-                <h3 className="text-2xl text-left font-bold py-4">
+                <h3 className="sm:text-xl text-lg text-left font-medium py-4">
                   Relevance Today
                 </h3>
                 <p>
@@ -213,10 +213,10 @@ function Blog2() {
                   of all backgrounds.
                 </p>
 
-                <h2 className="text-3xl text-left font-bold py-4">
+                <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
                   4. The Ramayana: The Epic of Virtue
                 </h2>
-                <div className="h-[50%] w-[60%] object-cover p-3">
+                <div className="sm:h-[50%] sm:w-[60%] h-5/6 w-5/6 object-cover p-3">
                   <img
                     loading="lazy"
                     src={ramayana}
@@ -224,7 +224,7 @@ function Blog2() {
                     alt="Ramayana book image"
                   />
                 </div>
-                <h3 className="text-2xl text-left font-bold py-4">
+                <h3 className="sm:text-xl text-lg text-left font-medium py-4">
                   Origins and Structure
                 </h3>
                 <p>
@@ -244,7 +244,7 @@ function Blog2() {
                   over evil.
                 </p>
 
-                <h3 className="text-2xl text-left font-bold py-4">
+                <h3 className="sm:text-xl text-lg text-left font-medium py-4">
                   Relevance Today
                 </h3>
                 <p>
@@ -256,7 +256,7 @@ function Blog2() {
                   lead virtuous lives and fulfill their duties.
                 </p>
 
-                <h2 className="text-2xl text-left font-bold py-4">
+                <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
                   Conclusion
                 </h2>
                 <p>

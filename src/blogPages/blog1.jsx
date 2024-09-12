@@ -26,7 +26,7 @@ function Blog1() {
     <article className="flex flex-col overflow-hidden">
       <header className="bg-gray-100 py-8">
         <div className="container mx-auto px-4">
-          <h1 className="sm:text-4xl text-3xl font-bold text-gray-800 mb-2">
+          <h1 className="sm:text-4xl text-2xl font-bold text-gray-800 mb-2">
             Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern
             Values
           </h1>
@@ -59,7 +59,7 @@ function Blog1() {
                 non-sectarian perspective towards Sanatana philosophy.
               </p>
 
-              <h2 className="sm:text-2xl text-xl text-left font-medium py-4">
+              <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
                 Our Mission and Vision
               </h2>
               <p>
@@ -73,7 +73,7 @@ function Blog1() {
                 religious and <a target="_blank" rel="noopener noreferrer" className="text-blue-600 underline" href="https://ncf.nic.in/blog/cultural_heritage">cultural</a>  prejudices.
               </p>
 
-              <h2 className="sm:text-2xl text-xl text-left font-medium py-4">
+              <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
                 Engaging with Local Communities
               </h2>
               <p>
@@ -86,7 +86,7 @@ function Blog1() {
                 that transcends cultural differences.
               </p>
 
-              <h2 className="sm:text-2xl text-xl text-left font-medium py-4">
+              <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
                 Educational and Cultural Initiatives
               </h2>
               <p>
@@ -99,7 +99,7 @@ function Blog1() {
               </p>
 
              
-              <h2 className="sm:text-2xl text-xl text-left font-medium py-4">
+              <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
                 Promoting Ethical and Religious Training
               </h2>
               <p>
@@ -111,15 +111,16 @@ function Blog1() {
                 to support people in living lives that are meaningful,
                 harmonious, and spiritually fulfilling.
               </p>
+             
+              <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
+                Social and Charitable Activities
+              </h2>
               <div className="sm:h-[50%] sm:w-[60%] h-5/6 w-5/6 object-cover p-3">
               <img loading="lazy"
                src={`${process.env.PUBLIC_URL}/gallery/SocialWelfare/2.webp`}
               className="h-full w-full"
                alt="Sanatana dharma soxi" />
              </div>
-              <h2 className="sm:text-2xl text-xl text-left font-medium py-4">
-                Social and Charitable Activities
-              </h2>
               <p>
                 The <b>Sanatana Dharma Foundation</b> is actively involved in
                 philanthropic and humanitarian endeavors. We host camps for
@@ -129,7 +130,7 @@ function Blog1() {
                 offers funding for medical care.
               </p>
 
-              <h2 className="sm:text-2xl text-xl text-left font-medium py-4">
+              <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
                 Reviving Sanatana Culture
               </h2>
               <p>
@@ -141,7 +142,7 @@ function Blog1() {
                 these activities.
               </p>
 
-              <h2 className="sm:text-2xl text-xl text-left font-medium py-4">
+              <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
                 Building a Strong Network
               </h2>
               <p>
@@ -154,7 +155,7 @@ function Blog1() {
                 commitment and dedication.
               </p>
 
-              <h2 className="sm:text-2xl text-xl text-left font-medium py-4">
+              <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
                 Future Goals and Aspirations
               </h2>
               <p>
@@ -165,7 +166,7 @@ function Blog1() {
                 plans include the introduction of digital platforms and online
                 courses that offer in-depth information on <b>Sanatana Dharma</b>.
               </p>
-              <h2 className="sm:text-2xl text-xl text-left font-medium py-4">Conclusion</h2>
+              <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">Conclusion</h2>
               <p>
                 <b>Sanatana Dharma Foundation</b> is not an organization-it is a
                 movement by itself to revive and propagate the ancient wisdom of
