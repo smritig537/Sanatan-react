@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import Divider from "../components/Divider";
 
 const imageUrl = {
@@ -18,7 +20,7 @@ const GallerySection = ({ title, category }) => {
   return (
     <div className="my-10">
       <h1 className="font-oswald text-[#313131] font-bold text-3xl text-center mb-6">{title}</h1>
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mx-auto">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mx-auto max-w-screen-xl">
         {displayedImages.map((e) => (
           <div
             key={e}
@@ -41,14 +43,13 @@ const GallerySection = ({ title, category }) => {
         <div className="text-center mt-6">
           <button
             onClick={() => setShowAll(!showAll)}
-            className="flex items-center justify-center text-blue-600 hover:text-blue-800"
+            className="flex items-center justify-center text-blue-600 hover:text-blue-800 font-medium"
           >
-            <img 
-              src={`${process.env.PUBLIC_URL}/favicon.ico`} 
-              alt="View More Icon" 
-              className="w-6 h-6 mr-2" 
+            <span className="mr-2">{showAll ? 'Show Less' : 'View More'}</span>
+            <FontAwesomeIcon 
+              icon={showAll ? faChevronUp : faChevronDown} 
+              className={`transition-transform ${showAll ? 'rotate-180' : ''}`}
             />
-            {showAll ? 'Show Less' : 'View More'}
           </button>
         </div>
       )}
