@@ -13,7 +13,7 @@ const imageUrl = {
 const GallerySection = ({ title, category }) => {
   const [showAll, setShowAll] = useState(false);
   const images = imageUrl[category];
-  const displayedImages = showAll ? images : images.slice(0, 5);
+  const displayedImages = showAll ? images : images.slice(0, 4);
 
   return (
     <div className="my-10">
