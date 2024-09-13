@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Divider from "../components/Divider";
 
 const imageUrl = {
@@ -7,17 +7,19 @@ const imageUrl = {
   Awards: [1, 2, 3, 4],
   Political: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
   "Womens Welfare": [1, 3, 4, 5, 6, 2],
-  "Spiritual": [
-    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68
-  ]
+  "Spiritual": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67]
 };
 
 const GallerySection = ({ title, category }) => {
+  const [showAll, setShowAll] = useState(false);
+  const images = imageUrl[category];
+  const displayedImages = showAll ? images : images.slice(0, 4);
+
   return (
     <div className="my-10">
       <h1 className="font-oswald text-[#313131] font-bold text-3xl text-center mb-6">{title}</h1>
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mx-auto">
-        {imageUrl[category].map((e) => (
+        {displayedImages.map((e) => (
           <div
             key={e}
             className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
@@ -35,6 +37,21 @@ const GallerySection = ({ title, category }) => {
           </div>
         ))}
       </div>
+      {images.length > 4 && (
+        <div className="text-center mt-6">
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="flex items-center justify-center text-blue-600 hover:text-blue-800"
+          >
+            <img 
+              src={`${process.env.PUBLIC_URL}/favicon.ico`} 
+              alt="View More Icon" 
+              className="w-6 h-6 mr-2" 
+            />
+            {showAll ? 'Show Less' : 'View More'}
+          </button>
+        </div>
+      )}
       <Divider />
     </div>
   );
