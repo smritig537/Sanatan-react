@@ -38,7 +38,7 @@ const GallerySection = ({ title, category }) => {
         ))}
       </div>
       {images.length > 4 && (
-        <div className="text-center mt-6">
+        <div className="text-center flex items-center justify-center mt-6">
           <button
             onClick={() => setShowAll(!showAll)}
             className="flex items-center justify-center text-blue-600 hover:text-blue-800 font-medium"
@@ -55,8 +55,8 @@ const GallerySection = ({ title, category }) => {
 
 function Gallery() {
   return (
-    <div className="bg-white dark:bg-gray-800 py-6 sm:py-8 lg:py-12">
-      <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <div className="bg-white flex justify-center items-center dark:bg-gray-800 py-6 sm:py-8 lg:py-12">
+      <div className="mx-auto flex justify-center items-center max-w-screen-2xl px-4 md:px-8">
         <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center mb-12">Gallery</h1>
         <GallerySection title="Social Welfare" category="SocialWelfare" />
         <GallerySection title="Political" category="Political" />
