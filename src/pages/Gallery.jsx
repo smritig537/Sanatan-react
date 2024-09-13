@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import Divider from "../components/Divider";
 
 const imageUrl = {
@@ -46,10 +44,7 @@ const GallerySection = ({ title, category }) => {
             className="flex items-center justify-center text-blue-600 hover:text-blue-800 font-medium"
           >
             <span className="mr-2">{showAll ? 'Show Less' : 'View More'}</span>
-            <FontAwesomeIcon 
-              icon={showAll ? faChevronUp : faChevronDown} 
-              className={`transition-transform ${showAll ? 'rotate-180' : ''}`}
-            />
+            <i className={`fas ${showAll ? 'fa-chevron-up' : 'fa-chevron-down'} transition-transform ${showAll ? 'rotate-180' : ''}`}></i>
           </button>
         </div>
       )}
