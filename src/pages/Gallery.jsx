@@ -13,7 +13,7 @@ const imageUrl = {
 const GallerySection = ({ title, category }) => {
   const [showAll, setShowAll] = useState(false);
   const images = imageUrl[category];
-  const displayedImages = showAll ? images : images.slice(0, 4);
+  const displayedImages = showAll ? images : images.slice(0, 5);
 
   return (
     <div className="my-10">
@@ -55,7 +55,7 @@ const GallerySection = ({ title, category }) => {
 
 function Gallery() {
   return (
-    <div className="bg-white flex justify-center items-center dark:bg-gray-800 py-6 sm:py-8 lg:py-12">
+    <div className="bg-white dark:bg-gray-800 py-6 sm:py-8 lg:py-12">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center mb-12">Gallery</h1>
         <GallerySection title="Social Welfare" category="SocialWelfare" />
