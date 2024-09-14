@@ -18,7 +18,7 @@ function Blog2() {
         <meta property="og:title" content="Indian Culture and Traditions: A Deep Dive" />
         <meta property="og:description" content="Discover the essence of Indian culture through its traditions, festivals, and the influence of Hinduism. Learn about arranged marriages, traditional practices, and more." />
         <meta property="og:image" content={mainImage} />
-        <meta property="og:url" content="URL_OF_YOUR_BLOG_POST" />
+        <meta property="og:url" content="/blogs/indian-culture-and-traditions" />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="/blogs/indian-culture-and-traditions" />
         <meta name="twitter:title" content="Indian Culture and Traditions: A Deep Dive" />
