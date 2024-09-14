@@ -12,6 +12,11 @@ function Bloglist() {
       name: "Hindu Religious Texts and Scriptures",
       link: "/blogs/Hindu-Religious-Texts-and-Scriptures",
     },
+    {
+      id: 3,
+      name: "Indian Culture and Traditions",
+      link: "/blogs/indian-culture-and-traditions",
+    },
   ];
 
   return (
