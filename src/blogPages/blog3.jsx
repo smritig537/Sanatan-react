@@ -24,6 +24,7 @@ function Blog2() {
         <meta name="twitter:title" content="Indian Culture and Traditions: A Deep Dive" />
         <meta name="twitter:description" content="Explore the intricate aspects of Indian culture, from traditional practices and festivals to the impact of Hinduism." />
         <meta name="twitter:image" content={mainImage} />
+        <meta name="robots" content="index, follow" />
       </Helmet>
       <article className="flex flex-col overflow-hidden">
         <header className="bg-gray-100 py-8">
