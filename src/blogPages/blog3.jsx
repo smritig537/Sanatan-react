@@ -1,6 +1,6 @@
 import React from "react";
 import Bloglist from "./bloglist";
-
+import { Helmet } from "react-helmet-async";
 import marraige from "./marraige.webp";
 import Dewali from "./dewali.webp";
 import Holi from "./holi.webp";
@@ -11,6 +11,20 @@ import mainImage from "./culture.jpg";
 function Blog2() {
   return (
     <>
+    <Helmet>
+        <title>Indian Culture and Traditions: A Deep Dive</title>
+        <meta name="description" content="Explore the rich tapestry of Indian culture, including traditional practices, vibrant festivals, and the profound influence of Hinduism." />
+        <meta name="keywords" content="Indian Culture, Indian Traditions, Festivals, Hinduism, Diwali, Holi, Navratri, Indian Cuisine, Arranged Marriages" />
+        <meta property="og:title" content="Indian Culture and Traditions: A Deep Dive" />
+        <meta property="og:description" content="Discover the essence of Indian culture through its traditions, festivals, and the influence of Hinduism. Learn about arranged marriages, traditional practices, and more." />
+        <meta property="og:image" content={mainImage} />
+        <meta property="og:url" content="URL_OF_YOUR_BLOG_POST" />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="/blogs/indian-culture-and-traditions" />
+        <meta name="twitter:title" content="Indian Culture and Traditions: A Deep Dive" />
+        <meta name="twitter:description" content="Explore the intricate aspects of Indian culture, from traditional practices and festivals to the impact of Hinduism." />
+        <meta name="twitter:image" content={mainImage} />
+      </Helmet>
       <article className="flex flex-col overflow-hidden">
         <header className="bg-gray-100 py-8">
           <div className="container mx-auto px-4">
@@ -66,7 +80,7 @@ function Blog2() {
                     loading="lazy"
                     src={marraige}
                     className="h-full w-full"
-                    alt="Indian Arrange marriage"
+                    alt="Indian Arrange marriage best photo"
                   />
                 </div>
                 <h3 className="sm:text-xl text-lg text-left font-medium py-4">
@@ -102,7 +116,7 @@ function Blog2() {
                     loading="lazy"
                     src={Dewali}
                     className="h-full w-full"
-                    alt="Diwali"
+                    alt="Celebration of Diwali with lights and decorations"
                   />
                 </div>
                 <p>
@@ -132,7 +146,7 @@ function Blog2() {
                     loading="lazy"
                     src={Holi}
                     className="h-full w-full"
-                    alt="Holi"
+                    alt="Celebration of Holi with colors"
                   />
                 </div>
                 <p>
@@ -174,7 +188,7 @@ function Blog2() {
                     loading="lazy"
                     src={Temple}
                     className="h-full w-full"
-                    alt="Hindu Temple"
+                    alt="Old temple of hindu dharma"
                   />
                 </div>
                 <p>

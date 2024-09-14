@@ -27,9 +27,9 @@ function Blogs() {
       title:
         "Indian Culture and Traditions",
       description:
-        "Discover Hinduism’s Sacred Wisdom: Dive into the Vedas, Upanishads, Bhagavad Gita, and Ramayana. Explore their timeless teachings and their impact on spiritual and ethical living today.",
+        "Explore the rich tapestry of Indian culture, including traditional practices, vibrant festivals, and the profound influence of Hinduism.",
       imageUrl: blog3,
-      link: "/blogs/Hindu-Religious-Texts-and-Scriptures",
+      link: "/blogs/indian-culture-and-traditions",
     },
  
   ];
