@@ -15,6 +15,7 @@ const urls = [
 { url: '/blogs', changefreq: 'monthly', priority: 0.8 },
 { url: '/blogs/reviving-ancient-wisdom', changefreq: 'monthly', priority: 0.8 },
 { url: '/blogs/Hindu-Religious-Texts-and-Scriptures', changefreq: 'monthly', priority: 0.8 },
+{ url: '/blogs/indian-culture-and-traditions', changefreq: 'monthly', priority: 0.8 },
 
 ];
 
