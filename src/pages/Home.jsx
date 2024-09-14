@@ -33,8 +33,7 @@ const Home = () => {
         <img
           src={banner}
           alt="Banner"
-          srcset="banner-large.jpg 1200w, banner-medium.jpg 800w, banner-small.jpg 400w" 
-          sizes="(max-width: 600px) 480px, 800px" 
+          className="w-full h-full object-cover"
           loading="lazy"
         />
       </section>
