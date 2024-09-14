@@ -38,7 +38,7 @@ const appRouter = createBrowserRouter(
       <Route path="blogs" element={<Blogs />} />
       <Route path="blogs/reviving-ancient-wisdom" element={<Blog1 />} />
       <Route path="blogs/hindu-religious-texts-and-scriptures" element={<Blog2 />} />
-      <Route path="blogs/indian-culture-and-traditions" element={<Blog2 />} />
+      <Route path="blogs/indian-culture-and-traditions" element={<Blog3 />} />
       <Route path="achievements" element={<Achievements />} />
       <Route path="contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
