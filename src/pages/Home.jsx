@@ -33,7 +33,9 @@ const Home = () => {
         <img
           src={banner}
           alt="Banner"
-          className="w-full h-full object-cover"
+          srcset="banner-large.jpg 1200w, banner-medium.jpg 800w, banner-small.jpg 400w" 
+  sizes="(max-width: 600px) 480px, 800px" 
+  rel="preload"
           loading="lazy"
         />
       </section>
