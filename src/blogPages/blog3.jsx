@@ -8,7 +8,7 @@ import Navratri from "./navratri.webp";
 import Temple from "./templeblog3.webp"
 import mainImage from "./culture.jpg";
 
-function Blog2() {
+function Blog3() {
   return (
     <>
     <Helmet>
@@ -259,4 +259,4 @@ function Blog2() {
   );
 }
 
-export default Blog2;
+export default Blog3;
