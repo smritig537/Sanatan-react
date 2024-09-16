@@ -39,7 +39,7 @@ const Home = () => {
         />
       </section>
 
-      <section className="m-auto sm:w-[986px] text-xl mb-10 p-5 sm:p-0">
+      <main className="m-auto sm:w-[986px] text-xl mb-10 p-5 sm:p-0">
       <h1 className="font-oswald text-[#313131] font-bold text-3xl sm:text-5xl text-center my-10">
 Sanatana Dharma Foundation
 </h1>
@@ -183,7 +183,7 @@ and values.
         </p>
 
         <Divider />
-      </section>
+      </main>
 
       <h2 className="font-oswald text-[#313131] font-semibold text-5xl text-center mt-10 mb-10">
               Mission
