@@ -4,8 +4,8 @@ function Bloglist() {
   const Lists = [
     {
       id: 1,
-      name: "Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern Values",
-      link: "/blogs/reviving-ancient-wisdom",
+      name: "Indian Culture and Traditions",
+      link: "/blogs/indian-culture-and-traditions",
     },
     {
       id: 2,
@@ -14,8 +14,8 @@ function Bloglist() {
     },
     {
       id: 3,
-      name: "Indian Culture and Traditions",
-      link: "/blogs/indian-culture-and-traditions",
+      name: "Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern Values",
+      link: "/blogs/reviving-ancient-wisdom",
     },
   ];
 

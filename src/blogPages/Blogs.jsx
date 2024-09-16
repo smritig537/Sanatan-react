@@ -9,11 +9,11 @@ function Blogs() {
   const blogPosts = [
     {
       title:
-        "Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern Values",
+        "Indian Culture and Traditions",
       description:
-        "The Sanatana Dharma Foundation blends ancient wisdom with modern values, fostering unity and integrity through education and cultural initiatives.",
-      imageUrl: reviving,
-      link: "/blogs/reviving-ancient-wisdom",
+        "Explore the rich tapestry of Indian culture, including traditional practices, vibrant festivals, and the profound influence of Hinduism.",
+      imageUrl: blog3,
+      link: "/blogs/indian-culture-and-traditions",
     },
     {
       title:
@@ -25,11 +25,11 @@ function Blogs() {
     },
     {
       title:
-        "Indian Culture and Traditions",
+        "Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern Values",
       description:
-        "Explore the rich tapestry of Indian culture, including traditional practices, vibrant festivals, and the profound influence of Hinduism.",
-      imageUrl: blog3,
-      link: "/blogs/indian-culture-and-traditions",
+        "The Sanatana Dharma Foundation blends ancient wisdom with modern values, fostering unity and integrity through education and cultural initiatives.",
+      imageUrl: reviving,
+      link: "/blogs/reviving-ancient-wisdom",
     },
  
   ];
