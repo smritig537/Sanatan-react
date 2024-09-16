@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import reviving from "./reviving.webp";
 import scriptures from "./scriptures.webp";
-import blog3 from "./culture.jpg"
+import blog3 from "./culture.webp"
 import { Helmet } from "react-helmet-async";
 
 function Blogs() {

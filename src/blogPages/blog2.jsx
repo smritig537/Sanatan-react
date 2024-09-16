@@ -1,7 +1,6 @@
 import React from "react";
 import Bloglist from "./bloglist";
 import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
 import upnishad from "./upnishad.webp";
 import bhagwadh from "./bhagwadh gita.webp";
 import ramayana from "./ramayana.webp";

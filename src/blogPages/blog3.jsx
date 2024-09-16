@@ -6,7 +6,7 @@ import Dewali from "./dewali.webp";
 import Holi from "./holi.webp";
 import Navratri from "./navratri.webp";
 import Temple from "./templeblog3.webp"
-import mainImage from "./culture.jpg";
+import mainImage from "./culture.webp";
 
 function Blog3() {
   return (
