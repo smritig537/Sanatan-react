@@ -51,14 +51,14 @@ function Blog3() {
               </figure>
               <div className="prose max-w-none text-justify">
                 <p>
-                  India, with its unmatched diversity, is a vibrant mosaic of
-                  cultures, traditions, and practices that have developed over
-                  thousands of years. This intricate tapestry is enriched with
-                  threads of history, spirituality, and a deep sense of
-                  community. In this blog, we dive into the essence of Indian
-                  culture, exploring its traditional practices, lively
-                  festivals, and the profound influence of Hinduism on the
-                  fabric of Indian society.
+                India, with its unmatched diversity, is a vibrant mosaic of
+    cultures, traditions, and practices that have developed over
+    thousands of years. This intricate tapestry is enriched with
+    threads of history, spirituality, and a deep sense of
+    community. In this blog, we dive into the essence of **Indian
+    culture**, exploring its **traditional practices**, lively
+    festivals, and the profound influence of **Hinduism** on the
+    fabric of Indian society.
                 </p>
 
                 <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
