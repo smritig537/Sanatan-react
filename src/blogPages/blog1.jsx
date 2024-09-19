@@ -70,7 +70,7 @@ function Blog1() {
                 the principles of righteousness and integrity to foster mutual
                 trust among individuals. We aspire to bring various aspects of
                 <strong>Sanatana Dharma</strong> with a shared belief system that goes beyond
-                religious and <a target="_blank" rel="noopener noreferrer" className="text-blue-600 underline" href="https://ncf.nic.in/blog/cultural_heritage">cultural</a>  prejudices.
+                religious and cultural  prejudices.
               </p>
 
               <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
@@ -79,7 +79,7 @@ function Blog1() {
               <p>
                 In every center, the organization actively collaborates with
                 neighborhood groups and individuals who share a similar mindset
-                and cherish their <a target="_blank" rel="noopener noreferrer" className="text-blue-600 underline" href="https://www.indiaculture.gov.in/world-heritage#:~:text=The%20plurality%20and%20multiplicity%20of,the%20'Intangible%20Cultural%20Heritage'%20(">cultural heritage</a> as adherents of <strong>Sanatana
+                and cherish their cultural heritage as adherents of <strong>Sanatana
                 Dharma</strong>. Our goal is to revitalize the richness and solidarity of
                 our country through a range of projects. We focus on removing
                 elements that create divisions and promoting a shared belief

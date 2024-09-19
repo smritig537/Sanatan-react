@@ -57,12 +57,9 @@ function Blog2() {
               </figure>
               <div className="prose max-w-none text-justify">
                 <p>
-                  <a
-                    href="https://www.britannica.com/topic/Hinduism"
-                    className="text-blue-700 underline"
-                  >
+                  
                     <strong>Hinduism</strong>
-                  </a>
+                  
                   , one of the most ancient and diverse religions in the world,
                   holds a treasure trove of sacred texts and scriptures. These
                   revered writings, celebrated for their spiritual depth and
@@ -82,12 +79,9 @@ function Blog2() {
                 </h3>
                 <p>
                   The{" "}
-                  <a
-                    href="https://en.wikipedia.org/wiki/Vedas"
-                    className="text-blue-700 underline"
-                  >
+                 
                     <strong>Vedas</strong>
-                  </a>{" "}
+                  {" "}
                   are the oldest and most respected scriptures in
                   <strong>Hinduism</strong>, believed to have been composed over
                   three millennia ago. These texts, known as{" "}
