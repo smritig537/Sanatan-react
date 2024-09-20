@@ -11,15 +11,14 @@ const Home = () => {
   return (
    <>
 
-<img
-  srcSet="banner-small.webp 480w, banner-medium.webp 768w, banner-large.webp 1200w"
-  sizes="(max-width: 600px) 480px, (max-width: 1200px) 768px, 1200px"
-  src={banner}
-  alt="Banner"
-  loading="lazy"
-  className="w-full h-full object-cover"
-/>
-
+     <section className="relative w-full h-auto bg-gray-800 overflow-x-hidden">
+        <img
+          src={banner}
+          alt="Banner"
+          className="w-full h-auto object-cover"
+          loading="lazy"
+        />
+      </section>
 
       <main className="m-auto max-w-full w-[90%] sm:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
         <h1 className="font-oswald text-[#313131] font-bold text-2xl sm:text-5xl text-center my-10">
