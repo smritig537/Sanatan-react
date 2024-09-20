@@ -2,18 +2,14 @@ import React, { useState } from 'react';
 import Divider from "../components/Divider";
 
 const imageUrl = {
-  "SocialWelfare": [1, 2, 3, 4, 5, 6, 7,8,9],
-  "Medical Support": [1, 2, 3, 4],
-  Awards: [1, 2, 3, 4,5,6],
   Political: [1,2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,20,21,22],
-  "Womens Welfare": [1, 3, 4, 5, 6, 2],
   "Spiritual": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67]
 };
 
 const GallerySection = ({ title, category }) => {
   const [showAll, setShowAll] = useState(false);
   const images = imageUrl[category];
-  const displayedImages = showAll ? images : images.slice(0, 4);
+  const displayedImages = showAll ? images : images.slice(0, 8);
 
   return (
     <div className="my-10">
@@ -58,12 +54,8 @@ function Gallery() {
     <div className="bg-white dark:bg-gray-800 py-6 sm:py-8 lg:py-12">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center mb-12">Gallery</h1>
-        <GallerySection title="Social Welfare" category="SocialWelfare" />
-        <GallerySection title="Political" category="Political" />
-        <GallerySection title="Awards" category="Awards" />
-        <GallerySection title="Women's Welfare" category="Womens Welfare" />
-        <GallerySection title="Medical Support" category="Medical Support" />
         <GallerySection title="Spiritual Events" category="Spiritual" />
+        <GallerySection title="Political" category="Political" />
       </div>
     </div>
   );
