@@ -32,51 +32,51 @@ function Navbar() {
       >
         <NavLink id ="nav"
           to="." 
-          className={`no-underline text-white  mx-4 text-xl`}
+          className={`no-underline text-white sm:text-xs text-xl mx-4 lg:text-xl`}
         >
           Home
         </NavLink>
         <NavLink id ="nav"
           to="about"
-          className={`no-underline text-white  mx-4 text-xl`}
+          className={`no-underline text-white sm:text-xs text-xl  mx-4 lg:text-xl`}
         >
           About
         </NavLink>
         <NavLink id ="nav"
           to="sanatanadharma"
-          className={`no-underline text-white  mx-4 text-xl`}
+          className={`no-underline text-white sm:text-xs text-xl  mx-4 lg:text-xl`}
         >
           Sanatana Dharma
         </NavLink>
         <NavLink id ="nav"
           to="supporters"
-          className={`no-underline text-white  mx-4 text-xl`}
+          className={`no-underline text-white sm:text-xs text-xl  mx-4 lg:text-xl`}
         >
           Supporters
         </NavLink>
         <NavLink id ="nav"
           to="Locations-in-india"
-          className={`no-underline text-white  mx-4 text-xl`}
+          className={`no-underline text-white sm:text-xs text-xl  mx-4 lg:text-xl`}
         >
           Locations in India
         </NavLink>
         <NavLink id ="nav"
           to="/gallery"
-          className={`no-underline text-white  mx-4 text-xl`}
+          className={`no-underline text-white sm:text-xs text-xl  mx-4 lg:text-xl`}
         >
           Gallery
         </NavLink>
 
         <NavLink id ="nav"
           to="/blogs"
-          className={`no-underline text-white  mx-4 text-xl`}
+          className={`no-underline text-white sm:text-xs text-xl  mx-4 lg:text-xl`}
         >
           Blogs
         </NavLink>
 
         <NavLink id ="nav"
           to="media"
-          className={`no-underline text-white  mx-4 text-xl`}
+          className={`no-underline text-white sm:text-xs text-xl  mx-4 lg:text-xl`}
         >
           Media
         </NavLink>
@@ -85,7 +85,7 @@ function Navbar() {
     
         <NavLink id ="nav"
           to="/contact"
-          className={`no-underline text-white  mx-4 text-xl`}
+          className={`no-underline text-white  mx-4 sm:text-xs text-xl  lg:text-xl`}
         >
           Association & Support
         </NavLink>

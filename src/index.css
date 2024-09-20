@@ -38,3 +38,6 @@ nav{
     }
 }
 
+*{
+    overflow-x: hidden;
+}
