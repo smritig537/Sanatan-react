@@ -1,24 +1,17 @@
 import React from "react";
-import banner from "../assets/web-banner1.webp";
 import Swamiji from "./Swami ji1.jpg";
 import Form from "../components/Form";
 import Divider from "../components/Divider";
 import swamiji1 from "../assets/roll1.webp";
 import swamiji2 from "../assets/roll2.webp";
+import Banner from "../components/Banner";
 import guru from "../assets/guru.jpg";
 
 const Home = () => {
   return (
    <>
 
-     <section className="relative w-full h-auto bg-gray-800 overflow-x-hidden">
-        <img
-          src={banner}
-          alt="Banner"
-          className="w-full h-auto object-cover"
-          loading="lazy"
-        />
-      </section>
+    <Banner />
 
       <main className="m-auto max-w-full w-[90%] sm:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
         <h1 className="font-oswald text-[#313131] font-bold text-2xl sm:text-5xl text-center my-10">
