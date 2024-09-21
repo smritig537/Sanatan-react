@@ -144,12 +144,6 @@ const Home = () => {
         <div className="flex flex-col gap-y-5 sm:flex-row justify-center">
           <img
             className="object-cover object-center m-auto rounded-full h-72 w-72"
-            src={swamiji1}
-            loading="lazy"
-            alt="Sanatana Dharma Foundation Swamii jii Kasi First image"
-          />
-          <img
-            className="object-cover object-center m-auto rounded-full h-72 w-72"
             src={swamiji2}
             loading="lazy"
             alt="Sanatana Dharma Foundation Swamii jii Kasi Second image"

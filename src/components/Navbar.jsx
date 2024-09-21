@@ -48,12 +48,7 @@ function Navbar() {
         >
           Sanatana Dharma
         </NavLink>
-        <NavLink id ="nav"
-          to="supporters"
-          className={`no-underline text-white sm:text-xs text-xl  mx-4 lg:text-xl`}
-        >
-          Supporters
-        </NavLink>
+    
         <NavLink id ="nav"
           to="Locations-in-india"
           className={`no-underline text-white sm:text-xs text-xl  mx-4 lg:text-xl`}
@@ -88,6 +83,13 @@ function Navbar() {
           className={`no-underline text-white  mx-4 sm:text-xs text-xl  lg:text-xl`}
         >
           Association & Support
+        </NavLink>
+
+        <NavLink id ="nav"
+          to="supporters"
+          className={`no-underline text-white sm:text-xs text-xl  mx-4 lg:text-xl`}
+        >
+          Supporters
         </NavLink>
         
       </div>
