@@ -54,7 +54,7 @@ function Blogs() {
           content="Explore the latest blogs from the Sanatana Dharma Foundation, featuring insights on ancient wisdom and contemporary values."
         />
         <meta property="og:image" content={reviving} />
-        <meta property="og:url" content="https://yourwebsite.com/blogs" />
+        <meta property="og:url" content="https://sanatanadharmafoundation.co/blogs" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Blogs - Sanatana Dharma Foundation" />
