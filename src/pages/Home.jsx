@@ -1,6 +1,5 @@
 import React from "react";
 import Swamiji from "./mainImg.webp";
-import { Helmet } from "react-helmet-async";
 import Form from "../components/Form";
 import Divider from "../components/Divider";
 import swamiji1 from "../assets/roll1.webp";
@@ -11,25 +10,6 @@ import guru from "../assets/guru.jpg";
 const Home = () => {
   return (
     <>
-    <Helmet>
-    <title>Sanatana Dharma Foundation Preserving Tradition</title>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="/favicon.png" type="image/png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="preload" href="banner.jpg" as="image" />
-    <link rel="canonical" href="https://sanatanadharmafoundation.co/" />
-    <meta name="description" content="Sanatana Dharma Foundation is a non-profit promoting Hinduism through spiritual workshops, cultural events, and meditation retreats, preserving ancient wisdom" />
-    <meta name="keywords" content="Sanatana Dharma Foundation, What is sanatana dharma, History of sanatana dharma, Importance of sanatana dharma, Sanatan Dharma" />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="Sanatana Dharma Foundation: Reconnect with Hindu Teachings & Vedic Traditions" />
-    <meta property="og:description" content="Discover the Sanatana Dharma Foundation, a non-profit dedicated to reconnecting individuals with Hindu teachings through workshops, festivals, and meditation retreats. Explore Vedic traditions and deepen your spiritual journey with us." />
-    <meta property="og:image" content="https://sanatanadharmafoundation.co/static/media/om-bg-remove.999d758e15021726580b.png" />
-    <meta property="og:url" content="https://sanatanadharmafoundation.co/" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Sanatana Dharma Foundation: Reconnect with Hindu Teachings & Vedic Traditions" />
-    <meta name="twitter:description" content="Discover the Sanatana Dharma Foundation, a non-profit dedicated to reconnecting individuals with Hindu teachings through workshops, festivals, and meditation retreats. Explore Vedic traditions and deepen your spiritual journey with us." />
-    <meta name="twitter:image" content="https://sanatanadharmafoundation.co/static/media/om-bg-remove.999d758e15021726580b.png" />
-    </Helmet>
       <Banner />
 
       <main className="m-auto max-w-full w-[90%] sm:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
@@ -38,13 +18,13 @@ const Home = () => {
         </h1>
         <p className="items-center mb-3 text-left sm:text-justify rounded-sm">
           The Sanatana Dharma Foundation is dedicated to helping individuals
-          reconnect with the 
+          reconnect with the{" "}
           <a
             href="https://sanatanadharmafoundation.co/sanatanadharma"
             className="text-blue-600 underline"
           >
             teachings of Sanatana Dharma
-          </a> 
+          </a>{" "}
           (Hinduism). It offers a range of programs, including spiritual
           workshops, cultural festivals, and meditation retreats, designed to
           provide guidance and support on one's spiritual journey. By preserving
@@ -60,7 +40,7 @@ const Home = () => {
         <p className="text-gray-700 text-left sm:text-justify">
           In the bustling world we live in today, it can be easy to get swept
           away in the chaos and noise of everyday life. It's important to take a
-          step back and reconnect with our spiritual roots, our 
+          step back and reconnect with our spiritual roots, our{" "}
           <strong>cultural heritage</strong>, and the ancient wisdom that has
           guided generations before us. This is where organizations like the
           Sanatana Dharma Foundation come in, providing a space for individuals
@@ -72,9 +52,9 @@ const Home = () => {
           Core of Sanatana Dharma
         </h2>
         <p className="text-gray-700 sm:text-justify text-left">
-          At the core of <strong>Sanatana Dharma</strong> are the timeless 
+          At the core of <strong>Sanatana Dharma</strong> are the timeless{" "}
           <strong>Sanskrit teachings</strong> that have been passed down through
-          the ages. These teachings encompass a wide range of concepts, from the 
+          the ages. These teachings encompass a wide range of concepts, from the{" "}
           <strong>concept of karma</strong> – the law of cause and effect – to
           the importance of upholding moral values and ethical principles in our
           daily lives. Through spiritual enlightenment, yoga workshops, and
@@ -86,7 +66,7 @@ const Home = () => {
           meditation retreats, the foundation creates a space for individuals to
           come together and learn from one another. By preserving Vedic
           traditions and promoting Hindu philosophy, the foundation seeks to
-          uphold traditional values and ensure that the spiritual heritage of 
+          uphold traditional values and ensure that the spiritual heritage of{" "}
           <strong>Sanatana Dharma</strong> continues to thrive.
         </p>
 
@@ -97,13 +77,13 @@ const Home = () => {
           Whether you are looking for spiritual guidance, philosophical
           teachings, or simply a community of like-minded individuals, the
           Sanatana Dharma Foundation offers a space for individuals to explore
-          their spirituality and deepen their connection to the sacred texts and 
+          their spirituality and deepen their connection to the sacred texts and{" "}
           <strong>teachings of Hinduism</strong>. Through outreach programs and
           cultural events, the foundation is dedicated to spreading the message
           of peace, love, and unity to all who seek it. So, if you are looking
           to reconnect with your spiritual roots, deepen your understanding of
           ancient wisdom, and engage with a vibrant community of spiritual
-          seekers, consider getting involved with the 
+          seekers, consider getting involved with the{" "}
           <strong>Sanatana Dharma Foundation</strong>. Your spiritual journey
           awaits!
         </p>
@@ -112,7 +92,7 @@ const Home = () => {
           className="h-auto sm:h-[500px] object-cover object-center m-auto mb-5"
           src={Swamiji}
           loading="lazy"
-          alt="Founder of Sanatana Dharma foundation"
+          alt="Sanatana Dharma Foundation owner"
         />
         <p className="items-center mb-5 p-2 text-justify rounded-sm bg-orange-50">
           Our founder, Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami
@@ -143,13 +123,13 @@ const Home = () => {
           <strong>
             Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan
             Nand Giriji Maharaj
-          </strong> 
-          is the founder and chairman of the 
+          </strong>{" "}
+          is the founder and chairman of the{" "}
           <strong>Sanatana Dharma Foundation</strong>. This foundation serves as
           a platform to preserve, promote, and propagate the principles, values,
           and <strong>teachings of Sanatan Dharma</strong>. Through various
           initiatives, the foundation aims to create awareness about the rich
-          cultural heritage of Bharat and facilitate the practice of 
+          cultural heritage of Bharat and facilitate the practice of{" "}
           <strong>Sanatan Dharma</strong> among individuals from all walks of
           life.
         </p>
