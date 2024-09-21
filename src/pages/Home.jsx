@@ -11,11 +11,10 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <h1 className="font-oswald text-[#313131] font-bold text-2xl sm:text-5xl text-center my-10">
+      <main className="m-auto max-w-full w-[90%] sm:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
+        <h1 className="font-oswald text-[#313131] font-bold text-2xl sm:text-5xl text-center my-10">
           Sanatana Dharma Foundation
         </h1>
-      <main className="m-auto max-w-full w-[90%] sm:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
-       
         <p className="items-center mb-3 text-left sm:text-justify rounded-sm">
           The Sanatana Dharma Foundation is dedicated to helping individuals
           reconnect with the{" "}
