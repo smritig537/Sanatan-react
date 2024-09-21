@@ -50,6 +50,7 @@ function Blog3() {
         />
         <meta name="twitter:image" content={mainImage} />
         <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="/blogs/indian-culture-and-traditions" />
       </Helmet>
       <article className="flex flex-col overflow-hidden">
         <header className="bg-gray-100 py-8">

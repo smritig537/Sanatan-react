@@ -23,6 +23,7 @@ function Blog2() {
   <meta property="og:image" content="https://sanatanadharmafoundation.co/static/media/scriptures.56408216f1c0a10aab98.webp" />
   <meta property="og:url" content="https://sanatanadharmafoundation.co/blogs/Hindu-Religious-Texts-and-Scriptures" />
   <meta property="og:type" content="article" />
+  <link rel="canonical" href="/blogs/Hindu-Religious-Texts-and-Scriptures" />
 
   {/* Twitter Card Meta Tags */}
   <meta name="twitter:card" content="summary_large_image" /> {/* Updated to the correct type */}

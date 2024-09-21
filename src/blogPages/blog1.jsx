@@ -15,7 +15,7 @@ function Blog1() {
         <meta property="og:title" content="Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern Values" />
         <meta property="og:description" content="Discover the mission and vision of the Sanatana Dharma Foundation in promoting ancient wisdom and contemporary values." />
         <meta property="og:image" content={mainImage} />
-        <meta property="og:url" content="https://yourwebsite.com/blog1" />
+        <meta property="og:url" content="/blogs/reviving-ancient-wisdom" />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Sanatana Dharma Foundation: Reviving Ancient Wisdom and Modern Values" />
