@@ -2,61 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sanatanadharmafoundation.co/</loc>
-    <lastmod>2024-09-09</lastmod>
+    <lastmod>2024-09-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://sanatanadharmafoundation.co/about</loc>
-    <lastmod>2024-09-09</lastmod>
+    <lastmod>2024-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sanatanadharmafoundation.co/sanatanadharma</loc>
-    <lastmod>2024-09-09</lastmod>
+    <lastmod>2024-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sanatanadharmafoundation.co/supporters</loc>
-    <lastmod>2024-09-09</lastmod>
+    <lastmod>2024-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sanatanadharmafoundation.co/Locations-in-india</loc>
-    <lastmod>2024-09-09</lastmod>
+    <loc>https://sanatanadharmafoundation.co/locations-in-india</loc> <!-- Updated URL to lowercase -->
+    <lastmod>2024-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sanatanadharmafoundation.co/gallery</loc>
-    <lastmod>2024-09-09</lastmod>
+    <lastmod>2024-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sanatanadharmafoundation.co/blogs</loc>
-    <lastmod>2024-09-09</lastmod>
+    <lastmod>2024-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sanatanadharmafoundation.co/blogs/reviving-ancient-wisdom</loc>
-    <lastmod>2024-09-09</lastmod>
+    <lastmod>2024-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://sanatanadharmafoundation.co/blogs/Hindu-Religious-Texts-and-Scriptures</loc>
-    <lastmod>2024-09-09</lastmod>
+    <loc>https://sanatanadharmafoundation.co/blogs/hindu-religious-texts-and-scriptures</loc> <!-- Updated URL to lowercase -->
+    <lastmod>2024-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://sanatanadharmafoundation.co/blogs/indian-culture-and-traditions</loc>
-    <lastmod>2024-09-09</lastmod>
+    <lastmod>2024-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
