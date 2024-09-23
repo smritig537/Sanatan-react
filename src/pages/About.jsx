@@ -34,7 +34,7 @@ const About = () => {
 
           <section>
             <div className="container flex justify-center mx-auto py-6 px-4 sm:px-6 lg:px-8">
-              <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-2">
+              <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-2">
                 <div className="flex justify-center md:justify-start mt-6 md:mt-0">
                   <img
                     src={sanatanabout}
@@ -76,7 +76,7 @@ const About = () => {
 
           <section>
             <div className="container flex justify-center mx-auto py-6 px-2 sm:px-6 lg:px-8">
-              <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-2">
+              <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-2">
                 <div className="flex justify-center md:justify-start mt-4 md:mt-0">
                   <img
                     src={swami}
