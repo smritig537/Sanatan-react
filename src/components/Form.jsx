@@ -8,7 +8,7 @@ import {
 
 const Form = ({ title, subTitle }) => {
   return (
-    <div className="flex flex-col overflow-hidden items-center">
+    <div className="flex flex-col overflow-x-hidden items-center">
       <Card color="transparent" shadow={false}>
         <Typography variant="h4" color="blue-gray">
           {title}
@@ -20,7 +20,7 @@ const Form = ({ title, subTitle }) => {
         >
           {subTitle}
         </Typography>
-        <form className="mt-8 mb-2 h-[250px] max-w-screen-lg">
+        <form className="mt-8 mb-2 overflow-x-hidden h-[250px] max-w-screen-lg">
           <div className="mb-1 grid grid-cols-1 sm:grid-cols-[40%_60%] gap-5 p-3">
             <div>
               <Typography variant="h6" color="blue-gray" className="mb-2">
