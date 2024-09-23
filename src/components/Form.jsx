@@ -21,7 +21,7 @@ const Form = ({ title, subTitle }) => {
           {subTitle}
         </Typography>
         <form className="mt-8 mb-2 h-[250px] max-w-screen-lg">
-          <div className="mb-1 grid grid-cols-1 lg:grid-cols-[40%_60%] gap-5 p-3">
+          <div className="mb-1 grid grid-cols-1 sm:grid-cols-[40%_60%] gap-5 p-3">
             <div>
               <Typography variant="h6" color="blue-gray" className="mb-2">
                 Your Name
@@ -49,7 +49,7 @@ const Form = ({ title, subTitle }) => {
                 />
               </div>
             </div>
-            <div className="hidden sm:block">
+            <div className="hidden lg:block">
               <Typography variant="h6" color="blue-gray" className="mb-2">
                 Message
               </Typography>

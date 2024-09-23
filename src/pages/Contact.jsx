@@ -9,7 +9,7 @@ function Contact() {
       <title>Sanatana Dharma Foundation | Contact Page</title>
       <meta name="google-site-verification" content="LmxaOfetOYIjhRO7az9CISTQ4O-A3pnYUg9mz6xMUhU" />
     </Helmet>
-      <div className="flex flex-col h-full items-center justify-between  lg:flex-row">
+      <div className="flex flex-col h-full items-center justify-between  sm:flex-row">
         <div className="h-[600px] sm:w-1/2 w-full mx-4 bg-gradient-to-b sm:bg-gradient-to-r from-[#F3F7EC] to-white text-[#373A40] flex justify-center items-center">
           <div>
             <h1 className="pt-20 text-7xl font-bold text-center ">
