@@ -49,7 +49,7 @@ const Form = ({ title, subTitle }) => {
                 />
               </div>
             </div>
-            <div className="hidden lg:block">
+            <div className="hidden sm:block">
               <Typography variant="h6" color="blue-gray" className="mb-2">
                 Message
               </Typography>
