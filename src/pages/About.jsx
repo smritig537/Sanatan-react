@@ -77,7 +77,7 @@ const About = () => {
           <section>
             <div className="container flex justify-center mx-auto py-6 px-2 sm:px-6 lg:px-8">
               <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-2">
-                <div className="flex justify-center md:justify-start mt-4 md:mt-0">
+                <div className="flex justify-center lg:justify-start mt-4 md:mt-0">
                   <img
                     src={swami}
                      loading="lazy"
@@ -128,7 +128,7 @@ const About = () => {
           </section>
 
           <div>
-            <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-2">
+            <h2 className="font-oswald text-[#313131] font-bold lg:text-3xl text-2xl text-center my-2">
               Charitable Activities and Community Service
             </h2>
             <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
@@ -145,7 +145,7 @@ const About = () => {
           </div>
 
           <div>
-            <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-2">
+            <h2 className="font-oswald text-[#313131] font-bold lg:text-3xl text-2xl text-center my-2">
               Spiritual Education
             </h2>
             <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
@@ -162,7 +162,7 @@ const About = () => {
           </div>
 
           <div>
-            <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-2">
+            <h2 className="font-oswald text-[#313131] font-bold lg:text-3xl text-2xl text-center my-2">
               Promoting Pilgrimages to Holy Cities
             </h2>
             <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
@@ -178,7 +178,7 @@ const About = () => {
           </div>
 
           <div>
-            <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-2">
+            <h2 className="font-oswald text-[#313131] font-bold lg:text-3xl text-2xl text-center my-2">
               Social Media Presence and Community Engagement
             </h2>
             <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
@@ -204,7 +204,7 @@ const About = () => {
           </div>
 
           <div>
-            <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-2">
+            <h2 className="font-oswald text-[#313131] font-bold lg:text-3xl text-2xl text-center my-2">
               Join Us in Our Mission
             </h2>
             <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
@@ -219,7 +219,7 @@ const About = () => {
           </div>
 
           <Divider />
-          <h2 className="text-center mt-16 mb-8 text-5xl text-orange-900 ">
+          <h2 className="text-center mt-16 mb-8 lg:text-5xl text-3xl text-orange-900 ">
             Aims and Objectives
           </h2>
           <div className="mx-4 flex flex-col sm:flex-row  justify-between mb-16 2xl:w-[50%] 2xl:m-auto">
@@ -291,7 +291,7 @@ const About = () => {
             </ul>
           </div>
           <Divider />
-          <h2 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
+          <h2 className="font-oswald text-[#313131] font-bold lg:text-5xl text-3xl text-center my-10">
             Sanatan Dharma Foundation
           </h2>
           <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
@@ -306,7 +306,7 @@ const About = () => {
           />
           <br></br>
           <Divider />
-          <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-10">
+          <h2 className="font-oswald text-[#313131] font-bold text-3xl sm:pt-0 pt-2 text-center my-10">
             SENIOR SECONDARY SCHOOL AT TAMIL NADU
           </h2>
           <div className="flex flex-wrap justify-center">
@@ -324,7 +324,7 @@ const About = () => {
   />
 </div>
           <Divider />
-          <h3 className="font-oswald text-[#313131] font-bold text-4xl text-center my-10">
+          <h3 className="font-oswald text-[#313131] font-bold lg:text-4xl text-3xl text-center my-10">
             HARIDWAR CENTER ASHRAM UNDERDEVELOPMENT
           </h3>
           <img
@@ -334,7 +334,7 @@ const About = () => {
             className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
           />
           <Divider />
-          <h3 className="font-oswald text-[#313131] font-bold text-5xl text-center my-10">
+          <h3 className="font-oswald text-[#313131] font-bold lg:text-5xl text-3xl text-center my-10">
             SHOPPING MALL
           </h3>
           <img
