@@ -76,8 +76,6 @@ function Navbar() {
           Media
         </NavLink>
 
-      
-    
         <NavLink id ="nav"
           to="/contact"
           className={`no-underline text-white  mx-4 sm:text-xs text-xl  lg:text-xl`}
