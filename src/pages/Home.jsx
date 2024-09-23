@@ -2,7 +2,6 @@ import React from "react";
 import Swamiji from "./mainImg.webp";
 import Form from "../components/Form";
 import Divider from "../components/Divider";
-import swamiji1 from "../assets/roll1.webp";
 import swamiji2 from "../assets/roll2.webp";
 import Banner from "../components/Banner";
 import guru from "../assets/guru.jpg";
@@ -11,7 +10,7 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <main className="m-auto max-w-full w-[90%] sm:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
+      <main className="m-auto max-w-full w-[90%] lg:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
         <h1 className="font-oswald text-[#313131] font-bold text-2xl sm:text-5xl text-center my-10">
           Sanatana Dharma Foundation
         </h1>
