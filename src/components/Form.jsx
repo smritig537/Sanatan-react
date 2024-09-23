@@ -8,7 +8,7 @@ import {
 
 const Form = ({ title, subTitle }) => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col overflow-hidden items-center">
       <Card color="transparent" shadow={false}>
         <Typography variant="h4" color="blue-gray">
           {title}
