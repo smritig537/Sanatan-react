@@ -219,7 +219,7 @@ const About = () => {
           </div>
 
           <Divider />
-          <h2 className="text-center mt-16 mb-8 lg:text-5xl text-3xl text-orange-900 ">
+          <h2 className="text-center mt-16 mb-8 text-5xl text-orange-900 ">
             Aims and Objectives
           </h2>
           <div className="mx-4 flex flex-col sm:flex-row  justify-between mb-16 2xl:w-[50%] 2xl:m-auto">
