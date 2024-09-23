@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import React from "react";
-import swami from "../assets/swami.webp";
+import swami from "../assets/swami.jpeg";
 import aim from "../assets/aim.png";
 import sanatanabout from "../assets/sanatanabout.webp";
 import leaf from "../assets/leaf.png";
