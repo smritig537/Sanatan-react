@@ -28,7 +28,7 @@ const About = () => {
 </Helmet>
 
         <main>
-          <h1 className="font-oswald text-[#313131] font-bold lg:text-5xl text-2xl text-center my-10">
+          <h1 className="font-oswald text-[#313131] font-bold lg:text-5xl text-3xl text-center my-10">
             About Sanatan Dharma Foundation
           </h1>
 
@@ -128,7 +128,7 @@ const About = () => {
           </section>
 
           <div>
-            <h2 className="font-oswald text-[#313131] font-bold lg:text-3xl text-2xl text-center my-2">
+            <h2 className="font-oswald text-[#313131] font-bold lg:text-3xl text-2xl sm:p-0 p-4 text-center my-2">
               Charitable Activities and Community Service
             </h2>
             <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
@@ -162,7 +162,7 @@ const About = () => {
           </div>
 
           <div>
-            <h2 className="font-oswald text-[#313131] font-bold lg:text-3xl text-2xl text-center my-2">
+            <h2 className="font-oswald text-[#313131] font-bold lg:text-3xl sm:p-0 p-4 text-2xl text-center my-2">
               Promoting Pilgrimages to Holy Cities
             </h2>
             <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
@@ -291,18 +291,19 @@ const About = () => {
             </ul>
           </div>
           <Divider />
-          <h2 className="font-oswald text-[#313131] font-bold lg:text-5xl text-3xl text-center my-10">
+          <h2 className="font-oswald text-[#313131] font-bold lg:text-5xl text-3xl sm:p-0 p-2 text-center my-10">
             Sanatan Dharma Foundation
           </h2>
           <p className="items-center m-auto w-[90%] sm:w-[50%] p-1 mt-5 mb-5 text-justify rounded-sm text-gray-700 text-xl">
             The Sanatana Dharma Foundation is dedicated to the revival and
             resurrection of the ancient Sanatana Dharma and Ideologies.
           </p>
+         
           <img
             src={Build}
              loading="lazy"
             alt="Sanatana Dharma Foundation building"
-            className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
+            className="w-auto h-[500px] sm:w-[600px] sm-auto rounded-xl p-5"
           />
           <br></br>
           <Divider />
