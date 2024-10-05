@@ -28,7 +28,7 @@ const About = () => {
 </Helmet>
 
         <main>
-          <h1 className="font-oswald text-[#313131] font-bold lg:text-5xl text-3xl text-center my-10">
+          <h1 className="font-oswald text-[#313131] font-bold lg:text-5xl text-2xl text-center my-10">
             About Sanatan Dharma Foundation
           </h1>
 
@@ -85,7 +85,7 @@ const About = () => {
                     className="object-cover rounded-lg shadow-md max-w-full h-auto"
                   />
                 </div>
-                <div className="max-w-2xl md:text-left">
+                <div className="max-w-2xl sm:p-0 p-3 md:text-left">
                   <p className="mt-4 text-gray-600 text-lg text-justify">
                     {" "}
                     Guided by our <b>spiritual leader, Mahamadaleshwar Shri Shri
