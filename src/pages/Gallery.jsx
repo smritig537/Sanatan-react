@@ -1,18 +1,32 @@
 import React, { useState } from 'react';
 import Divider from "../components/Divider";
+import ImageModal from '../components/ImageModal';
 
 const imageUrl = {
-  Political: [1,2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
-  "Spiritual": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 
+  Political: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+  Spiritual: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 
     23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 
     44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 
-    65, 66, 67,68,69,70,71,72,73,74,75,76,77,78]
+    65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78]
 };
 
 const GallerySection = ({ title, category }) => {
   const [showAll, setShowAll] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  
   const images = imageUrl[category];
   const displayedImages = showAll ? images : images.slice(0, 8);
+
+  const openModal = (image) => {
+    setSelectedImage(image);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedImage(null);
+  };
 
   return (
     <div className="my-10">
@@ -21,7 +35,8 @@ const GallerySection = ({ title, category }) => {
         {displayedImages.map((e) => (
           <div
             key={e}
-            className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
+            className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80 cursor-pointer"
+            onClick={() => openModal(`${process.env.PUBLIC_URL}/gallery/${category}/${e}.webp`)}
           >
             <img
               src={`${process.env.PUBLIC_URL}/gallery/${category}/${e}.webp`}
@@ -48,6 +63,7 @@ const GallerySection = ({ title, category }) => {
         </div>
       )}
       <Divider />
+      <ImageModal isOpen={isModalOpen} imageUrl={selectedImage} onClose={closeModal} />
     </div>
   );
 };
