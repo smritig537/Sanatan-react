@@ -307,7 +307,7 @@ const About = () => {
           />
           <br></br>
           <Divider />
-          <h2 className="font-oswald text-[#313131] font-bold text-3xl sm:pt-0 pt-2 text-center my-10">
+          <h2 className="font-oswald text-[#313131] font-bold text-2xl sm:p-0 p-5 text-center my-10">
             SENIOR SECONDARY SCHOOL AT TAMIL NADU
           </h2>
           <div className="flex flex-wrap justify-center">
@@ -325,14 +325,14 @@ const About = () => {
   />
 </div>
           <Divider />
-          <h3 className="font-oswald text-[#313131] font-bold lg:text-4xl text-3xl text-center my-10">
+          <h3 className="font-oswald text-[#313131] font-bold lg:text-4xl sm:p-0 p-3 text-2xl text-center my-10">
             HARIDWAR CENTER ASHRAM UNDERDEVELOPMENT
           </h3>
           <img
             src={har}
              loading="lazy"
             alt="Sanatana Dharma Swamii Jii in Haridwar"
-            className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
+            className=" w-auto h-[500px] sm:w-[600px] m-auto rounded-xl p-5"
           />
           <Divider />
           <h3 className="font-oswald text-[#313131] font-bold lg:text-5xl text-3xl text-center my-10">
@@ -342,7 +342,7 @@ const About = () => {
             src={mall}
              loading="lazy"
             alt="Sanatana Dharma foundation mall work"
-            className=" mx-3 w-auto h-[500px] sm:w-[600px] sm:m-auto rounded-xl p-5"
+            className=" w-auto h-[500px] sm:w-[600px] m-auto rounded-xl p-5"
           />
           <div>
             <h2 className="font-oswald text-[#313131] font-bold text-3xl text-center my-2">
