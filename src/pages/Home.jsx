@@ -5,6 +5,7 @@ import Divider from "../components/Divider";
 import swamiji2 from "../assets/roll2.webp";
 import Banner from "../components/Banner";
 import guru from "../assets/guru.jpg";
+import guruji from "../assets/roll3.webp"
 
 const Home = () => {
   return (
@@ -150,6 +151,12 @@ const Home = () => {
           <img
             className="object-cover object-center m-auto rounded-full h-72 w-72"
             src={guru}
+            loading="lazy"
+            alt="Swami ji of Sanatana Dharma Foundation"
+          />
+          <img
+            className="object-cover object-center m-auto rounded-full h-72 w-72"
+            src={guruji}
             loading="lazy"
             alt="Swami ji of Sanatana Dharma Foundation"
           />
