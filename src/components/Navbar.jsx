@@ -10,7 +10,7 @@ function Navbar() {
   }, [location]);
   return (
     <nav
-      className={`sm:w-11/12 w-screen sticky top-0 h-[60px] bg-[#491c1d] m-auto ${
+      className={`sm:w-11/12 w-screen sticky top-0 h-[60px] bg-[#F08619] m-auto ${
         isClicked ? "h-screen" : ""
       }`}
     >
