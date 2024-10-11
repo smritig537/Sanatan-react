@@ -16,8 +16,8 @@ const Navbar = () => {
 
   return (
     <>
-    <marquee>
-        Welcome to the Sanatana Dharma Foundation!
+    <marquee className="text-[10px]">
+        Sanatana Dharma Foundation | Founded By <span className="text-[#f08619]">SRI SRI SRI ANANT VIBHUSHIT 1008  NARAYANANATH GIRIJI MAHARAJ.</span> Transform Your Life with the Wisdom of Sanatana Dharma
       </marquee>
     <nav className="bg-[#491c1d] border-[#f08619] py-2.5 dark:bg-gray-900">
       <div className="flex flex-wrap items-center justify-between w-full">
