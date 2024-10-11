@@ -3,33 +3,34 @@ import { NavLink, useLocation } from "react-router-dom";
 import logo from "../assets/om-bg-remove.png";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false); // State to manage menu toggle
+  const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen); // Toggle the menu open/close state
+    setIsOpen(!isOpen);
   };
 
   useEffect(() => {
-    setIsOpen(false); // Close menu on route change
+    setIsOpen(false);
   }, [location]);
 
   return (
-    <nav className="bg-[#491c1d] border-[#f08619] py-2.5 dark:bg-gray-900">
+    <nav className="bg-[#491c1d] border-[#f08619] py-2.5 dark:bg-gray-900" role="navigation">
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-        <a href="#" className="flex items-center">
-          <img src={logo} className="h-8 mr-1 sm:h-12" alt="Landwind Logo" />
+        <a href="/" className="flex items-center">
+          <img src={logo} className="h-8 mr-1 sm:h-12" alt="Sanatana Dharma Foundation Logo" />
           <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
             Sanatana Dharma Foundation
           </span>
         </a>
         <div className="flex items-center lg:order-2">
           <button
-            onClick={toggleMenu} // Call toggle function on click
+            onClick={toggleMenu}
             type="button"
             className="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:bg-[#f084199a] focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="mobile-menu-2"
-            aria-expanded={isOpen} // Set aria-expanded attribute
+            aria-expanded={isOpen}
+            aria-label={isOpen ? 'Close menu' : 'Open menu'}
           >
             <span className="sr-only">Open main menu</span>
             {isOpen ? (
@@ -62,121 +63,25 @@ const Navbar = () => {
           </button>
         </div>
         <div
-          className={`items-center justify-between w-full lg:flex lg:w-auto lg:order-1 ${
-            isOpen ? "block" : "hidden"
-          }`}
+          className={`items-center justify-between w-full lg:flex lg:w-auto lg:order-1 ${isOpen ? "block" : "hidden"}`}
           id="mobile-menu-2"
         >
           <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-            <li>
-              <NavLink
-                to="."
-                className={({ isActive }) =>
-                  `flex items-center py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
-                }
-                aria-current="page"
-              >
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="about"
-                className={({ isActive }) =>
-                  `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
-                }
-              >
-                About
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="sanatanadharma"
-                className={({ isActive }) =>
-                  `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
-                }
-              >
-                Sanatana Dharma
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="Locations-in-india"
-                className={({ isActive }) =>
-                  `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
-                }
-              >
-                Locations in India
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/gallery"
-                className={({ isActive }) =>
-                  `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
-                }
-              >
-                Gallery
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/blogs"
-                className={({ isActive }) =>
-                  `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
-                }
-              >
-                Blogs
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="media"
-                className={({ isActive }) =>
-                  `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
-                }
-              >
-                Media
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="/contact"
-                className={({ isActive }) =>
-                  `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
-                }
-              >
-                Association & Support
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to="supporters"
-                className={({ isActive }) =>
-                  `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
-                }
-              >
-                Supporters
-              </NavLink>
-            </li>
+            {["Home", "About", "Sanatana Dharma", "Locations in India", "Gallery", "Blogs", "Media", "Association & Support", "Supporters"].map((item, index) => (
+              <li key={index}>
+                <NavLink
+                  to={item.toLowerCase().replace(/ /g, "-")}
+                  className={({ isActive }) =>
+                    `block py-2 pl-3 pr-4 rounded ${
+                      isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
+                    } lg:bg-transparent lg:text-[#f08619] lg:p-0`
+                  }
+                  aria-current={item === "Home" ? "page" : undefined}
+                >
+                  {item}
+                </NavLink>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
