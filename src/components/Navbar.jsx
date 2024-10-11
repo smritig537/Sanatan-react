@@ -17,8 +17,8 @@ const Navbar = () => {
   return (
     <nav className="bg-[#491c1d] border-[#f08619] py-2.5 dark:bg-gray-900">
       <div className="flex flex-wrap items-center justify-between w-full">
-        <a href="#" className="flex items-center">
-          <img src={logo} className="h-8 mr-3 sm:h-12" alt="Landwind Logo" />
+        <a href="#" className="flex ml-3 items-center">
+          <img src={logo} className="h-8 sm:h-12" alt="Sanatana Dharma Foundation logo" />
           <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
             Sanatana Dharma Foundation
           </span>
