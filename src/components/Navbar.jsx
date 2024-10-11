@@ -15,6 +15,7 @@ const Navbar = () => {
   }, [location]);
 
   return (
+    <>
     <nav className="bg-[#491c1d] border-[#f08619] py-2.5 dark:bg-gray-900">
       <div className="flex flex-wrap items-center justify-between w-full">
         <a href="#" className="flex ml-4 items-center">
@@ -167,6 +168,10 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    <marquee>
+        Welcome to the Sanatana Dharma Foundation!
+      </marquee>
+      </>
   );
 };
 
