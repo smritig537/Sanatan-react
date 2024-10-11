@@ -71,8 +71,8 @@ const Navbar = () => {
                 to="/"
                 className={({ isActive }) =>
                   `flex items-center py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
-                  } lg:bg-transparent lg:text-white lg:p-0`
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                  } lg:bg-transparent lg:p-0`
                 }
                 aria-current="page"
               >
@@ -84,8 +84,8 @@ const Navbar = () => {
                 to="/about"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
-                  } lg:bg-transparent lg:text-white lg:p-0`
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                  } lg:bg-transparent lg:p-0`
                 }
               >
                 About
@@ -96,8 +96,8 @@ const Navbar = () => {
                 to="/sanatanadharma"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
-                  } lg:bg-transparent lg:text-white lg:p-0`
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                  } lg:bg-transparent lg:p-0`
                 }
               >
                 Sanatana Dharma
@@ -108,8 +108,8 @@ const Navbar = () => {
                 to="/locations-in-india"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
-                  } lg:bg-transparent lg:text-white lg:p-0`
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                  } lg:bg-transparent lg:p-0`
                 }
               >
                 Locations in India
@@ -120,8 +120,8 @@ const Navbar = () => {
                 to="/gallery"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
-                  } lg:bg-transparent lg:text-white lg:p-0`
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                  } lg:bg-transparent lg:p-0`
                 }
               >
                 Gallery
@@ -132,8 +132,8 @@ const Navbar = () => {
                 to="/blogs"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
-                  } lg:bg-transparent lg:text-white lg:p-0`
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                  } lg:bg-transparent lg:p-0`
                 }
               >
                 Blogs
@@ -144,8 +144,8 @@ const Navbar = () => {
                 to="/media"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
-                  } lg:bg-transparent lg:text-white lg:p-0`
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                  } lg:bg-transparent lg:p-0`
                 }
               >
                 Media
@@ -156,8 +156,8 @@ const Navbar = () => {
                 to="/contact"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
-                  } lg:bg-transparent lg:text-white lg:p-0`
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                  } lg:bg-transparent lg:p-0`
                 }
               >
                 Association & Support
