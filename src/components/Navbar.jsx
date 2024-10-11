@@ -3,15 +3,15 @@ import { NavLink, useLocation } from "react-router-dom";
 import logo from "../assets/om-bg-remove.png";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false); // State to manage menu toggle
+  const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen); // Toggle the menu open/close state
+    setIsOpen(!isOpen);
   };
 
   useEffect(() => {
-    setIsOpen(false); // Close menu on route change
+    setIsOpen(false);
   }, [location]);
 
   return (
@@ -25,11 +25,11 @@ const Navbar = () => {
         </a>
         <div className="flex items-center lg:order-2">
           <button
-            onClick={toggleMenu} // Call toggle function on click
+            onClick={toggleMenu}
             type="button"
-            className="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:bg-[#f084199a] focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:bg-[#f084199a] focus:outline-none"
             aria-controls="mobile-menu-2"
-            aria-expanded={isOpen} // Set aria-expanded attribute
+            aria-expanded={isOpen}
           >
             <span className="sr-only">Open main menu</span>
             {isOpen ? (
@@ -62,19 +62,17 @@ const Navbar = () => {
           </button>
         </div>
         <div
-          className={`items-center justify-between w-full lg:flex lg:w-auto lg:order-1 ${
-            isOpen ? "block" : "hidden"
-          }`}
+          className={`items-center justify-between w-full lg:flex lg:w-auto lg:order-1 ${isOpen ? "block" : "hidden"}`}
           id="mobile-menu-2"
         >
           <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
             <li>
               <NavLink
-                to="."
+                to="/"
                 className={({ isActive }) =>
                   `flex items-center py-2 pl-3 pr-4 rounded ${
                     isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
+                  } lg:bg-transparent lg:text-white lg:p-0`
                 }
                 aria-current="page"
               >
@@ -83,11 +81,11 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="about"
+                to="/about"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
                     isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
+                  } lg:bg-transparent lg:text-white lg:p-0`
                 }
               >
                 About
@@ -95,11 +93,11 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="sanatanadharma"
+                to="/sanatanadharma"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
                     isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
+                  } lg:bg-transparent lg:text-white lg:p-0`
                 }
               >
                 Sanatana Dharma
@@ -107,11 +105,11 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="Locations-in-india"
+                to="/locations-in-india"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
                     isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
+                  } lg:bg-transparent lg:text-white lg:p-0`
                 }
               >
                 Locations in India
@@ -123,7 +121,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
                     isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
+                  } lg:bg-transparent lg:text-white lg:p-0`
                 }
               >
                 Gallery
@@ -135,7 +133,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
                     isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
+                  } lg:bg-transparent lg:text-white lg:p-0`
                 }
               >
                 Blogs
@@ -143,18 +141,16 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="media"
+                to="/media"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
                     isActive ? "bg-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
-                  } lg:bg-transparent lg:text-[#f08619] lg:p-0`
+                  } lg:bg-transparent lg:text-white lg:p-0`
                 }
               >
                 Media
               </NavLink>
             </li>
-            
-           
           </ul>
         </div>
       </div>
