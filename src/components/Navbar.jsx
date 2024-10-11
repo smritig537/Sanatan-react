@@ -17,12 +17,14 @@ const Navbar = () => {
   return (
     <nav className="bg-[#491c1d] border-[#f08619] py-2.5 dark:bg-gray-900" role="navigation">
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-        <a href="/" className="flex items-center">
-          <img src={logo} className="h-8 mr-1 sm:h-12" alt="Sanatana Dharma Foundation Logo" />
-          <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
-            Sanatana Dharma Foundation
-          </span>
-        </a>
+        <div className="flex items-center">
+          <a href="/" className="flex items-center">
+            <img src={logo} className="h-8 mr-1 sm:h-12" alt="Sanatana Dharma Foundation Logo" />
+            <span className="self-center text-xl font-semibold whitespace-nowrap text-white">
+              Sanatana Dharma Foundation
+            </span>
+          </a>
+        </div>
         <div className="flex items-center lg:order-2">
           <button
             onClick={toggleMenu}
