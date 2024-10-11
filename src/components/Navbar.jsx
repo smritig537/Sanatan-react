@@ -71,7 +71,7 @@ const Navbar = () => {
                 to="/"
                 className={({ isActive }) =>
                   `flex items-center py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:bg-[#f08619] hover:text-opacity-75"
                   } lg:bg-transparent lg:p-0`
                 }
                 aria-current="page"
@@ -84,7 +84,7 @@ const Navbar = () => {
                 to="/about"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:bg-[#f08619] hover:text-opacity-75"
                   } lg:bg-transparent lg:p-0`
                 }
               >
@@ -96,7 +96,7 @@ const Navbar = () => {
                 to="/sanatanadharma"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:bg-[#f08619] hover:text-opacity-75"
                   } lg:bg-transparent lg:p-0`
                 }
               >
@@ -108,7 +108,7 @@ const Navbar = () => {
                 to="/locations-in-india"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:bg-[#f08619] hover:text-opacity-75"
                   } lg:bg-transparent lg:p-0`
                 }
               >
@@ -120,7 +120,7 @@ const Navbar = () => {
                 to="/gallery"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:bg-[#f08619] hover:text-opacity-75"
                   } lg:bg-transparent lg:p-0`
                 }
               >
@@ -132,7 +132,7 @@ const Navbar = () => {
                 to="/blogs"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:bg-[#f08619] hover:text-opacity-75"
                   } lg:bg-transparent lg:p-0`
                 }
               >
@@ -144,7 +144,7 @@ const Navbar = () => {
                 to="/media"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:bg-[#f08619] hover:text-opacity-75"
                   } lg:bg-transparent lg:p-0`
                 }
               >
@@ -156,7 +156,7 @@ const Navbar = () => {
                 to="/contact"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                    isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:bg-[#f08619] hover:text-opacity-75"
                   } lg:bg-transparent lg:p-0`
                 }
               >
