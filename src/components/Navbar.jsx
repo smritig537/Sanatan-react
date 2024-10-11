@@ -151,6 +151,20 @@ const Navbar = () => {
                 Media
               </NavLink>
             </li>
+
+            
+            <li>
+              <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                  `block py-2 pl-3 pr-4 rounded ${
+                    isActive ? "border-b-2 border-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
+                  } lg:bg-transparent lg:text-white lg:p-0`
+                }
+              >
+                Association & Support
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>
