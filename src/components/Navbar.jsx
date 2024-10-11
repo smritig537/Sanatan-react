@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import logo from "./logo.png";
+import logo from "../assets/om-bg-remove.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // State to manage menu toggle
