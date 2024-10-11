@@ -71,7 +71,7 @@ const Navbar = () => {
                 to="/"
                 className={({ isActive }) =>
                   `flex items-center py-2 pl-3 pr-4 rounded ${
-                    isActive ? "border-b-2 border-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
+                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
                   } lg:bg-transparent lg:text-white lg:p-0`
                 }
                 aria-current="page"
@@ -84,7 +84,7 @@ const Navbar = () => {
                 to="/about"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "border-b-2 border-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
+                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
                   } lg:bg-transparent lg:text-white lg:p-0`
                 }
               >
@@ -96,7 +96,7 @@ const Navbar = () => {
                 to="/sanatanadharma"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "border-b-2 border-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
+                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
                   } lg:bg-transparent lg:text-white lg:p-0`
                 }
               >
@@ -108,7 +108,7 @@ const Navbar = () => {
                 to="/locations-in-india"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "border-b-2 border-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
+                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
                   } lg:bg-transparent lg:text-white lg:p-0`
                 }
               >
@@ -120,7 +120,7 @@ const Navbar = () => {
                 to="/gallery"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "border-b-2 border-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
+                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
                   } lg:bg-transparent lg:text-white lg:p-0`
                 }
               >
@@ -132,7 +132,7 @@ const Navbar = () => {
                 to="/blogs"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "border-b-2 border-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
+                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
                   } lg:bg-transparent lg:text-white lg:p-0`
                 }
               >
@@ -144,21 +144,19 @@ const Navbar = () => {
                 to="/media"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "border-b-2 border-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
+                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
                   } lg:bg-transparent lg:text-white lg:p-0`
                 }
               >
                 Media
               </NavLink>
             </li>
-
-            
             <li>
               <NavLink
                 to="/contact"
                 className={({ isActive }) =>
                   `block py-2 pl-3 pr-4 rounded ${
-                    isActive ? "border-b-2 border-[#f08619] text-white" : "text-white hover:bg-[#f084199a]"
+                    isActive ? "bg-[#f08619] text-white" : "text-white hover:text-[#f08619]"
                   } lg:bg-transparent lg:text-white lg:p-0`
                 }
               >
