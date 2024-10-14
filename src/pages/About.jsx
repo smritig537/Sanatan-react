@@ -28,7 +28,7 @@ const About = () => {
 </Helmet>
 
         <main>
-          <h1 className="font-oswald text-[#313131] font-bold lg:text-5xl text-3xl text-center my-10">
+          <h1 className=" text-[#313131] font-bold lg:text-5xl text-3xl text-center my-10">
             About Sanatan Dharma Foundation
           </h1>
 
