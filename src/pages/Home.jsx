@@ -11,8 +11,8 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <main id="home" className="m-auto max-w-full w-[90%] lg:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
-        <h1 className="text-[#313131] font-bold text-2xl sm:text-5xl text-center my-10">
+      <main className="m-auto max-w-full w-[90%] lg:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
+        <div id="home" className="w-full"><h1 className="text-[#313131] font-bold text-2xl sm:text-5xl text-center my-10">
           Sanatana Dharma Foundation
         </h1>
         <p className="items-center mb-3 text-left sm:text-justify rounded-sm">
@@ -31,7 +31,7 @@ const Home = () => {
           creates a vibrant community space for learning, growth, and
           connection, fostering a deeper understanding of ancient wisdom and
           values.
-        </p>
+        </p></div>
 
         <h2 className="sm:text-4xl text-2xl mb-3 mt-5 font-medium text-left sm:text-center text-orange-900">
           About Sanatana Dharma Foundation
