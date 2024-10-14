@@ -16,4 +16,5 @@ h2{
     background-image: url("./pages/bg-1.jpg");
     background-position: center;
     background-size: contain;
+    width: 100%;
 }
