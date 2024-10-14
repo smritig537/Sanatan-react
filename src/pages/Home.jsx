@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <main className="m-auto max-w-full w-[90%] lg:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
+      <main id="home" className="m-auto max-w-full w-[90%] lg:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
         <h1 className="text-[#313131] font-bold text-2xl sm:text-5xl text-center my-10">
           Sanatana Dharma Foundation
         </h1>

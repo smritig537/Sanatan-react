@@ -11,3 +11,9 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
+
+
+#home{
+    background: url("./pages/bg-1.jpg") no-repeat center;
+    object-fit: contain;
+}
