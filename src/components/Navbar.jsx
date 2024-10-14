@@ -15,13 +15,13 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <section className="fixed top-0 left-0 w-full z-10">
-    <marquee className="sm:text-[13px] bg-white text-[10px]  p-1.5 font-bold">
+    <>
+    <marquee className="sm:text-[13px] text-[10px]  p-1.5 font-bold">
         SANATANA DHARMA FOUNDATION   |   Founded By 
         <span className="text-[#f08619]">SRI SRI SRI ANANT VIBHUSHIT 1008  NARAYANANATH GIRIJI MAHARAJ</span>
            |   Transform Your Life with the Wisdom of Sanatana Dharma  |  Embracing Sanatana Dharma Cultivating Spiritual Wisdom | Cultural Harmony for All
       </marquee>
-    <nav className="bg-[#491c1d] border-[#f08619] py-2.5 dark:bg-gray-900">
+    <nav fixed top-0 left-0 w-full z-10 className="bg-[#491c1d] border-[#f08619] py-2.5 dark:bg-gray-900">
       <div className="flex flex-wrap items-center justify-between w-full">
         <a href="#" className="flex ml-4 items-center">
           <img src={logo} className="h-8 sm:h-12" alt="Sanatana Dharma Foundation logo" />
@@ -174,7 +174,7 @@ const Navbar = () => {
       </div>
     </nav>
     
-    </section>
+      </>
   );
 };
 
