@@ -6,7 +6,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Outlet />
+      <div className="mt-[80px]">
+      <Outlet /></div>
       <Footer />
     </div>
   );
