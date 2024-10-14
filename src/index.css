@@ -12,8 +12,8 @@ h2{
     font-weight: bold;
 }
 
-
 #home{
-    background: url("./pages/bg-1.jpg") no-repeat center;
-    object-fit: contain;
+    background-image: url("./pages/bg-1.jpg");
+    background-position: center;
+    background-size: contain;
 }
