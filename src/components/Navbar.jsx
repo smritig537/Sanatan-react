@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import logo from "../assets/om-bg-remove.png";
+import SocialMedia from "./social";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,7 @@ const Navbar = () => {
   }, [location]);
 
   return (
-          
+          <>
            <section className="bg-white fixed top-0 left-0 w-full z-10 bg-white">
           <marquee className="sm:text-[13px] text-[10px]  p-1.5 font-bold">
         SANATANA DHARMA FOUNDATION   |   Founded By 
@@ -175,7 +176,8 @@ const Navbar = () => {
       </div>
     </nav>
     </section>
-    
+    <SocialMedia />
+    </>
   );
 };
 
