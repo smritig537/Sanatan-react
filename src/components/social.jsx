@@ -1,7 +1,7 @@
 import React from 'react';
-import { default as InstagramIcon } from "./assets/ig.svg";
-import { default as FacebookIcon } from "./assets/facebook.svg";
-import { default as XIcon } from "./assets/twitter.svg";
+import { default as InstagramIcon } from "../assets/ig.svg";
+import { default as FacebookIcon } from "../assets/facebook.svg";
+import { default as XIcon } from "../assets/twitter.svg";
 
 const SocialMedia = () => {
     return (
@@ -10,7 +10,7 @@ const SocialMedia = () => {
             aria-label="Social Media Links"
         >
             <a 
-                href="https://instagram.com" 
+                href="https://www.instagram.com/sanatanadharmafoundation1/?igsh=MmNmcGk0MWE0Nmdn" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="Follow us on Instagram"
@@ -22,7 +22,7 @@ const SocialMedia = () => {
                 />
             </a>
             <a 
-                href="https://facebook.com" 
+                href="https://www.facebook.com/people/Sanatana-Dharma-Foundation/61560817495402/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="Follow us on Facebook"
@@ -34,7 +34,7 @@ const SocialMedia = () => {
                 />
             </a>
             <a 
-                href="https://twitter.com" 
+                href="https://x.com/dharmaorigins" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="Follow us on Twitter"
