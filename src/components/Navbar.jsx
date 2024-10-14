@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink,Link, useLocation } from "react-router-dom";
 import logo from "../assets/om-bg-remove.png";
 import SocialMedia from "./social";
 
@@ -25,12 +25,12 @@ const Navbar = () => {
       </marquee>
     <nav  className="bg-[#491c1d] m-0 border-[#f08619] py-2.5 dark:bg-gray-900">
       <div className="flex flex-wrap items-center justify-between w-full">
-        <a href="#" className="flex ml-4 items-center">
+        <Link href="/" className="flex ml-4 items-center">
           <img src={logo} className="h-8 sm:h-12" alt="Sanatana Dharma Foundation logo" />
           <span className="self-center text-xl ml-1 font-semibold whitespace-nowrap text-white">
             Sanatana Dharma Foundation
           </span>
-        </a>
+        </Link>
         <div className="flex items-center lg:order-2">
           <button
             onClick={toggleMenu}
