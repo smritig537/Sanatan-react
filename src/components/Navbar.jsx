@@ -16,8 +16,8 @@ const Navbar = () => {
 
   return (
     
-    <section className="fixed bg-white top-0 left-0 w-full z-10">
-      <div>
+    <section className="block">
+      <div className="fixed bg-white top-0 left-0 w-full z-10">
           <marquee className="sm:text-[13px] text-[10px]  p-1.5 font-bold">
         SANATANA DHARMA FOUNDATION   |   Founded By 
         <span className="text-[#f08619]">SRI SRI SRI ANANT VIBHUSHIT 1008  NARAYANANATH GIRIJI MAHARAJ</span>
