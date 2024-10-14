@@ -7,7 +7,7 @@ import { default as Logo } from "../assets/LOGO.jpg";
 
 function Footer() {
   return (
-    <footer class="bg-[#F08619] rounded-lg shadow dark:bg-gray-900 w-full">
+    <footer class="bg-[#491c1d] rounded-lg shadow dark:bg-gray-900 w-full">
       <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
           <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
@@ -15,25 +15,25 @@ function Footer() {
           </span>
           <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-              <Link to="about" class="hover:underline text-white me-4 md:me-6">
+              <Link to="about" class="hover:underline hover:text-[#f08619] text-white me-4 md:me-6">
                 About
               </Link>
             </li>
             <li>
               <Link
                 to="supporters"
-                class="hover:underline text-white me-4 md:me-6"
+                class="hover:underline hover:text-[#f08619] text-white me-4 md:me-6"
               >
                 Supporters
               </Link>
             </li>
             <li>
-              <Link to="media" class="hover:underline text-white me-4 md:me-6">
+              <Link to="media" class="hover:underline hover:text-[#f08619] text-white me-4 md:me-6">
                 Media
               </Link>
             </li>
             <li>
-              <Link to="/gallery" class="hover:underline text-white">
+              <Link to="/gallery" class="hover:underline hover:text-[#f08619] text-white">
                 Gallery
               </Link>
             </li>
