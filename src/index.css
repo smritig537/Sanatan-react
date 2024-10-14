@@ -3,39 +3,10 @@
 @tailwind utilities;
 
 
-/* nav{
-    z-index: 99;
+h1{
+    font-family: 'Times New Roman', Times, serif;
 }
 
-#nav{
-    position: relative;
-    padding: 2px;
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-#nav:not(#nav.active)::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-    width: 0;
-    border-bottom: 2px solid white;
-    transition: linear .2s;
-}
-
-#nav:hover:not(#nav.active):before{
-    width: 100%;
-}
-
-.active{
-    border-bottom: 2px solid white;
-}
-
-@media (max-width: 668px) {
-    #nav {
-        padding: 0;
-        margin-bottom: 20px;
-    }
-} */
-
-
