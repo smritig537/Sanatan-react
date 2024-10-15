@@ -6,7 +6,7 @@ import { default as XIcon } from "../assets/twitter.svg";
 const SocialMedia = () => {
     return (
         <section 
-            className="fixed right-5 top-1/2 transform -translate-y-1/2 flex flex-col space-y-4" 
+            className="fixed right-5 top-1/2 transform -translate-y-1/2 z-10 flex flex-col space-y-4" 
             aria-label="Social Media Links"
         >
             <a 
