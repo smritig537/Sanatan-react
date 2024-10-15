@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <section id="header_section" className="w-full p-3 flex justify-center colunm">
+      <section id="header_section" className="w-full p-3 flex justify-center items-center flex-col">
       <h1 className="text-[#313131] font-bold text-2xl w-[90%] sm:text-5xl text-center">
           Sanatana Dharma Foundation
         </h1>
