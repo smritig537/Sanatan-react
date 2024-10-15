@@ -12,10 +12,9 @@ h2{
     font-weight: bold;
 }
 
-#home{
+
+#header_section{
     background-image: url("./pages/bg-1.jpg");
     background-position: center;
     background-size: contain;
-    width: 100%;
 }
-
