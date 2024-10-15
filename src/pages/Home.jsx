@@ -48,7 +48,19 @@ const Home = () => {
      </section>
      
       <main className="m-auto max-w-full w-[90%] lg:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
+      <h2 className="sm:text-4xl text-2xl mb-3 mt-5 font-medium text-left sm:text-center text-orange-900">
+          Earlier Life
+        </h2>
 
+        <p className="text-gray-700 sm:text-justify text-left">
+          <strong>Mahamadaleshwar Giriji Maharaj</strong> pursued multiple
+          careers before dedicating himself to spiritual leadership. He began as
+          a successful businessman, contributing to the economic landscape.
+          However, driven by his spiritual calling, he transitioned to become a
+          renowned spiritual leader. Additionally, he has been involved in the
+          fields of education and social activism, striving to create a positive
+          impact on society.
+        </p>
 
         <img
           className="h-auto sm:h-[500px] object-cover object-center m-auto mb-5"
@@ -64,19 +76,7 @@ const Home = () => {
           teachings of Sanatan Dharma.
         </p>
 
-        <h2 className="sm:text-4xl text-2xl mb-3 mt-5 font-medium text-left sm:text-center text-orange-900">
-          Earlier Life
-        </h2>
-
-        <p className="text-gray-700 sm:text-justify text-left">
-          <strong>Mahamadaleshwar Giriji Maharaj</strong> pursued multiple
-          careers before dedicating himself to spiritual leadership. He began as
-          a successful businessman, contributing to the economic landscape.
-          However, driven by his spiritual calling, he transitioned to become a
-          renowned spiritual leader. Additionally, he has been involved in the
-          fields of education and social activism, striving to create a positive
-          impact on society.
-        </p>
+        
 
         <h2 className="sm:text-4xl text-2xl mt-5 font-medium text-left sm:text-center text-orange-900">
           Compassion
