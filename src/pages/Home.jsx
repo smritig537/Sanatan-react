@@ -6,6 +6,7 @@ import swamiji2 from "../assets/roll2.webp";
 import Banner from "../components/Banner";
 import guru from "../assets/guru.jpg";
 import guruji from "../assets/roll3.webp"
+import HomeCard from "../components/HomeCard";
 
 const Home = () => {
   return (
@@ -33,6 +34,8 @@ const Home = () => {
           values.
           </i></p>
       </section>
+      <HomeCard id="card" heading="ABOUT THIS FOUNDATION" icon="fas fa-info-circle text-white"
+       text="In the bustling world we live in today, it can be easy to get swept away in the chaos and noise of everyday life. It's important to take a step back and reconnect with our spiritual roots, our cultural heritage, and the ancient wisdom that has guided generations before us. This is where organizations like the Sanatana Dharma Foundation come in, providing a space for individuals to delve into the teachings of Sanatana Dharma, also known as Hinduism."/>
       <main className="m-auto max-w-full w-[90%] lg:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
         <h2 className="sm:text-4xl text-2xl mb-3 mt-5 font-medium text-left sm:text-center text-orange-900">
           About Sanatana Dharma Foundation

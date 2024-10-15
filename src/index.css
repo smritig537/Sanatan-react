@@ -18,3 +18,9 @@ h2{
     background-position: center;
     background-size: contain;
 }
+
+#card {
+    background-image: url("./bg2.jpg");
+    background-position: center;
+    background-size: cover;
+}
