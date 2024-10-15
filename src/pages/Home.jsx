@@ -34,7 +34,7 @@ const Home = () => {
           values.
           </i></p>
       </section>
-      <section className="grid sm:grid-cols-3">
+      <section className="grid lg:grid-cols-3  sm:grid-cols-2">
       <HomeCard id="card" link="/about" heading="ABOUT THIS FOUNDATION" icon="fas fa-info-circle text-white"
        text="In the bustling world we live in today, it can be easy to get swept away in the chaos and noise of everyday life. It's important to take a step back and reconnect with our spiritual roots, our cultural heritage, and the ancient wisdom that has guided generations before us. This is where organizations like the Sanatana Dharma Foundation come in, providing a space for individuals to delve into the teachings of Sanatana Dharma, also known as Hinduism."/>
      
