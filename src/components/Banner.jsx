@@ -4,6 +4,7 @@ import banner from "./banner.webp"
 const Banner = () => {
     return (
         <>
+        
         <img 
         src={banner} 
         alt="Sanatana Dharma Foundation Banner" 
