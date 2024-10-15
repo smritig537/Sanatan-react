@@ -15,7 +15,7 @@ const Home = () => {
       <h1 className="text-[#313131] font-bold text-2xl w-[90%] sm:text-5xl text-center">
           Sanatana Dharma Foundation
         </h1>
-        <p className="items-center w-[90%] mb-3 text-left sm:text-justify rounded-sm">
+        <p className="items-center ml-auto w-[90%] mb-3 text-justify rounded-sm">
           The Sanatana Dharma Foundation is dedicated to helping individuals
           reconnect with the{" "}
           <a
