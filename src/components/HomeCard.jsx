@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom"
 
 const HomeCard = (props) => {
   return (
@@ -22,9 +23,9 @@ const HomeCard = (props) => {
           </div>
           <div className="pt-5 text-base font-semibold leading-7">
             <p>
-              <a href="#" className="text-orange-900 hover:text-xl transition-all duration-300">
+              <Link to={props.link} className="text-orange-900 hover:text-xl transition-all duration-300">
                 Read the docs &rarr;
-              </a>
+              </Link>
             </p>
           </div>
         </div>
