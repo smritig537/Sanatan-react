@@ -46,8 +46,11 @@ const Home = () => {
      
      
      </section>
+     
+      <main className="m-auto max-w-full w-[90%] lg:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
 
-     <div className="grid lg:grid-cols-2"> <img
+
+        <img
           className="h-auto sm:h-[500px] object-cover object-center m-auto mb-5"
           src={Swamiji}
           loading="lazy"
@@ -59,12 +62,7 @@ const Home = () => {
           devoted activist of Sanatan Dharma. He is a proud citizen of Bharat
           (India) and actively promotes the ancient traditions, values, and
           teachings of Sanatan Dharma.
-        </p></div>
-     
-      <main className="m-auto max-w-full w-[90%] lg:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
-
-
-       
+        </p>
 
         <h2 className="sm:text-4xl text-2xl mb-3 mt-5 font-medium text-left sm:text-center text-orange-900">
           Earlier Life
