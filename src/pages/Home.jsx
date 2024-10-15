@@ -15,7 +15,7 @@ const Home = () => {
       <h1 className="text-[#313131] font-bold text-2xl w-[90%] sm:text-5xl text-center">
           Sanatana Dharma Foundation
         </h1>
-        <p className="items-center w-[90%] mb-3 text-justify rounded-sm">
+        <i><p className="items-center w-[90%] mb-3 text-justify rounded-sm">
           The Sanatana Dharma Foundation is dedicated to helping individuals
           reconnect with the{" "}
           <a
@@ -31,7 +31,7 @@ const Home = () => {
           creates a vibrant community space for learning, growth, and
           connection, fostering a deeper understanding of ancient wisdom and
           values.
-        </p>
+        </p></i>
       </section>
       <main className="m-auto max-w-full w-[90%] lg:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
         <h2 className="sm:text-4xl text-2xl mb-3 mt-5 font-medium text-left sm:text-center text-orange-900">
