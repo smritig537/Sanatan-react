@@ -25,7 +25,14 @@ h2{
     background-size: cover;
 }
 
+#om:hover{
 
-#om::hover{
-    transform: translateY(-10px);
+    animation: ombutton 6s linear infinite;
+
+}
+
+@keyframes ombutton {
+    50%{
+        transform: translateY(-10px);
+    }
 }
