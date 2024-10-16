@@ -27,12 +27,12 @@ h2{
 
 #om{
 
-    animation: ombutton .5s linear infinite;
+    animation: ombutton 2s linear infinite;
 
 }
 
 @keyframes ombutton {
     50%{
-        transform: translateY(5px);
+        transform: translateY(10px);
     }
 }
