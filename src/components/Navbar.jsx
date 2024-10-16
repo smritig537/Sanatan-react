@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink,Link, useLocation } from "react-router-dom";
 import logo from "../assets/om-bg-remove.png";
 import SocialMedia from "./social";
+import ScrollToTop from "./ScrollToTop";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -177,6 +178,7 @@ const Navbar = () => {
     </nav>
     </section>
     <SocialMedia />
+    <ScrollToTop />
     </>
   );
 };
