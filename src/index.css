@@ -24,3 +24,15 @@ h2{
     background-position: center;
     background-size: cover;
 }
+
+#om{
+
+    animation: ombutton .5s linear infinite;
+
+}
+
+@keyframes ombutton {
+    50%{
+        transform: translateY(5px);
+    }
+}

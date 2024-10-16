@@ -13,7 +13,7 @@ const ScrollToTop = () => {
       onClick={goTop} 
       className='h-[50px] z-10 cursor-pointer fixed bottom-4 right-4 bg-orange-800 w-[50px] flex justify-center items-center rounded-full'
     >
-      <i className="fa-solid fa-om text-white text-[20px]"></i>
+      <i id='om' className="fa-solid fa-om text-white text-[20px]"></i>
     </button>
   );
 }
