@@ -33,6 +33,6 @@ h2{
 
 @keyframes ombutton {
     50%{
-        transform: translateY(10px);
+        transform: translateY(-10px);
     }
 }
