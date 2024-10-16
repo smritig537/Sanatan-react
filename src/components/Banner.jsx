@@ -1,12 +1,13 @@
 import banner from "./banner.webp"
 import React, { useState, useEffect } from 'react';
+import Sanatan from "./Sanatan.jpg"
 
 
 const Banner = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const slides = [
         {
-            url: banner,
+            url: Sanatan,
             alt: "Sanatana dharma foundation banner"
         },
     
