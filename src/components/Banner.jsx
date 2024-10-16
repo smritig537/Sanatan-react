@@ -1,5 +1,5 @@
 import banner from "./banner.webp";
-import sanatan from "./sanatan.jpg";
+import sanatan from "./sanantan.jpg";
 
 import React, { useState, useEffect } from "react";
 import banner from "./car.jpg";
