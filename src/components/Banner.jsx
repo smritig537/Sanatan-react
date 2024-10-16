@@ -1,8 +1,6 @@
-
 import banner from "./banner.webp"
-
 import React, { useState, useEffect } from 'react';
-import banner from "./car.jpg"
+
 
 const Banner = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
