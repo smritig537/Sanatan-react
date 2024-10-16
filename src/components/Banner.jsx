@@ -9,10 +9,7 @@ const Banner = () => {
             url: banner,
             alt: "Sanatana dharma foundation banner"
         },
-        {
-          url: "https://img.freepik.com/premium-photo/color-flowers_1011251-18.jpg",
-          alt: "Colorful flowers in a vibrant arrangement"
-      }
+    
     ];
 
     const nextSlide = () => {
