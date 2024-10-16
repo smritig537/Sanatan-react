@@ -1,14 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import banner1 from "./banner.webp"
 
-const Carousel = () => {
+import banner from "./banner.webp"
+
+import React, { useState, useEffect } from 'react';
+
+const Banner = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const slides = [
         {
-            url: {banner1},
+            url: {banner},
             alt: "Beautiful red and pink garden rose"
-        },
-      
+        }
+        
     ];
 
     const nextSlide = () => {
@@ -73,4 +75,4 @@ const Carousel = () => {
     );
 };
 
-export default Carousel;
+export default Banner;
