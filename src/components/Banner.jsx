@@ -9,7 +9,7 @@ const Banner = () => {
         src={banner} 
         alt="Sanatana Dharma Foundation Banner" 
         loading='lazy'
-        className="aspect-auto sm:w-full sm:h-full h-[500px] object-cover"
+        className="aspect-auto sm:w-full sm:h-full h-[500px] object-fill"
       />
       </>
     );
