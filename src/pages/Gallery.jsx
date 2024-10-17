@@ -5,6 +5,7 @@ const imageUrl = {
   Meetings: Array.from({ length: 140 }, (_, index) => index + 1),
   Political: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
   Spiritual: Array.from({ length: 163 }, (_, index) => index + 1),
+  "Spiritual Events 2": Array.from({ length: 112 }, (_, index) => index + 1),
   "Social Activity": Array.from({ length: 21 }, (_, index) => index + 1),
 };
 
@@ -49,6 +50,7 @@ function Gallery() {
         </h1>
         <GallerySection title="Meetings" category="Meetings" />
         <GallerySection title="Spiritual Events" category="Spiritual" />
+        <GallerySection title="Spiritual Events 2" category="Spiritual Events 2" />
         <GallerySection title="Political" category="Political" />
         <GallerySection title="Social Activity" category="Social Activity" />
       </div>
