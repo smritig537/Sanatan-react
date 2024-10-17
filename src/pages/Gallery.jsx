@@ -7,6 +7,7 @@ const imageUrl = {
   Spiritual: Array.from({ length: 163 }, (_, index) => index + 1),
   "Spiritual Events 2": Array.from({ length: 137 }, (_, index) => index + 1),
   "Social Activity": Array.from({ length: 21 }, (_, index) => index + 1),
+  Other: Array.from({ length: 21 }, (_, index) => index + 1),
 };
 
 const GallerySection = ({ title, category }) => {
@@ -53,6 +54,7 @@ function Gallery() {
         <GallerySection title="Spiritual Events 2" category="Spiritual Events 2" />
         <GallerySection title="Political" category="Political" />
         <GallerySection title="Social Activity" category="Social Activity" />
+        <GallerySection title="Other Images" category="Other" />
       </div>
     </div>
   );
