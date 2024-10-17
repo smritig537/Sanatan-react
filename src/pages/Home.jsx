@@ -54,7 +54,7 @@ const Home = () => {
           className="h-auto sm:h-[500px] object-cover object-center m-auto mb-5"
           src={Swamiji}
           loading="lazy"
-          alt="Sanatana Dharma Foundation owner"
+          alt="Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand Giriji Maharaj"
         />
         <p className="items-center mb-5 p-2 text-justify rounded-sm bg-orange-50">
           Our founder, Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami
@@ -69,7 +69,7 @@ const Home = () => {
         </h2>
 
         <p className="text-gray-700 sm:text-justify text-left">
-          <strong>Mahamadaleshwar Giriji Maharaj</strong> pursued multiple
+          <strong>Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand Giriji Maharaj</strong> pursued multiple
           careers before dedicating himself to spiritual leadership. He began as
           a successful businessman, contributing to the economic landscape.
           However, driven by his spiritual calling, he transitioned to become a
