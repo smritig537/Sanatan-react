@@ -7,7 +7,7 @@ const imageUrl = {
   Spiritual: Array.from({ length: 163 }, (_, index) => index + 1),
   "Spiritual Events 2": Array.from({ length: 137 }, (_, index) => index + 1),
   "Social Activity": Array.from({ length: 21 }, (_, index) => index + 1),
-  Other: Array.from({ length: 21 }, (_, index) => index + 1),
+  Other: Array.from({ length: 120 }, (_, index) => index + 1),
 };
 
 const GallerySection = ({ title, category }) => {
