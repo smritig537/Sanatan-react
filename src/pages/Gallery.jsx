@@ -4,6 +4,7 @@ import Divider from "../components/Divider";
 const imageUrl = {
   Political: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
   Spiritual: Array.from({ length: 163 }, (_, index) => index + 1),
+  "Social Activity": Array.from({ length: 21 }, (_, index) => index + 1),
 };
 
 const GallerySection = ({ title, category }) => {
@@ -47,6 +48,7 @@ function Gallery() {
         </h1>
         <GallerySection title="Spiritual Events" category="Spiritual" />
         <GallerySection title="Political" category="Political" />
+        <GallerySection title="Social Activity" category="Social Activity" />
       </div>
     </div>
   );
