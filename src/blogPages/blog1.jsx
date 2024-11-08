@@ -115,8 +115,6 @@ function Blog1() {
               <h2 className="sm:text-2xl text-xl text-left font-semibold py-4">
                 Social and Charitable Activities
               </h2>
-              <div className="sm:h-[50%] sm:w-[60%] h-5/6 w-5/6 object-cover p-3">
-             </div>
               <p>
                 The <strong>Sanatana Dharma Foundation</strong> is actively involved in
                 philanthropic and humanitarian endeavors. We host camps for
