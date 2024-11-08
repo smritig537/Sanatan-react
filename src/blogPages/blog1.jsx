@@ -116,10 +116,6 @@ function Blog1() {
                 Social and Charitable Activities
               </h2>
               <div className="sm:h-[50%] sm:w-[60%] h-5/6 w-5/6 object-cover p-3">
-              <img loading="lazy"
-               src={`${process.env.PUBLIC_URL}/gallery/SocialWelfare/2.webp`}
-              className="h-full w-full"
-               alt="Sanatana dharma soxi" />
              </div>
               <p>
                 The <strong>Sanatana Dharma Foundation</strong> is actively involved in
