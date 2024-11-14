@@ -73,7 +73,7 @@ const Navbar = () => {
                     Home
                   </NavLink>
                 </li>
-                
+
                 <li>
                   <NavLink to="/about" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
                     About
@@ -92,7 +92,7 @@ const Navbar = () => {
 
                 {/* Media with Dropdown */}
                 <li className="relative">
-                  <button onClick={toggleMediaMenu} className="flex items-center text-white hover:text-[#f08619]">
+                  <button onClick={toggleMediaMenu} className="flex pl-3 items-center text-white hover:text-[#f08619]">
                     Media
                     <i className={`ml-1 fas ${isMediaOpen ? "fa-chevron-up" : "fa-chevron-down"}`}></i>
                   </button>
