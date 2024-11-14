@@ -78,8 +78,8 @@ const Navbar = () => {
                 {/* Media with Dropdown */}
                 <li className="relative">
                   <button onClick={toggleMediaMenu} className="flex items-center text-white hover:text-[#f08619]">
-                    Media
                     <i className={`ml-1 fas ${isMediaOpen ? "fa-chevron-up" : "fa-chevron-down"}`}></i>
+                    Media
                   </button>
                   {isMediaOpen && (
                     <ul className="absolute top-full left-0 w-40 mt-2 bg-[#491c1d] text-white rounded shadow-lg">
@@ -94,15 +94,26 @@ const Navbar = () => {
                       </li>
                     </ul>
                   )}
+                 <li>
+                  <NavLink to="/about" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
+                    About
+                  </NavLink>
                 </li>
 
-                {/* Other Nav Links */}
                 <li>
-                  <NavLink to="/contact" className={({ isActive }) =>
-                      `block py-2 pl-3 pr-4 rounded ${
-                        isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
-                      } lg:bg-transparent lg:p-0`
-                    }>
+                  <NavLink to="/sanatanadharma" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
+                    Sanatana Dharma
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink to="/locations-in-india" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
+                    Locations in India
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink to="/contact" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
                     Association & Support
                   </NavLink>
                 </li>
