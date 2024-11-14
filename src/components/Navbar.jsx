@@ -7,6 +7,7 @@ import ScrollToTop from "./ScrollToTop";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMediaOpen, setIsMediaOpen] = useState(false);
+  const [isKumbhOpen, setIsKumbhOpen] = useState(false);
   const location = useLocation();
 
   const toggleMenu = () => {
@@ -16,10 +17,14 @@ const Navbar = () => {
   const toggleMediaMenu = () => {
     setIsMediaOpen(!isMediaOpen);
   };
+  const toggleKumbhMenu = () => {
+    setIsKumbhOpen(!isKumbhOpen);
+  };
 
   useEffect(() => {
     setIsOpen(false);
     setIsMediaOpen(false); // Close submenu on location change
+    setIsKumbhOpen(false)
   }, [location]);
 
   return (
@@ -102,7 +107,7 @@ const Navbar = () => {
 
 
                 <li className="relative">
-                  <button onClick={toggleMediaMenu} className="flex pl-3 items-center text-white hover:text-[#f08619] font-bold">
+                  <button onClick={toggleKumbhMenu} className="flex pl-3 items-center text-white hover:text-[#f08619] font-bold">
                     <i className="fas fa-film mr-1"></i> Kumbh 2025
                     <i className={`ml-1 fas ${isMediaOpen ? "fa-chevron-up" : "fa-chevron-down"}`}></i>
                   </button>
