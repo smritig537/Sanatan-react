@@ -4,7 +4,7 @@ import kumbh1 from "../kumbhmela/sample.jpg";
 const Kumbh = () => {
   return (
     <>
-      <section className="py-5">
+      <section className="pt-5">
         <h1 className="text-center text-5xl font-bold">Kumbh Mela</h1>
         <div className="flex pt-12 px-6 md:px-20  items-center justify-center bg-hero md:h-screen overflow-hidden">
           <div className="flex flex-col  gap-6 md:flex-row items-center max-w-8xl">
