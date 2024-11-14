@@ -109,9 +109,9 @@ const Navbar = () => {
                 <li className="relative">
                   <button onClick={toggleKumbhMenu} className="flex pl-3 items-center text-white hover:text-[#f08619] font-bold">
                     <i className="fas fa-film mr-1"></i> Kumbh 2025
-                    <i className={`ml-1 fas ${isMediaOpen ? "fa-chevron-up" : "fa-chevron-down"}`}></i>
+                    <i className={`ml-1 fas ${isKumbhOpen ? "fa-chevron-up" : "fa-chevron-down"}`}></i>
                   </button>
-                  {isMediaOpen && (
+                  {isKumbhOpen && (
                     <ul className="absolute top-full left-0 w-40 mt-2 bg-[#491c1d] text-white rounded shadow-lg">
                       <li>
                         <NavLink to="/media" className="block px-4 py-2 hover:bg-[#f08619]">
