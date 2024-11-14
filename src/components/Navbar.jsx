@@ -53,9 +53,9 @@ const Navbar = () => {
               >
                 <span className="sr-only">Open main menu</span>
                 {isOpen ? (
-                  <i className="fas fa-times w-6 h-6"></i>
+                  <i className="fas fa-times w-8 h-8"></i>
                 ) : (
-                  <i className="fas fa-bars w-6 h-6"></i>
+                  <i className="fas fa-bars w-8 h-8"></i>
                 )}
               </button>
             </div>
@@ -105,7 +105,7 @@ const Navbar = () => {
                         <NavLink to="/gallery" className="block px-4 py-2 hover:bg-[#f08619]">Gallery</NavLink>
                       </li>
                       <li>
-                        <NavLink to="/blogs" className="block px-4 py-2 hover:bg-[#f08619]">Blogs</NavLink>
+                        <NavLink to="'/blogs'" className="block px-4 py-2 hover:bg-[#f08619]">Blogs</NavLink>
                       </li>
                     </ul>
                   )}
