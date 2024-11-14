@@ -27,7 +27,7 @@ const About = () => {
 
 </Helmet>
 
-        <main>
+        <main className="mt-10">
           <h1 className=" text-[#313131] font-bold lg:text-5xl text-3xl text-center my-10">
             About Sanatan Dharma Foundation
           </h1>
@@ -303,7 +303,7 @@ const About = () => {
             src={Build}
              loading="lazy"
             alt="Sanatana Dharma Foundation building"
-            className="w-auto h-[500px] sm:w-[600px] sm-auto rounded-xl p-5"
+            className="w-auto mx-auto h-[500px] sm:w-[600px] sm-auto rounded-xl p-5"
           />
           <br></br>
           <Divider />
