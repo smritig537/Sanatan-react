@@ -51,11 +51,11 @@ function Gallery() {
         <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center mb-12">
           Gallery
         </h1>
+        <GallerySection title="Spiritual Events 2" category="Spiritual Events 2" />
         <GallerySection title="Meeting with Professor Anand Bhalerao Ji" category="Meeting with Professor Anand Bhalerao Ji" />
         <GallerySection title="Parishad" category="Parishad" />
         <GallerySection title="Meetings" category="Meetings" />
         <GallerySection title="Spiritual Events" category="Spiritual" />
-        <GallerySection title="Spiritual Events 2" category="Spiritual Events 2" />
         <GallerySection title="Political" category="Political" />
         <GallerySection title="Social Activity" category="Social Activity" />
         <GallerySection title="Other Images" category="Other" />
