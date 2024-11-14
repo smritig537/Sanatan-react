@@ -115,7 +115,7 @@ const Navbar = () => {
                     <ul className="absolute top-full left-0 w-40 mt-2 bg-[#491c1d] text-white rounded shadow-lg">
                       <li>
                         <NavLink to="/kumbhmela" className="block px-4 py-2 hover:bg-[#f08619]">
-                          <i className="fas fa-calendar-alt mr-1"></i> Kumbh 2025
+                        <i className="fas fa-dungeon mr-1"></i> Kumbh 2025
                         </NavLink>
                       </li>
                       <li>
