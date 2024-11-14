@@ -100,6 +100,33 @@ const Navbar = () => {
                   </NavLink>
                 </li>
 
+
+                <li className="relative">
+                  <button onClick={toggleMediaMenu} className="flex pl-3 items-center text-white hover:text-[#f08619] font-bold">
+                    <i className="fas fa-film mr-1"></i> Kumbh 2025
+                    <i className={`ml-1 fas ${isMediaOpen ? "fa-chevron-up" : "fa-chevron-down"}`}></i>
+                  </button>
+                  {isMediaOpen && (
+                    <ul className="absolute top-full left-0 w-40 mt-2 bg-[#491c1d] text-white rounded shadow-lg">
+                      <li>
+                        <NavLink to="/media" className="block px-4 py-2 hover:bg-[#f08619]">
+                          <i className="fas fa-play-circle mr-1"></i> Media
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/gallery" className="block px-4 py-2 hover:bg-[#f08619]">
+                          <i className="fas fa-image mr-1"></i> Gallery
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/blogs" className="block px-4 py-2 hover:bg-[#f08619]">
+                          <i className="fas fa-blog mr-1"></i> Blogs
+                        </NavLink>
+                      </li>
+                    </ul>
+                  )}
+                </li>
+
                 <li>
                   <NavLink to="/sanatanadharma" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded font-bold ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
                     <i className="fas fa-book mr-1"></i> Sanatana Dharma

@@ -24,12 +24,14 @@ import Blog3 from "./blogPages/blog3"
 import { ThemeProvider } from "@material-tailwind/react";
 import NotFound from "./components/NotFound";
 import { HelmetProvider } from "react-helmet-async"; // Import HelmetProvider
+import Kumbh from "./pages/Kumbh";
 
 const appRouter = createBrowserRouter(
   createRoutesFromChildren(
     <Route path="/" element={<App />}>
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
+      <Route path="kumbhmela" element={<Kumbh />} />
       <Route path="sanatanadharma" element={<SanatanaDharma />} />
       <Route path="supporters" element={<Supporters />} />
       <Route path="Locations-in-india" element={<PresenceIndia />} />
