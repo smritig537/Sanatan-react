@@ -9,23 +9,16 @@ const Kumbh = () => {
         <div className="flex pt-12 px-6 md:px-20  items-center justify-center bg-hero md:h-screen overflow-hidden">
           <div className="flex flex-col  gap-6 md:flex-row items-center max-w-8xl">
             <div className="w-full md:w-1/2 lg:pr-32">
-              <h2 className="text-4xl lg:text-5xl text-center md:text-left text-orange-800 leading-tight font-medium">
+              <h2 className="text-4xl  text-center md:text-left text-orange-800 leading-tight font-medium">
                 Kumbha Mela is a major pilgrimage and festival in Hinduism.
               </h2>
-              <h3 className="mt-6 md:mt-10 text-md lg:text-xl text-center md:text-left text-gray-700 font-light tracking-wider leading-relaxed">
+              <h3 className="mt-6 md:mt-10 text-sm lg:text-md text-center md:text-left text-gray-700 font-light tracking-wider leading-relaxed">
                 On 4 February 2019, Kumbh Mela witnessed the largest peaceful
                 public gathering of humans ever recorded. It is celebrated in a
                 cycle of approximately 12 years, to celebrate every revolution
                 Brihaspati (Jupiter) completes, at four river-bank pilgrimage
                 sites: Prayagraj (Ganges-Yamuna-Sarasvati rivers confluence),
-                Haridwar (Ganges), Nashik (Godavari), and Ujjain (Shipra). The
-                festival is marked by a ritual dip in the waters, but it is also
-                a celebration of community commerce with numerous fairs,
-                education, religious discourses by saints, mass gatherings of
-                monks, and entertainment. The seekers believe that bathing in
-                these rivers is a means to prāyaścitta (atonement, penance,
-                restorative action) for past mistakes, and that it cleanses them
-                of their sins.
+                Haridwar (Ganges), Nashik (Godavari), and Ujjain (Shipra).
               </h3>
               <div className="mt-10 flex flex-col sm:flex-row justify-center md:justify-start">
                 <button className="w-full sm:w-40 px-4 py-3 rounded font-semibold text-md bg-blue-500 text-white border-2 border-blue-500 hover:bg-orange-800">
