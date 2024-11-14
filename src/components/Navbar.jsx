@@ -108,14 +108,14 @@ const Navbar = () => {
 
                 <li className="relative">
                   <button onClick={toggleKumbhMenu} className="flex pl-3 items-center text-white hover:text-[#f08619] font-bold">
-                  <i class="fas fa-swing"></i>                  Kumbh Mela
+                  <i class="fas fa-dungeon mr-1"></i>Kumbh Mela
                     <i className={`ml-1 fas ${isKumbhOpen ? "fa-chevron-up" : "fa-chevron-down"}`}></i>
                   </button>
                   {isKumbhOpen && (
                     <ul className="absolute top-full left-0 w-40 mt-2 bg-[#491c1d] text-white rounded shadow-lg">
                       <li>
                         <NavLink to="/kumbhmela" className="block px-4 py-2 hover:bg-[#f08619]">
-                        <i className="fas fa-dungeon mr-1"></i> Kumbh 2025
+                        <i className="fas fa-calendar-alt mr-1"></i> Kumbh 2025
                         </NavLink>
                       </li>
                       <li>
