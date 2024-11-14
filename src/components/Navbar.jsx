@@ -90,49 +90,49 @@ const Navbar = () => {
                   <NavLink to="/" className={({ isActive }) =>
                       `flex items-center py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`
                     }>
-                    <i className="fas fa-home mr-2"></i> Home
+                    <i className="fas fa-home mr-1"></i> Home
                   </NavLink>
                 </li>
 
                 <li>
                   <NavLink to="/about" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
-                    <i className="fas fa-info-circle mr-2"></i> About
+                    <i className="fas fa-info-circle mr-1"></i> About
                   </NavLink>
                 </li>
 
                 <li>
                   <NavLink to="/sanatanadharma" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
-                    <i className="fas fa-book mr-2"></i> Sanatana Dharma
+                    <i className="fas fa-book mr-1"></i> Sanatana Dharma
                   </NavLink>
                 </li>
 
                 <li>
                   <NavLink to="/locations-in-india" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
-                    <i className="fas fa-map-marker-alt mr-2"></i> Locations in India
+                    <i className="fas fa-map-marker-alt mr-1"></i> Locations
                   </NavLink>
                 </li>
 
                 {/* Media with Dropdown */}
                 <li className="relative">
                   <button onClick={toggleMediaMenu} className="flex pl-3 items-center text-white hover:text-[#f08619]">
-                    <i className="fas fa-film mr-2"></i> Media
+                    <i className="fas fa-film mr-1"></i> Media
                     <i className={`ml-1 fas ${isMediaOpen ? "fa-chevron-up" : "fa-chevron-down"}`}></i>
                   </button>
                   {isMediaOpen && (
                     <ul className="absolute top-full left-0 w-40 mt-2 bg-[#491c1d] text-white rounded shadow-lg">
                       <li>
                         <NavLink to="/media" className="block px-4 py-2 hover:bg-[#f08619]">
-                          <i className="fas fa-play-circle mr-2"></i> Media
+                          <i className="fas fa-play-circle mr-1"></i> Media
                         </NavLink>
                       </li>
                       <li>
                         <NavLink to="/gallery" className="block px-4 py-2 hover:bg-[#f08619]">
-                          <i className="fas fa-image mr-2"></i> Gallery
+                          <i className="fas fa-image mr-1"></i> Gallery
                         </NavLink>
                       </li>
                       <li>
                         <NavLink to="/blogs" className="block px-4 py-2 hover:bg-[#f08619]">
-                          <i className="fas fa-blog mr-2"></i> Blogs
+                          <i className="fas fa-blog mr-1"></i> Blogs
                         </NavLink>
                       </li>
                     </ul>
@@ -144,7 +144,7 @@ const Navbar = () => {
                   <NavLink to="/contact" className={({ isActive }) =>
                       `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`
                     }>
-                    <i className="fas fa-phone mr-2"></i> Association & Support
+                    <i className="fas fa-phone mr-1"></i>Support
                   </NavLink>
                 </li>
               </ul>
