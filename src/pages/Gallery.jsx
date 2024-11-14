@@ -7,7 +7,7 @@ const imageUrl = {
   Meetings: Array.from({ length: 140 }, (_, index) => index + 1),
   Political: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
   Spiritual: Array.from({ length: 163 }, (_, index) => index + 1),
-  "Spiritual Events 2": Array.from({ length: 145 }, (_, index) => index + 1),
+  "Spiritual Events 2": Array.from({ length: 156 }, (_, index) => index + 1),
   "Social Activity": Array.from({ length: 21 }, (_, index) => index + 1),
   Other: Array.from({ length: 120 }, (_, index) => index + 1),
 };
