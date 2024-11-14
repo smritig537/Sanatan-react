@@ -64,8 +64,8 @@ function Blogs() {
         />
         <meta name="twitter:image" content={reviving} />
       </Helmet>
-      <section className="px-8 mb-4">
-          <h1 className="text-4xl md:text-3xl text-center pl-2 my-8 font-sans font-bold dark:text-gray-200">
+      <section className="px-8 pt-10 mb-4">
+          <h1 className="text-3xl lg:text-5xl text-center my-8 font-sans font-bold dark:text-gray-200">
             Blogs
           </h1>
         

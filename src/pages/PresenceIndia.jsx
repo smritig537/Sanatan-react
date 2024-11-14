@@ -15,7 +15,7 @@ function PresenceIndia() {
         <meta name="keywords" content="Sanatana Dharma, Hinduism, Indian Culture, Indian Cities, Hindu Pilgrimage, Indian Traditions" />
       </Helmet>
 
-      <header>
+      <header className="pt-10">
         <h1 className="font-oswald text-[#313131] font-bold sm:text-5xl text-3xl text-center mt-10">
           Locations in India
         </h1>
