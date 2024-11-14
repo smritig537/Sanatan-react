@@ -19,7 +19,7 @@ const Navbar = () => {
 
   useEffect(() => {
     setIsOpen(false);
-    setIsMediaOpen(false);
+    setIsMediaOpen(false); // Close submenu on location change
   }, [location]);
 
   return (
@@ -27,7 +27,13 @@ const Navbar = () => {
       <section className="bg-white fixed top-0 left-0 w-full z-10 bg-white">
         <marquee className="sm:text-[13px] text-[10px] p-1.5 font-bold">
           SANATANA DHARMA FOUNDATION | Founded By
-          <span className="text-[#f08619]"> SRI SRI SRI ANANT VIBHUSHIT 1008 NARAYANANATH GIRIJI MAHARAJ</span> | Transform Your Life with the Wisdom of Sanatana Dharma | Embracing Sanatana Dharma Cultivating Spiritual Wisdom | Cultural Harmony for All
+          <span className="text-[#f08619]">
+            {" "}
+            SRI SRI SRI ANANT VIBHUSHIT 1008 NARAYANANATH GIRIJI MAHARAJ
+          </span>
+          | Transform Your Life with the Wisdom of Sanatana Dharma |
+          Embracing Sanatana Dharma Cultivating Spiritual Wisdom | Cultural
+          Harmony for All
         </marquee>
         <nav className="bg-[#491c1d] m-0 border-[#f08619] py-2.5 dark:bg-gray-900">
           <div className="flex flex-wrap items-center justify-between w-full">
@@ -47,31 +53,9 @@ const Navbar = () => {
               >
                 <span className="sr-only">Open main menu</span>
                 {isOpen ? (
-                  <svg
-                    className="w-6 h-6"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
+                  <i className="fas fa-times w-6 h-6"></i>
                 ) : (
-                  <svg
-                    className="w-6 h-6"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
+                  <i className="fas fa-bars w-6 h-6"></i>
                 )}
               </button>
             </div>
@@ -81,51 +65,44 @@ const Navbar = () => {
             >
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
-                  <NavLink to="/" className={({ isActive }) => `py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
+                  <NavLink to="/" className={({ isActive }) =>
+                      `flex items-center py-2 pl-3 pr-4 rounded ${
+                        isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                      } lg:bg-transparent lg:p-0`
+                    }>
                     Home
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink to="/about" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
-                    About
-                  </NavLink>
+                {/* Other Nav Links */}
+
+                {/* Media with Dropdown */}
+                <li className="relative">
+                  <button onClick={toggleMediaMenu} className="flex items-center text-white hover:text-[#f08619]">
+                    Media
+                    <i className={`ml-1 fas ${isMediaOpen ? "fa-chevron-up" : "fa-chevron-down"}`}></i>
+                  </button>
+                  {isMediaOpen && (
+                    <ul className="absolute top-full left-0 w-40 mt-2 bg-[#491c1d] text-white rounded shadow-lg">
+                      <li>
+                        <NavLink to="/media" className="block px-4 py-2 hover:bg-[#f08619]">Media</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/gallery" className="block px-4 py-2 hover:bg-[#f08619]">Gallery</NavLink>
+                      </li>
+                      <li>
+                        <NavLink to="/blogs" className="block px-4 py-2 hover:bg-[#f08619]">Blogs</NavLink>
+                      </li>
+                    </ul>
+                  )}
                 </li>
+
+                {/* Other Nav Links */}
                 <li>
-                  <NavLink to="/sanatanadharma" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
-                    Sanatana Dharma
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/locations-in-india" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
-                    Locations in India
-                  </NavLink>
-                </li>
-                <li>
-                  <div className="relative">
-                    <button
-                      onClick={toggleMediaMenu}
-                      className="block py-2 pl-3 pr-4 rounded text-white hover:text-[#f08619] lg:bg-transparent lg:p-0"
-                    >
-                      Media
-                    </button>
-                    {isMediaOpen && (
-                      <ul className="absolute left-0 mt-2 w-40 bg-[#491c1d] rounded shadow-lg text-white">
-                        <li>
-                          <NavLink to="/gallery" className="block px-4 py-2 hover:bg-[#f08619]">
-                            Gallery
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink to="/blogs" className="block px-4 py-2 hover:bg-[#f08619]">
-                            Blogs
-                          </NavLink>
-                        </li>
-                      </ul>
-                    )}
-                  </div>
-                </li>
-                <li>
-                  <NavLink to="/contact" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
+                  <NavLink to="/contact" className={({ isActive }) =>
+                      `block py-2 pl-3 pr-4 rounded ${
+                        isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                      } lg:bg-transparent lg:p-0`
+                    }>
                     Association & Support
                   </NavLink>
                 </li>
