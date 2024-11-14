@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, Link, useLocation } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCaretDown } from "@fortawesome/free-solid-svg-icons"; // Import Font Awesome caret icon
 import logo from "../assets/om-bg-remove.png";
 import SocialMedia from "./social";
 import ScrollToTop from "./ScrollToTop";
@@ -104,12 +106,18 @@ const Navbar = () => {
                   <div className="relative">
                     <button
                       onClick={toggleMediaMenu}
-                      className="block py-2 pl-3 pr-4 rounded text-white hover:text-[#f08619] lg:bg-transparent lg:p-0"
+                      className="flex items-center py-2 pl-3 pr-4 rounded text-white hover:text-[#f08619] lg:bg-transparent lg:p-0"
                     >
                       Media
+                      <FontAwesomeIcon icon={faCaretDown} className="ml-1" />
                     </button>
                     {isMediaOpen && (
                       <ul className="absolute left-0 mt-2 w-40 bg-[#491c1d] rounded shadow-lg text-white">
+                        <li>
+                          <NavLink to="/media" className="block px-4 py-2 hover:bg-[#f08619]">
+                            Media
+                          </NavLink>
+                        </li>
                         <li>
                           <NavLink to="/gallery" className="block px-4 py-2 hover:bg-[#f08619]">
                             Gallery
