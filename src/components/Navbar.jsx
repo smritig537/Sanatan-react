@@ -112,7 +112,7 @@ const Navbar = () => {
                     <i className={`ml-1 fas ${isKumbhOpen ? "fa-chevron-up" : "fa-chevron-down"}`}></i>
                   </button>
                   {isKumbhOpen && (
-                    <ul className="absolute top-full left-0 w-40 mt-2 bg-[#491c1d] text-white rounded shadow-lg">
+                    <ul className="absolute z-10 top-full left-0 w-40 mt-2 bg-[#491c1d] text-white rounded shadow-lg">
                       <li>
                         <NavLink to="/kumbhmela" className="block px-4 py-2 hover:bg-[#f08619]">
                         <i className="fas fa-calendar-alt mr-1"></i> Kumbh 2025
