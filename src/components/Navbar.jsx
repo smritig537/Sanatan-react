@@ -73,7 +73,11 @@ const Navbar = () => {
                     Home
                   </NavLink>
                 </li>
-                {/* Other Nav Links */}
+                <li>
+                  <NavLink to="/contact" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
+                    Association & Support
+                  </NavLink>
+                </li>
 
                 {/* Media with Dropdown */}
                 <li className="relative">
@@ -106,14 +110,17 @@ const Navbar = () => {
                   </NavLink>
                 </li>
 
-                <li>
+                 <li>
                   <NavLink to="/locations-in-india" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
                     Locations in India
                   </NavLink>
                 </li>
 
-                <li>
-                  <NavLink to="/contact" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
+                  <NavLink to="/contact" className={({ isActive }) =>
+                      `block py-2 pl-3 pr-4 rounded ${
+                        isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"
+                      } lg:bg-transparent lg:p-0`
+                    }>
                     Association & Support
                   </NavLink>
                 </li>
