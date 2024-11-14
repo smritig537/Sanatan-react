@@ -81,7 +81,7 @@ const Home = () => {
         <h2 className="sm:text-4xl text-2xl mt-5 font-medium text-left sm:text-center text-orange-900">
           Compassion
         </h2>
-        <p className="text-gray-700 sm:text-justify text-left">
+        <p className="text-gray-700 mt-3 sm:text-justify text-left">
           <strong>
             Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan
             Nand Giriji Maharaj
