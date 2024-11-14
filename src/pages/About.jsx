@@ -29,10 +29,10 @@ const About = () => {
 
         <main className="pt-10">
           <h1 className=" text-[#313131] font-bold lg:text-5xl text-3xl text-center">
-            About Sanatan Dharma Foundation
+            About Sanatan Dharma <br /> Foundation
           </h1>
 
-          <section>
+          <section className="mt-10">
             <div className="container flex justify-center mx-auto py-6 px-4 sm:px-6 lg:px-8">
               <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-2">
                 <div className="flex justify-center lg:justify-start mt-6 md:mt-0">
