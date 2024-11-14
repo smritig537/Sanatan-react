@@ -88,33 +88,33 @@ const Navbar = () => {
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
                   <NavLink to="/" className={({ isActive }) =>
-                      `flex items-center py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`
+                      `flex items-center py-2 pl-3 pr-4 rounded font-bold ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`
                     }>
                     <i className="fas fa-home mr-1"></i> Home
                   </NavLink>
                 </li>
 
                 <li>
-                  <NavLink to="/about" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
+                  <NavLink to="/about" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded font-bold ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
                     <i className="fas fa-info-circle mr-1"></i> About
                   </NavLink>
                 </li>
 
                 <li>
-                  <NavLink to="/sanatanadharma" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
+                  <NavLink to="/sanatanadharma" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded font-bold ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
                     <i className="fas fa-book mr-1"></i> Sanatana Dharma
                   </NavLink>
                 </li>
 
                 <li>
-                  <NavLink to="/locations-in-india" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
+                  <NavLink to="/locations-in-india" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded font-bold ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
                     <i className="fas fa-map-marker-alt mr-1"></i> Locations
                   </NavLink>
                 </li>
 
                 {/* Media with Dropdown */}
                 <li className="relative">
-                  <button onClick={toggleMediaMenu} className="flex pl-3 items-center text-white hover:text-[#f08619]">
+                  <button onClick={toggleMediaMenu} className="flex pl-3 items-center text-white hover:text-[#f08619] font-bold">
                     <i className="fas fa-film mr-1"></i> Media
                     <i className={`ml-1 fas ${isMediaOpen ? "fa-chevron-up" : "fa-chevron-down"}`}></i>
                   </button>
@@ -142,7 +142,7 @@ const Navbar = () => {
                 {/* Other Nav Links */}
                 <li>
                   <NavLink to="/contact" className={({ isActive }) =>
-                      `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`
+                      `block py-2 pl-3 pr-4 rounded font-bold ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`
                     }>
                     <i className="fas fa-phone mr-1"></i>Support
                   </NavLink>
