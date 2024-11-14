@@ -108,7 +108,7 @@ const Navbar = () => {
 
                 <li className="relative">
                   <button onClick={toggleKumbhMenu} className="flex pl-3 items-center text-white hover:text-[#f08619] font-bold">
-                    <i className="fas fa-swing mr-1"></i> Kumbh Mela
+                  <i class="fas fa-swing"></i>                  Kumbh Mela
                     <i className={`ml-1 fas ${isKumbhOpen ? "fa-chevron-up" : "fa-chevron-down"}`}></i>
                   </button>
                   {isKumbhOpen && (
