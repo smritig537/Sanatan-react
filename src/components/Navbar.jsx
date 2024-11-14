@@ -73,7 +73,22 @@ const Navbar = () => {
                     Home
                   </NavLink>
                 </li>
-                {/* Other Nav Links */}
+                
+                <li>
+                  <NavLink to="/about" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
+                    About
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/sanatanadharma" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
+                    Sanatana Dharma
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/locations-in-india" className={({ isActive }) => `block py-2 pl-3 pr-4 rounded ${isActive ? "bg-[#f08619] text-white lg:text-[#f08619]" : "text-white hover:text-[#f08619]"} lg:bg-transparent lg:p-0`}>
+                    Locations in India
+                  </NavLink>
+                </li>
 
                 {/* Media with Dropdown */}
                 <li className="relative">
