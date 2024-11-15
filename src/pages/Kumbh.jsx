@@ -21,7 +21,7 @@ const Kumbh = () => {
           <div>
            
             <h1 className="text-5xl sm:text-8xl mt-2 font-[Catamaran] font-extrabold text-white">
-              Be Fit In Your Life
+              Maha kumbh Mela 2025
             </h1>
             <div>
               {" "}
@@ -34,8 +34,7 @@ const Kumbh = () => {
             </div>
 
             <p className="text-white font-sans mt-4  text-wrap max-w-[400px]">
-              Veda Pro is a personalized meal shake designed to enhance
-              nutrition and boost energy. Enjoy daily for a healthier lifestyle!
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus quaerat tempora voluptatum amet quod!
             </p>
           </div>
 
