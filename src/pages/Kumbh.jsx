@@ -48,7 +48,7 @@ const Kumbh = () => {
       
 
 
-      <section className=" lg:mt-40 sm:mt-96 mt-80">
+      <section className=" lg:mt-40 sm:mt-96 mb-10 mt-80">
       <h1 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold">
   Kumbh Mela
 </h1>
@@ -56,7 +56,7 @@ const Kumbh = () => {
   <div className="flex flex-col gap-6 lg:flex-row items-center max-w-8xl">
     {/* Left Content */}
     <div className="w-full lg:w-1/2 lg:pr-16">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl text-center lg:text-left text-orange-800 leading-tight font-medium">
+      <h2 className="text-2xl sm:text-3xl lg:mt-0 mt-5 md:text-4xl text-center lg:text-left text-orange-800 leading-tight font-medium">
         Kumbha Mela is a major pilgrimage and festival in Hinduism.
       </h2>
       <h3 className="mt-4 sm:mt-6 md:mt-10 text-sm sm:text-base lg:text-md text-center lg:text-left text-gray-700 font-light tracking-wider leading-relaxed">
