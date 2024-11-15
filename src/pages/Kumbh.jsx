@@ -6,7 +6,7 @@ const Kumbh = () => {
   return (
     <>
 
-<section>
+<section className="h-full">
         <div className="video-container">
           <video autoPlay loop muted className="background-video">
             <source src={kumbhBg} type="video/mp4" />
@@ -14,7 +14,7 @@ const Kumbh = () => {
           </video>
           <div className="gradient-overlay"></div>
         </div>
-      </section>
+      
 
       <section className="p-8 lg:mt-0 mt-40">
         <div className="flex justify-between">
@@ -45,6 +45,7 @@ const Kumbh = () => {
         <div className="wrap mt-14">
           <button className="button">Submit</button>
         </div>
+      </section>
       </section>
 
 
