@@ -52,7 +52,7 @@ const Navbar = () => {
               <button
                 onClick={toggleMenu}
                 type="button"
-                className="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:bg-[#f084199a] focus:outline-none"
+                className="inline-flex items-center p-2 ml-1 mt-2 text-sm text-white rounded-lg lg:hidden hover:bg-[#f084199a] focus:outline-none"
                 aria-controls="mobile-menu-2"
                 aria-expanded={isOpen}
               >
