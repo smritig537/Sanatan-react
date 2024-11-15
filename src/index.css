@@ -94,10 +94,10 @@ h2{
     letter-spacing: 1.3px;
     font-weight: 700;
     color: white;
-    background: linear-gradient(90deg, rgb(212, 101, 9) 0%, rgb(243, 118, 17) 100%);
+    background: linear-gradient(90deg, rgb(73,28,29) 0%, rgb(116, 56, 57) 100%);
     border: none;
     border-radius: 1000px;
-    box-shadow: 12px 12px 24px rgba(219, 112, 24, 0.64), 0 0 10px rgba(255, 146, 57, 0.5); /* Added light green shadow */
+    box-shadow: 12px 12px 24px rgba(151, 69, 70, 0.64), 0 0 10px rgba(129, 63, 64, 0.5); /* Added light green shadow */
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     outline: none;
@@ -110,8 +110,8 @@ h2{
     border-radius: 1000px;
     min-width: calc(300px + 12px);
     min-height: calc(60px + 12px);
-    border: 6px solid rgb(255, 121, 11); /* Existing border color */
-    box-shadow: 0 0 60px rgba(239, 108, 0, 0.64);
+    border: 6px solid rgb(73,28,29); /* Existing border color */
+    box-shadow: 0 0 60px rgba(56, 21, 22, 0.64);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -124,7 +124,7 @@ h2{
   .button:focus {
     color: #313133;
     transform: translateY(-6px);
-    box-shadow: 0 0 20px rgba(255, 150, 63, 0.5); /* Added hover shadow effect */
+    box-shadow: 0 0 20px rgba(138, 56, 58, 0.5); /* Added hover shadow effect */
   }
   
   .button:hover::before, 
@@ -137,7 +137,7 @@ h2{
     width: 30px; 
     height: 30px;
     border-radius: 100%;
-    border: 6px solid rgb(206, 94, 3);
+    border: 6px solid rgb(73,28,29);
     position: absolute;
     z-index: -1;
     top: 50%;
