@@ -52,7 +52,7 @@ const Kumbh = () => {
       <h1 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold">
   Kumbh Mela
 </h1>
-<div className="flex flex-col px-4 sm:px-6 md:px-20 items-center justify-center bg-hero overflow-hidden">
+<div className="flex flex-col px-4 mt-8 sm:px-6 md:px-20 items-center justify-center bg-hero overflow-hidden">
   <div className="flex flex-col gap-6 lg:flex-row items-center max-w-8xl">
     {/* Left Content */}
     <div className="w-full lg:w-1/2 lg:pr-16">
