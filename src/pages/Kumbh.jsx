@@ -48,7 +48,7 @@ const Kumbh = () => {
       
 
 
-      <section className=" mt-40">
+      <section className=" lg:mt-40 sm:mt-56 mt-80">
         <h1 className="text-center text-5xl font-bold">Kumbh Mela</h1>
         <div className="flex px-6 md:px-20  items-center justify-center bg-hero md:h-screen overflow-hidden">
           <div className="flex flex-col  gap-6 md:flex-row items-center max-w-8xl">
