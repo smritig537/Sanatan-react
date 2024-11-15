@@ -16,7 +16,7 @@ const Kumbh = () => {
         </div>
         </section>
 
-      <section className="p-8 lg:mt-0 mt-48">
+      <section className="p-8 lg:mt-8 mt-48">
         <div className="flex justify-between">
           <div>
            
