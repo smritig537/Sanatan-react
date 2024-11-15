@@ -1,9 +1,28 @@
 import React from "react";
 import kumbh1 from "../kumbhmela/sample.jpg";
-import kumbhBg from '../kumbhmela/kumbh.mp4'
+import kumbhBg from '../kumbhmela/kumbh.mp4':
+import { useEffect,useState } from "react";
 
 const Kumbh = () => {
+  const [text, setText] = useState("Lorem ipsum dolor sit amet.");
 
+  useEffect(() => {
+    const texts = [
+      "Decrease body fat",
+      "Increase muscle strength",
+      "Improve flexibility",
+      "Enhance overall fitness",
+    ];
+
+    let index = 0;
+
+    const interval = setInterval(() => {
+      index = (index + 1) % texts.length;
+      setText(texts[index]);
+    }, 2000); // Change text every 2 seconds
+
+    return () => clearInterval(interval);
+  }, []);
 
 
   return (
@@ -32,7 +51,7 @@ const Kumbh = () => {
                 id="change"
                 className=" text-4xl sm:text-5xl mt-2 font-[Satisfy] text-white"
               >
-             Lorem ipsum dolor sit amet consectetur.
+             {text}
               </p>
             </div>
 
