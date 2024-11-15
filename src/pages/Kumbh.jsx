@@ -19,9 +19,7 @@ const Kumbh = () => {
       <section className="p-8 lg:mt-0 mt-40">
         <div className="flex justify-between">
           <div>
-            <div>
-              <img src={rating} className="w-[50vw] sm:w-[20vw]" alt="" />
-            </div>
+           
             <h1 className="text-5xl sm:text-8xl mt-2 font-[Catamaran] font-extrabold text-white">
               Be Fit In Your Life
             </h1>
@@ -31,7 +29,7 @@ const Kumbh = () => {
                 id="change"
                 className=" text-4xl sm:text-5xl mt-2 font-[Satisfy] text-white"
               >
-                {text}
+               Lorem ipsum dolor sit amet. {/* {text} */}
               </p>
             </div>
 
