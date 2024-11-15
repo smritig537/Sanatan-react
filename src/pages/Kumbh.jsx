@@ -1,9 +1,55 @@
 import React from "react";
 import kumbh1 from "../kumbhmela/sample.jpg";
+import kumbhBg from '../kumbhmela/kumbh.mp4'
 
 const Kumbh = () => {
   return (
     <>
+
+<section>
+        <div className="video-container">
+          <video autoPlay loop muted className="background-video">
+            <source src={kumbhBg} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div className="gradient-overlay"></div>
+        </div>
+      </section>
+
+      <section className="p-8 lg:mt-0 mt-40">
+        <div className="flex justify-between">
+          <div>
+            <div>
+              <img src={rating} className="w-[50vw] sm:w-[20vw]" alt="" />
+            </div>
+            <h1 className="text-5xl sm:text-8xl mt-2 font-[Catamaran] font-extrabold text-white">
+              Be Fit In Your Life
+            </h1>
+            <div>
+              {" "}
+              <p
+                id="change"
+                className=" text-4xl sm:text-5xl mt-2 font-[Satisfy] text-white"
+              >
+                {text}
+              </p>
+            </div>
+
+            <p className="text-white font-sans  text-wrap max-w-[400px]">
+              Veda Pro is a personalized meal shake designed to enhance
+              nutrition and boost energy. Enjoy daily for a healthier lifestyle!
+            </p>
+          </div>
+
+          
+        </div>
+
+        <div className="wrap mt-14">
+          <button className="button">Submit</button>
+        </div>
+      </section>
+
+
       <section className="pt-5">
         <h1 className="text-center text-5xl font-bold">Kumbh Mela</h1>
         <div className="flex px-6 md:px-20  items-center justify-center bg-hero md:h-screen overflow-hidden">
