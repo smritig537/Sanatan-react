@@ -50,7 +50,7 @@ const Kumbh = () => {
 
       <section className=" lg:mt-40 sm:mt-96 mt-80">
         <h1 className="text-center text-5xl font-bold">Kumbh Mela</h1>
-        <div className="flex px-6 md:px-20  items-center justify-center bg-hero md:h-screen overflow-hidden">
+        <div className="flex px-6 md:px-20  items-center justify-center bg-hero  overflow-hidden">
           <div className="flex flex-col  gap-6 md:flex-row items-center max-w-8xl">
             <div className="w-full md:w-1/2 lg:pr-32">
               <h2 className="text-4xl  text-center md:text-left text-orange-800 leading-tight font-medium">
