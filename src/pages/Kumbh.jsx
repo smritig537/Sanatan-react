@@ -6,7 +6,7 @@ const Kumbh = () => {
   return (
     <>
 
-<section className="h-full">
+<section>
         <div className="video-container">
           <video autoPlay loop muted className="background-video">
             <source src={kumbhBg} type="video/mp4" />
@@ -14,7 +14,7 @@ const Kumbh = () => {
           </video>
           <div className="gradient-overlay"></div>
         </div>
-      
+        </section>
 
       <section className="p-8 lg:mt-0 mt-40">
         <div className="flex justify-between">
@@ -33,7 +33,7 @@ const Kumbh = () => {
               </p>
             </div>
 
-            <p className="text-white font-sans  text-wrap max-w-[400px]">
+            <p className="text-white font-sans mt-4  text-wrap max-w-[400px]">
               Veda Pro is a personalized meal shake designed to enhance
               nutrition and boost energy. Enjoy daily for a healthier lifestyle!
             </p>
@@ -46,10 +46,10 @@ const Kumbh = () => {
           <button className="button">Submit</button>
         </div>
       </section>
-      </section>
+      
 
 
-      <section className="pt-5">
+      <section className="pt-5 mt-30">
         <h1 className="text-center text-5xl font-bold">Kumbh Mela</h1>
         <div className="flex px-6 md:px-20  items-center justify-center bg-hero md:h-screen overflow-hidden">
           <div className="flex flex-col  gap-6 md:flex-row items-center max-w-8xl">
