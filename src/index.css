@@ -69,7 +69,7 @@ h2{
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to right, rgb(73,28,29), rgba(255, 255, 255, 0)); /* Adjust colors and opacity as needed */
+    background: linear-gradient(to right, rgb(239, 108, 0), rgba(255, 255, 255, 0)); /* Adjust colors and opacity as needed */
     pointer-events: none; /* Allow clicks to pass through to the video */
   }
 
