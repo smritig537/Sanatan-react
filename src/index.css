@@ -122,7 +122,6 @@ h2{
   
   .button:hover, 
   .button:focus {
-    color: #313133;
     transform: translateY(-6px);
     box-shadow: 0 0 20px rgba(138, 56, 58, 0.5); /* Added hover shadow effect */
   }
