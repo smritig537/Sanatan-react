@@ -1,8 +1,8 @@
 import blinkImg from "../kumbhmela/tooltip.png";
 import { useState,useEffect } from "react";
-import kumbh1 from "../kumbhmela/add1.png";
-import kumbh2 from "../kumbhmela/add2.png";
-import kumbh3 from "../kumbhmela/add3.png";
+import kumbh1 from "../kumbhmela/add1.jpg";
+import kumbh2 from "../kumbhmela/add2.jpg";
+import kumbh3 from "../kumbhmela/add3.jpg";
 
 
 const KumbhAdd = () => {
