@@ -3,26 +3,30 @@ import { useState, useEffect } from "react";
 import kumbh1 from "../kumbhmela/add1.jpg";
 import kumbh2 from "../kumbhmela/add2.jpg";
 import kumbh3 from "../kumbhmela/add3.jpg";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const KumbhAdd = () => {
   const images = [kumbh1, kumbh2, kumbh3];
-
   const [isVisible, setIsVisible] = useState(false); // Initial state set to false to hide the card initially
+  const location = useLocation(); // Current location from React Router
 
   const handleClose = () => {
     setIsVisible(false);
   };
 
-  // Using useEffect to display the card after 2 seconds
+  // Show the card after 2 seconds
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsVisible(true); // After 2 seconds, show the card
-    }, 2000); // 2000 ms = 2 seconds
+      setIsVisible(true);
+    }, 2000);
 
-    // Cleanup function to clear the timeout if the component unmounts before the timeout
     return () => clearTimeout(timer);
-  }, []); // Empty dependency array ensures this runs only once when the component mounts
+  }, []);
+
+  // Hide the card when location changes
+  useEffect(() => {
+    setIsVisible(false);
+  }, [location]);
 
   return (
     <>
