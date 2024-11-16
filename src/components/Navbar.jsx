@@ -106,7 +106,7 @@ const Navbar = () => {
                 </li>
 
 
-                <li className="relativelg:mt-0 mt-4">
+                <li className="relative lg:mt-0 mt-4">
                   <button onClick={toggleKumbhMenu} className="flex pl-3 items-center text-white hover:text-[#f08619] font-bold">
                   <i class="fas fa-dungeon mr-1"></i>Kumbh Mela
                     <i className={`ml-1 fas ${isKumbhOpen ? "fa-chevron-up" : "fa-chevron-down"}`}></i>
@@ -145,7 +145,7 @@ const Navbar = () => {
                 </li>
 
                 {/* Media with Dropdown */}
-                <li className="relativelg:mt-0 mt-4">
+                <li className="relative lg:mt-0 mt-4">
                   <button onClick={toggleMediaMenu} className="flex pl-3 items-center text-white hover:text-[#f08619] font-bold">
                     <i className="fas fa-film mr-1"></i> Media
                     <i className={`ml-1 fas ${isMediaOpen ? "fa-chevron-up" : "fa-chevron-down"}`}></i>
