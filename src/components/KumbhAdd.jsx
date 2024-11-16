@@ -3,6 +3,7 @@ import { useState,useEffect } from "react";
 import kumbh1 from "../kumbhmela/add1.jpg";
 import kumbh2 from "../kumbhmela/add2.jpg";
 import kumbh3 from "../kumbhmela/add3.jpg";
+import {Link} from 'react-router-dom'
 
 
 const KumbhAdd = () => {
@@ -27,7 +28,7 @@ const KumbhAdd = () => {
   return (
     <>
       {isVisible && (
-        <div className="tooltip-container fixed z-50 top-16 right-4 sm:right-16 mx-auto mt-20 p-2 sm:p-6 rounded-lg max-w-72 sm:max-w-96 bg-white border shadow-lg shadow-black">
+        <div className="tooltip-container fixed z-50 top-16 left-4 sm:right-16 mx-auto mt-20 p-2 sm:p-6 rounded-lg max-w-72 sm:max-w-96 bg-white border shadow-lg shadow-black">
           <i
             className="fa fa-times float-end text-xl cursor-pointer hover:scale-110 transition-all close-btn"
             onClick={handleClose}
@@ -51,12 +52,13 @@ const KumbhAdd = () => {
                 ))}
               </div>
             </div>
-            <button
-              type="button"
+            <Link
+            
+            to='/kumbhmela'
               className="py-2 mt-4 px-4 max-w-md flex justify-center rounded-lg items-center bg-red-600 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 "
             >
               Book Your Tour Now
-            </button>
+            </Link>
           </div>
         </div>
       )}
