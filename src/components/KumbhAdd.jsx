@@ -28,7 +28,7 @@ const KumbhAdd = () => {
   return (
     <>
       {isVisible && (
-        <div className="tooltip-container fixed z-50 top-16 right-4 sm:right-16 mx-auto mt-20 p-2 sm:p-6 rounded-lg max-w-72 sm:max-w-96 bg-white border shadow-lg shadow-black">
+        <div className="tooltip-container fixed z-50 top-16 -right-4 sm:right-16 mx-auto mt-20 p-2 sm:p-6 rounded-lg max-w-72 sm:max-w-96 bg-white border shadow-lg shadow-black">
           <i
             className="fa fa-times float-end text-xl cursor-pointer hover:scale-110 transition-all close-btn"
             onClick={handleClose}
