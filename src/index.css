@@ -163,3 +163,45 @@ h2{
       opacity: 0;
     }
   }
+
+
+
+
+/* Kumbh mela add banner css  */
+
+.blink{
+  animation: blink infinite linear 1s;
+}
+
+@keyframes blink{
+  0%{
+    filter:brightness(.5);
+  }
+  50%{
+    filter:brightness(.8);
+  }
+  100%{
+    filter:brightness(1);
+  }
+}
+
+
+
+/* Slider to animate */
+.image-slider {
+  animation: scroll 10s linear infinite;
+}
+
+
+
+/* Keyframes for scrolling effect */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+

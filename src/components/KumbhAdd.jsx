@@ -1,5 +1,5 @@
 import blinkImg from "../kumbhmela/tooltip.png";
-import React, { useState, useEffect } from "react";
+import { useState,useEffect } from "react";
 import kumbh1 from "../kumbhmela/add1.png";
 import kumbh2 from "../kumbhmela/add2.png";
 import kumbh3 from "../kumbhmela/add3.png";

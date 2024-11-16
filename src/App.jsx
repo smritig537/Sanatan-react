@@ -1,13 +1,14 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import KumbhAdd from "./components/KumbhAdd"
 import { Outlet } from "react-router-dom";
-import KumbhAdd from './components/KumbhAdd'
+
 
 function App() {
   return (
     <div>
       <Navbar />
-      <KumbhAdd/>
+       <KumbhAdd/>
       <div className="sm:mt-[105px] mt-[93px]">
       <Outlet /></div>
       <Footer />
