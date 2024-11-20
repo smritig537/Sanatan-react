@@ -88,8 +88,8 @@ const TentDetails = () => {
             {cards[currentCard].content}
           </p>
         </div>
-
-        <div className="flex mt-4 space-x-4">
+      </div>
+      <div className="flex mt-4 space-x-4">
           <button
             onClick={handlePrev}
             className="px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-700"
@@ -103,7 +103,6 @@ const TentDetails = () => {
             Next
           </button>
         </div>
-      </div>
     </section>
   );
 };
