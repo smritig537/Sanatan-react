@@ -51,7 +51,7 @@ const TentDetails = () => {
         </h1>
         <div className="lg:w-80 sm:w-60 w-40 border-orange-500 mt-4 border-[1px]"></div>
         <div className="flex justify-evenly flex-wrap-reverse mt-4 px-10">
-          <p className="sm:text-lg text-sm text-center font-[Fredoka] mt-4 font-light lg:mt-20 max-w-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aperiam, voluptatem architecto tempore facilis laborum voluptates veniam modi numquam reiciendis?</p>
+          <p className="sm:text-lg text-sm text-center font-sans mt-4 font-light lg:mt-20 max-w-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aperiam, voluptatem architecto tempore facilis laborum voluptates veniam modi numquam reiciendis?</p>
         <img src={tent} className="lg:w-2/5 sm:w-3/4 w-[100%] mt-4 object-cover" alt="" />
         </div>
 
@@ -63,10 +63,10 @@ const TentDetails = () => {
         <h2 className="sm:text-4xl text-2xl font-[Fredoka] font-bold">
           {cards[currentCard].title}
         </h2>
-        <h3 className="sm:text-3xl text-xl font-[Fredoka] font-light">
+        <h3 className="sm:text-3xl text-xl font-sans font-light">
           {cards[currentCard].description}
         </h3>
-        <p className="scrollDesign text-lg text-center font-[Fredoka] overflow-y-auto font-light mt-4">
+        <p className="scrollDesign text-lg text-center font-sans overflow-y-auto font-light mt-4">
           {cards[currentCard].content}
         </p>
       </div>
