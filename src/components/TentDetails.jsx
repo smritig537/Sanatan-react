@@ -30,8 +30,8 @@ const TentDetails = () => {
       setTimeout(() => {
         setCurrentCard((prev) => (prev + 1) % cards.length);
         setIsAnimating(false);
-      }, 500); // Matches animation duration
-    }, 3000);
+      }, 2000); // Matches animation duration
+    }, 5000);
 
     return () => clearInterval(interval); // Cleanup
   }, [cards.length]);
@@ -41,7 +41,7 @@ const TentDetails = () => {
     setTimeout(() => {
       setCurrentCard((prev) => (prev + 1) % cards.length);
       setIsAnimating(false);
-    }, 500);
+    }, 2000);
   };
 
   const handlePrev = () => {
@@ -49,7 +49,7 @@ const TentDetails = () => {
     setTimeout(() => {
       setCurrentCard((prev) => (prev - 1 + cards.length) % cards.length);
       setIsAnimating(false);
-    }, 500);
+    }, 2000);
   };
 
   return (
