@@ -2,6 +2,7 @@ import React from "react";
 import kumbh1 from "../kumbhmela/sample.jpg";
 import kumbhBg from '../kumbhmela/kumbh.mp4';
 import { useEffect,useState } from "react";
+import TentDetails from "../components/TentDetails";
 
 const Kumbh = () => {
   const [text, setText] = useState("Lorem ipsum dolor sit amet.");
@@ -104,8 +105,9 @@ const Kumbh = () => {
     </div>
   </div>
 </div>
-
       </section>
+
+      <TentDetails/>
     </>
   );
 };

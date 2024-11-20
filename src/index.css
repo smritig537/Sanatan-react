@@ -205,3 +205,27 @@ h2{
 }
 
 
+
+
+
+.scrollDesign::-webkit-scrollbar {
+  width: 12px; /* Scrollbar width */
+
+}
+
+/* Scrollbar track */
+.scrollDesign::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Track color */
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* Scrollbar thumb */
+.scrollDesign::-webkit-scrollbar-thumb {
+  background: rgb(53, 53, 53); /* Scroll handle color */
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* Hover effect on scrollbar thumb */
+.scrollDesign::-webkit-scrollbar-thumb:hover {
+  background: black; /* Darker blue on hover */
+}
