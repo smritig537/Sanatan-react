@@ -10,17 +10,32 @@ const TentDetails = () => {
     {
       title: "Free Wifi",
       description: "High-speed free wifi for all",
-      content: "Complimentary high-speed Wi-Fi ensures guests remain connected...",
+      content:
+        "Complimentary high-speed Wi-Fi ensures guests remain connected during their stay, allowing them to browse, stream, or work seamlessly in the comfort of their luxury tents. Whether for personal use or staying updated, this essential service enhances the convenience and satisfaction of every guest, blending modern amenities with the serene ambiance of the Kumbh Mela experience.",
     },
     {
       title: "Bed With Pillows",
       description: "One king size bed with Pillows, Mattress & Blanket",
-      content: "Rest and recharge on plush king-size or twin beds...",
+      content:
+        "Rest and recharge on plush king-size or twin beds equipped with premium-quality mattresses, soft pillows, and cozy blankets. The beds are designed to ensure maximum comfort, offering a perfect night's sleep after a long day exploring the Kumbh Mela. Additional bedside tables add convenience for storing essentials.",
     },
     {
       title: "Coffee Table and Chairs",
       description: "Coffee table with two chairs",
-      content: "Each tent includes a stylish coffee table paired with two chairs...",
+      content:
+        "Each tent includes a stylish coffee table paired with two comfortable chairs. Perfect for enjoying a cup of tea, reading, or casual conversations, this setup adds a cozy and functional space for relaxation, blending comfort with practicality.",
+    },
+    {
+      title: "Stationery",
+      description: "Stationery for essential items",
+      content:
+        "A set of essential stationery items, including notepads, pens, and envelopes, is available to cater to guests' needs. Whether for jotting down thoughts, writing letters, or taking notes, these thoughtful additions enhance convenience and add a personalized touch to the",
+    },
+    {
+      title: "Writing Table and Chair",
+      description: "Best writing table work personal work",
+      content:
+        "A dedicated writing table with a chair is thoughtfully provided for guests who wish to work, journal, or plan their itinerary. This ergonomic setup ensures comfort, making it ideal for productive tasks or creative pursuits.",
     },
   ];
 
@@ -30,7 +45,7 @@ const TentDetails = () => {
       setTimeout(() => {
         setCurrentCard((prev) => (prev + 1) % cards.length);
         setIsAnimating(false);
-      }, 2000); // Matches animation duration
+      }, 500); // Matches animation duration
     }, 5000);
 
     return () => clearInterval(interval); // Cleanup
@@ -41,7 +56,7 @@ const TentDetails = () => {
     setTimeout(() => {
       setCurrentCard((prev) => (prev + 1) % cards.length);
       setIsAnimating(false);
-    }, 2000);
+    }, 500);
   };
 
   const handlePrev = () => {
@@ -49,7 +64,7 @@ const TentDetails = () => {
     setTimeout(() => {
       setCurrentCard((prev) => (prev - 1 + cards.length) % cards.length);
       setIsAnimating(false);
-    }, 2000);
+    }, 500);
   };
 
   return (
