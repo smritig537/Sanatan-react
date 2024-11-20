@@ -57,7 +57,7 @@ const TentDetails = () => {
         </h1>
         <div className="lg:w-80 sm:w-60 w-40 border-orange-500 mt-4 border-[1px]"></div>
         <div className="flex justify-evenly flex-wrap-reverse mt-4 px-10">
-          <p className="sm:text-lg text-sm text-center font-sans mt-4 font-light lg:mt-20 max-w-2xl">
+          <p className="sm:text-lg text-sm lg:text-right text-center font-sans mt-4 font-light lg:mt-20 max-w-2xl">
             The Kumbh Mela Luxury Tent accommodations offer a unique blend of
             tradition and modern comfort with eco-friendly, secure, and
             waterproof cottages located close to the main bathing ghat. The
@@ -93,7 +93,7 @@ const TentDetails = () => {
             <h2 className="sm:text-4xl text-2xl text-[#EF6C00] font-[Fredoka] font-bold">
               {cards[currentCard].title}
             </h2>
-            <h3 className="sm:text-3xl text-xl text-[#EF6C00] font-sans font-light">
+            <h3 className="sm:text-3xl text-xl mt-4 text-[#EF6C00] font-sans font-light">
               {cards[currentCard].description}
             </h3>
             <p className="scrollDesign text-lg text-center font-sans overflow-y-auto font-light mt-4">
