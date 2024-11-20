@@ -109,13 +109,13 @@ const TentDetails = () => {
             onClick={handlePrev}
             className="px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-700"
           >
-            Previous
+            <i class="fas fa-arrow-left"></i>
           </button>
           <button
             onClick={handleNext}
             className="px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-700"
           >
-            Next
+            <i class="fas fa-arrow-right"></i>
           </button>
         </div>
     </section>
