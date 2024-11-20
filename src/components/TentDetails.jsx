@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import tent from "../kumbhmela/car.png";
-import "./TentDetails.css"; // Ensure the CSS file is linked
+
 
 const TentDetails = () => {
   const [currentCard, setCurrentCard] = useState(0);
