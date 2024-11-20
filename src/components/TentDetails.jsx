@@ -52,12 +52,12 @@ const TentDetails = () => {
         id="tent"
         className="flex justify-center bg-gradient-to-bl py-6 from-[#8a45468e]  to-white items-center flex-col"
       >
-        <h1 className="lg:text-5xl sm:text-3xl text-lg font-bold font-[Catamaran]">
+        <h1 className="lg:text-5xl sm:text-3xl text-2xl text-center font-bold font-[Catamaran]">
           Kumbh Mela Luxury Tent Details
         </h1>
         <div className="lg:w-80 sm:w-60 w-40 border-orange-500 mt-4 border-[1px]"></div>
         <div className="flex justify-evenly flex-wrap-reverse mt-4 px-10">
-          <p className="sm:text-lg text-sm lg:text-right text-center font-sans mt-4 font-light lg:mt-0 max-w-2xl">
+          <p className="text-lg lg:text-right text-center font-sans mt-4 font-[Catamaran] font-semi-bold lg:mt-0 max-w-2xl">
             The Kumbh Mela Luxury Tent accommodations offer a unique blend of
             tradition and modern comfort with eco-friendly, secure, and
             waterproof cottages located close to the main bathing ghat. The
@@ -93,7 +93,7 @@ const TentDetails = () => {
             <h2 className="sm:text-4xl text-2xl text-[#EF6C00] font-[Fredoka] font-bold">
               {cards[currentCard].title}
             </h2>
-            <h3 className="sm:text-3xl text-xl mt-4 text-[#EF6C00] font-sans font-light">
+            <h3 className="sm:text-3xl text-xl text-center mt-4 text-[#EF6C00] font-sans font-light">
               {cards[currentCard].description}
             </h3>
             <p className="scrollDesign text-lg text-center font-sans overflow-y-auto font-light mt-4">
