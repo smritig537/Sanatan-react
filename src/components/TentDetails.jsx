@@ -92,7 +92,7 @@ const TentDetails = () => {
           isAnimating ? "fade-out" : "fade-in"
         } w-full flex flex-col mt-8 items-center`}
       >
-        <div className="lg:w-4/5 w-[90%] h-80 border mt-6 flex py-6 px-6 lg:px-16 items-center flex-col">
+        <div className="lg:w-4/5 cardbg w-[90%] h-80 border mt-6 flex py-6 px-6 lg:px-16 items-center flex-col">
           <h2 className="sm:text-4xl text-2xl text-[#EF6C00] font-[Fredoka] font-bold">
             {cards[currentCard].title}
           </h2>
