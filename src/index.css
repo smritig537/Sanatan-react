@@ -229,3 +229,21 @@ h2{
 .scrollDesign::-webkit-scrollbar-thumb:hover {
   background: black; /* Darker blue on hover */
 }
+
+
+
+.tentdetailcard{
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Fade-in Animation */
+.fade-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Fade-out Animation */
+.fade-out {
+  opacity: 0;
+  transform: translateX(-100%);
+}

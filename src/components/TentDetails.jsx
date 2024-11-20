@@ -1,50 +1,41 @@
 import React from "react";
 import tent from "../kumbhmela/car.png";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 
 const TentDetails = () => {
-  const [currentCard, setCurrentCard] = useState(0);
-
-  const cards = [
-    {
-      title: "Free Wifi",
-      description: "High peed free wifi for all",
-      content:
-        "Complimentary high-speed Wi-Fi ensures guests remain connected during their stay, allowing them to browse, stream, or work seamlessly in the comfort of their luxury tents. Whether for personal use or staying updated, this essential service enhances the convenience and satisfaction of every guest, blending modern amenities with the serene ambiance of the Kumbh Mela experience.",
-    },
-    {
-      title: "Bed With Pillows",
-      description: "One king size bed with Pillows, Mattress & Blanket",
-      content:
-        "Rest and recharge on plush king-size or twin beds equipped with premium-quality mattresses, soft pillows, and cozy blankets. The beds are designed to ensure maximum comfort, offering a perfect night's sleep after a long day exploring the Kumbh Mela. Additional bedside tables add convenience for storing essentials.",
-    },
-    {
-      title: "Coffee Table and Chairs",
-      description: "Coffee table with two chairs",
-      content:
-        "Each tent includes a stylish coffee table paired with two comfortable chairs. Perfect for enjoying a cup of tea, reading, or casual conversations, this setup adds a cozy and functional space for relaxation, blending comfort with practicality.",
-    },
-    {
-      title: "Stationery",
-      description: "Stationery for essential items",
-      content:
-        "A set of essential stationery items, including notepads, pens, and envelopes, is available to cater to guests' needs. Whether for jotting down thoughts, writing letters, or taking notes, these thoughtful additions enhance convenience and add a personalized touch to the",
-    },
-    {
-      title: "Writing Table and Chair",
-      description: "Best writing table work personal work",
-      content:
-        "A dedicated writing table with a chair is thoughtfully provided for guests who wish to work, journal, or plan their itinerary. This ergonomic setup ensures comfort, making it ideal for productive tasks or creative pursuits.",
-    },
-  ];
-
-  const handleNext = () => {
-    setCurrentCard((prev) => (prev + 1) % cards.length);
-  };
-
-  const handlePrev = () => {
-    setCurrentCard((prev) => (prev - 1 + cards.length) % cards.length);
-  };
+    const [currentCard, setCurrentCard] = useState(0);
+    const [isAnimating, setIsAnimating] = useState(false);
+  
+    const cards = [
+      {
+        title: "Free Wifi",
+        description: "High-speed free wifi for all",
+        content: "Complimentary high-speed Wi-Fi ensures guests remain connected...",
+      },
+      {
+        title: "Bed With Pillows",
+        description: "One king size bed with Pillows, Mattress & Blanket",
+        content: "Rest and recharge on plush king-size or twin beds...",
+      },
+      {
+        title: "Coffee Table and Chairs",
+        description: "Coffee table with two chairs",
+        content: "Each tent includes a stylish coffee table paired with two chairs...",
+      },
+    ];
+  
+    // Automatically change the card every 2 seconds
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setIsAnimating(true);
+        setTimeout(() => {
+          setCurrentCard((prev) => (prev + 1) % cards.length);
+          setIsAnimating(false);
+        }, 500); // Matches animation duration
+      }, 3000);
+  
+      return () => clearInterval(interval); // Cleanup on unmount
+    }, [cards.length]);
 
   return (
     <>
@@ -88,7 +79,7 @@ const TentDetails = () => {
           />
         </div>
 
-        <div className="w-full flex flex-col mt-8 items-center">
+        <div className={`tentdetailcard ${isAnimating ? "fade-out" : "fade-in"} w-full flex flex-col mt-8 items-center`}>
           <div className="lg:w-4/5 w-[90%] h-80 border mt-6 flex py-6 px-6 lg:px-16 items-center flex-col">
             <h2 className="sm:text-4xl text-2xl text-[#EF6C00] font-[Fredoka] font-bold">
               {cards[currentCard].title}
