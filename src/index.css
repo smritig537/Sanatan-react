@@ -234,6 +234,7 @@ h2{
 
 .tentdetailcard{
   transition: opacity 0.5s ease, transform 0.5s ease;
+  background: repeating-linear-gradient(45deg, #92c9b1, #92c9b1 20px, #b3e0d2 20px, #b3e0d2 40px);
 }
 
 /* Fade-in Animation */
