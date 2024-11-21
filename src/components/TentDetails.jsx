@@ -123,7 +123,7 @@ const TentDetails = () => {
          <h2 className="sm:text-4xl text-2xl text-center font-bold font-[Catamaran] mt-16 text-orange-700 ">Equipment available to borrow</h2>
         <div className=" flex justify-center sm:justify-around flex-wrap mt-10  px-10">
           <KumbhCard
-            icon="text-4xl text-black fas fa-iron"
+            icon="text-4xl text-black fas fa-tshirt"
             heading="Fast Growing"
             text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
 "
