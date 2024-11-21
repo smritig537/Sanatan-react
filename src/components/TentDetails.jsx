@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import tent from "../kumbhmela/car.png";
+import KumbhCard from "./KumbhCard";
 
 
 const TentDetails = () => {
