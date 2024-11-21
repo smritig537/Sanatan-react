@@ -118,6 +118,45 @@ const TentDetails = () => {
             <i class="fas fa-arrow-right"></i>
           </button>
         </div>
+
+        <div className="mt-20 flex justify-center sm:justify-around flex-wrap  px-10">
+          <KumbhCard
+            icon="text-4xl text-black fas fa-building"
+            heading="Fast Growing"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+"
+          />
+          <KumbhCard
+            icon="text-4xl text-black fas fa-building"
+            heading="Fast Growing"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+"
+          />
+          <KumbhCard
+            icon="text-4xl text-black fas fa-building"
+            heading="Fast Growing"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+"
+          />
+          <KumbhCard
+            icon="text-4xl text-black fas fa-building"
+            heading="Fast Growing"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+"
+          />
+          <KumbhCard
+            icon="text-4xl text-black fas fa-building"
+            heading="Fast Growing"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+"
+          />
+          <KumbhCard
+            icon="text-4xl text-black fas fa-building"
+            heading="Fast Growing"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+"
+          />
+        </div>
     </section>
   );
 };
