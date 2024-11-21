@@ -120,7 +120,8 @@ const TentDetails = () => {
           </button>
         </div>
 
-        <div className="mt-20 flex justify-center sm:justify-around flex-wrap  px-10">
+         <h2 className="sm:text-4xl text-2xl text-center font-bold font-[Catamaran] mt-16 text-orange-700 ">Equipment available to borrow</h2>
+        <div className=" flex justify-center sm:justify-around flex-wrap  px-10">
           <KumbhCard
             icon="text-4xl text-black fas fa-building"
             heading="Fast Growing"
