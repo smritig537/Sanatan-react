@@ -124,38 +124,38 @@ const TentDetails = () => {
         <div className=" flex justify-center sm:justify-around flex-wrap mt-10  px-10">
           <KumbhCard
             icon="text-4xl text-black fas fa-tshirt"
-            heading="Fast Growing"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+            heading="Iron with board"
+            text="Convenient ironing solution with a sturdy board, ensuring wrinkle-free clothes and a polished look every time
 "
           />
           <KumbhCard
             icon="text-4xl text-black fas fa-wind"
-            heading="Fast Growing"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+            heading="Hair Dryer"
+            text="Compact, powerful hair dryer for quick drying and styling, ideal for a salon-like experience at home or travel
 "
           />
           <KumbhCard
             icon="text-4xl text-black fas fa-mug-hot"
-            heading="Fast Growing"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+            heading="Tea - Coffee Maker"
+            text="Brew your favorite tea or coffee effortlessly with this sleek, user-friendly appliance, perfect for morning refreshment
 "
           />
           <KumbhCard
             icon="text-4xl text-black fas fa-plug"
-            heading="Fast Growing"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+            heading="Universal Charger"
+            text="Versatile charger compatible with multiple devices, ensuring uninterrupted connectivity and power wherever you go
 "
           />
           <KumbhCard
             icon="text-4xl text-black fas fa-network-wired"
-            heading="Fast Growing"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+            heading="Extension Board"
+            text="Durable extension board with multiple sockets, ideal for powering several devices simultaneously with safety and convenience
 "
           />
           <KumbhCard
             icon="text-4xl text-black fas fa-first-aid"
-            heading="Fast Growing"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+            heading="Heating Bag"
+            text="Soothing heating bag for pain relief and relaxation, offering comfort and warmth with easy portability
 "
           />
         </div>
