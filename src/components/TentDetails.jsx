@@ -70,7 +70,7 @@ const TentDetails = () => {
   return (
     <section
       id="tent"
-      className="flex justify-center bg-gradient-to-bl py-6 from-[#8a45468e] to-white items-center flex-col"
+      className="flex justify-center bg-gradient-to-bl py-10 from-[#8a45468e] to-white items-center flex-col"
     >
       <h1 className="lg:text-5xl sm:text-3xl text-2xl text-center font-bold font-[Catamaran]">
         Kumbh Mela Luxury Tent Details
