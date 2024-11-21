@@ -71,7 +71,7 @@ const Kumbh = () => {
       
 
 
-      <section className=" lg:mt-40 sm:mt-96 mb-10 mt-72 mb-10">
+      <section className=" lg:mt-40 sm:mt-96 mb-10 mt-72">
       <h1 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold">
   Kumbh Mela
 </h1>
