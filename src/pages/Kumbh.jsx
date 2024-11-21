@@ -3,6 +3,7 @@ import kumbh1 from "../kumbhmela/sample.jpg";
 import kumbhBg from '../kumbhmela/kumbh.mp4';
 import { useEffect,useState } from "react";
 import TentDetails from "../components/TentDetails";
+import KumbhCard from "../components/KumbhCard";
 
 const Kumbh = () => {
   const [text, setText] = useState("Lorem ipsum dolor sit amet.");
@@ -108,6 +109,47 @@ const Kumbh = () => {
       </section>
 
       <TentDetails/>
+
+<section>
+      <div className="mt-20 flex justify-center sm:justify-around flex-wrap  px-10">
+          <KumbhCard
+            icon="text-4xl text-black fas fa-building"
+            heading="Fast Growing"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+"
+          />
+          <KumbhCard
+            icon="text-4xl text-black fas fa-building"
+            heading="Fast Growing"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+"
+          />
+          <KumbhCard
+            icon="text-4xl text-black fas fa-building"
+            heading="Fast Growing"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+"
+          />
+          <KumbhCard
+            icon="text-4xl text-black fas fa-building"
+            heading="Fast Growing"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+"
+          />
+          <KumbhCard
+            icon="text-4xl text-black fas fa-building"
+            heading="Fast Growing"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+"
+          />
+          <KumbhCard
+            icon="text-4xl text-black fas fa-building"
+            heading="Fast Growing"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, commodi?
+"
+          />
+        </div>
+      </section>
     </>
   );
 };
