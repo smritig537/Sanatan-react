@@ -10,7 +10,7 @@ import chakra from '../kumbhmela/chakra.png'
 const KumbhMelaSection = () => {
   return (
    <>
-   <section id='kumbh' className='py-6 relative'>
+   <section id='kumbh' className='py-6 mt-16 relative'>
       <h2 className='lg:text-5xl text-3xl text-white font-[Catamaran] text-center font-extrabold'>WE ORGANIZED KUMBH 
       <br />MELA TOUR <img src={bus} className='lg:w-12 w-8 mb-0 lg:mb-4 inline ' alt="" /></h2>
       <img src={announcement} className='absolute animate-pulse opacity-80 right-4 sm:top-6 top-20 w-12 sm:w-14 lg:w-28' alt="" />
