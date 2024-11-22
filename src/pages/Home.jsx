@@ -7,6 +7,7 @@ import Banner from "../components/Banner";
 import guru from "../assets/guru.jpg";
 import guruji from "../assets/roll3.webp"
 import HomeCard from "../components/HomeCard";
+import KumbhMelaSection from "../components/KumbhMelaSection"
 
 const Home = () => {
   return (
@@ -34,6 +35,10 @@ const Home = () => {
           values.
           </i></p>
       </section>
+
+      <KumbhMelaSection/>
+
+      
       <section className="grid lg:grid-cols-3">
       <HomeCard id="card" link="/about" heading="ABOUT THIS FOUNDATION" icon="fas fa-info-circle text-white"
        text="In the bustling world we live in today, it can be easy to get swept away in the chaos and noise of everyday life. The demands of modern living often lead us to neglect our inner selves. It’s crucial to take a step back and reconnect with our spiritual roots, cultural heritage, and the ancient wisdom that has guided generations before us. This is where organizations like the Sanatana Dharma Foundation come in, providing a nurturing space for individuals to explore and delve into the profound teachings of Sanatana Dharma, also known as Hinduism. Through various programs and activities, the foundation fosters a sense of community and understanding, helping individuals rediscover the timeless values and practices that can enrich their lives and promote personal growth."/>
