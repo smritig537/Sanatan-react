@@ -17,7 +17,7 @@ const Preparation = () => {
             The Sanatana Dharma Foundation and Akhada Society Preparation Of Maha Kumbh Mela 2025
             </h2>
             <p className="sm:text-lg text-base mt-6 ">
-              Today in Prayagraj, the Sanatana Dharma Foundation and Akhada
+              11-23-2024 in Prayagraj, the Sanatana Dharma Foundation and Akhada
               Society proudly raised the flag, marking the start of preparations
               for the grand Mahakumbh Mela 2025. This sacred event symbolizes
               unity, faith, and tradition, bringing people together to celebrate
