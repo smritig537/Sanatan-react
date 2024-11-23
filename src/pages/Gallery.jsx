@@ -2,6 +2,7 @@ import React from "react";
 import Divider from "../components/Divider";
 
 const imageUrl = {
+  'Preparations Of Maha Kumbh Mela': Array.from({ length: 11 }, (_, index) => index + 1),
   'Meeting with Professor Anand Bhalerao Ji': Array.from({ length: 3 }, (_, index) => index + 1),
   Parishad: Array.from({ length: 26 }, (_, index) => index + 1),
   Meetings: Array.from({ length: 140 }, (_, index) => index + 1),
@@ -51,6 +52,7 @@ function Gallery() {
         <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center mb-12">
           Gallery
         </h1>
+        <GallerySection title="Preparations Of Maha Kumbh Mela" category="Preparations Of Maha Kumbh Mela" />
         <GallerySection title="Spiritual Events 2" category="Spiritual Events 2" />
         <GallerySection title="Meeting with Professor Anand Bhalerao Ji" category="Meeting with Professor Anand Bhalerao Ji" />
         <GallerySection title="Parishad" category="Parishad" />
