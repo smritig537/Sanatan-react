@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const KumbhMelaSection = () => {
   return (
     <>
-      <section id="kumbh" className="py-6 relative">
+      <section id="kumbh" className="py-6 mt-16 relative">
         <h2 className="lg:text-5xl text-3xl text-white font-[Catamaran] text-center font-extrabold">
           WE ORGANIZED KUMBH
           <br />

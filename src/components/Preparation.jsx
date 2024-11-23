@@ -6,16 +6,15 @@ const Preparation = () => {
     <>
       <section
         id="preparation"
-        className="py-16 bg-gradient-to-r from-orange-800 to-white"
+        className="py-16 bg-gradient-to-r mt-16 from-orange-800 to-white"
       >
         <div className="flex justify-center flex-wrap-reverse lg:justify-around">
           <div id="text-content" className="lg:w-[42%] w-[80%] hidden-element">
             <span className="text-base font-[Catamaran] font-light">
               Preparations Of Maha Kumbh Mela 2025
             </span>
-            <h2 className="sm:text-6xl text-3xl font-bold  mt-8 font-[Catamaran]">
-              Sanatana Dharma Foundation and Akhada Society proudly hoisted the
-              flag
+            <h2 className="sm:text-5xl text-3xl font-bold  mt-8 font-[Catamaran]">
+            The Sanatana Dharma Foundation and Akhada Society Preparation Of Maha Kumbh Mela 2025
             </h2>
             <p className="sm:text-lg text-base mt-6 ">
               Today in Prayagraj, the Sanatana Dharma Foundation and Akhada
