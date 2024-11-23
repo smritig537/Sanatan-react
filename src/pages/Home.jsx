@@ -8,6 +8,7 @@ import guru from "../assets/guru.jpg";
 import guruji from "../assets/roll3.webp"
 import HomeCard from "../components/HomeCard";
 import KumbhMelaSection from "../components/KumbhMelaSection"
+import Preparation from "../components/Preparation";
 
 const Home = () => {
   return (
@@ -36,6 +37,7 @@ const Home = () => {
           </i></p>
       </section>
 
+      <Preparation />
       <KumbhMelaSection/>
 
       
