@@ -3,6 +3,7 @@ import kumbh1 from "../kumbhmela/sample.jpg";
 import kumbhBg from '../kumbhmela/kumbh.mp4';
 import { useEffect,useState } from "react";
 import TentDetails from "../components/TentDetails";
+import Preparation from "../components/Preparation";
 
 
 const Kumbh = () => {
@@ -109,6 +110,7 @@ const Kumbh = () => {
       </section>
 
       <TentDetails/>
+      <Preparation/>
 
     </>
   );
