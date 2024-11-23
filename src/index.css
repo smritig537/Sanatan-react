@@ -289,3 +289,21 @@ h2{
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/* preparation css  */
+#preparation {
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+      -45deg,
+      rgba(255, 165, 0, 0.5), /* orange with 50% opacity */
+      rgba(255, 69, 0, 0.5) 10px, /* orangered with 50% opacity */
+      rgba(255, 165, 0, 0.5) 10px,
+      rgba(255, 69, 0, 0.5) 20px
+    )
+    rgba(255, 165, 0, 0.5); /* base color with 50% opacity */
+  background-blend-mode: screen;
+}
