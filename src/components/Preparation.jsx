@@ -4,7 +4,7 @@ import preparaton from '../kumbhmela/preparation.jpg'
 const Preparation = () => {
   return (
     <>
-    <section id="preparation" className='py-16'>
+    <section id="preparation" className='py-16 bg-gradient-to-r from-orange-800 to-white'>
         <div className="flex justify-center flex-wrap-reverse lg:justify-around">
       <div id="text-content" className="lg:w-[42%] w-[80%] hidden-element" >
           <span className="text-base font-[Catamaran] font-light">Popular All Over World</span>
