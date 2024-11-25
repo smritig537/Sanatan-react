@@ -4,6 +4,8 @@ import kumbhBg from "../kumbhmela/kumbh.mp4";
 import { useEffect, useState } from "react";
 import TentDetails from "../components/TentDetails";
 import Preparation from "../components/Preparation";
+import {Helmet} from 'react-helmet-async'
+
 
 const Kumbh = () => {
   const [text, setText] = useState("Maha Kumbh Mela 2025");
@@ -32,6 +34,54 @@ const Kumbh = () => {
 
   return (
     <>
+      
+      <Helmet>
+        <title>Maha Kumbh Mela 2025 | Prayagraj - A Spiritual Journey</title>
+        <meta
+          name="description"
+          content="Experience the Maha Kumbh Mela 2025 at Prayagraj! Discover the world’s largest spiritual gathering with luxury stays, divine rituals, and cultural festivities."
+        />
+        <meta name="keywords" content="Kumbh Mela 2025, Prayagraj, Maha Kumbh, Hindu Pilgrimage, Spiritual Festival, Luxury Tents, Religious Gathering, Faith and Devotion" />
+        <meta name="author" content="Sanatana dharma foundation tour and travel" />
+        <meta property="og:title" content="Maha Kumbh Mela 2025 | Prayagraj - A Spiritual Journey" />
+        <meta
+          property="og:description"
+          content="Join the Maha Kumbh Mela 2025 at Prayagraj! Experience faith, tradition, and culture at the world's largest gathering."
+        />
+        <meta property="og:image" content="/path/to/kumbh-thumbnail.jpg" />
+        <meta property="og:url" content="https://sanatanadharmafoundation.co/kumbhmela" />
+        <meta name="twitter:card" content="Maha kubh mela 2025" />
+        <meta name="twitter:title" content="Maha Kumbh Mela 2025 | Prayagraj - A Spiritual Journey" />
+        <meta
+          name="twitter:description"
+          content="Witness the grandeur of Maha Kumbh Mela 2025. Immerse in faith, luxury stays, and divine rituals."
+        />
+        <meta name="twitter:image" content="../kumbhmela/sample.jpg" />
+        <link rel="canonical" href="https://sanatanadharmafoundation.co/kumbhmela" />
+
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "http://schema.org",
+            "@type": "Event",
+            "name": "Maha Kumbh Mela 2025",
+            "startDate": "2025-01-14",
+            "endDate": "2025-02-25",
+            "location": {
+              "@type": "Place",
+              "name": "Prayagraj, India",
+              "address": "Prayagraj, Uttar Pradesh, India"
+            },
+            "description": "Experience the spiritual grandeur of Maha Kumbh Mela 2025 at Prayagraj!",
+            "image": "../kumbhmela/sample.jpg",
+            "url": "https://sanatanadharmafoundation.co/kumbhmela"
+          }
+          `}
+        </script>
+      </Helmet>
+
+
       <section>
         <div className="video-container">
           <video autoPlay loop muted className="background-video">
@@ -103,7 +153,8 @@ const Kumbh = () => {
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
               <img
                 src={kumbh1}
-                alt="Kumbh Mela"
+                alt="Kumbh Mela 2025 Prayagraj sacred gathering"
+                loading="lazy"
                 className="max-w-full h-auto"
               />
             </div>
