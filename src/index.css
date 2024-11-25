@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  overflow: hidden;
+}
 
 h1{
     font-family: 'Times New Roman', Times, serif;
@@ -293,3 +296,26 @@ h2{
 
 
 
+/* spark effect css  */
+
+
+square{
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #ff8623;
+  pointer-events: none;
+  animation: animate 2s linear forwards;
+}
+
+@keyframes animate
+{
+  0%{
+      opacity: 1;
+      transform: translate(0, 0);
+  }
+  100%{
+      opacity: 0;
+      transform: translate(var(--x), var(--y));
+  }
+}
