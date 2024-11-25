@@ -29,7 +29,7 @@ const Preparation = () => {
             src={preparaton}
             loading="lazy"
             className="lg:w-[50%] w-[80%]"
-            alt="sanatan dharma foundation maha kubh mela 2025 preparation"
+            alt="sanatan dharma foundation maha kubh mela 2025 preparation image"
           />
         </div>
       </section>

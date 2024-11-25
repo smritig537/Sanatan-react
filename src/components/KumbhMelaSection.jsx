@@ -16,48 +16,62 @@ const KumbhMelaSection = () => {
           WE ORGANIZED KUMBH
           <br />
           MELA TOUR{" "}
-          <img src={bus} className="lg:w-12 w-8 mb-0 lg:mb-4 inline " alt="" />
+          <img
+            src={bus}
+            loading="lazy"
+            className="lg:w-12 w-8 mb-0 lg:mb-4 inline "
+            alt="tent details of sanatana dharma foundation travel"
+          />
         </h2>
         <img
           src={announcement}
           className="absolute animate-pulse opacity-80 right-4 sm:top-6 top-20 w-12 sm:w-14 lg:w-28"
-          alt=""
+          alt="announcement of sanatana dharma foundation travel"
+          loading="lazy"
         />
         <img
           src={chakra}
           className="absolute spin opacity-80 left-4 top-20 w-12 sm:top-6 sm:w-14 lg:w-28"
-          alt=""
+          alt="santana dharma chakra"
+          loading="lazy"
         />
 
         <div className="flex justify-around flex-wrap items-center">
-          <img src={collage} className="lg:w-[48%] w-[95%] mt-16" alt="" />
+          <img
+            src={collage}
+            className="lg:w-[48%] w-[95%] mt-16"
+            loading="lazy"
+            alt="mahakumbh mela 2025 image"
+          />
           <div className="lg:w-[48%] w-[90%] lg:mt-0 mt-5">
             <h3 className="sm:text-5xl text-3xl font-bold font-[Catamaran] text-white text-center">
               Plan Your Happy Tour
             </h3>
             <p className="text-lg font-[Catamaran] mt-4 text-gray-50">
-              Dive into the spiritual magic of the <strong>Maha Kumbh Mela 2025,</strong> the
-              world’s largest celebration of faith, culture, and unity. Set at
-              the sacred confluence of the Ganga, Yamuna, and mystical
-              Saraswati, this event is a must-see for spiritual seekers,
-              cultural explorers, and photography enthusiasts. Stay in luxury
-              tents and cottages near the main bathing ghats, blending modern
-              comforts with traditional charm. Choose from Premium Suites,
-              Deluxe Cottages, or Family Tents, all eco-friendly and beautifully
-              designed for your ultimate comfort. Experience the magic of Kumbh
-              with exclusive activities like the Royal Bath Procession, Akhara
-              Tours, Yoga and Meditation, and the serene Kumbh by Night under
-              starry skies. Let us make your Kumbh journey unforgettable with
-              tailored tours, luxury stays, and unique insights. Book your
-              experience now and be part of this divine celebration! Maha Kumbh
-              Mela 2025 – Find faith, peace, and yourself.
+              Dive into the spiritual magic of the{" "}
+              <strong>Maha Kumbh Mela 2025,</strong> the world’s largest
+              celebration of faith, culture, and unity. Set at the sacred
+              confluence of the Ganga, Yamuna, and mystical Saraswati, this
+              event is a must-see for spiritual seekers, cultural explorers, and
+              photography enthusiasts. Stay in luxury tents and cottages near
+              the main bathing ghats, blending modern comforts with traditional
+              charm. Choose from Premium Suites, Deluxe Cottages, or Family
+              Tents, all eco-friendly and beautifully designed for your ultimate
+              comfort. Experience the magic of Kumbh with exclusive activities
+              like the Royal Bath Procession, Akhara Tours, Yoga and Meditation,
+              and the serene Kumbh by Night under starry skies. Let us make your
+              Kumbh journey unforgettable with tailored tours, luxury stays, and
+              unique insights. Book your experience now and be part of this
+              divine celebration! Maha Kumbh Mela 2025 – Find faith, peace, and
+              yourself.
             </p>
             <div className="flex justify-evenly mt-4">
               <div className="w-[30%] flex flex-col justify-center items-center">
                 <img
                   src={train}
                   className="sm:w-28 w-24 h-24 sm:h-28 object-contain"
-                  alt=""
+                  loading="lazy"
+                  alt="sanatana dharma foundation tour train image for travel"
                 />
                 <p className="lg:text-white text-black text-center font-medium">
                   How to reach
@@ -67,7 +81,8 @@ const KumbhMelaSection = () => {
                 <img
                   src={home}
                   className="sm:w-28 w-24 h-24 sm:h-28 object-contain"
-                  alt=""
+                  alt="sanatana dharma foundation tour stay home"
+                  loading="lazy"
                 />
                 <p className="lg:text-white text-black text-center font-medium">
                   Where to stay
@@ -77,7 +92,8 @@ const KumbhMelaSection = () => {
                 <img
                   src={tour}
                   className="sm:w-28 w-24 h-24 sm:h-28 object-contain"
-                  alt=""
+                  alt="sanatana dharma foundation tour guide icon"
+                  loading="lazy"
                 />
                 <p className="lg:text-white text-black text-center font-medium">
                   Tourist guide

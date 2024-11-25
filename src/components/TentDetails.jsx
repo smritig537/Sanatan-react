@@ -84,7 +84,8 @@ const TentDetails = () => {
         <img
           src={tent}
           className="lg:w-2/5 sm:w-3/4 w-[100%] mt-4 object-cover"
-          alt="Tent Image"
+          alt="sanatana dharma tent detail image"
+          loading="lazy"
         />
       </div>
 
