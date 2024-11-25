@@ -36,17 +36,21 @@ const KumbhMelaSection = () => {
               Plan Your Happy Tour
             </h3>
             <p className="text-lg font-[Catamaran] mt-4 text-gray-50">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
-              ipsa, impedit atque quas nihil illum optio vel perspiciatis
-              quibusdam maiores dolorem non, obcaecati fuga? Dicta atque sint
-              neque delectus saepe, voluptates officiis eveniet provident
-              corrupti unde. Explicabo fugit veniam illo, corporis expedita
-              facere veritatis aperiam illum. Voluptate perferendis delectus,
-              accusantium cupiditate possimus nesciunt ad saepe eius est
-              recusandae repellendus nulla ratione nihil id excepturi inventore
-              sapiente minima velit. Assumenda doloremque perspiciatis
-              laboriosam voluptatem atque eius accusantium qui fuga mollitia
-              molestias.
+              Dive into the spiritual magic of the <strong>Maha Kumbh Mela 2025,</strong> the
+              world’s largest celebration of faith, culture, and unity. Set at
+              the sacred confluence of the Ganga, Yamuna, and mystical
+              Saraswati, this event is a must-see for spiritual seekers,
+              cultural explorers, and photography enthusiasts. Stay in luxury
+              tents and cottages near the main bathing ghats, blending modern
+              comforts with traditional charm. Choose from Premium Suites,
+              Deluxe Cottages, or Family Tents, all eco-friendly and beautifully
+              designed for your ultimate comfort. Experience the magic of Kumbh
+              with exclusive activities like the Royal Bath Procession, Akhara
+              Tours, Yoga and Meditation, and the serene Kumbh by Night under
+              starry skies. Let us make your Kumbh journey unforgettable with
+              tailored tours, luxury stays, and unique insights. Book your
+              experience now and be part of this divine celebration! Maha Kumbh
+              Mela 2025 – Find faith, peace, and yourself.
             </p>
             <div className="flex justify-evenly mt-4">
               <div className="w-[30%] flex flex-col justify-center items-center">
