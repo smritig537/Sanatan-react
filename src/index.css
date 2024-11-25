@@ -301,8 +301,8 @@ h2{
 
 .square{
   position: absolute;
-  width: 4px;
-  height: 4px;
+  width: 10px;
+  height: 10px;
   background: #ff8623;
   pointer-events: none;
   animation: animate 2s linear forwards;
