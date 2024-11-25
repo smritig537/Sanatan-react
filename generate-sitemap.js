@@ -8,6 +8,7 @@ const { createGzip } = require('zlib');
 const urls = [
 { url: '/', changefreq: 'daily', priority: 1.0 },
 { url: '/about', changefreq: 'monthly', priority: 0.8 },
+{ url: '/kumbhmela', changefreq: 'monthly', priority: 0.8 },
 { url: '/sanatanadharma', changefreq: 'monthly', priority: 0.8 },
 { url: '/supporters', changefreq: 'monthly', priority: 0.8 },
 { url: '/Locations-in-india', changefreq: 'monthly', priority: 0.8 },
