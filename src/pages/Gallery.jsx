@@ -52,7 +52,7 @@ function Gallery() {
         <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center mb-12">
           Gallery
         </h1>
-        <GallerySection title="Preparations Of Maha Kumbh Mela 2025" category="Preparations Of Maha Kumbh Mela 2025" />
+        <GallerySection title="Preparations Of Maha Kumbh Mela 2025" category="Preparations Of Maha Kumbh Mela" />
         <GallerySection title="Spiritual Events 2" category="Spiritual Events 2" />
         <GallerySection title="Meeting with Professor Anand Bhalerao Ji" category="Meeting with Professor Anand Bhalerao Ji" />
         <GallerySection title="Parishad" category="Parishad" />
