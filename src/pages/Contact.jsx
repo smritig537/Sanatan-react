@@ -5,10 +5,19 @@ import { Helmet } from "react-helmet-async";
 function Contact() {
   return (
     <>
+ 
     <Helmet>
-      <title>Sanatana Dharma Foundation | Contact Page</title>
-      <meta name="google-site-verification" content="LmxaOfetOYIjhRO7az9CISTQ4O-A3pnYUg9mz6xMUhU" />
-    </Helmet>
+  <title>Contact Us - Sanatana Dharma Foundation</title>
+  <meta name="description" content="Get in touch with the Sanatana Dharma Foundation for more information about our spiritual workshops, cultural events, and Vedic traditions." />
+  <meta name="keywords" content="Sanatana Dharma Foundation, contact us, spiritual workshops, Vedic traditions, Hinduism, cultural events, support Sanatana Dharma" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Contact Us - Sanatana Dharma Foundation" />
+  <meta property="og:description" content="Contact Sanatana Dharma Foundation to learn more about our events and support our mission to preserve Sanatana Dharma." />
+  <meta property="og:image" content="https://sanatanadharmafoundation.co/static/media/om-bg-remove.999d758e15021726580b.png" />
+  <link rel="canonical" href="https://sanatanadharmafoundation.co/contact" />
+</Helmet>
+      
+
       <div className="flex flex-col h-full items-center justify-between  sm:flex-row">
         <div className="h-[600px] sm:w-1/2 w-full mx-4 bg-gradient-to-b sm:bg-gradient-to-r from-[#F3F7EC] to-white text-[#373A40] flex justify-center items-center">
           <div>
