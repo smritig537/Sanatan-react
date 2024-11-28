@@ -36,30 +36,71 @@ const Kumbh = () => {
     <>
       
       <Helmet>
-        <title>Maha Kumbh Mela 2025 | Prayagraj - A Spiritual Journey</title>
-        <meta
-          name="description"
-          content="Experience the Maha Kumbh Mela 2025 at Prayagraj! Discover the world’s largest spiritual gathering with luxury stays, divine rituals, and cultural festivities."
-        />
-        <meta name="keywords" content="Kumbh Mela 2025, Prayagraj, Maha Kumbh, Hindu Pilgrimage, Spiritual Festival, Luxury Tents, Religious Gathering, Faith and Devotion" />
-        <meta name="author" content="Sanatana dharma foundation tour and travel" />
-        <meta property="og:title" content="Maha Kumbh Mela 2025 | Prayagraj - A Spiritual Journey" />
-        <meta
-          property="og:description"
-          content="Join the Maha Kumbh Mela 2025 at Prayagraj! Experience faith, tradition, and culture at the world's largest gathering."
-        />
-        <meta property="og:image" content="/path/to/kumbh-thumbnail.jpg" />
-        <meta property="og:url" content="https://sanatanadharmafoundation.co/kumbhmela" />
-        <meta name="twitter:card" content="Maha kubh mela 2025" />
-        <meta name="twitter:title" content="Maha Kumbh Mela 2025 | Prayagraj - A Spiritual Journey" />
-        <meta
-          name="twitter:description"
-          content="Witness the grandeur of Maha Kumbh Mela 2025. Immerse in faith, luxury stays, and divine rituals."
-        />
-        <meta name="twitter:image" content="../kumbhmela/sample.jpg" />
-        <link rel="canonical" href="https://sanatanadharmafoundation.co/kumbhmela" />
+  <title>Maha Kumbh Mela 2025 | Prayagraj - A Spiritual Journey</title>
+  <meta
+    name="description"
+    content="Join the Maha Kumbh Mela 2025 at Prayagraj, the world's largest spiritual gathering. Experience divine rituals, cultural celebrations, luxury tent stays, and more!"
+  />
+  <meta
+    name="keywords"
+    content="Kumbh Mela 2025, Prayagraj, Maha Kumbh, Hindu Pilgrimage, Spiritual Festival, Luxury Tents, Religious Gathering, Sacred Rituals, Kumbh Flag Hoisting"
+  />
+  <meta name="author" content="Sanatana Dharma Foundation - Kumbh Mela 2025" />
+  <meta property="og:title" content="Maha Kumbh Mela 2025 | Prayagraj - A Spiritual Journey" />
+  <meta
+    property="og:description"
+    content="Experience the grandeur of Maha Kumbh Mela 2025 in Prayagraj, with sacred rituals, luxury accommodations, and cultural celebrations."
+  />
+  <meta property="og:image" content="https://sanatanadharmafoundation.co/static/media/sample.db48fff825386cdf9089.jpg" />
+  <meta property="og:url" content="https://sanatanadharmafoundation.co/kumbhmela" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Maha Kumbh Mela 2025 | Prayagraj - A Spiritual Journey" />
+  <meta
+    name="twitter:description"
+    content="Join us for the Maha Kumbh Mela 2025 at Prayagraj! Explore luxury stays, sacred rituals, and more at the world’s largest religious gathering."
+  />
+  <meta name="twitter:image" content="https://sanatanadharmafoundation.co/static/media/sample.db48fff825386cdf9089.jpg" />
+  <link rel="canonical" href="https://sanatanadharmafoundation.co/kumbhmela" />
 
-      </Helmet>
+  <script type="application/ld+json">
+  {`
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Maha Kumbh Mela 2025",
+      "startDate": "2025-02-01",
+      "endDate": "2025-03-15",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Prayagraj",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Sangam",
+          "addressLocality": "Prayagraj",
+          "addressRegion": "Uttar Pradesh",
+          "postalCode": "211001",
+          "addressCountry": "IN"
+        }
+      },
+      "image": "https://sanatanadharmafoundation.co/kumbhmela/sample.jpg",
+      "description": "Join the Maha Kumbh Mela 2025 in Prayagraj and witness the world's largest spiritual gathering, cultural festivals, sacred rituals, and luxury accommodations.",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://sanatanadharmafoundation.co/kumbhmela",
+        "priceCurrency": "INR",
+        "price": "5000",
+        "eligibleRegion": {
+          "@type": "Place",
+          "name": "India"
+        }
+      }
+    }
+  `}
+</script>
+</Helmet>
+
 
 
       <section>
@@ -90,7 +131,7 @@ const Kumbh = () => {
 
             <p className="text-white font-sans mt-4  text-wrap max-w-[400px]">
               Experience the spiritual grandeur of Maha Kumbh Mela 2025 at
-              Prayagraj! Unite in faith, tradition, and devotion at the world’s
+              Prayagraj ! Unite in faith, tradition, and devotion at the world’s
               largest gathering for divine blessings and sacred rituals
             </p>
           </div>
