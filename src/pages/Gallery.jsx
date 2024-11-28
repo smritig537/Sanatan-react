@@ -1,5 +1,6 @@
 import React from "react";
 import Divider from "../components/Divider";
+import {Helmet} from 'react-helmet-async'
 
 const imageUrl = {
   'Preparations Of Maha Kumbh Mela': Array.from({ length: 11 }, (_, index) => index + 1),
@@ -28,11 +29,12 @@ const GallerySection = ({ title, category }) => {
             className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
           >
             <img
-              src={`${process.env.PUBLIC_URL}/gallery/${category}/${e}.webp`}
-              alt={`Sanatana Dharma Foundation ${title} ${e}`}
-              loading="lazy"
-              className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-            />
+  src={`${process.env.PUBLIC_URL}/gallery/${category}/${e}.webp`}
+  alt={`Sanatana Dharma Foundation ${title} image number ${e} showcasing ${category}`}
+  loading="lazy"
+  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+/>
+
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"></div>
             <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
               {title}
@@ -46,6 +48,31 @@ const GallerySection = ({ title, category }) => {
 };
 
 function Gallery() {
+  <Helmet>
+  <title>Gallery - Sanatana Dharma Foundation</title>
+  <meta name="description" content="Explore the gallery of Sanatana Dharma Foundation showcasing spiritual events, meetings, Maha Kumbh Mela preparations, political and social activities, and more." />
+  <meta name="keywords" content="Sanatana Dharma Foundation gallery, spiritual events, Maha Kumbh Mela, political meetings, social activities, photos, events gallery" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Gallery - Sanatana Dharma Foundation" />
+  <meta property="og:description" content="Explore the gallery of Sanatana Dharma Foundation showcasing spiritual events, meetings, Maha Kumbh Mela preparations, political and social activities, and more." />
+  <meta property="og:image" content="https://sanatanadharmafoundation.co/static/media/om-bg-remove.999d758e15021726580b.png" />
+  <link rel="canonical" href="https://sanatanadharmafoundation.co/gallery" />
+  <script type="application/ld+json">
+  {`
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageGallery",
+      "name": "Sanatana Dharma Foundation Gallery",
+      "description": "Explore the gallery of Sanatana Dharma Foundation showcasing spiritual events, meetings, and various activities.",
+      "url": "https://sanatanadharmafoundation.co/gallery",
+      "image": [
+        ${imageUrl["Preparations Of Maha Kumbh Mela"].map(e => `"https://sanatanadharmafoundation.co/gallery/Preparations Of Maha Kumbh Mela/${e}.webp"`).join(", ")}
+      ]
+    }
+  `}
+</script>
+</Helmet>
+
   return (
     <div className="bg-white dark:bg-gray-800 py-6 sm:py-8 lg:py-12">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
