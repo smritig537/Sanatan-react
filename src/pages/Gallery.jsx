@@ -3,6 +3,7 @@ import Divider from "../components/Divider";
 import {Helmet} from 'react-helmet-async'
 
 const imageUrl = {
+  'Sacred Pooja with Revered Spiritual Leaders': Array.from({ length: 7 }, (_, index) => index + 1),
   'Preparations Of Maha Kumbh Mela': Array.from({ length: 11 }, (_, index) => index + 1),
   'Meeting with Professor Anand Bhalerao Ji': Array.from({ length: 3 }, (_, index) => index + 1),
   Parishad: Array.from({ length: 26 }, (_, index) => index + 1),
@@ -79,6 +80,7 @@ function Gallery() {
         <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center mb-12">
           Gallery
         </h1>
+        <GallerySection title="Sacred Pooja with Revered Spiritual Leaders Shri Shri Narayanand Giri Maharaj, Chairman of the Sanatana Dharma Foundation, and Shri Madhu Pandit Dasa, President of ISKCON." category="Sacred Pooja with Revered Spiritual Leaders" />
         <GallerySection title="Preparations Of Maha Kumbh Mela 2025" category="Preparations Of Maha Kumbh Mela" />
         <GallerySection title="Spiritual Events 2" category="Spiritual Events 2" />
         <GallerySection title="Meeting with Professor Anand Bhalerao Ji" category="Meeting with Professor Anand Bhalerao Ji" />
