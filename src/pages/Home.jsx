@@ -9,10 +9,47 @@ import guruji from "../assets/roll3.webp"
 import HomeCard from "../components/HomeCard";
 import KumbhMelaSection from "../components/KumbhMelaSection"
 import Preparation from "../components/Preparation";
+import {Helmet} from 'react-helmet-async'
 
 const Home = () => {
   return (
     <>
+  <Helmet>
+  <title>Sanatana Dharma Foundation - Spiritual Workshops & Vedic Traditions</title>
+  <meta name="description" content="Sanatana Dharma Foundation offers spiritual workshops, Vedic traditions, and meditation retreats to help you reconnect with ancient wisdom and spiritual growth." />
+  <meta name="keywords" content="Sanatana Dharma Foundation, Hinduism, spiritual workshops, Vedic traditions, meditation retreats, cultural festivals, non-profit organization" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Sanatana Dharma Foundation" />
+  <meta property="og:description" content="Join Sanatana Dharma Foundation for spiritual workshops, Vedic traditions, and meditation retreats to reconnect with ancient wisdom." />
+  <meta property="og:image" content={Swamiji} />
+  <link rel="canonical" href="https://sanatanadharmafoundation.co/" />
+
+  <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Sanatana Dharma Foundation",
+        "url": "https://www.sanatanadharmafoundation.co",
+        "logo": "https://sanatanadharmafoundation.co/static/media/om-bg-remove.999d758e15021726580b.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "sanatanadharmafoundation1@gmail.com",
+          "contactType": "Customer Service",
+          "areaServed": "IN",
+          "availableLanguage": "English"
+        },
+        "sameAs": [
+          "https://www.facebook.com/people/Sanatana-Dharma-Foundation/61560817495402/",
+          "https://x.com/dharmaorigins"
+        ]
+      }
+    `}
+    </script>
+</Helmet>
+
+
+
       <Banner />
       <section id="header_section" className="w-full p-3 flex justify-center items-center flex-col">
       <h1 className="text-[#491c1d] font-bold text-2xl w-[90%] sm:text-5xl text-center">
@@ -61,7 +98,7 @@ const Home = () => {
           className="h-auto sm:h-[500px] object-cover object-center m-auto mb-5"
           src={Swamiji}
           loading="lazy"
-          alt="Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand Giriji Maharaj"
+          alt="Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand Giriji Maharaj, founder of Sanatana Dharma Foundation"
         />
         <p className="items-center mb-5 p-2 text-justify rounded-sm bg-orange-50">
           Our founder, Mahamadaleshwar Shri Shri 1008 Anant Shri Vibhushit Swami
@@ -107,7 +144,7 @@ const Home = () => {
       </main>
 
       <h2 className="font-oswald text-[#313131] font-semibold text-3xl sm:text-5xl text-center mt-10 mb-10">
-        Mission
+        Our Mission
       </h2>
 
       <section className="m-auto max-w-full w-[90%] sm:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">

@@ -18,12 +18,17 @@ const About = () => {
     <>
       <>
       <Helmet>
-  <title>About Sanatana Dharma Foundation: Spiritual Growth</title>
-  <meta name="description" content="Explore the Sanatana Dharma Foundation's mission to preserve and promote Sanatana Dharma (Hinduism). Learn about our charitable efforts, spiritual education, community service, and initiatives to revive ancient traditions and foster unity." />
-  <meta name="keywords" content="Sanatana Dharma Foundation, Hinduism, Sanatana Dharma, spiritual education, charitable activities, cultural preservation, Indian traditions, community service, religious revival, Hindu philosophy, spiritual growth" />
+  <title>Sanatana Dharma Foundation: Mission for Spiritual Growth</title>
+  <meta name="description" content="Discover the Sanatana Dharma Foundation's mission to revive Hindu philosophy and promote spiritual growth through education and community service." />
   <meta name="google-site-verification" content="LmxaOfetOYIjhRO7az9CISTQ4O-A3pnYUg9mz6xMUhU" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://sanatanadharmafoundation.co/about" />
+  <meta property="og:title" content="About Sanatana Dharma Foundation" />
+  <meta property="og:description" content="Explore Sanatana Dharma Foundation's mission of promoting spiritual education and cultural preservation." />
+  <meta property="og:image" content="https://sanatanadharmafoundation.co/static/media/sanatanabout.be9acc9461b403fac48a.webp" />
+  <meta property="og:url" content="https://sanatanadharmafoundation.co/about" />
+  <meta property="og:type" content="website" />
+
 
 </Helmet>
 
@@ -39,7 +44,7 @@ const About = () => {
                   <img
                     src={sanatanabout}
                     loading="lazy"
-                    alt="Sanatana dharma foundation about"
+                    alt="Sanatana Dharma Foundation: Promoting Hindu Philosophy and Cultural Revival"
                     className="object-cover rounded-lg shadow-md max-w-full h-auto"
                   />
                 </div>
