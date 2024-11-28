@@ -59,26 +59,6 @@ const Kumbh = () => {
         <meta name="twitter:image" content="../kumbhmela/sample.jpg" />
         <link rel="canonical" href="https://sanatanadharmafoundation.co/kumbhmela" />
 
-        {/* Structured Data */}
-        <script type="application/ld+json">
-          {`
-          {
-            "@context": "http://schema.org",
-            "@type": "Event",
-            "name": "Maha Kumbh Mela 2025",
-            "startDate": "2025-01-14",
-            "endDate": "2025-02-25",
-            "location": {
-              "@type": "Place",
-              "name": "Prayagraj, India",
-              "address": "Prayagraj, Uttar Pradesh, India"
-            },
-            "description": "Experience the spiritual grandeur of Maha Kumbh Mela 2025 at Prayagraj!",
-            "image": "../kumbhmela/sample.jpg",
-            "url": "https://sanatanadharmafoundation.co/kumbhmela"
-          }
-          `}
-        </script>
       </Helmet>
 
 

@@ -7,7 +7,6 @@ function PresenceIndia() {
   return (
     <main className="flex-grow w-4/5 m-auto">
       <Helmet>
-      <meta name="google-site-verification" content="LmxaOfetOYIjhRO7az9CISTQ4O-A3pnYUg9mz6xMUhU" />
         <title>Sanatana Dharma Foundation - Locations and Heritage in India</title>
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://sanatanadharmafoundation.co/Locations-in-india" />
