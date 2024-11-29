@@ -10,7 +10,7 @@ const SanatanaDharma = () => {
   return (
     <>
     <Helmet>
-  <title>Sanatana Dharma: Core Concepts & Scriptures</title>
+  <title>Sanatana Dharma: Core Concepts </title>
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://sanatanadharmafoundation.co/sanatanadharma" />
   <meta name="description" content="Discover Sanatana Dharma (Hinduism) principles like Dharma, Karma, Samsara, Moksha, Atman, Brahman, and key scriptures like Vedas, Upanishads, and Bhagavad Gita." />
