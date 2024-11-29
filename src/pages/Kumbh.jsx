@@ -63,43 +63,52 @@ const Kumbh = () => {
   <meta name="twitter:image" content="https://sanatanadharmafoundation.co/static/media/sample.db48fff825386cdf9089.jpg" />
   <link rel="canonical" href="https://sanatanadharmafoundation.co/kumbhmela" />
 
-  <script type="application/ld+json">
-  {`
-    {
+ <script type="application/ld+json">
+    {`
       "@context": "https://schema.org",
       "@type": "Event",
-      "name": "Maha Kumbh Mela 2025",
-      "startDate": "2025-02-01",
-      "endDate": "2025-03-15",
+      "name": "Kumbh Mela 2025",
+      "startDate": "2025-01-12T06:00:00+05:30",
+      "endDate": "2025-01-16T23:59:59+05:30",
       "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "eventStatus": "https://schema.org/EventScheduled",
       "location": {
         "@type": "Place",
-        "name": "Prayagraj",
+        "name": "Prayagraj, Kumbh Mela Grounds",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Sangam",
+          "streetAddress": "Kumbh Mela Grounds, Triveni Sangam",
           "addressLocality": "Prayagraj",
           "addressRegion": "Uttar Pradesh",
           "postalCode": "211001",
           "addressCountry": "IN"
         }
       },
-      "image": "https://sanatanadharmafoundation.co/kumbhmela/sample.jpg",
-      "description": "Join the Maha Kumbh Mela 2025 in Prayagraj and witness the world's largest spiritual gathering, cultural festivals, sacred rituals, and luxury accommodations.",
+      "image": [
+        "https://sanatanadharmafoundation.co/static/media/sample.db48fff825386cdf9089.jpg",
+        "https://sanatanadharmafoundation.co/static/media/preparation.4610835d449dc9681bc1.jpg",
+       ],
+      "description": "Experience the divine spiritual journey at Kumbh Mela 2025 in Prayagraj, India, with sacred rituals, cultural performances, and the world's largest gathering of pilgrims.",
       "offers": {
         "@type": "Offer",
         "url": "https://sanatanadharmafoundation.co/kumbhmela",
+        "price": 1000,
         "priceCurrency": "INR",
-        "price": "5000",
-        "eligibleRegion": {
-          "@type": "Place",
-          "name": "India"
-        }
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2024-12-01T12:00"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Various Cultural and Religious Performers"
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Sanatana dharma foundation",
+        "url": "https://sanatanadharmafoundation.co/"
       }
-    }
-  `}
+    `}
 </script>
+
 </Helmet>
 
 
