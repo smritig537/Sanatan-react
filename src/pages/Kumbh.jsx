@@ -6,6 +6,7 @@ import TentDetails from "../components/TentDetails";
 import Preparation from "../components/Preparation";
 import {Helmet} from 'react-helmet-async'
 import PreparationImage from "../kumbhmela/preparation.jpg";
+import EventSchema from "../utils/hooks/EventSchema";
 
 
 const Kumbh = () => {
