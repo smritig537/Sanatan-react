@@ -1,8 +1,8 @@
 import React from "react";
 import "./SanatanaDharma.css";
-import pic from "../pageImages/SanatanaPic.webp";
+import pic from "./SanatanaPic.webp";
 import Yog from "../assets/yog.png";
-import scrip from "../pageImages/6628329.webp";
+import scrip from "./6628329.webp";
 import Divider from "../components/Divider";
 import { Helmet } from "react-helmet-async";
 
