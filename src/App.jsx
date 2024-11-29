@@ -10,7 +10,7 @@ function App() {
     <div>
       <Navbar />
       <SparkEffect/>
-       <KumbhAdd/>
+       {/* <KumbhAdd/> */}
       <div className="sm:mt-[105px] mt-[93px]">
       <Outlet /></div>
       <Footer />
