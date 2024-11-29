@@ -64,7 +64,6 @@ const Kumbh = () => {
   <meta name="twitter:image" content="https://sanatanadharmafoundation.co/static/media/sample.db48fff825386cdf9089.jpg" />
   <link rel="canonical" href="https://sanatanadharmafoundation.co/" />
 
-<EventSchema/>
 
 </Helmet>
 
