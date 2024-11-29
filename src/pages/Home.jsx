@@ -11,7 +11,7 @@ import KumbhMelaSection from "../components/KumbhMelaSection";
 import Preparation from "../components/Preparation";
 import PreparationImage from "../kumbhmela/preparation.jpg";
 import { Helmet } from "react-helmet-async";
-import PoojaImage from "Sacred and transformative Pooja.webp";
+import PoojaImage from "./Pooja.webp";
 
 const Home = () => {
   return (
