@@ -62,7 +62,7 @@ const Kumbh = () => {
     content="Join us for the Maha Kumbh Mela 2025 at Prayagraj! Explore luxury stays, sacred rituals, and more at the world’s largest religious gathering."
   />
   <meta name="twitter:image" content="https://sanatanadharmafoundation.co/static/media/sample.db48fff825386cdf9089.jpg" />
-  <link rel="canonical" href="https://sanatanadharmafoundation.co/kumbhmela" />
+  <link rel="canonical" href="https://sanatanadharmafoundation.co/" />
 
 <EventSchema/>
 
