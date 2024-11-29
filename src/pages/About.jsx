@@ -4,7 +4,7 @@ import swami from "../assets/swami.jpeg";
 import aim from "../assets/aim.png";
 import sanatanabout from "../assets/sanatanabout.webp";
 import leaf from "../assets/leaf.png";
-import Build from "./build.webp";
+import Build from "../pageImages/build.webp";
 import School from "../pageImages/School.webp";
 import School2 from "../pageImages/School2.webp";
 import har from "../pageImages/HARIDWAR.webp";
