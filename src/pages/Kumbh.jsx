@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import TentDetails from "../components/TentDetails";
 import Preparation from "../components/Preparation";
 import {Helmet} from 'react-helmet-async'
+import PreparationImage from "../kumbhmela/preparation.jpg";
 
 
 const Kumbh = () => {
@@ -184,7 +185,14 @@ const Kumbh = () => {
       </section>
 
       <TentDetails />
-      <Preparation />
+      <Preparation  title="Preparations Of Maha Kumbh Mela 2025" 
+      heading='The Sanatana Dharma Foundation and Akhada Society 
+      Preparation Of Maha Kumbh Mela 2025' description="11-23-2024 in Prayagraj, 
+      the Sanatana Dharma Foundation and Akhada Society proudly raised the flag, 
+      marking the start of preparations for the grand Mahakumbh Mela 2025. This 
+      sacred event symbolizes unity, faith, and tradition, bringing people together
+       to celebrate spirituality and culture. The flag-hoisting ceremony is a significant 
+       step toward this historic gathering" image={PreparationImage}/>
     </>
   );
 };

@@ -9,6 +9,7 @@ import guruji from "../assets/roll3.webp"
 import HomeCard from "../components/HomeCard";
 import KumbhMelaSection from "../components/KumbhMelaSection"
 import Preparation from "../components/Preparation";
+import PreparationImage from "../kumbhmela/preparation.jpg";
 import {Helmet} from 'react-helmet-async'
 
 const Home = () => {
@@ -74,7 +75,14 @@ const Home = () => {
           </i></p>
       </section>
 
-      <Preparation />
+      <Preparation  title="Preparations Of Maha Kumbh Mela 2025" 
+      heading='The Sanatana Dharma Foundation and Akhada Society 
+      Preparation Of Maha Kumbh Mela 2025' description="11-23-2024 in Prayagraj, 
+      the Sanatana Dharma Foundation and Akhada Society proudly raised the flag, 
+      marking the start of preparations for the grand Mahakumbh Mela 2025. This 
+      sacred event symbolizes unity, faith, and tradition, bringing people together
+       to celebrate spirituality and culture. The flag-hoisting ceremony is a significant 
+       step toward this historic gathering" image={PreparationImage}/>
       <KumbhMelaSection/>
 
       
