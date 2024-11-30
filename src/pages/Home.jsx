@@ -1,5 +1,5 @@
 import React from "react";
-import Swamiji from "./mainImg.webp";
+import Swamiji from "../assets/mainImg.webp";
 import Form from "../components/Form";
 import Divider from "../components/Divider";
 import swamiji2 from "../assets/roll2.webp";
@@ -11,7 +11,7 @@ import KumbhMelaSection from "../components/KumbhMelaSection";
 import Preparation from "../components/Preparation";
 import PreparationImage from "../kumbhmela/preparation.jpg";
 import { Helmet } from "react-helmet-async";
-import PoojaImage from "./Pooja.webp";
+import PoojaImage from "../assets/Pooja.webp";
 
 const Home = () => {
   return (
