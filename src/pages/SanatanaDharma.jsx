@@ -1,5 +1,4 @@
 import React from "react";
-import "./SanatanaDharma.css";
 import pic from "../assets/SanatanaPic.webp";
 import Yog from "../assets/yog.png";
 import scrip from "../assets/6628329.webp";
