@@ -10,7 +10,7 @@ import School2 from "../assets/School2.webp";
 import har from "../assets/HARIDWAR.webp";
 import mall from "../assets/mall.webp";
 import Divider from "../components/Divider";
-import FAQ from "./Faq";
+import FAQ from "../components/Faq";
 import { Helmet } from "react-helmet-async";
 
 const About = () => {
