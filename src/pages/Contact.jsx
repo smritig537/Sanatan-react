@@ -1,5 +1,4 @@
 import React from "react";
-import Divider from "../components/Divider";
 import Form from "../components/Form";
 import { Helmet } from "react-helmet-async";
 function Contact() {

@@ -1,5 +1,4 @@
 import React from "react";
-import WIP from "../components/WIP";
 import Divider from "../components/Divider";
 import { default as InstagramIcon } from "../assets/ig.svg";
 import { default as FacebookIcon } from "../assets/facebook.svg";
