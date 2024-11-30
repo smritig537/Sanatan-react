@@ -12,7 +12,6 @@ import Gallery from "./pages/Gallery";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
-import Achievements from "./pages/Achievements";
 import Media from "./pages/Media";
 import PresenceIndia from "./pages/PresenceIndia";
 import SanatanaDharma from "./pages/SanatanaDharma";
@@ -41,7 +40,6 @@ const appRouter = createBrowserRouter(
       <Route path="blogs/reviving-ancient-wisdom" element={<Blog1 />} />
       <Route path="blogs/hindu-religious-texts-and-scriptures" element={<Blog2 />} />
       <Route path="blogs/indian-culture-and-traditions" element={<Blog3 />} />
-      <Route path="achievements" element={<Achievements />} />
       <Route path="contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
     </Route>
