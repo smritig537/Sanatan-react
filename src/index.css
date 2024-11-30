@@ -17,13 +17,13 @@ h2{
 
 
 #header_section{
-    background-image: url("./pages/bg-1.jpg");
+    background-image: url("./assets/bg-1.jpg");
     background-position: center;
     background-size: contain;
 }
 
 #card {
-    background-image: url("./pages/bg2.jpg");
+    background-image: url("./assets/bg-2.jpg");
     background-position: center;
     background-size: cover;
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import Divider from "../components/Divider";
 import { Helmet } from "react-helmet-async";
 
 const Supporters = () => {
