@@ -1,43 +1,200 @@
 import React from "react";
-import Form from "../components/Form";
+import { useForm, ValidationError } from "@formspree/react";
+import Swal from "sweetalert2"; // Import SweetAlert2
 import { Helmet } from "react-helmet-async";
-function Contact() {
+
+const Contact = () => {
+  const [state, handleSubmit] = useForm("mkgnarwr"); // Replace with your Formspree endpoint
+
+  // Success handler
+  if (state.succeeded) {
+    // Show custom SweetAlert on success
+    Swal.fire({
+      title: "Success!",
+      text: "Thanks for your message!",
+      icon: "success",
+      confirmButtonText: "OK",
+      confirmButtonColor: "#3085d6", // Customize the button color
+    });
+
+    // Redirect to the homepage after a short delay
+    setTimeout(() => {
+      window.location.href = "/"; // Redirect to the homepage
+    }, 2000); // 2-second delay before redirecting
+  }
+
   return (
     <>
- 
     <Helmet>
-  <title>Contact Us - Sanatana Dharma Foundation</title>
-  <meta name="description" content="Get in touch with the Sanatana Dharma Foundation for more information about our spiritual workshops, cultural events, and Vedic traditions." />
-  <meta name="keywords" content="Sanatana Dharma Foundation, contact us, spiritual workshops, Vedic traditions, Hinduism, cultural events, support Sanatana Dharma" />
-  <meta name="robots" content="index, follow" />
-  <meta property="og:title" content="Contact Us - Sanatana Dharma Foundation" />
-  <meta property="og:description" content="Contact Sanatana Dharma Foundation to learn more about our events and support our mission to preserve Sanatana Dharma." />
-  <meta property="og:image" content="https://sanatanadharmafoundation.co/static/media/om-bg-remove.999d758e15021726580b.png" />
-  <link rel="canonical" href="https://sanatanadharmafoundation.co/contact" />
+<title>Contact Us - Sanatana Dharma Foundation</title>
+<meta name="description" content="Get in touch with the Sanatana Dharma Foundation for more information about our spiritual workshops, cultural events, and Vedic traditions." />
+<meta name="keywords" content="Sanatana Dharma Foundation, contact us, spiritual workshops, Vedic traditions, Hinduism, cultural events, support Sanatana Dharma" />
+<meta name="robots" content="index, follow" />
+<meta property="og:title" content="Contact Us - Sanatana Dharma Foundation" />
+<meta property="og:description" content="Contact Sanatana Dharma Foundation to learn more about our events and support our mission to preserve Sanatana Dharma." />
+<meta property="og:image" content="https://sanatanadharmafoundation.co/static/media/om-bg-remove.999d758e15021726580b.png" />
+<link rel="canonical" href="https://sanatanadharmafoundation.co/contact" />
 </Helmet>
-      
 
-      <div className="flex flex-col h-full items-center justify-between  sm:flex-row">
-        <div className="h-[600px] sm:w-1/2 w-full mx-4 bg-gradient-to-b sm:bg-gradient-to-r from-[#F3F7EC] to-white text-[#373A40] flex justify-center items-center">
-          <div>
-            <h1 className="pt-20 text-7xl font-bold text-center ">
+    <section className="" id="contact">
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+        <div className="mb-4">
+          <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
+            <p className="text-base font-semibold uppercase tracking-wide text-orange-600 dark:text-orange-200">
+              Contact
+            </p>
+            <h2 className="font-heading mb-4 font-[Catamaran] font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
               Get in Touch
-            </h1>
-            <h1 className="m-auto mt-8 text-center drop-shadow-lg w-[50%]">
-              601, Kailash Building, K.G. Marg <br />
-              New Delhi-110001
-            </h1>
-            <h1 className="m-auto mt-8 text-center underline cursor-pointer">
-              sanatanadharmafoundation1@gmail.com
-            </h1>
+            </h2>
+            <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400">
+              In hac habitasse platea dictumst
+            </p>
           </div>
         </div>
-        <div className="sm:p-10 p-5 sm:w-1/2 mt-5 sm:mt-0 mb-5">
-          <Form subTitle="I am interested to associate / support the Sanatana Dharma Foundation. My details are below:" />
+        <div className="flex items-stretch justify-center">
+          <div className="grid md:grid-cols-2">
+            <div className="h-full pr-6">
+              <p className="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400">
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut
+                scelerisque sagittis ante, ac tincidunt sem venenatis ut.
+              </p>
+              <ul className="mb-6 md:mb-0">
+                <li className="flex">
+                  <div className="flex h-10 w-10 items-center justify-center rounded bg-orange-900 text-gray-50">
+                    <i className="fas fa-map-marker-alt text-white"></i>
+                  </div>
+                  <div className="ml-4 mb-4">
+                    <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
+                      Our Address
+                    </h3>
+                    <p className="text-gray-600 dark:text-slate-400">
+                      1230 Maecenas Street Donec Road
+                    </p>
+                    <p className="text-gray-600 dark:text-slate-400">
+                      New York, EEUU
+                    </p>
+                  </div>
+                </li>
+                <li className="flex">
+                  <div className="flex h-10 w-10 items-center justify-center rounded bg-orange-900 text-gray-50">
+                    <i className="fas fa-phone-alt text-white"></i>
+                  </div>
+                  <div className="ml-4 mb-4">
+                    <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
+                      Contact
+                    </h3>
+                    <p className="text-gray-600 dark:text-slate-400">
+                      Mobile: +1 (123) 456-7890
+                    </p>
+                    <p className="text-gray-600 dark:text-slate-400">
+                      Mail: tailnext@gmail.com
+                    </p>
+                  </div>
+                </li>
+                <li className="flex">
+                  <div className="flex h-10 w-10 items-center justify-center rounded bg-orange-900 text-gray-50">
+                    <i className="fas fa-clock text-white"></i>
+                  </div>
+                  <div className="ml-4 mb-4">
+                    <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
+                      Working hours
+                    </h3>
+                    <p className="text-gray-600 dark:text-slate-400">
+                      Monday - Friday: 08:00 - 17:00
+                    </p>
+                    <p className="text-gray-600 dark:text-slate-400">
+                      Saturday & Sunday: 08:00 - 12:00
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div className="card h-fit max-w-6xl p-5 md:p-12" id="form">
+              <h2 className="mb-4 text-2xl font-bold dark:text-white">
+                Ready to Get Started?
+              </h2>
+              <form onSubmit={handleSubmit} id="contactForm">
+                <div className="mb-6">
+                  <div className="mx-0 mb-1 sm:mb-4">
+                    <label
+                      htmlFor="name"
+                      className="pb-1 text-xs uppercase tracking-wider"
+                    >
+                      Your Name
+                    </label>
+                    <input
+                      type="text"
+                      id="name"
+                      placeholder="Your name"
+                      className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                      name="name"
+                    />
+                    <ValidationError
+                      prefix="Name"
+                      field="name"
+                      errors={state.errors}
+                    />
+                  </div>
+                  <div className="mx-0 mb-1 sm:mb-4">
+                    <label
+                      htmlFor="email"
+                      className="pb-1 text-xs uppercase tracking-wider"
+                    >
+                      Email Address
+                    </label>
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="Your email address"
+                      className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                      name="email"
+                    />
+                    <ValidationError
+                      prefix="Email"
+                      field="email"
+                      errors={state.errors}
+                    />
+                  </div>
+                  <div className="mx-0 mb-1 sm:mb-4">
+                    <label
+                      htmlFor="textarea"
+                      className="pb-1 text-xs uppercase tracking-wider"
+                    >
+                      Message
+                    </label>
+                    <textarea
+                      id="textarea"
+                      name="textarea"
+                      cols="30"
+                      rows="5"
+                      placeholder="Write your message..."
+                      className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                    ></textarea>
+                    <ValidationError
+                      prefix="Message"
+                      field="message"
+                      errors={state.errors}
+                    />
+                  </div>
+                </div>
+                <div className="text-center">
+                  <button
+                    type="submit"
+                    disabled={state.submitting}
+                    className="w-full bg-orange-800 hover:bg-orange-900 text-white px-6 py-3 font-xl rounded-md sm:mb-0"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
     </>
   );
-}
+};
 
 export default Contact;
