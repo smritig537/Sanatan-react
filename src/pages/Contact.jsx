@@ -64,7 +64,7 @@ const Contact = () => {
               <h2 className="font-heading mb-4 font-[Catamaran] font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
                 Get in Touch
               </h2>
-              <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400">
+              <p className="mx-auto mt-4 max-w-3xl text-xl text-white dark:text-slate-400">
               ॐ Sanatana Dharma Foundation ॐ
               </p>
             </div>
@@ -72,7 +72,7 @@ const Contact = () => {
           <div className="flex items-stretch justify-center">
             <div className="grid md:grid-cols-2">
               <div className="h-full pr-6">
-                <p className="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400">
+                <p className="mt-3 mb-12 text-lg text-white dark:text-slate-400">
                   Feel free to reach out for any inquiries, support, feedback,
                   or collaboration. We’re here to assist and connect.
                 </p>
@@ -85,10 +85,10 @@ const Contact = () => {
                       <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
                         Our Address
                       </h3>
-                      <p className="text-gray-600 dark:text-slate-400">
+                      <p className="text-white dark:text-slate-400">
                         601 Kailash building Katurba Gandi marg
                       </p>
-                      <p className="text-gray-600 dark:text-slate-400">
+                      <p className="text-white dark:text-slate-400">
                         New Delhi 110001
                       </p>
                     </div>
@@ -98,13 +98,13 @@ const Contact = () => {
                       <i className="fas fa-phone-alt text-white"></i>
                     </div>
                     <div className="ml-4 mb-4">
-                      <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
+                      <h3 className="mb-2 text-lg font-medium leading-6 text-white dark:text-white">
                         Contact
                       </h3>
-                      <p className="text-gray-600 dark:text-slate-400">
+                      <p className="text-white dark:text-slate-400">
                         Mobile: +1 (123) 456-7890
                       </p>
-                      <p className="text-gray-600 dark:text-slate-400">
+                      <p className="text-white dark:text-slate-400">
                         Mail: tailnext@gmail.com
                       </p>
                     </div>
@@ -114,10 +114,10 @@ const Contact = () => {
                       <i className="fas fa-clock text-white"></i>
                     </div>
                     <div className="ml-4 mb-4">
-                      <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
+                      <h3 className="mb-2 text-lg font-medium leading-6 text-white dark:text-white">
                         Working hours
                       </h3>
-                      <p className="text-gray-600 dark:text-slate-400">
+                      <p className="text-white dark:text-slate-400">
                         Monday - Saturday: 10:00 - 18:00
                       </p>
                     </div>
