@@ -55,7 +55,7 @@ const Contact = () => {
       </Helmet>
 
       <section className="" id="contact">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+        <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
           <div className="mb-4">
             <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
               <p className="text-base font-semibold uppercase tracking-wide text-orange-600 dark:text-orange-200">
@@ -143,6 +143,8 @@ const Contact = () => {
                         placeholder="Your name"
                         className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
                         name="name"
+                        required
+                        
                       />
                       <ValidationError
                         prefix="Name"
@@ -163,6 +165,7 @@ const Contact = () => {
                         placeholder="Your email address"
                         className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
                         name="email"
+                        required
                       />
                       <ValidationError
                         prefix="Email"
