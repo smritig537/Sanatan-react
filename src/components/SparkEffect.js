@@ -23,9 +23,16 @@ const SparkEffect = () => {
   };
 
   useEffect(() => {
-    document.addEventListener("mousemove", spark);
+    const handleMousemove = (event) => {
+      if (window.innerWidth > 768) {
+        // Enable effect only for devices with width greater than 768px
+        spark(event);
+      }
+    };
+
+    document.addEventListener("mousemove", handleMousemove);
     return () => {
-      document.removeEventListener("mousemove", spark);
+      document.removeEventListener("mousemove", handleMousemove);
     };
   }, []);
 
