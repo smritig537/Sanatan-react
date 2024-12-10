@@ -224,8 +224,8 @@ const Home = () => {
         <p className="font-oswald text-[#313131] font-bold text-3xl sm:text-5xl text-center my-10">
           Interest Form
         </p>
-        <Contact />
       </section>
+      <Contact />
     </>
   );
 };
