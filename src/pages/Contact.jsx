@@ -65,7 +65,7 @@ const Contact = () => {
                 Get in Touch
               </h2>
               <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400">
-              ॐ Sanatana Dharma Foundation ॐ
+                ॐ Sanatana Dharma Foundation ॐ
               </p>
             </div>
           </div>
@@ -73,8 +73,10 @@ const Contact = () => {
             <div className="grid md:grid-cols-2">
               <div className="h-full pr-6">
                 <p className="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400">
-                  Feel free to reach out for any inquiries, support, feedback,
-                  or collaboration. We’re here to assist and connect.
+                  I am interested in associating with or supporting the Sanatana
+                  Dharma Foundation. Feel free to reach out for any inquiries,
+                  support, feedback, or collaboration. We’re here to assist and
+                  connect.
                 </p>
                 <ul className="mb-6 md:mb-0">
                   <li className="flex">
@@ -144,7 +146,6 @@ const Contact = () => {
                         className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
                         name="name"
                         required
-                        
                       />
                       <ValidationError
                         prefix="Name"

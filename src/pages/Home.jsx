@@ -12,6 +12,7 @@ import Preparation from "../components/Preparation";
 import PreparationImage from "../kumbhmela/preparation.jpg";
 import { Helmet } from "react-helmet-async";
 import PoojaImage from "../assets/Pooja.webp";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
@@ -223,7 +224,7 @@ const Home = () => {
         <p className="font-oswald text-[#313131] font-bold text-3xl sm:text-5xl text-center my-10">
           Interest Form
         </p>
-        <Form subTitle="I am interested to associate / support the Sanatana Dharma Foundation. My details are below:" />
+        <Contact />
       </section>
     </>
   );
