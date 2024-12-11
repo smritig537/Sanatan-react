@@ -119,7 +119,7 @@ const Home = () => {
             <h1 className="sm:text-4xl text-xl font-semibold text-center font-sans text-orange-700">
               PRESIDENT OF ISKCON
             </h1>
-            <p className="sm:text-lg text-sm sm:mt-5 mt-2 sm:text-right text-justify font-normal font-sans text-gray-700">
+            <p className="sm:text-lg text-sm sm:mt-5 mt-2 sm:text-left text-justify font-normal font-sans text-gray-700">
               I was deeply honored to welcome Shri Madhu Pandit Dasa, President
               of ISKCON Bangalore, to my home today. His inspiring presence and
               profound spiritual wisdom left a lasting impression. It was a
