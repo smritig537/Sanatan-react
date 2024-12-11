@@ -1,6 +1,6 @@
 import React from "react";
 import Swamiji from "../assets/mainImg.webp";
-import President_of_ISKCON from '../assets/President_of_ISKCON.png'
+import President_of_ISKCON from "../assets/President_of_ISKCON.png";
 import Form from "../components/Form";
 import Divider from "../components/Divider";
 import swamiji2 from "../assets/roll2.webp";
@@ -14,6 +14,7 @@ import PreparationImage from "../kumbhmela/preparation.jpg";
 import { Helmet } from "react-helmet-async";
 import PoojaImage from "../assets/Pooja.webp";
 import Contact from "./Contact";
+import {Link} from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -107,32 +108,33 @@ const Home = () => {
       <KumbhMelaSection />
 
       <section className="px-10 py-14" id="president_of_iskcon">
-        <div className="flex justify-center">
+        <div className="flex justify-center flex-wrap">
           <img
-            className="max-w-[40%]"
+            className="lg:max-w-[40%] sm:w-[80%] w-full"
             src={President_of_ISKCON}
             alt="The president of iskcon temple with Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand Giriji Maharaj"
           />
-          <div className="w-[50%] mt-6 ml-5">
-            <h1 className="text-4xl font-semibold text-center font-sans text-orange-700">
+          
+          <div className="lg:w-[50%] sm:w-[90%] w-full mt-14 lg:ml-5 ml-0">
+            <h1 className="sm:text-4xl text-xl font-semibold text-center font-sans text-orange-700">
               PRESIDENT OF ISKCON
             </h1>
-            <p className="text-lg mt-5 font-normal font-sans text-gray-700">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              consequatur nisi laudantium dolorem itaque beatae distinctio!
-              Minima numquam distinctio sapiente non quia saepe sunt facere,
-              amet repellat. Sint, expedita? Facilis iste tempora, inventore
-              nulla ea voluptatem dolore quasi eos minus.
+            <p className="sm:text-lg text-sm sm:mt-5 mt-2 sm:text-right text-justify font-normal font-sans text-gray-700">
+              I was deeply honored to welcome Shri Madhu Pandit Dasa, President
+              of ISKCON Bangalore, to my home today. His inspiring presence and
+              profound spiritual wisdom left a lasting impression. It was a
+              truly enriching experience to spend time with such an esteemed
+              spiritual leader.
             </p>
 
             <div className="text-center mt-10">
-              <a
-                href=""
+              <Link
+                to='/gallery'
                 class=" text-orange-700 border transition-all border-orange-600 py-2 px-6 gap-2 rounded  hover:bg-orange-600 hover:border-orange-800 hover:text-white"
               >
                 <span>View More</span>
                 <i class="fas fa-arrow-right w-6 h-6 ml-2"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
