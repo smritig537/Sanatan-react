@@ -4,10 +4,9 @@ import kumbhBg from "../kumbhmela/kumbh.mp4";
 import { useEffect, useState } from "react";
 import TentDetails from "../components/TentDetails";
 import Preparation from "../components/Preparation";
-import {Helmet} from 'react-helmet-async'
+import { Helmet } from "react-helmet-async";
 import PreparationImage from "../kumbhmela/preparation.jpg";
 import EventSchema from "../utils/hooks/EventSchema";
-
 
 const Kumbh = () => {
   const [text, setText] = useState("Maha Kumbh Mela 2025");
@@ -36,38 +35,51 @@ const Kumbh = () => {
 
   return (
     <>
-      
       <Helmet>
-  <title>Maha Kumbh Mela 2025 | Prayagraj - A Spiritual Journey</title>
-  <meta
-    name="description"
-    content="Join the Maha Kumbh Mela 2025 at Prayagraj, the world's largest spiritual gathering. Experience divine rituals, cultural celebrations, luxury tent stays, and more!"
-  />
-  <meta
-    name="keywords"
-    content="Kumbh Mela 2025, Prayagraj, Maha Kumbh, Hindu Pilgrimage, Spiritual Festival, Luxury Tents, Religious Gathering, Sacred Rituals, Kumbh Flag Hoisting"
-  />
-  <meta name="author" content="Sanatana Dharma Foundation - Kumbh Mela 2025" />
-  <meta property="og:title" content="Maha Kumbh Mela 2025 | Prayagraj - A Spiritual Journey" />
-  <meta
-    property="og:description"
-    content="Experience the grandeur of Maha Kumbh Mela 2025 in Prayagraj, with sacred rituals, luxury accommodations, and cultural celebrations."
-  />
-  <meta property="og:image" content="https://sanatanadharmafoundation.co/static/media/sample.db48fff825386cdf9089.jpg" />
-  <meta property="og:url" content="https://sanatanadharmafoundation.co/kumbhmela" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Maha Kumbh Mela 2025 | Prayagraj - A Spiritual Journey" />
-  <meta
-    name="twitter:description"
-    content="Join us for the Maha Kumbh Mela 2025 at Prayagraj! Explore luxury stays, sacred rituals, and more at the world’s largest religious gathering."
-  />
-  <meta name="twitter:image" content="https://sanatanadharmafoundation.co/static/media/sample.db48fff825386cdf9089.jpg" />
-  <link rel="canonical" href="https://sanatanadharmafoundation.co/" />
- 
-
-</Helmet>
-
-
+        <title>Maha Kumbh Mela 2025 | Prayagraj - A Spiritual Journey</title>
+        <meta
+          name="description"
+          content="Join the Maha Kumbh Mela 2025 at Prayagraj, the world's largest spiritual gathering. Experience divine rituals, cultural celebrations, luxury tent stays, and more!"
+        />
+        <meta
+          name="keywords"
+          content="Kumbh Mela 2025, Prayagraj, Maha Kumbh, Hindu Pilgrimage, Spiritual Festival, Luxury Tents, Religious Gathering, Sacred Rituals, Kumbh Flag Hoisting"
+        />
+        <meta
+          name="author"
+          content="Sanatana Dharma Foundation - Kumbh Mela 2025"
+        />
+        <meta
+          property="og:title"
+          content="Maha Kumbh Mela 2025 | Prayagraj - A Spiritual Journey"
+        />
+        <meta
+          property="og:description"
+          content="Experience the grandeur of Maha Kumbh Mela 2025 in Prayagraj, with sacred rituals, luxury accommodations, and cultural celebrations."
+        />
+        <meta
+          property="og:image"
+          content="https://sanatanadharmafoundation.co/static/media/sample.db48fff825386cdf9089.jpg"
+        />
+        <meta
+          property="og:url"
+          content="https://sanatanadharmafoundation.co/kumbhmela"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Maha Kumbh Mela 2025 | Prayagraj - A Spiritual Journey"
+        />
+        <meta
+          name="twitter:description"
+          content="Join us for the Maha Kumbh Mela 2025 at Prayagraj! Explore luxury stays, sacred rituals, and more at the world’s largest religious gathering."
+        />
+        <meta
+          name="twitter:image"
+          content="https://sanatanadharmafoundation.co/static/media/sample.db48fff825386cdf9089.jpg"
+        />
+        <link rel="canonical" href="https://sanatanadharmafoundation.co/kumbhmela" />
+      </Helmet>
 
       <section>
         <div className="video-container">
@@ -150,14 +162,18 @@ const Kumbh = () => {
       </section>
 
       <TentDetails />
-      <Preparation  title="Preparations Of Maha Kumbh Mela 2025" 
-      heading='The Sanatana Dharma Foundation and Akhada Society 
-      Preparation Of Maha Kumbh Mela 2025' description="11-23-2024 in Prayagraj, 
+      <Preparation
+        title="Preparations Of Maha Kumbh Mela 2025"
+        heading="The Sanatana Dharma Foundation and Akhada Society 
+      Preparation Of Maha Kumbh Mela 2025"
+        description="11-23-2024 in Prayagraj, 
       the Sanatana Dharma Foundation and Akhada Society proudly raised the flag, 
       marking the start of preparations for the grand Mahakumbh Mela 2025. This 
       sacred event symbolizes unity, faith, and tradition, bringing people together
        to celebrate spirituality and culture. The flag-hoisting ceremony is a significant 
-       step toward this historic gathering" image={PreparationImage}/>
+       step toward this historic gathering"
+        image={PreparationImage}
+      />
     </>
   );
 };
