@@ -1,5 +1,6 @@
 import React from "react";
 import Swamiji from "../assets/mainImg.webp";
+import President_of_ISKCON from '../assets/President_of_ISKCON.png'
 import Form from "../components/Form";
 import Divider from "../components/Divider";
 import swamiji2 from "../assets/roll2.webp";
@@ -104,6 +105,38 @@ const Home = () => {
         image={PreparationImage}
       />
       <KumbhMelaSection />
+
+      <section className="px-10 py-14" id="president_of_iskcon">
+        <div className="flex justify-center">
+          <img
+            className="max-w-[40%]"
+            src={President_of_ISKCON}
+            alt="The president of iskcon temple with Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand Giriji Maharaj"
+          />
+          <div className="w-[50%] mt-6 ml-5">
+            <h1 className="text-4xl font-semibold text-center font-sans text-orange-700">
+              PRESIDENT OF ISKCON
+            </h1>
+            <p className="text-lg mt-5 font-normal font-sans text-gray-700">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              consequatur nisi laudantium dolorem itaque beatae distinctio!
+              Minima numquam distinctio sapiente non quia saepe sunt facere,
+              amet repellat. Sint, expedita? Facilis iste tempora, inventore
+              nulla ea voluptatem dolore quasi eos minus.
+            </p>
+
+            <div className="text-center mt-10">
+              <a
+                href=""
+                class=" text-orange-700 border transition-all border-orange-600 py-2 px-6 gap-2 rounded  hover:bg-orange-600 hover:border-orange-800 hover:text-white"
+              >
+                <span>View More</span>
+                <i class="fas fa-arrow-right w-6 h-6 ml-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <Preparation
         heading="Sacred Union of Devotion and Spiritual Guidance"
