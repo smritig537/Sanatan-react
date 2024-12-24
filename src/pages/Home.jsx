@@ -259,7 +259,7 @@ const Home = () => {
           Interest Form
         </p>
       </section>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mb-5">
       <Form/>
       </div>
     </>
