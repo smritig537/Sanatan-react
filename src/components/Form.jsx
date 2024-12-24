@@ -1,74 +1,107 @@
-import {
-  Card,
-  Input,
-  Button,
-  Typography,
-  Textarea,
-} from "@material-tailwind/react";
+import React from 'react'
+import { useForm, ValidationError } from "@formspree/react";
+import Swal from "sweetalert2"; // Import SweetAlert2
 
-const Form = ({ title, subTitle }) => {
+const Form = () => {
+    const [state, handleSubmit] = useForm("mkgnarwr"); // Replace with your Formspree endpoint
+  
+    // Success handler
+    if (state.succeeded) {
+      // Show custom SweetAlert on success
+      Swal.fire({
+        title: "Success!",
+        text: "Thanks for your message!",
+        icon: "success",
+        confirmButtonText: "OK",
+        confirmButtonColor: "#3085d6", // Customize the button color
+      });
+  
+      // Redirect to the homepage after a short delay
+      setTimeout(() => {
+        window.location.href = "/"; // Redirect to the homepage
+      }, 2000); // 2-second delay before redirecting
+    }
+
   return (
-    <div className="flex flex-col overflow-x-hidden items-center">
-      <Card color="transparent" shadow={false}>
-        <Typography variant="h4" color="blue-gray">
-          {title}
-        </Typography>
-        <Typography
-          variant="h5"
-          color="gray"
-          className="mt-1 font-normal text-center z-0"
-        >
-          {subTitle}
-        </Typography>
-        <form className="mt-8 mb-2 overflow-x-hidden h-[250px] max-w-screen-lg">
-          <div className="mb-1 grid grid-cols-1 sm:grid-cols-[40%_60%] gap-5 p-3">
-            <div>
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-                Your Name
-              </Typography>
-              <Input
-                size="lg"
-                placeholder="Your name"
-                className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
-                labelProps={{
-                  className: "before:content-none after:content-none",
-                }}
-              />
-              <div>
-                <br />
-                <Typography variant="h6" color="blue-gray" className="">
-                  Your Email
-                </Typography>
-                <Input
-                  size="lg"
-                  placeholder="Your email address"
-                  className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
-                  labelProps={{
-                    className: "before:content-none after:content-none",
-                  }}
-                />
-              </div>
-            </div>
-            <div className="hidden sm:block">
-              <Typography variant="h6" color="blue-gray" className="mb-2">
-                Message
-              </Typography>
-              <Textarea label="Your message" className="sm:h-[150px]" />
-            </div>
-          </div>
-        </form>
-      </Card>
-      <Button
-        className="text-white "
-        color="deep-orange"
-        onClick={() => {
-          alert("Message sent!");
-        }}
-      >
-        Submit
-      </Button>
-    </div>
-  );
-};
+    <>
+     <form onSubmit={handleSubmit} id="contactForm">
+                  <div className="mb-6">
+                    <div className="mx-0 mb-1 sm:mb-4">
+                      <label
+                        htmlFor="name"
+                        className="pb-1 text-xs uppercase tracking-wider"
+                      >
+                        Your Name
+                      </label>
+                      <input
+                        type="text"
+                        id="name"
+                        placeholder="Your name"
+                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                        name="name"
+                        required
+                      />
+                      <ValidationError
+                        prefix="Name"
+                        field="name"
+                        errors={state.errors}
+                      />
+                    </div>
+                    <div className="mx-0 mb-1 sm:mb-4">
+                      <label
+                        htmlFor="email"
+                        className="pb-1 text-xs uppercase tracking-wider"
+                      >
+                        Email Address
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        placeholder="Your email address"
+                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                        name="email"
+                        required
+                      />
+                      <ValidationError
+                        prefix="Email"
+                        field="email"
+                        errors={state.errors}
+                      />
+                    </div>
+                    <div className="mx-0 mb-1 sm:mb-4">
+                      <label
+                        htmlFor="textarea"
+                        className="pb-1 text-xs uppercase tracking-wider"
+                      >
+                        Message
+                      </label>
+                      <textarea
+                        id="textarea"
+                        name="textarea"
+                        cols="30"
+                        rows="5"
+                        placeholder="Write your message..."
+                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                      ></textarea>
+                      <ValidationError
+                        prefix="Message"
+                        field="message"
+                        errors={state.errors}
+                      />
+                    </div>
+                  </div>
+                  <div className="text-center">
+                    <button
+                      type="submit"
+                      disabled={state.submitting}
+                      className="w-full bg-orange-800 hover:bg-orange-900 text-white px-6 py-3 font-xl rounded-md sm:mb-0"
+                    >
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+    </>
+  )
+}
 
-export default Form;
+export default Form
