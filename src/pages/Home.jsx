@@ -228,7 +228,7 @@ const Home = () => {
         Our Mission
       </h2>
 
-      <section className="m-auto max-w-full w-[90%] sm:w-[986px] text-base sm:text-xl mb-10 p-5 sm:p-0 overflow-x-hidden">
+      <section className="m-auto max-w-full w-[90%] sm:w-[986px] text-base sm:text-xl mb-5 p-5 sm:p-0 overflow-x-hidden">
         <div className="flex flex-col gap-y-5 sm:flex-row justify-center">
           <img
             className="object-cover object-center m-auto rounded-full h-72 w-72"
@@ -259,7 +259,7 @@ const Home = () => {
           Interest Form
         </p>
       </section>
-      <div className="flex justify-center items-center mb-5">
+      <div className="flex justify-center items-center mb-10">
       <Form/>
       </div>
     </>
