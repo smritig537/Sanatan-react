@@ -1,7 +1,6 @@
 import React from "react";
 import Swamiji from "../assets/mainImg.webp";
 import President_of_ISKCON from "../assets/President_of_ISKCON.png";
-import Form from "../components/Form";
 import Divider from "../components/Divider";
 import swamiji2 from "../assets/roll2.webp";
 import Banner from "../components/Banner";
@@ -13,7 +12,6 @@ import Preparation from "../components/Preparation";
 import PreparationImage from "../kumbhmela/preparation.jpg";
 import { Helmet } from "react-helmet-async";
 import PoojaImage from "../assets/Pooja.webp";
-import Contact from "./Contact";
 import {Link} from 'react-router-dom'
 
 const Home = () => {
@@ -260,7 +258,7 @@ const Home = () => {
           Interest Form
         </p>
       </section>
-      <Contact />
+
     </>
   );
 };
