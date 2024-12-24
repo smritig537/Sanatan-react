@@ -13,6 +13,7 @@ import PreparationImage from "../kumbhmela/preparation.jpg";
 import { Helmet } from "react-helmet-async";
 import PoojaImage from "../assets/Pooja.webp";
 import {Link} from 'react-router-dom'
+import Form from "../components/Form";
 
 const Home = () => {
   return (
@@ -258,7 +259,9 @@ const Home = () => {
           Interest Form
         </p>
       </section>
-
+      <div className="flex justify-center items-center">
+      <Form/>
+      </div>
     </>
   );
 };
