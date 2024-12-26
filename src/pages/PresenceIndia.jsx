@@ -9,7 +9,6 @@ function PresenceIndia() {
       <Helmet>
         <title>Sanatana Dharma Foundation - Locations and Heritage in India</title>
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://sanatanadharmafoundation.co/Locations-in-india" />
         <meta name="description" content="Explore the presence of Sanatana Dharma Foundation across major Indian cities, its commitment to reviving ancient culture, and the rich heritage of Hinduism." />
         <meta name="keywords" content="Sanatana Dharma, Hinduism, Indian Culture, Indian Cities, Hindu Pilgrimage, Indian Traditions" />
       </Helmet>
