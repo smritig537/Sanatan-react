@@ -5,6 +5,7 @@ import Divider from "../components/Divider";
 import swamiji2 from "../assets/roll2.webp";
 import Banner from "../components/Banner";
 import guru from "../assets/guru.jpg";
+import cm_kumbh_mela from "../kumbhmela/cm_kumbh_mela.webp";
 import guruji from "../assets/roll3.webp";
 import HomeCard from "../components/HomeCard";
 import KumbhMelaSection from "../components/KumbhMelaSection";
@@ -12,7 +13,7 @@ import Preparation from "../components/Preparation";
 import PreparationImage from "../kumbhmela/preparation.jpg";
 import { Helmet } from "react-helmet-async";
 import PoojaImage from "../assets/Pooja.webp";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 import Form from "../components/Form";
 
 const Home = () => {
@@ -93,6 +94,12 @@ const Home = () => {
       </section>
 
       <Preparation
+        title="Maha Kumbh Mela 2025: A Sacred Celebration"
+        heading="CM Yogi Adityanath and Mahamandelshwar Narayanand Giri Maharaj Lead Maha Kumbh Mela 2025 Preparations"
+        description="Experience the sacred grandeur of Maha Kumbh Mela 2025 in Prayagraj, where governance and spirituality unite to welcome devotees from around the world. Under the divine guidance of Sri Sri Sri Mahamandelshwar Narayanand Giri Maharaj and with the support of Shri Yogi Adityanath, Chief Minister of Uttar Pradesh, preparations are in full swing to ensure a seamless and spiritual awakening for all. Join us in this celestial celebration of Santana Dharma and cultural harmony."
+        image={cm_kumbh_mela}
+      />
+      <Preparation
         title="Preparations Of Maha Kumbh Mela 2025"
         heading="The Sanatana Dharma Foundation and Akhada Society 
       Preparation Of Maha Kumbh Mela 2025"
@@ -113,7 +120,7 @@ const Home = () => {
             src={President_of_ISKCON}
             alt="The president of iskcon temple with Shri Shri 1008 Anant Shri Vibhushit Swami Narayan Nand Giriji Maharaj"
           />
-          
+
           <div className="lg:w-[50%] sm:w-[90%] w-full mt-14 lg:ml-5 ml-0">
             <h1 className="sm:text-4xl text-xl font-semibold text-center font-sans text-orange-700">
               PRESIDENT OF ISKCON
@@ -128,7 +135,7 @@ const Home = () => {
 
             <div className="text-center mt-10">
               <Link
-                to='/gallery'
+                to="/gallery"
                 class=" text-orange-700 border transition-all border-orange-600 py-2 px-6 gap-2 rounded  hover:bg-orange-600 hover:border-orange-800 hover:text-white"
               >
                 <span>View More</span>
@@ -260,7 +267,7 @@ const Home = () => {
         </p>
       </section>
       <div className="flex justify-center items-center mb-10">
-      <Form/>
+        <Form />
       </div>
     </>
   );
