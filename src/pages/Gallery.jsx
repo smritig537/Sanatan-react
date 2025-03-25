@@ -3,7 +3,7 @@ import Divider from "../components/Divider";
 import { Helmet } from "react-helmet-async";
 
 const imageUrl = {
-  "Guri Ji Meeting": Array.from(
+  "Guru Ji Meeting": Array.from(
     { length: 10 },
     (_, index) => index + 1
   ),
