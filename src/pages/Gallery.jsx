@@ -3,6 +3,10 @@ import Divider from "../components/Divider";
 import { Helmet } from "react-helmet-async";
 
 const imageUrl = {
+  "Guri Ji Meeting": Array.from(
+    { length: 10 },
+    (_, index) => index + 1
+  ),
   "President of ISKCON Banglore": Array.from(
     { length: 5 },
     (_, index) => index + 1
@@ -110,6 +114,10 @@ function Gallery() {
         <h1 className="font-oswald text-[#313131] font-bold text-5xl text-center mb-12">
           Gallery
         </h1>
+        <GallerySection
+          title="Guri Ji Meeting"
+          category="Guri Ji Meeting"
+        />
         <GallerySection
           title="President of ISKCON Banglore"
           category="President of ISKCON Banglore"
