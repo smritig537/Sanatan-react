@@ -115,8 +115,8 @@ function Gallery() {
           Gallery
         </h1>
         <GallerySection
-          title="Guri Ji Meeting"
-          category="Guri Ji Meeting"
+          title="Guru Ji Meeting"
+          category="Guru Ji Meeting"
         />
         <GallerySection
           title="President of ISKCON Banglore"
