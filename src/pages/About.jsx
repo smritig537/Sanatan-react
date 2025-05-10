@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import React from "react";
 import swami from "../assets/swami.jpeg";
 import aim from "../assets/aim.png";
@@ -17,20 +17,41 @@ const About = () => {
   return (
     <>
       <>
-      <Helmet>
-  <title>Sanatana Dharma Foundation: Mission for Spiritual Growth</title>
-  <meta name="description" content="Discover the Sanatana Dharma Foundation's mission to revive Hindu philosophy and promote spiritual growth through education and community service." />
-  <meta name="google-site-verification" content="LmxaOfetOYIjhRO7az9CISTQ4O-A3pnYUg9mz6xMUhU" />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://sanatanadharmafoundation.co/about" />
-  <meta property="og:title" content="About Sanatana Dharma Foundation" />
-  <meta property="og:description" content="Explore Sanatana Dharma Foundation's mission of promoting spiritual education and cultural preservation." />
-  <meta property="og:image" content="https://sanatanadharmafoundation.co/static/media/sanatanabout.be9acc9461b403fac48a.webp" />
-  <meta property="og:url" content="https://sanatanadharmafoundation.co/about" />
-  <meta property="og:type" content="website" />
-
-
-</Helmet>
+        <Helmet>
+          <title>
+            Sanatana Dharma Foundation: Mission for Spiritual Growth
+          </title>
+          <meta
+            name="description"
+            content="Discover the Sanatana Dharma Foundation's mission to revive Hindu philosophy and promote spiritual growth through education and community service."
+          />
+          <meta
+            name="google-site-verification"
+            content="LmxaOfetOYIjhRO7az9CISTQ4O-A3pnYUg9mz6xMUhU"
+          />
+          <meta name="robots" content="index, follow" />
+          <link
+            rel="canonical"
+            href="https://sanatanadharmafoundation.co/about"
+          />
+          <meta
+            property="og:title"
+            content="About Sanatana Dharma Foundation"
+          />
+          <meta
+            property="og:description"
+            content="Explore Sanatana Dharma Foundation's mission of promoting spiritual education and cultural preservation."
+          />
+          <meta
+            property="og:image"
+            content="https://sanatanadharmafoundation.co/static/media/sanatanabout.be9acc9461b403fac48a.webp"
+          />
+          <meta
+            property="og:url"
+            content="https://sanatanadharmafoundation.co/about"
+          />
+          <meta property="og:type" content="website" />
+        </Helmet>
 
         <main className="pt-10">
           <h1 className=" text-[#313131] font-bold lg:text-5xl text-3xl text-center">
@@ -52,27 +73,28 @@ const About = () => {
                   <p className="mt-4 text-gray-600 text-lg text-justify">
                     <b>Sanatana Dharma Foundation,</b> a revered non-profit
                     organization dedicated to the propagation and preservation
-                    of Sanatana Dharma, often known as<b> Hinduism</b>. Grounded in the
-                    profound wisdom of ancient Indian traditions, our foundation
-                    embodies the aims articulated in our <b>Trust Deed</b>, promoting a
-                    renaissance of religious and cultural values across
-                    communities while nurturing a deeper understanding of <b>Hindu
-                    philosophy</b>. At the heart of the <b>Sanatana Dharma Foundation</b>{" "}
-                     lies the concept of <b>social reincarnation of Sanatana Dharma</b>.
-                    Our mission is to provide a contemporary approach to
-                    <b>religious and ethical training</b>, tailored to cater to the
-                    evolving needs of our society. Our principles are rooted in
-                    the <b>liberal, wide and unsectarian nature</b> of the Sanatana
-                    Dharma. We are an organization that is passionate about
-                    collaborating with individuals who hold their national
+                    of Sanatana Dharma, often known as<b> Hinduism</b>. Grounded
+                    in the profound wisdom of ancient Indian traditions, our
+                    foundation embodies the aims articulated in our{" "}
+                    <b>Trust Deed</b>, promoting a renaissance of religious and
+                    cultural values across communities while nurturing a deeper
+                    understanding of <b>Hindu philosophy</b>. At the heart of
+                    the <b>Sanatana Dharma Foundation</b> lies the concept of{" "}
+                    <b>social reincarnation of Sanatana Dharma</b>. Our mission
+                    is to provide a contemporary approach to
+                    <b>religious and ethical training</b>, tailored to cater to
+                    the evolving needs of our society. Our principles are rooted
+                    in the <b>liberal, wide and unsectarian nature</b> of the
+                    Sanatana Dharma. We are an organization that is passionate
+                    about collaborating with individuals who hold their national
                     identity in high regard and take pride in being a follower
                     of Sanatana Dharma. In recent years, we have witnessed an
-                    erosion of <b>Indian culture</b> due to the overwhelming influence
-                    of the West. Elements which once were a perennial source of
-                    pride for all Indians have faced marginalization,
+                    erosion of <b>Indian culture</b> due to the overwhelming
+                    influence of the West. Elements which once were a perennial
+                    source of pride for all Indians have faced marginalization,
                     particularly the deep-rooted values of Sanatana Dharma. As a
-                    foundation, we are profoundly committed to <b>reviving this
-                    ancient world Dharma</b>.
+                    foundation, we are profoundly committed to{" "}
+                    <b>reviving this ancient world Dharma</b>.
                   </p>
                 </div>
               </div>
@@ -85,7 +107,7 @@ const About = () => {
                 <div className="flex justify-center lg:justify-start mt-4 md:mt-0">
                   <img
                     src={swami}
-                     loading="lazy"
+                    loading="lazy"
                     alt="About Sanatana dharma foundation"
                     className="object-cover rounded-lg shadow-md max-w-full h-auto"
                   />
@@ -93,39 +115,52 @@ const About = () => {
                 <div className="max-w-2xl sm:p-0 p-3 md:text-left">
                   <p className="mt-4 text-gray-600 text-lg text-justify">
                     {" "}
-                    Guided by our <b>spiritual leader, Mahamadaleshwar Shri Shri
-                    1008 Anant Shri Vibhushit Swami Narayan Giriji Maharaj</b>, we
-                    strive to uphold the tenets of <b>Sanatana Dharma</b>. His life
-                    journey from a successful businessman to a revered <b>spiritual</b>
+                    Guided by our{" "}
+                    <b>
+                      spiritual leader, Mahamadaleshwar Shri Shri 1008 Anant
+                      Shri Vibhushit Swami Narayan Giriji Maharaj
+                    </b>
+                    , we strive to uphold the tenets of <b>Sanatana Dharma</b>.
+                    His life journey from a successful businessman to a revered{" "}
+                    <b>spiritual</b>
                     leader serves as an inspiration for our collective
                     commitment to spirituality. Under his leadership, we aim to
-                    cultivate <b>cultural consciousness</b>, <b>spiritual development</b>, and
-                    <b>social welfare</b>. We create a space for individuals to live
-                    ethically and balance their worldly desires with spiritual
-                    fulfillment. We aid in the understanding of one's divine
-                    nature through practices like <b>meditation, yoga, and
-                    devotion</b>. We celebrate and honor the divine through <b>
-                    <Link to="/sanatanadharma" className="text-blue-600 underline">rituals,
-                      pujas, and festivals</Link></b>. The Sanatana Dharma Foundation invites
-                    everyone, regardless of their religious or cultural
-                    background, to join in this journey of discovery and unity.
-                    Our ultimate goal is the <b>revival of our revered Sanatana
-                    culture</b>, not as a mere religion but as an inclusive school
-                    of beliefs that caters to the needs and rights of all. This
-                    journey involves dismantling the barriers that divide us and
+                    cultivate <b>cultural consciousness</b>,{" "}
+                    <b>spiritual development</b>, and
+                    <b>social welfare</b>. We create a space for individuals to
+                    live ethically and balance their worldly desires with
+                    spiritual fulfillment. We aid in the understanding of one's
+                    divine nature through practices like{" "}
+                    <b>meditation, yoga, and devotion</b>. We celebrate and
+                    honor the divine through{" "}
+                    <b>
+                      <Link
+                        to="/sanatanadharma"
+                        className="text-blue-600 underline"
+                      >
+                        rituals, pujas, and festivals
+                      </Link>
+                    </b>
+                    . The Sanatana Dharma Foundation invites everyone,
+                    regardless of their religious or cultural background, to
+                    join in this journey of discovery and unity. Our ultimate
+                    goal is the <b>revival of our revered Sanatana culture</b>,
+                    not as a mere religion but as an inclusive school of beliefs
+                    that caters to the needs and rights of all. This journey
+                    involves dismantling the barriers that divide us and
                     fostering mutual respect, love, and unity among all citizens
                     of Bharat. Join us as we work diligently towards
-                    resurrecting the <b>ancient Dharma of the world</b> and reinstating
-                    righteousness and <b>integrity</b> in the hearts of our fellow
-                    Indians. <b>Our Vision and Mission</b> At the heart of the Sanatana
-                    Dharma Foundation lies a clear vision: to create a
-                    contemporary platform that nurtures spiritual education and
-                    awareness of Indian traditions. Our committed religious
-                    trust focuses on charitable endeavors aimed at uplifting
-                    communities, enhancing social welfare, and providing vital
-                    resources for those in need. We strive to cultivate a
-                    network of spiritual seekers and practitioners dedicated to
-                    revitalizing Sanatana Dharma in today's world.
+                    resurrecting the <b>ancient Dharma of the world</b> and
+                    reinstating righteousness and <b>integrity</b> in the hearts
+                    of our fellow Indians. <b>Our Vision and Mission</b> At the
+                    heart of the Sanatana Dharma Foundation lies a clear vision:
+                    to create a contemporary platform that nurtures spiritual
+                    education and awareness of Indian traditions. Our committed
+                    religious trust focuses on charitable endeavors aimed at
+                    uplifting communities, enhancing social welfare, and
+                    providing vital resources for those in need. We strive to
+                    cultivate a network of spiritual seekers and practitioners
+                    dedicated to revitalizing Sanatana Dharma in today's world.
                   </p>
                 </div>
               </div>
@@ -140,9 +175,9 @@ const About = () => {
               Central to our mission is an unwavering commitment to charitable
               activities and community service. We actively support various
               initiatives that address society's pressing needs, ranging from
-              educational programs to <b>healthcare services</b>. By aligning our
-              efforts with the timeless principles of Sanatana Dharma, we aspire
-              to make a meaningful impact on the lives of individuals and
+              educational programs to <b>healthcare services</b>. By aligning
+              our efforts with the timeless principles of Sanatana Dharma, we
+              aspire to make a meaningful impact on the lives of individuals and
               communities. Our emphasis on Hindu pilgrimage sites enriches our
               mission, as these sacred places serve as beacons of spiritual
               energy, inviting devotees and seekers alike.
@@ -172,13 +207,13 @@ const About = () => {
             </h2>
             <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
               In our efforts to foster spiritual connections, we encourage and
-              facilitate pilgrimages to holy cities integral to the <b>Sanatana
-              Dharma tradition</b>. These journeys not only deepen spiritual ties
-              but also offer participants the opportunity to engage in community
-              service projects at these sacred locations. By blending spiritual
-              exploration with charitable endeavors, we advocate for a holistic
-              approach to religious practice that embodies both reverence and
-              responsibility.
+              facilitate pilgrimages to holy cities integral to the{" "}
+              <b>Sanatana Dharma tradition</b>. These journeys not only deepen
+              spiritual ties but also offer participants the opportunity to
+              engage in community service projects at these sacred locations. By
+              blending spiritual exploration with charitable endeavors, we
+              advocate for a holistic approach to religious practice that
+              embodies both reverence and responsibility.
             </p>
           </div>
 
@@ -189,18 +224,34 @@ const About = () => {
             <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
               In this digital age, a strong social media presence is vital for
               fostering connections and sharing knowledge. The Sanatana Dharma
-              Foundation embraces platforms like <a
-          href="https://www.facebook.com/people/Sanatana-Dharma-Foundation/61560817495402/" className="text-blue-600 underline"
-          rel="noopener" target="_blank"
-        >Facebook</a>,{" "} 
-         <a
-          href="https://www.instagram.com/sanatanadharmafoundation1/?igsh=MmNmcGk0MWE0Nmdn" className="text-blue-600 underline"
-          rel="noopener"  target="_blank"
-        >Instagram</a>,{" "}and
-               {" "}<a
-          href="https://x.com/dharmaorigins" className="text-blue-600 underline"
-          target="_blank" rel="noopener"
-        >X</a> to reach a broader audience. Our online initiatives aim to
+              Foundation embraces platforms like{" "}
+              <a
+                href="https://www.facebook.com/people/Sanatana-Dharma-Foundation/61560817495402/"
+                className="text-blue-600 underline"
+                rel="noopener"
+                target="_blank"
+              >
+                Facebook
+              </a>
+              ,{" "}
+              <a
+                href="https://www.instagram.com/sanatanadharmafoundation1/?igsh=MmNmcGk0MWE0Nmdn"
+                className="text-blue-600 underline"
+                rel="noopener"
+                target="_blank"
+              >
+                Instagram
+              </a>
+              , and{" "}
+              <a
+                href="https://x.com/dharmaorigins"
+                className="text-blue-600 underline"
+                target="_blank"
+                rel="noopener"
+              >
+                X
+              </a>{" "}
+              to reach a broader audience. Our online initiatives aim to
               cultivate a vibrant community of followers who can engage with
               content reflecting the essence of Sanatana Dharma. From
               enlightening articles to live discussions, we warmly invite
@@ -230,7 +281,7 @@ const About = () => {
           <div className="mx-4 flex flex-col sm:flex-row  justify-between mb-16 2xl:w-[50%] 2xl:m-auto">
             <img
               src={aim}
-               loading="lazy"
+              loading="lazy"
               className="h-[400px] mx-auto sm:mx-0 w-[400px] rounded-xl mr-8 my-auto xl:my-0"
               alt="Aim of sanatana dharma"
             />
@@ -246,7 +297,7 @@ const About = () => {
               <div className="flex">
                 <img
                   src={leaf}
-                   loading="lazy"
+                  loading="lazy"
                   alt="leaf of sanatana dharma"
                   className="h-[33px] w-[35px] mr-4"
                 />
@@ -259,7 +310,7 @@ const About = () => {
               <div className="flex">
                 <img
                   src={leaf}
-                   loading="lazy"
+                  loading="lazy"
                   alt="leaf of sanatana dharma"
                   className="h-[33px] w-[35px] mr-4"
                 />
@@ -272,7 +323,7 @@ const About = () => {
               <div className="flex">
                 <img
                   src={leaf}
-                   loading="lazy"
+                  loading="lazy"
                   alt="leaf of sanatana dharma"
                   className="h-[33px] w-[35px] mr-4"
                 />
@@ -284,7 +335,7 @@ const About = () => {
               <div className="flex">
                 <img
                   src={leaf}
-                   loading="lazy"
+                  loading="lazy"
                   alt="leaf of sanatana dharma"
                   className="h-[33px] w-[35px] mr-4"
                 />
@@ -303,10 +354,10 @@ const About = () => {
             The Sanatana Dharma Foundation is dedicated to the revival and
             resurrection of the ancient Sanatana Dharma and Ideologies.
           </p>
-         
+
           <img
             src={Build}
-             loading="lazy"
+            loading="lazy"
             alt="Sanatana Dharma Foundation building"
             className="w-auto mx-auto h-[500px] sm:w-[600px] sm-auto rounded-xl p-5"
           />
@@ -316,26 +367,26 @@ const About = () => {
             SENIOR SECONDARY SCHOOL AT TAMIL NADU
           </h2>
           <div className="flex flex-wrap justify-center">
-  <img
-    src={School}
-     loading="lazy"
-    alt="School build by Sanatana Dharma Foundation"
-    className="mx-3 w-auto h-[500px] sm:w-[600px] rounded-xl p-5"
-  />
-  <img
-    src={School2}
-     loading="lazy"
-    alt="Sanatana dharma school"
-    className="mx-3 w-auto h-[500px] sm:w-[600px] rounded-xl p-5"
-  />
-</div>
+            <img
+              src={School}
+              loading="lazy"
+              alt="School build by Sanatana Dharma Foundation"
+              className="mx-3 w-auto h-[500px] sm:w-[600px] rounded-xl p-5"
+            />
+            <img
+              src={School2}
+              loading="lazy"
+              alt="Sanatana dharma school"
+              className="mx-3 w-auto h-[500px] sm:w-[600px] rounded-xl p-5"
+            />
+          </div>
           <Divider />
           <h3 className="font-oswald text-[#313131] font-bold lg:text-4xl sm:p-0 p-3 text-2xl text-center my-10">
             HARIDWAR CENTER ASHRAM UNDERDEVELOPMENT
           </h3>
           <img
             src={har}
-             loading="lazy"
+            loading="lazy"
             alt="Sanatana Dharma Swamii Jii in Haridwar"
             className=" w-auto h-[500px] sm:w-[600px] m-auto rounded-xl p-5"
           />
@@ -345,7 +396,7 @@ const About = () => {
           </h3>
           <img
             src={mall}
-             loading="lazy"
+            loading="lazy"
             alt="Sanatana Dharma foundation mall work"
             className=" w-auto h-[500px] sm:w-[600px] m-auto rounded-xl p-5"
           />
@@ -354,20 +405,21 @@ const About = () => {
               Testimonials and Success Stories
             </h2>
             <p className="items-center m-auto w-[90%] p-1 mt-2 mb-2 text-justify rounded-sm text-gray-700 text-xl">
-              The impact of the <b>Sanatana Dharma Foundation</b> is best illustrated
-              through the heartwarming testimonials of individuals and
-              communities transformed by our initiatives. Many participants in
-              our <b>spiritual education programs</b> have expressed profound gratitude
-              for the knowledge and insights gained, which have helped them
-              navigate life's challenges while remaining grounded in their
+              The impact of the <b>Sanatana Dharma Foundation</b> is best
+              illustrated through the heartwarming testimonials of individuals
+              and communities transformed by our initiatives. Many participants
+              in our <b>spiritual education programs</b> have expressed profound
+              gratitude for the knowledge and insights gained, which have helped
+              them navigate life's challenges while remaining grounded in their
               heritage. Community members engaged in our service projects often
-              share stories of <b>connection</b> and <b>collaboration</b>, emphasising the
-              importance of collective efforts in forging a sense of unity and
-              purpose. These inspiring stories not only highlight the efficacy
-              of our programs but also serve as a reminder of the enduring power
-              of Sanatana Dharma to uplift and inspire. We encourage all who
-              have been touched by our work to share their experiences, as they
-              contribute to a growing tapestry of hope and renewal.
+              share stories of <b>connection</b> and <b>collaboration</b>,
+              emphasising the importance of collective efforts in forging a
+              sense of unity and purpose. These inspiring stories not only
+              highlight the efficacy of our programs but also serve as a
+              reminder of the enduring power of Sanatana Dharma to uplift and
+              inspire. We encourage all who have been touched by our work to
+              share their experiences, as they contribute to a growing tapestry
+              of hope and renewal.
             </p>
           </div>
 
