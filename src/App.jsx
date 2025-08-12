@@ -6,7 +6,7 @@ import SparkEffect from "./components/SparkEffect";
 import Error from "./pages/Error";
 
 function App() {
-  const salary = false;
+  const salary = true;
   return (
     <>
       {salary ? (
